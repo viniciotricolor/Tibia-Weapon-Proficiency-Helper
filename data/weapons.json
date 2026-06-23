@@ -8,7 +8,7 @@
     ],
     "attack": 56,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/0/0e/Falcon_Longsword.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/42/Falcon_Longsword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -48,7 +48,7 @@
     "attack": 10,
     "attackElement": "+47 Energy",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/3/36/Falcon_Battleaxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/16/Falcon_Battleaxe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -88,7 +88,7 @@
     "attack": 11,
     "attackElement": "+41 Energy",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/5/57/Falcon_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/48/Falcon_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -127,7 +127,7 @@
     ],
     "attack": 52,
     "level": 220,
-    "image": "https://tibiawiki.com.br/images/e/e6/Cobra_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6f/Cobra_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -167,7 +167,7 @@
     "attack": 8,
     "attackElement": "+44 Ice",
     "level": 220,
-    "image": "https://tibiawiki.com.br/images/d/d1/Cobra_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1c/Cobra_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -207,7 +207,7 @@
     "attack": 8,
     "attackElement": "+44 Fire",
     "level": 220,
-    "image": "https://tibiawiki.com.br/images/a/a3/Cobra_Club.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2f/Cobra_Club.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -247,7 +247,7 @@
     "attack": 10,
     "attackElement": "+42 Energy",
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/c/c2/Gnome_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4d/Gnome_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -285,7 +285,7 @@
     "attack": 8,
     "attackElement": "+44 Earth",
     "level": 270,
-    "image": "https://tibiawiki.com.br/images/e/ef/Lion_Longsword.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b8/Lion_Longsword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -325,7 +325,7 @@
     "attack": 8,
     "attackElement": "+44 Earth",
     "level": 270,
-    "image": "https://tibiawiki.com.br/images/b/b3/Lion_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/89/Lion_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -365,7 +365,7 @@
     "attack": 8,
     "attackElement": "+44 Earth",
     "level": 270,
-    "image": "https://tibiawiki.com.br/images/3/3d/Lion_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/db/Lion_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -405,7 +405,7 @@
     "attack": 8,
     "attackElement": "+44 Ice",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/6/6d/Naga_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1e/Naga_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -443,7 +443,7 @@
     "attack": 8,
     "attackElement": "+44 Energy",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/0/02/Naga_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/49/Naga_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -480,7 +480,7 @@
     ],
     "attack": 52,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/7/7e/Naga_Club.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/63/Naga_Club.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -518,7 +518,7 @@
     "attack": 0,
     "attackElement": "+46 Energy",
     "level": 330,
-    "image": "https://tibiawiki.com.br/images/7/7e/Amber_Sabre.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/ce/Amber_Sabre.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -571,7 +571,7 @@
     "attack": 0,
     "attackElement": "+46 Ice",
     "level": 330,
-    "image": "https://tibiawiki.com.br/images/8/87/Amber_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d2/Amber_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -624,7 +624,7 @@
     "attack": 0,
     "attackElement": "+46 Fire",
     "level": 330,
-    "image": "https://tibiawiki.com.br/images/4/4b/Amber_Cudgel.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/69/Amber_Cudgel.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -677,7 +677,7 @@
     "attack": 6,
     "attackElement": "+50 Fire",
     "level": 270,
-    "image": "https://tibiawiki.com.br/images/3/3b/Eldritch_Claymore.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a2/Eldritch_Claymore.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -720,7 +720,7 @@
     ],
     "attack": 56,
     "level": 270,
-    "image": "https://tibiawiki.com.br/images/3/35/Eldritch_Greataxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/70/Eldritch_Greataxe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -764,7 +764,7 @@
     "attack": 6,
     "attackElement": "+50 Fire",
     "level": 270,
-    "image": "https://tibiawiki.com.br/images/c/c8/Eldritch_Warmace.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/90/Eldritch_Warmace.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -808,7 +808,7 @@
     "attack": 8,
     "attackElement": "+46 Fire",
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/8/84/Grand_Sanguine_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b7/Grand_Sanguine_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -874,7 +874,7 @@
     "attack": 8,
     "attackElement": "+46 Fire",
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/a/a1/Grand_Sanguine_Hatchet.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a0/Grand_Sanguine_Hatchet.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -940,7 +940,7 @@
     "attack": 8,
     "attackElement": "+46 Death",
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/2/2a/Grand_Sanguine_Cudgel.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/93/Grand_Sanguine_Cudgel.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1005,7 +1005,7 @@
     ],
     "attack": 0,
     "level": 220,
-    "image": "https://tibiawiki.com.br/images/4/46/Cobra_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/46/Cobra_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1055,7 +1055,7 @@
     ],
     "attack": 0,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/4/4e/Falcon_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/61/Falcon_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1105,7 +1105,7 @@
     ],
     "attack": 0,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/f/fa/Naga_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fa/Naga_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1148,7 +1148,7 @@
     ],
     "attack": 0,
     "level": 270,
-    "image": "https://tibiawiki.com.br/images/4/47/Lion_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9f/Lion_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1196,7 +1196,7 @@
     ],
     "attack": 0,
     "level": 330,
-    "image": "https://tibiawiki.com.br/images/3/35/Amber_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f3/Amber_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1247,7 +1247,7 @@
     ],
     "attack": 0,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/8/8a/Eldritch_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/bd/Eldritch_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1296,7 +1296,7 @@
     ],
     "attack": 0,
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/4/47/Grand_Sanguine_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c9/Grand_Sanguine_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1362,7 +1362,7 @@
     ],
     "attack": 0,
     "level": 270,
-    "image": "https://tibiawiki.com.br/images/8/84/Cobra_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fa/Cobra_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1410,7 +1410,7 @@
     ],
     "attack": 0,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/2/23/Falcon_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/17/Falcon_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1460,7 +1460,7 @@
     ],
     "attack": 0,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/d/dc/Naga_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d2/Naga_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1503,7 +1503,7 @@
     ],
     "attack": 0,
     "level": 220,
-    "image": "https://tibiawiki.com.br/images/a/ac/Lion_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a7/Lion_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1564,7 +1564,7 @@
     ],
     "attack": 0,
     "level": 330,
-    "image": "https://tibiawiki.com.br/images/1/18/Amber_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/18/Amber_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1615,7 +1615,7 @@
     ],
     "attack": 0,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/d/d1/Eldritch_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b8/Eldritch_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1664,7 +1664,7 @@
     ],
     "attack": 0,
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/1/1a/Grand_Sanguine_Coil.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/08/Grand_Sanguine_Coil.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1729,7 +1729,7 @@
     ],
     "attack": 0,
     "level": 400,
-    "image": "https://tibiawiki.com.br/images/5/5e/Soulhexer.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/45/Soulhexer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1794,7 +1794,7 @@
     ],
     "attack": 0,
     "level": 400,
-    "image": "https://tibiawiki.com.br/images/0/08/Soultainter.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6d/Soultainter.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1858,7 +1858,7 @@
     ],
     "attack": 58,
     "level": 450,
-    "image": "https://tibiawiki.com.br/images/5/5b/Crypt_Slicer.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a1/Crypt_Slicer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -1922,7 +1922,7 @@
     ],
     "attack": 58,
     "level": 450,
-    "image": "https://tibiawiki.com.br/images/3/34/Crypt_Splitter.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/87/Crypt_Splitter.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -1986,7 +1986,7 @@
     ],
     "attack": 58,
     "level": 450,
-    "image": "https://tibiawiki.com.br/images/9/9e/Crypt_Breaker.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/ec/Crypt_Breaker.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -2050,7 +2050,7 @@
     ],
     "attack": 0,
     "level": 450,
-    "image": "https://tibiawiki.com.br/images/0/08/Crypt_Jaw.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/ea/Crypt_Jaw.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -2115,7 +2115,7 @@
     ],
     "attack": 0,
     "level": 450,
-    "image": "https://tibiawiki.com.br/images/5/51/Crypt_Bile.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/ae/Crypt_Bile.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -2180,7 +2180,7 @@
     ],
     "attack": 6,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/d/d5/Falcon_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fc/Falcon_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -2240,7 +2240,7 @@
     ],
     "attack": 8,
     "level": 400,
-    "image": "https://tibiawiki.com.br/images/c/c3/Soulbleeder.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d3/Soulbleeder.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -2305,7 +2305,7 @@
     ],
     "attack": 9,
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/8/84/Grand_Sanguine_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3a/Grand_Sanguine_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -2370,7 +2370,7 @@
     ],
     "attack": 6,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/5/5a/Eldritch_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/99/Eldritch_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -2412,7 +2412,7 @@
     ],
     "attack": 7,
     "level": 330,
-    "image": "https://tibiawiki.com.br/images/8/87/Amber_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d3/Amber_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -2475,7 +2475,7 @@
     ],
     "attack": 6,
     "level": 270,
-    "image": "https://tibiawiki.com.br/images/8/8f/Lion_Longbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a7/Lion_Longbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -2535,7 +2535,7 @@
     ],
     "attack": 8,
     "level": 450,
-    "image": "https://tibiawiki.com.br/images/a/a1/Crypt_Spine.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/ed/Crypt_Spine.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -2601,7 +2601,7 @@
     ],
     "attack": 9,
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/8/87/Sanguine_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fd/Sanguine_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -2666,7 +2666,7 @@
     ],
     "attack": 5,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/8/8f/Rift_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/7b/Rift_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -2711,7 +2711,7 @@
     ],
     "attack": 2,
     "level": 85,
-    "image": "https://tibiawiki.com.br/images/d/d5/Hive_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d3/Hive_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -2757,7 +2757,7 @@
     ],
     "attack": 3,
     "level": 80,
-    "image": "https://tibiawiki.com.br/images/8/8f/Warsinger_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f8/Warsinger_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -2802,7 +2802,7 @@
     ],
     "attack": 9,
     "level": 400,
-    "image": "https://tibiawiki.com.br/images/8/8c/Soulpiercer.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/88/Soulpiercer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -2867,7 +2867,7 @@
     ],
     "attack": 10,
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/8/8c/Grand_Sanguine_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/38/Grand_Sanguine_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -2932,7 +2932,7 @@
     ],
     "attack": 7,
     "level": 220,
-    "image": "https://tibiawiki.com.br/images/8/87/Cobra_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6c/Cobra_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -2992,7 +2992,7 @@
     ],
     "attack": 8,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/8/8f/Naga_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6d/Naga_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3039,7 +3039,7 @@
     ],
     "attack": 8,
     "level": 330,
-    "image": "https://tibiawiki.com.br/images/8/87/Amber_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/ac/Amber_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3102,7 +3102,7 @@
     ],
     "attack": 10,
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/8/87/Sanguine_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b5/Sanguine_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3167,7 +3167,7 @@
     ],
     "attack": 9,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/8/8f/Umbral_Master_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/81/Umbral_Master_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3220,7 +3220,7 @@
     ],
     "attack": 5,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/8/8f/Rift_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f6/Rift_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3266,7 +3266,7 @@
     ],
     "attack": 20,
     "level": 100,
-    "image": "https://tibiawiki.com.br/images/8/8f/The_Devileye.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0b/The_Devileye.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3323,7 +3323,7 @@
     ],
     "attack": 6,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/5/5a/Gilded_Eldritch_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d5/Gilded_Eldritch_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3378,7 +3378,7 @@
     ],
     "attack": 4,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/8/8f/Umbral_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1c/Umbral_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3425,7 +3425,7 @@
     ],
     "attack": 4,
     "level": 90,
-    "image": "https://tibiawiki.com.br/images/8/8f/Crystal_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a2/Crystal_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3465,7 +3465,7 @@
     ],
     "attack": 5,
     "level": 130,
-    "image": "https://tibiawiki.com.br/images/8/8f/Royal_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/8d/Royal_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3511,7 +3511,7 @@
     ],
     "attack": 9,
     "level": 150,
-    "image": "https://tibiawiki.com.br/images/8/8f/Thorn_Spitter.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/5f/Thorn_Spitter.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3563,7 +3563,7 @@
     ],
     "attack": 4,
     "level": 80,
-    "image": "https://tibiawiki.com.br/images/8/8f/The_Ironworker.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d8/The_Ironworker.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3606,7 +3606,7 @@
     ],
     "attack": 3,
     "level": 70,
-    "image": "https://tibiawiki.com.br/images/8/8f/Triple_Bolt_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3e/Triple_Bolt_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3659,7 +3659,7 @@
     ],
     "attack": 6,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/8/8f/Umbral_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/81/Umbral_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3706,7 +3706,7 @@
     ],
     "attack": 6,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/8/8f/Umbral_Master_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f7/Umbral_Master_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3759,7 +3759,7 @@
     ],
     "attack": 2,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/8/8f/Crude_Umbral_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/33/Crude_Umbral_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3799,7 +3799,7 @@
     ],
     "attack": 3,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/8/8f/Crude_Umbral_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f4/Crude_Umbral_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3839,7 +3839,7 @@
     ],
     "attack": 7,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/8/8f/Inferniarch_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/42/Inferniarch_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3896,7 +3896,7 @@
     ],
     "attack": 8,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/8/8f/Inferniarch_Arbalest.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e7/Inferniarch_Arbalest.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -3953,7 +3953,7 @@
     ],
     "attack": 7,
     "level": 70,
-    "image": "https://tibiawiki.com.br/images/8/8f/Elethriels_Elemental_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/00/Elethriels_Elemental_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4015,7 +4015,7 @@
     ],
     "attack": 4,
     "level": 105,
-    "image": "https://tibiawiki.com.br/images/8/8f/Mycological_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c6/Mycological_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4061,7 +4061,7 @@
     ],
     "attack": 2,
     "level": 50,
-    "image": "https://tibiawiki.com.br/images/8/8f/Composite_Hornbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9a/Composite_Hornbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4100,7 +4100,7 @@
     ],
     "attack": 0,
     "level": 60,
-    "image": "https://tibiawiki.com.br/images/8/8f/Yol%27s_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/30/Yol%27s_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4159,7 +4159,7 @@
     ],
     "attack": 1,
     "level": 40,
-    "image": "https://tibiawiki.com.br/images/8/8f/Shimmer_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e8/Shimmer_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4210,7 +4210,7 @@
     ],
     "attack": 0,
     "level": 40,
-    "image": "https://tibiawiki.com.br/images/8/8f/Silkweaver_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/5e/Silkweaver_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4249,7 +4249,7 @@
     ],
     "attack": 1,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icicle_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0d/Icicle_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4300,7 +4300,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Elvish_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/20/Elvish_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4339,7 +4339,7 @@
     ],
     "attack": 6,
     "level": 150,
-    "image": "https://tibiawiki.com.br/images/8/8f/Jungle_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/08/Jungle_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4396,7 +4396,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Refined_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/94/Refined_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4441,7 +4441,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Musician%27s_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/85/Musician%27s_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4493,7 +4493,7 @@
     ],
     "attack": 7,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/8/8f/Draining_Inferniarch_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/61/Draining_Inferniarch_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4573,7 +4573,7 @@
     ],
     "attack": 8,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/8/8f/Draining_Inferniarch_Arbalest.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0f/Draining_Inferniarch_Arbalest.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4653,7 +4653,7 @@
     ],
     "attack": 7,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/8/8f/Rending_Inferniarch_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/5b/Rending_Inferniarch_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4733,7 +4733,7 @@
     ],
     "attack": 8,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/8/8f/Rending_Inferniarch_Arbalest.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0e/Rending_Inferniarch_Arbalest.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4813,7 +4813,7 @@
     ],
     "attack": 7,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/8/8f/Siphoning_Inferniarch_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0c/Siphoning_Inferniarch_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4893,7 +4893,7 @@
     ],
     "attack": 8,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/8/8f/Siphoning_Inferniarch_Arbalest.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f2/Siphoning_Inferniarch_Arbalest.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -4973,7 +4973,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/ad/Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5018,7 +5018,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/51/Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5063,7 +5063,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1f/Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -5108,7 +5108,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/31/Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -5153,7 +5153,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Club.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/37/Club.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -5198,7 +5198,7 @@
     ],
     "attack": 23,
     "level": 20,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fists_of_Enlightenment.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2f/Fists_of_Enlightenment.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5249,7 +5249,7 @@
     ],
     "attack": 43,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/8/8f/Falcon_Sai.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4b/Falcon_Sai.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5324,7 +5324,7 @@
     ],
     "attack": 43,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/8/8f/Naga_Katar.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6e/Naga_Katar.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5387,7 +5387,7 @@
     ],
     "attack": 43,
     "level": 270,
-    "image": "https://tibiawiki.com.br/images/8/8f/Lion_Claws.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d4/Lion_Claws.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5451,7 +5451,7 @@
     ],
     "attack": 45,
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/8/8f/Grand_Sanguine_Claws.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/38/Grand_Sanguine_Claws.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5516,7 +5516,7 @@
     ],
     "attack": 44,
     "level": 400,
-    "image": "https://tibiawiki.com.br/images/8/8f/Soulkamas.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9a/Soulkamas.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5581,7 +5581,7 @@
     ],
     "attack": 40,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/8/8f/Umbral_Katar.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/69/Umbral_Katar.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5628,7 +5628,7 @@
     ],
     "attack": 41,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/8/8f/Umbral_Master_Katar.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d9/Umbral_Master_Katar.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5681,7 +5681,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Earth_Relic_Sword_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e3/Earth_Relic_Sword_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -5726,7 +5726,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Earth_Spike_Sword_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/37/Earth_Spike_Sword_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -5771,7 +5771,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Earth_Blacksteel_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f4/Earth_Blacksteel_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -5816,7 +5816,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Earth_Mystic_Blade_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/7d/Earth_Mystic_Blade_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -5861,7 +5861,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Earth_Slayer_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d2/Earth_Slayer_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5906,7 +5906,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Earth_Barbaric_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/30/Earth_Barbaric_Axe_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -5951,7 +5951,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Earth_Headchopper_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c7/Earth_Headchopper_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5996,7 +5996,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Earth_Heroic_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/ba/Earth_Heroic_Axe_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6041,7 +6041,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Earth_Knight_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/51/Earth_Knight_Axe_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6086,7 +6086,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Earth_War_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2e/Earth_War_Axe_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -6131,7 +6131,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Earth_Cleric_Mace_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0f/Earth_Cleric_Mace_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6176,7 +6176,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Earth_Crystal_Mace_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0b/Earth_Crystal_Mace_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6221,7 +6221,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Earth_Basher_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/35/Earth_Basher_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6266,7 +6266,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Earth_Orcish_Maul_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/26/Earth_Orcish_Maul_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6311,7 +6311,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Earth_War_Hammer_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/16/Earth_War_Hammer_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -6356,7 +6356,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Energy_Blacksteel_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9c/Energy_Blacksteel_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6401,7 +6401,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Energy_Blade_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e3/Energy_Blade_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6446,7 +6446,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Energy_Relic_Sword_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3c/Energy_Relic_Sword_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6491,7 +6491,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Energy_Slayer_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/ca/Energy_Slayer_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -6536,7 +6536,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Energy_Spike_Sword_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e9/Energy_Spike_Sword_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6581,7 +6581,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Energy_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6f/Energy_Axe_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6626,7 +6626,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Energy_Headchopper_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e8/Energy_Headchopper_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -6671,7 +6671,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Energy_Heroic_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/96/Energy_Heroic_Axe_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6716,7 +6716,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Energy_Knight_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c7/Energy_Knight_Axe_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6761,7 +6761,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Energy_War_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/18/Energy_War_Axe_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -6806,7 +6806,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Energy_Basher_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e0/Energy_Basher_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6851,7 +6851,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Energy_Cleric_Mace_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/99/Energy_Cleric_Mace_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6896,7 +6896,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Energy_Mace_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2d/Energy_Mace_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6941,7 +6941,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Energy_Orcish_Maul_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e4/Energy_Orcish_Maul_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -6986,7 +6986,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Energy_War_Hammer_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c0/Energy_War_Hammer_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -7031,7 +7031,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icy_Blacksteel_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/27/Icy_Blacksteel_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -7076,7 +7076,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icy_Dragon_Slayer_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/66/Icy_Dragon_Slayer_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -7121,7 +7121,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icy_Mystic_Blade_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4a/Icy_Mystic_Blade_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -7166,7 +7166,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icy_Relic_Sword_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/00/Icy_Relic_Sword_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -7211,7 +7211,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icy_Spike_Sword_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/56/Icy_Spike_Sword_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -7256,7 +7256,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icy_Barbarian_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/45/Icy_Barbarian_Axe_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -7301,7 +7301,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icy_Headchopper_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6e/Icy_Headchopper_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -7346,7 +7346,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icy_Heroic_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/da/Icy_Heroic_Axe_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -7391,7 +7391,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icy_Knight_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b8/Icy_Knight_Axe_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -7436,7 +7436,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icy_War_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/7f/Icy_War_Axe_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -7481,7 +7481,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icy_Clerical_Mace_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9d/Icy_Clerical_Mace_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -7526,7 +7526,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icy_Cranial_Basher_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e2/Icy_Cranial_Basher_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -7571,7 +7571,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icy_Crystal_Mace_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/59/Icy_Crystal_Mace_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -7616,7 +7616,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icy_Orcish_Maul_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d1/Icy_Orcish_Maul_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -7661,7 +7661,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Icy_War_Hammer_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fa/Icy_War_Hammer_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -7706,7 +7706,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fiery_Dragon_Slayer_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0e/Fiery_Dragon_Slayer_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -7751,7 +7751,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fiery_Mystic_Blade_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/ac/Fiery_Mystic_Blade_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -7796,7 +7796,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fiery_Relic_Sword_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/ba/Fiery_Relic_Sword_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -7841,7 +7841,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fiery_Spike_Sword_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/26/Fiery_Spike_Sword_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -7886,7 +7886,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fiery_Barbarian_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/93/Fiery_Barbarian_Axe_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -7931,7 +7931,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fiery_Headchopper_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b5/Fiery_Headchopper_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -7976,7 +7976,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fiery_Heroic_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c5/Fiery_Heroic_Axe_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8021,7 +8021,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fiery_Knight_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/7b/Fiery_Knight_Axe_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8066,7 +8066,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fiery_War_Axe_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/5c/Fiery_War_Axe_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -8111,7 +8111,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fiery_Basher_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a1/Fiery_Basher_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8156,7 +8156,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fiery_Clerical_Mace_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e3/Fiery_Clerical_Mace_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8201,7 +8201,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fiery_Crystal_Mace_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b3/Fiery_Crystal_Mace_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8246,7 +8246,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fiery_Orcish_Maul_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d1/Fiery_Orcish_Maul_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8291,7 +8291,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fiery_War_Hammer_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/97/Fiery_War_Hammer_Replica.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -8336,7 +8336,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fire_Blacksteel_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/cc/Fire_Blacksteel_Replica.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8381,7 +8381,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Carving_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4b/Ornate_Carving_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8426,7 +8426,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Mayhem_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/39/Ornate_Mayhem_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8471,7 +8471,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Remedy_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/84/Ornate_Remedy_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8516,7 +8516,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Carving_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/51/Plain_Carving_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8561,7 +8561,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Mayhem_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/03/Plain_Mayhem_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8606,7 +8606,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Remedy_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3b/Plain_Remedy_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8651,7 +8651,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Carving_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b6/Valuable_Carving_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8696,7 +8696,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Mayhem_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e4/Valuable_Mayhem_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8741,7 +8741,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Remedy_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/cf/Valuable_Remedy_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -8786,7 +8786,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Carving_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/76/Ornate_Carving_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -8831,7 +8831,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Mayhem_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e7/Ornate_Mayhem_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -8876,7 +8876,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Remedy_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2d/Ornate_Remedy_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -8921,7 +8921,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Carving_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6d/Plain_Carving_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -8966,7 +8966,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Mayhem_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/27/Plain_Mayhem_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -9011,7 +9011,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Remedy_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f2/Plain_Remedy_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -9056,7 +9056,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Carving_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/cf/Valuable_Carving_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -9101,7 +9101,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Mayhem_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/15/Valuable_Mayhem_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -9146,7 +9146,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Remedy_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fa/Valuable_Remedy_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -9191,7 +9191,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Carving_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/71/Ornate_Carving_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -9236,7 +9236,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Mayhem_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/14/Ornate_Mayhem_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -9281,7 +9281,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Remedy_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9f/Ornate_Remedy_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -9326,7 +9326,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Carving_Chopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c3/Ornate_Carving_Chopper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -9371,7 +9371,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Mayhem_Chopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b7/Ornate_Mayhem_Chopper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -9416,7 +9416,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Remedy_Chopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/14/Ornate_Remedy_Chopper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -9461,7 +9461,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Carving_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e4/Plain_Carving_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -9506,7 +9506,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Mayhem_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/52/Plain_Mayhem_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -9551,7 +9551,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Remedy_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/81/Plain_Remedy_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -9596,7 +9596,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Carving_Chopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/99/Plain_Carving_Chopper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -9641,7 +9641,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Mayhem_Chopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d8/Plain_Mayhem_Chopper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -9686,7 +9686,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Remedy_Chopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6f/Plain_Remedy_Chopper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -9731,7 +9731,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Carving_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c2/Valuable_Carving_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -9776,7 +9776,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Mayhem_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/58/Valuable_Mayhem_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -9821,7 +9821,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Remedy_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/26/Valuable_Remedy_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -9866,7 +9866,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Carving_Chopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fb/Valuable_Carving_Chopper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -9911,7 +9911,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Mayhem_Chopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d9/Valuable_Mayhem_Chopper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -9956,7 +9956,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Remedy_Chopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/7d/Valuable_Remedy_Chopper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -10001,7 +10001,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Carving_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1a/Ornate_Carving_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10046,7 +10046,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Mayhem_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/ef/Ornate_Mayhem_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10091,7 +10091,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Remedy_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a6/Ornate_Remedy_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10136,7 +10136,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Carving_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/cc/Ornate_Carving_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10181,7 +10181,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Mayhem_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fa/Ornate_Mayhem_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10226,7 +10226,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Remedy_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/11/Ornate_Remedy_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10271,7 +10271,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Carving_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c6/Plain_Carving_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10316,7 +10316,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Mayhem_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f0/Plain_Mayhem_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10361,7 +10361,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Remedy_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/86/Plain_Remedy_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10406,7 +10406,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Carving_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c1/Plain_Carving_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10451,7 +10451,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Mayhem_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/88/Plain_Mayhem_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10496,7 +10496,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Remedy_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/79/Plain_Remedy_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10541,7 +10541,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Carving_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c7/Valuable_Carving_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10586,7 +10586,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Mayhem_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a5/Valuable_Mayhem_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10631,7 +10631,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Remedy_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9f/Valuable_Remedy_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10676,7 +10676,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Carving_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9b/Valuable_Carving_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10721,7 +10721,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Mayhem_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/70/Valuable_Mayhem_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10766,7 +10766,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Remedy_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/aa/Valuable_Remedy_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -10811,7 +10811,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Carving_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3f/Ornate_Carving_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -10856,7 +10856,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Mayhem_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b5/Ornate_Mayhem_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -10901,7 +10901,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Remedy_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/be/Ornate_Remedy_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -10946,7 +10946,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Carving_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/65/Plain_Carving_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -10991,7 +10991,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Mayhem_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e1/Plain_Mayhem_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11036,7 +11036,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Remedy_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/19/Plain_Remedy_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11081,7 +11081,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Carving_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e4/Valuable_Carving_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11126,7 +11126,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Mayhem_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3d/Valuable_Mayhem_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11171,7 +11171,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Remedy_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/96/Valuable_Remedy_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11216,7 +11216,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Carving_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/45/Ornate_Carving_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11261,7 +11261,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Mayhem_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/78/Ornate_Mayhem_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11306,7 +11306,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Remedy_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f2/Ornate_Remedy_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11351,7 +11351,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Carving_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/18/Plain_Carving_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11396,7 +11396,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Mayhem_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/02/Plain_Mayhem_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11441,7 +11441,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Plain_Remedy_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/43/Plain_Remedy_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11486,7 +11486,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Carving_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/de/Valuable_Carving_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11531,7 +11531,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Mayhem_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/98/Valuable_Mayhem_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11576,7 +11576,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Valuable_Remedy_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/ff/Valuable_Remedy_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11621,7 +11621,7 @@
     ],
     "attack": 44,
     "level": 45,
-    "image": "https://tibiawiki.com.br/images/8/8f/Dragon_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a1/Dragon_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11666,7 +11666,7 @@
     ],
     "attack": 55,
     "level": 140,
-    "image": "https://tibiawiki.com.br/images/8/8f/Magic_Longsword.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/7a/Magic_Longsword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11705,7 +11705,7 @@
     ],
     "attack": 44,
     "level": 60,
-    "image": "https://tibiawiki.com.br/images/8/8f/Mystic_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/ff/Mystic_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -11756,7 +11756,7 @@
     ],
     "attack": 42,
     "level": 50,
-    "image": "https://tibiawiki.com.br/images/8/8f/Relic_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d5/Relic_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -11795,7 +11795,7 @@
     ],
     "attack": 33,
     "level": 25,
-    "image": "https://tibiawiki.com.br/images/8/8f/Knight_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4e/Knight_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -11834,7 +11834,7 @@
     ],
     "attack": 44,
     "level": 60,
-    "image": "https://tibiawiki.com.br/images/8/8f/Heroic_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/03/Heroic_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -11885,7 +11885,7 @@
     ],
     "attack": 44,
     "level": 60,
-    "image": "https://tibiawiki.com.br/images/8/8f/Cranial_Basher.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/57/Cranial_Basher.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -11936,7 +11936,7 @@
     ],
     "attack": 38,
     "level": 35,
-    "image": "https://tibiawiki.com.br/images/8/8f/Crystal_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/aa/Crystal_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -11975,7 +11975,7 @@
     ],
     "attack": 39,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/8/8f/Glooth_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/bd/Glooth_Blade.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12044,7 +12044,7 @@
     ],
     "attack": 39,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/8/8f/Glooth_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2d/Glooth_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12113,7 +12113,7 @@
     ],
     "attack": 39,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/8/8f/Glooth_Club.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/56/Glooth_Club.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12182,7 +12182,7 @@
     ],
     "attack": 8,
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/8/8f/Sanguine_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/79/Sanguine_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -12247,7 +12247,7 @@
     ],
     "attack": 8,
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/8/8f/Sanguine_Battleaxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6f/Sanguine_Battleaxe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12312,7 +12312,7 @@
     ],
     "attack": 8,
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/8/8f/Sanguine_Bludgeon.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e1/Sanguine_Bludgeon.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12377,7 +12377,7 @@
     ],
     "attack": 8,
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/8/8f/Sanguine_Hatchet.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3b/Sanguine_Hatchet.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -12442,7 +12442,7 @@
     ],
     "attack": 8,
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/8/8f/Sanguine_Cudgel.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c4/Sanguine_Cudgel.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -12507,7 +12507,7 @@
     ],
     "attack": 36,
     "level": 30,
-    "image": "https://tibiawiki.com.br/images/8/8f/Bright_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/18/Bright_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -12552,7 +12552,7 @@
     ],
     "attack": 46,
     "level": 55,
-    "image": "https://tibiawiki.com.br/images/8/8f/Giant_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1b/Giant_Sword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12597,7 +12597,7 @@
     ],
     "attack": 53,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/8/8f/Warlord_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/cb/Warlord_Sword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12654,7 +12654,7 @@
     ],
     "attack": 40,
     "level": 30,
-    "image": "https://tibiawiki.com.br/images/8/8f/Glorious_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c0/Glorious_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12693,7 +12693,7 @@
     ],
     "attack": 46,
     "level": 50,
-    "image": "https://tibiawiki.com.br/images/8/8f/Guardian_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/67/Guardian_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12732,7 +12732,7 @@
     ],
     "attack": 47,
     "level": 60,
-    "image": "https://tibiawiki.com.br/images/8/8f/Abyss_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/87/Abyss_Hammer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12771,7 +12771,7 @@
     ],
     "attack": 45,
     "level": 65,
-    "image": "https://tibiawiki.com.br/images/8/8f/Onyx_Flail.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/95/Onyx_Flail.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -12810,7 +12810,7 @@
     ],
     "attack": 1,
     "level": 50,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ornate_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a8/Ornate_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12855,7 +12855,7 @@
     ],
     "attack": 4,
     "level": 60,
-    "image": "https://tibiawiki.com.br/images/8/8f/Chain_Bolter.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/06/Chain_Bolter.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12900,7 +12900,7 @@
     ],
     "attack": 0,
     "level": 45,
-    "image": "https://tibiawiki.com.br/images/8/8f/Modified_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4c/Modified_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12951,7 +12951,7 @@
     ],
     "attack": 25,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Battle_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/40/Battle_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12990,7 +12990,7 @@
     ],
     "attack": 24,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Battle_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b1/Battle_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13029,7 +13029,7 @@
     ],
     "attack": 24,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Spike_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/42/Spike_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13068,7 +13068,7 @@
     ],
     "attack": 35,
     "level": 25,
-    "image": "https://tibiawiki.com.br/images/8/8f/Double_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f5/Double_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13107,7 +13107,7 @@
     ],
     "attack": 31,
     "level": 20,
-    "image": "https://tibiawiki.com.br/images/8/8f/Dwarven_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/5e/Dwarven_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13146,7 +13146,7 @@
     ],
     "attack": 10,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Golden_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1a/Golden_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13191,7 +13191,7 @@
     ],
     "attack": 48,
     "level": 65,
-    "image": "https://tibiawiki.com.br/images/8/8f/War_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/7a/War_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13230,7 +13230,7 @@
     ],
     "attack": 21,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Steel_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a7/Steel_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13269,7 +13269,7 @@
     ],
     "attack": 10,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Hand_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c1/Hand_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13308,7 +13308,7 @@
     ],
     "attack": 15,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Hatchet.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/5d/Hatchet.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13347,7 +13347,7 @@
     ],
     "attack": 17,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Longsword.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/27/Longsword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13386,7 +13386,7 @@
     ],
     "attack": 30,
     "level": 20,
-    "image": "https://tibiawiki.com.br/images/8/8f/Two_Handed_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/92/Two_Handed_Sword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13425,7 +13425,7 @@
     ],
     "attack": 26,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Broadsword.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/87/Broadsword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13464,7 +13464,7 @@
     ],
     "attack": 19,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Scimitar.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a3/Scimitar.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13503,7 +13503,7 @@
     ],
     "attack": 16,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Katana.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d0/Katana.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13542,7 +13542,7 @@
     ],
     "attack": 25,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Morning_Star.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b3/Morning_Star.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13581,7 +13581,7 @@
     ],
     "attack": 16,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/26/Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13620,7 +13620,7 @@
     ],
     "attack": 45,
     "level": 50,
-    "image": "https://tibiawiki.com.br/images/8/8f/War_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/25/War_Hammer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13659,7 +13659,7 @@
     ],
     "attack": 28,
     "level": 20,
-    "image": "https://tibiawiki.com.br/images/8/8f/Barbarian_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/da/Barbarian_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13698,7 +13698,7 @@
     ],
     "attack": 18,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Iron_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/50/Iron_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13737,7 +13737,7 @@
     ],
     "attack": 51,
     "level": 85,
-    "image": "https://tibiawiki.com.br/images/8/8f/Skullcrusher.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3d/Skullcrusher.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13782,7 +13782,7 @@
     ],
     "attack": 48,
     "level": 65,
-    "image": "https://tibiawiki.com.br/images/8/8f/Hammer_of_Wrath.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/13/Hammer_of_Wrath.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13821,7 +13821,7 @@
     ],
     "attack": 46,
     "level": 70,
-    "image": "https://tibiawiki.com.br/images/8/8f/Jade_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/07/Jade_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13860,7 +13860,7 @@
     ],
     "attack": 37,
     "level": 30,
-    "image": "https://tibiawiki.com.br/images/8/8f/Sapphire_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c2/Sapphire_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13899,7 +13899,7 @@
     ],
     "attack": 49,
     "level": 85,
-    "image": "https://tibiawiki.com.br/images/8/8f/Thunder_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e1/Thunder_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13963,7 +13963,7 @@
     ],
     "attack": 34,
     "level": 25,
-    "image": "https://tibiawiki.com.br/images/8/8f/Diamond_Sceptre.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/02/Diamond_Sceptre.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14002,7 +14002,7 @@
     ],
     "attack": 43,
     "level": 55,
-    "image": "https://tibiawiki.com.br/images/8/8f/Queen%27s_Sceptre.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/ae/Queen%27s_Sceptre.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14053,7 +14053,7 @@
     ],
     "attack": 24,
     "level": 30,
-    "image": "https://tibiawiki.com.br/images/8/8f/Fire_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4c/Fire_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14092,7 +14092,7 @@
     ],
     "attack": 42,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Ice_Rapier.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/20/Ice_Rapier.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14143,7 +14143,7 @@
     ],
     "attack": 48,
     "level": 80,
-    "image": "https://tibiawiki.com.br/images/8/8f/Magic_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fd/Magic_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14194,7 +14194,7 @@
     ],
     "attack": 43,
     "level": 40,
-    "image": "https://tibiawiki.com.br/images/8/8f/Mercenary_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/03/Mercenary_Sword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -14233,7 +14233,7 @@
     ],
     "attack": 45,
     "level": 50,
-    "image": "https://tibiawiki.com.br/images/8/8f/Thaian_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6f/Thaian_Sword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -14284,7 +14284,7 @@
     ],
     "attack": 35,
     "level": 25,
-    "image": "https://tibiawiki.com.br/images/8/8f/Crystal_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/48/Crystal_Sword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -14323,7 +14323,7 @@
     ],
     "attack": 49,
     "level": 100,
-    "image": "https://tibiawiki.com.br/images/8/8f/Emerald_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0d/Emerald_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14374,7 +14374,7 @@
     ],
     "attack": 42,
     "level": 50,
-    "image": "https://tibiawiki.com.br/images/8/8f/Northern_Star.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/bd/Northern_Star.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14431,7 +14431,7 @@
     ],
     "attack": 47,
     "level": 60,
-    "image": "https://tibiawiki.com.br/images/8/8f/Demonrage_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/55/Demonrage_Sword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -14470,7 +14470,7 @@
     ],
     "attack": 18,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Serpent_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/79/Serpent_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14515,7 +14515,7 @@
     ],
     "attack": 41,
     "level": 45,
-    "image": "https://tibiawiki.com.br/images/8/8f/Pharaoh_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/85/Pharaoh_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14578,7 +14578,7 @@
     ],
     "attack": 21,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Jagged_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/dd/Jagged_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14617,7 +14617,7 @@
     ],
     "attack": 38,
     "level": 35,
-    "image": "https://tibiawiki.com.br/images/8/8f/Djinn_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d9/Djinn_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14686,7 +14686,7 @@
     ],
     "attack": 45,
     "level": 65,
-    "image": "https://tibiawiki.com.br/images/8/8f/Runed_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6f/Runed_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14725,7 +14725,7 @@
     ],
     "attack": 24,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Giant_Smithhammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/ff/Giant_Smithhammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14770,7 +14770,7 @@
     ],
     "attack": 36,
     "level": 30,
-    "image": "https://tibiawiki.com.br/images/8/8f/Skull_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/54/Skull_Staff.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14809,7 +14809,7 @@
     ],
     "attack": 50,
     "level": 100,
-    "image": "https://tibiawiki.com.br/images/8/8f/Obsidian_Truncheon.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/86/Obsidian_Truncheon.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14854,7 +14854,7 @@
     ],
     "attack": 30,
     "level": 20,
-    "image": "https://tibiawiki.com.br/images/8/8f/Taurus_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1b/Taurus_Mace.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -14893,7 +14893,7 @@
     ],
     "attack": 41,
     "level": 45,
-    "image": "https://tibiawiki.com.br/images/8/8f/Silver_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fc/Silver_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14950,7 +14950,7 @@
     ],
     "attack": 49,
     "level": 70,
-    "image": "https://tibiawiki.com.br/images/8/8f/Heavy_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/90/Heavy_Mace.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -14989,7 +14989,7 @@
     ],
     "attack": 14,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Light_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/05/Light_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15034,7 +15034,7 @@
     ],
     "attack": 39,
     "level": 35,
-    "image": "https://tibiawiki.com.br/images/8/8f/Shadow_Sceptre.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/35/Shadow_Sceptre.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15073,7 +15073,7 @@
     ],
     "attack": 48,
     "level": 80,
-    "image": "https://tibiawiki.com.br/images/8/8f/Demonbone.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/47/Demonbone.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15118,7 +15118,7 @@
     ],
     "attack": 12,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Bone_Club.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/90/Bone_Club.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15157,7 +15157,7 @@
     ],
     "attack": 11,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Short_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/61/Short_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15196,7 +15196,7 @@
     ],
     "attack": 7,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Wooden_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/29/Wooden_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15235,7 +15235,7 @@
     ],
     "attack": 13,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Bone_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3a/Bone_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15280,7 +15280,7 @@
     ],
     "attack": 9,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Silver_Dagger.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/85/Silver_Dagger.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15325,7 +15325,7 @@
     ],
     "attack": 23,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Sabre.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/66/Sabre.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15364,7 +15364,7 @@
     ],
     "attack": 18,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Rapier.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/12/Rapier.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15403,7 +15403,7 @@
     ],
     "attack": 10,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Combat_Knife.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fb/Combat_Knife.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15442,7 +15442,7 @@
     ],
     "attack": 18,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Cowtana.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4a/Cowtana.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15481,7 +15481,7 @@
     ],
     "attack": 26,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/8/8f/Crimson_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/cb/Crimson_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15520,7 +15520,7 @@
     ],
     "attack": 0,
     "level": 330,
-    "image": "https://tibiawiki.com.br/images/8/8f/Amber_Greataxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/46/Amber_Greataxe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -15582,7 +15582,7 @@
     ],
     "attack": 0,
     "level": 330,
-    "image": "https://tibiawiki.com.br/images/8/8f/Amber_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/07/Amber_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -15644,7 +15644,7 @@
     ],
     "attack": 43,
     "level": 40,
-    "image": "https://tibiawiki.com.br/images/8/8f/Amber_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/77/Amber_Staff.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -15689,7 +15689,7 @@
     ],
     "attack": 42,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/8/8f/Cobra_Bo.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/62/Cobra_Bo.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -15758,7 +15758,7 @@
     ],
     "attack": 6,
     "level": 270,
-    "image": "https://tibiawiki.com.br/images/8/8f/Gilded_Eldritch_Claymore.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a1/Gilded_Eldritch_Claymore.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -15821,7 +15821,7 @@
     ],
     "attack": 56,
     "level": 270,
-    "image": "https://tibiawiki.com.br/images/8/8f/Gilded_Eldritch_Greataxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/88/Gilded_Eldritch_Greataxe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -15884,7 +15884,7 @@
     ],
     "attack": 7,
     "level": 400,
-    "image": "https://tibiawiki.com.br/images/8/80/Soulcutter.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/80/Soulcutter.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15965,7 +15965,7 @@
     ],
     "attack": 10,
     "level": 400,
-    "image": "https://tibiawiki.com.br/images/2/23/Soulshredder.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/23/Soulshredder.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -16051,7 +16051,7 @@
     ],
     "attack": 6,
     "level": 400,
-    "image": "https://tibiawiki.com.br/images/9/93/Soulcrusher.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/93/Soulcrusher.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -16137,7 +16137,7 @@
     ],
     "attack": 10,
     "level": 400,
-    "image": "https://tibiawiki.com.br/images/9/9f/Soulmaimer.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9f/Soulmaimer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -16223,7 +16223,7 @@
     ],
     "attack": 7,
     "level": 400,
-    "image": "https://tibiawiki.com.br/images/4/42/Soulbiter.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/42/Soulbiter.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -16309,7 +16309,7 @@
     ],
     "attack": 10,
     "level": 400,
-    "image": "https://tibiawiki.com.br/images/4/4a/Souleater_%28Axe%29.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4f/Souleater_%28Axe%29.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -16393,7 +16393,7 @@
     "vocation": [],
     "attack": 40,
     "level": 40,
-    "image": "https://tibiawiki.com.br/images/Assassin_Dagger.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/76/Assassin_Dagger.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -16427,7 +16427,7 @@
     ],
     "attack": 48,
     "level": 65,
-    "image": "https://tibiawiki.com.br/images/Berserker.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0a/Berserker.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -16461,7 +16461,7 @@
     ],
     "attack": 42,
     "level": 35,
-    "image": "https://tibiawiki.com.br/images/Blacksteel_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/63/Blacksteel_Sword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -16495,7 +16495,7 @@
     "vocation": [],
     "attack": 48,
     "level": 82,
-    "image": "https://tibiawiki.com.br/images/Blade_of_Corruption.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/39/Blade_of_Corruption.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -16530,7 +16530,7 @@
     ],
     "attack": 50,
     "level": 200,
-    "image": "https://tibiawiki.com.br/images/Blade_of_Destruction.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/cb/Blade_of_Destruction.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -16574,7 +16574,7 @@
     "vocation": [],
     "attack": 43,
     "level": 55,
-    "image": "https://tibiawiki.com.br/images/Bloody_Edge.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/65/Bloody_Edge.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -16612,7 +16612,7 @@
     "vocation": [],
     "attack": 1,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Broken_Macuahuitl.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/55/Broken_Macuahuitl.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -16655,7 +16655,7 @@
     "vocation": [],
     "attack": 15,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Carlin_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6a/Carlin_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -16689,7 +16689,7 @@
     ],
     "attack": 48,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/Crude_Umbral_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0b/Crude_Umbral_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -16724,7 +16724,7 @@
     ],
     "attack": 51,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/Crude_Umbral_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/bd/Crude_Umbral_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -16757,7 +16757,7 @@
     "vocation": [],
     "attack": 47,
     "level": 62,
-    "image": "https://tibiawiki.com.br/images/Crystalline_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/06/Crystalline_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -16789,7 +16789,7 @@
     "vocation": [],
     "attack": 8,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Dagger.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3a/Dagger.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -16824,7 +16824,7 @@
     "attack": 8,
     "attackElement": "Fire Damage|Fire",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Draining_Inferniarch_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2a/Draining_Inferniarch_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -16887,7 +16887,7 @@
     "attack": 8,
     "attackElement": "Energy Damage|Energy",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Draining_Inferniarch_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f3/Draining_Inferniarch_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -16947,7 +16947,7 @@
     "vocation": [],
     "attack": 37,
     "level": 30,
-    "image": "https://tibiawiki.com.br/images/Epee.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d1/Epee.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -16982,7 +16982,7 @@
     "attack": 8,
     "attackElement": "Energy Damage|Energy",
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/Grand_Sanguine_Razor.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b5/Grand_Sanguine_Razor.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -17047,7 +17047,7 @@
     ],
     "attack": 40,
     "level": 30,
-    "image": "https://tibiawiki.com.br/images/Haunted_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f4/Haunted_Blade.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -17081,7 +17081,7 @@
     ],
     "attack": 49,
     "level": 70,
-    "image": "https://tibiawiki.com.br/images/Havoc_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e8/Havoc_Blade.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -17125,7 +17125,7 @@
     "vocation": [],
     "attack": 16,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Heavy_Machete.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/87/Heavy_Machete.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17164,7 +17164,7 @@
     "attack": 25,
     "attackElement": "Fire Damage|Fire",
     "level": 150,
-    "image": "https://tibiawiki.com.br/images/Impaler_of_the_Igniter.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3a/Impaler_of_the_Igniter.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17203,7 +17203,7 @@
     "vocation": [],
     "attack": 17,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Incredible_Mumpiz_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/13/Incredible_Mumpiz_Slayer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17253,7 +17253,7 @@
     "attack": 8,
     "attackElement": "Fire Damage|Fire",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Inferniarch_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1b/Inferniarch_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17296,7 +17296,7 @@
     "attack": 8,
     "attackElement": "Energy Damage|Energy",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Inferniarch_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/06/Inferniarch_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -17336,7 +17336,7 @@
     "vocation": [],
     "attack": 14,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Ink_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a9/Ink_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17374,7 +17374,7 @@
     "vocation": [],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Knife.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/22/Knife.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17406,7 +17406,7 @@
     "vocation": [],
     "attack": 12,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Machete.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d3/Machete.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17447,7 +17447,7 @@
     "attack": 6,
     "attackElement": "Fire Damage|Fire",
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Moonsilver_Claymore.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f0/Moonsilver_Claymore.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -17515,7 +17515,7 @@
     "attack": 6,
     "attackElement": "Earth Damage|Earth",
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Moonsilver_Epee.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0f/Moonsilver_Epee.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17580,7 +17580,7 @@
     "vocation": [],
     "attack": 46,
     "level": 70,
-    "image": "https://tibiawiki.com.br/images/Nightmare_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1a/Nightmare_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17612,7 +17612,7 @@
     "vocation": [],
     "attack": 10,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Poet's_Fencing_Quill.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b4/Poet's_Fencing_Quill.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17657,7 +17657,7 @@
     "vocation": [],
     "attack": 16,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Pointed_Rabbitslayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fb/Pointed_Rabbitslayer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17703,7 +17703,7 @@
     "attack": 16,
     "attackElement": "Earth Damage|Earth",
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Poison_Dagger.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/21/Poison_Dagger.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17741,7 +17741,7 @@
     "vocation": [],
     "attack": 27,
     "level": 15,
-    "image": "https://tibiawiki.com.br/images/Ratana.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d9/Ratana.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17776,7 +17776,7 @@
     "attack": 8,
     "attackElement": "Fire Damage|Fire",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Rending_Inferniarch_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/68/Rending_Inferniarch_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17839,7 +17839,7 @@
     "attack": 8,
     "attackElement": "Energy Damage|Energy",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Rending_Inferniarch_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/96/Rending_Inferniarch_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -17899,7 +17899,7 @@
     "vocation": [],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Ritual_Bone_Knife.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f4/Ritual_Bone_Knife.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17937,7 +17937,7 @@
     "vocation": [],
     "attack": 12,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Ron_the_Ripper's_Sabre.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/ee/Ron_the_Ripper's_Sabre.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -17972,7 +17972,7 @@
     "attack": 8,
     "attackElement": "Energy Damage|Energy",
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/Sanguine_Razor.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fb/Sanguine_Razor.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -18035,7 +18035,7 @@
     "vocation": [],
     "attack": 42,
     "level": 40,
-    "image": "https://tibiawiki.com.br/images/Shimmer_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/8f/Shimmer_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -18074,7 +18074,7 @@
     "vocation": [],
     "attack": 49,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/Shiny_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f1/Shiny_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -18115,7 +18115,7 @@
     "attack": 8,
     "attackElement": "Fire Damage|Fire",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Siphoning_Inferniarch_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2a/Siphoning_Inferniarch_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -18178,7 +18178,7 @@
     "attack": 8,
     "attackElement": "Energy Damage|Energy",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Siphoning_Inferniarch_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2a/Siphoning_Inferniarch_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -18240,7 +18240,7 @@
     ],
     "attack": 52,
     "level": 200,
-    "image": "https://tibiawiki.com.br/images/Slayer_of_Destruction.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/8e/Slayer_of_Destruction.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -18287,7 +18287,7 @@
     "attack": 6,
     "attackElement": "Fire Damage|Fire",
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Stellar_Moonsilver_Claymore.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/56/Stellar_Moonsilver_Claymore.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -18355,7 +18355,7 @@
     "attack": 6,
     "attackElement": "Earth Damage|Earth",
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Stellar_Moonsilver_Epee.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/94/Stellar_Moonsilver_Epee.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -18423,7 +18423,7 @@
     "attack": 10,
     "attackElement": "Fire Damage|Fire",
     "level": 200,
-    "image": "https://tibiawiki.com.br/images/Summerblade.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/78/Summerblade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -18466,7 +18466,7 @@
     "attack": 7,
     "attackElement": "Earth Damage|Earth",
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/Tagralt_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a0/Tagralt_Blade.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -18514,7 +18514,7 @@
     "vocation": [],
     "attack": 23,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Templar_Scytheblade.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a7/Templar_Scytheblade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -18554,7 +18554,7 @@
     ],
     "attack": 50,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/The_Avenger.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c1/The_Avenger.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -18600,7 +18600,7 @@
     ],
     "attack": 51,
     "level": 100,
-    "image": "https://tibiawiki.com.br/images/The_Calamity.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/bc/The_Calamity.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -18645,7 +18645,7 @@
     "vocation": [],
     "attack": 50,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/The_Epiphany.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/ba/The_Epiphany.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -18701,7 +18701,7 @@
     "vocation": [],
     "attack": 47,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/The_Justice_Seeker.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1a/The_Justice_Seeker.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -18743,7 +18743,7 @@
     ],
     "attack": 47,
     "level": 58,
-    "image": "https://tibiawiki.com.br/images/Twiceslicer.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/83/Twiceslicer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -18777,7 +18777,7 @@
     ],
     "attack": 32,
     "level": 20,
-    "image": "https://tibiawiki.com.br/images/Twin_Hooks.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3e/Twin_Hooks.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -18811,7 +18811,7 @@
     ],
     "attack": 50,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/Umbral_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/ae/Umbral_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -18853,7 +18853,7 @@
     ],
     "attack": 54,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/Umbral_Master_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/42/Umbral_Master_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -18901,7 +18901,7 @@
     ],
     "attack": 52,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/Umbral_Masterblade.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/7a/Umbral_Masterblade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -18949,7 +18949,7 @@
     ],
     "attack": 52,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/Umbral_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1d/Umbral_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -18992,7 +18992,7 @@
     "attack": 10,
     "attackElement": "Ice Damage|Ice",
     "level": 200,
-    "image": "https://tibiawiki.com.br/images/Winterblade.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/35/Winterblade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -19032,7 +19032,7 @@
     "vocation": [],
     "attack": 32,
     "level": 25,
-    "image": "https://tibiawiki.com.br/images/Wyvern_Fang.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/71/Wyvern_Fang.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -19070,7 +19070,7 @@
     "vocation": [],
     "attack": 43,
     "level": 55,
-    "image": "https://tibiawiki.com.br/images/Zaoan_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/63/Zaoan_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -19104,7 +19104,7 @@
     ],
     "attack": 44,
     "level": 45,
-    "image": "https://tibiawiki.com.br/images/Angelic_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/be/Angelic_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -19138,7 +19138,7 @@
     ],
     "attack": 51,
     "level": 200,
-    "image": "https://tibiawiki.com.br/images/Axe_of_Destruction.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/33/Axe_of_Destruction.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -19182,7 +19182,7 @@
     "vocation": [],
     "attack": 35,
     "level": 30,
-    "image": "https://tibiawiki.com.br/images/Beastslayer_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fb/Beastslayer_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -19214,7 +19214,7 @@
     "vocation": [],
     "attack": 41,
     "level": 45,
-    "image": "https://tibiawiki.com.br/images/Butcher's_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/bc/Butcher's_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -19248,7 +19248,7 @@
     ],
     "attack": 52,
     "level": 200,
-    "image": "https://tibiawiki.com.br/images/Chopper_of_Destruction.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a2/Chopper_of_Destruction.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -19294,7 +19294,7 @@
     ],
     "attack": 49,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/Crude_Umbral_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/31/Crude_Umbral_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -19329,7 +19329,7 @@
     ],
     "attack": 51,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/Crude_Umbral_Chopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f9/Crude_Umbral_Chopper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -19362,7 +19362,7 @@
     "vocation": [],
     "attack": 51,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/Crystalline_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e8/Crystalline_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -19400,7 +19400,7 @@
     "vocation": [],
     "attack": 17,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Daramian_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/01/Daramian_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -19453,7 +19453,7 @@
     ],
     "attack": 39,
     "level": 25,
-    "image": "https://tibiawiki.com.br/images/Daramian_Waraxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2d/Daramian_Waraxe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -19485,7 +19485,7 @@
     "vocation": [],
     "attack": 49,
     "level": 80,
-    "image": "https://tibiawiki.com.br/images/Deepling_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/24/Deepling_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -19525,7 +19525,7 @@
     ],
     "attack": 53,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/Demonwing_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1e/Demonwing_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -19565,7 +19565,7 @@
     "vocation": [],
     "attack": 47,
     "level": 60,
-    "image": "https://tibiawiki.com.br/images/Dragon_Lance.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2c/Dragon_Lance.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -19600,7 +19600,7 @@
     "attack": 8,
     "attackElement": "Fire Damage|Fire",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Draining_Inferniarch_Battleaxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9c/Draining_Inferniarch_Battleaxe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -19663,7 +19663,7 @@
     "attack": 8,
     "attackElement": "Fire Damage|Fire",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Draining_Inferniarch_Greataxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/68/Draining_Inferniarch_Greataxe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -19723,7 +19723,7 @@
     "vocation": [],
     "attack": 47,
     "level": 60,
-    "image": "https://tibiawiki.com.br/images/Drakinata.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9d/Drakinata.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -19755,7 +19755,7 @@
     "vocation": [],
     "attack": 40,
     "level": 40,
-    "image": "https://tibiawiki.com.br/images/Dreaded_Cleaver.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/8e/Dreaded_Cleaver.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -19787,7 +19787,7 @@
     "vocation": [],
     "attack": 46,
     "level": 55,
-    "image": "https://tibiawiki.com.br/images/Execowtioner_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/80/Execowtioner_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -19821,7 +19821,7 @@
     ],
     "attack": 51,
     "level": 85,
-    "image": "https://tibiawiki.com.br/images/Executioner.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/cb/Executioner.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -19864,7 +19864,7 @@
     "vocation": [],
     "attack": 17,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Farmer's_Avenger.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6a/Farmer's_Avenger.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -19910,7 +19910,7 @@
     "attack": 27,
     "attackElement": "Fire Damage|Fire",
     "level": 35,
-    "image": "https://tibiawiki.com.br/images/Fire_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/31/Fire_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -19942,7 +19942,7 @@
     "vocation": [],
     "attack": 13,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Golden_Sickle.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/33/Golden_Sickle.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -19983,7 +19983,7 @@
     "attack": 8,
     "attackElement": "Death Damage|Death",
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/Grand_Sanguine_Battleaxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/af/Grand_Sanguine_Battleaxe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -20048,7 +20048,7 @@
     ],
     "attack": 52,
     "level": 95,
-    "image": "https://tibiawiki.com.br/images/Great_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b8/Great_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -20088,7 +20088,7 @@
     "vocation": [],
     "attack": 46,
     "level": 55,
-    "image": "https://tibiawiki.com.br/images/Guardian_Halberd.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/72/Guardian_Halberd.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -20120,7 +20120,7 @@
     "vocation": [],
     "attack": 35,
     "level": 25,
-    "image": "https://tibiawiki.com.br/images/Halberd.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d9/Halberd.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -20154,7 +20154,7 @@
     ],
     "attack": 42,
     "level": 35,
-    "image": "https://tibiawiki.com.br/images/Headchopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/52/Headchopper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -20188,7 +20188,7 @@
     "vocation": [],
     "attack": 35,
     "level": 25,
-    "image": "https://tibiawiki.com.br/images/Heavy_Trident.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9f/Heavy_Trident.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -20227,7 +20227,7 @@
     "vocation": [],
     "attack": 51,
     "level": 110,
-    "image": "https://tibiawiki.com.br/images/Hellforged_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1e/Hellforged_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -20265,7 +20265,7 @@
     "vocation": [],
     "attack": 46,
     "level": 70,
-    "image": "https://tibiawiki.com.br/images/Hive_Scythe.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d4/Hive_Scythe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -20298,7 +20298,7 @@
     "attack": 4,
     "attackElement": "Ice Damage|Ice",
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Ice_Hatchet.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/29/Ice_Hatchet.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -20345,7 +20345,7 @@
     "vocation": [],
     "attack": 49,
     "level": 85,
-    "image": "https://tibiawiki.com.br/images/Impaler.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f8/Impaler.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -20387,7 +20387,7 @@
     "attack": 8,
     "attackElement": "Fire Damage|Fire",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Inferniarch_Battleaxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/74/Inferniarch_Battleaxe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -20430,7 +20430,7 @@
     "attack": 8,
     "attackElement": "Fire Damage|Fire",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Inferniarch_Greataxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e0/Inferniarch_Greataxe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -20470,7 +20470,7 @@
     "vocation": [],
     "attack": 40,
     "level": 45,
-    "image": "https://tibiawiki.com.br/images/Mino_Lance.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2d/Mino_Lance.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -20505,7 +20505,7 @@
     "attack": 6,
     "attackElement": "Earth Damage|Earth",
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Moonsilver_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/5a/Moonsilver_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -20573,7 +20573,7 @@
     "attack": 6,
     "attackElement": "Fire Damage|Fire",
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Moonsilver_Chopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6d/Moonsilver_Chopper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -20638,7 +20638,7 @@
     "vocation": [],
     "attack": 48,
     "level": 80,
-    "image": "https://tibiawiki.com.br/images/Mythril_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/12/Mythril_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -20681,7 +20681,7 @@
     "vocation": [],
     "attack": 39,
     "level": 25,
-    "image": "https://tibiawiki.com.br/images/Naginata.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fc/Naginata.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -20713,7 +20713,7 @@
     "vocation": [],
     "attack": 39,
     "level": 35,
-    "image": "https://tibiawiki.com.br/images/Noble_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/17/Noble_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -20745,7 +20745,7 @@
     "vocation": [],
     "attack": 34,
     "level": 20,
-    "image": "https://tibiawiki.com.br/images/Obsidian_Lance.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/ff/Obsidian_Lance.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -20777,7 +20777,7 @@
     "vocation": [],
     "attack": 39,
     "level": 25,
-    "image": "https://tibiawiki.com.br/images/Ogre_Choppa.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c4/Ogre_Choppa.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -20809,7 +20809,7 @@
     "vocation": [],
     "attack": 23,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Orcish_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/68/Orcish_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -20841,7 +20841,7 @@
     "vocation": [],
     "attack": 42,
     "level": 50,
-    "image": "https://tibiawiki.com.br/images/Ornamented_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d4/Ornamented_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -20882,7 +20882,7 @@
     "attack": 5,
     "attackElement": "Fire Damage|Fire",
     "level": 180,
-    "image": "https://tibiawiki.com.br/images/Phantasmal_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/44/Phantasmal_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -20929,7 +20929,7 @@
     "attack": 26,
     "attackElement": "Earth Damage|Earth",
     "level": 150,
-    "image": "https://tibiawiki.com.br/images/Plague_Bite.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f7/Plague_Bite.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -20976,7 +20976,7 @@
     ],
     "attack": 49,
     "level": 70,
-    "image": "https://tibiawiki.com.br/images/Ravager's_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fe/Ravager's_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -21022,7 +21022,7 @@
     "vocation": [],
     "attack": 45,
     "level": 65,
-    "image": "https://tibiawiki.com.br/images/Ravenwing.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/02/Ravenwing.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -21067,7 +21067,7 @@
     "vocation": [],
     "attack": 46,
     "level": 70,
-    "image": "https://tibiawiki.com.br/images/Reaper's_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6a/Reaper's_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -21111,7 +21111,7 @@
     "attack": 8,
     "attackElement": "Fire Damage|Fire",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Rending_Inferniarch_Battleaxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/8d/Rending_Inferniarch_Battleaxe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -21174,7 +21174,7 @@
     "attack": 8,
     "attackElement": "Fire Damage|Fire",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Rending_Inferniarch_Greataxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/42/Rending_Inferniarch_Greataxe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -21234,7 +21234,7 @@
     "vocation": [],
     "attack": 48,
     "level": 70,
-    "image": "https://tibiawiki.com.br/images/Rift_Lance.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/03/Rift_Lance.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -21266,7 +21266,7 @@
     "vocation": [],
     "attack": 28,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Ripper_Lance.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/29/Ripper_Lance.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -21298,7 +21298,7 @@
     "vocation": [],
     "attack": 47,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/Royal_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4d/Royal_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -21334,7 +21334,7 @@
     ],
     "attack": 50,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/Ruthless_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c2/Ruthless_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -21372,7 +21372,7 @@
     "vocation": [],
     "attack": 16,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Scythe_of_the_Reaper.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/cd/Scythe_of_the_Reaper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -21418,7 +21418,7 @@
     "vocation": [],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Sickle.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/67/Sickle.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -21453,7 +21453,7 @@
     "attack": 8,
     "attackElement": "Fire Damage|Fire",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Siphoning_Inferniarch_Battleaxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/37/Siphoning_Inferniarch_Battleaxe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -21516,7 +21516,7 @@
     "attack": 8,
     "attackElement": "Fire Damage|Fire",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Siphoning_Inferniarch_Greataxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c1/Siphoning_Inferniarch_Greataxe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -21576,7 +21576,7 @@
     "vocation": [],
     "attack": 52,
     "level": 130,
-    "image": "https://tibiawiki.com.br/images/Solar_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/af/Solar_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -21638,7 +21638,7 @@
     "attack": 6,
     "attackElement": "Earth Damage|Earth",
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Stellar_Moonsilver_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1d/Stellar_Moonsilver_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -21706,7 +21706,7 @@
     "attack": 6,
     "attackElement": "Fire Damage|Fire",
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Stellar_Moonsilver_Chopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/29/Stellar_Moonsilver_Chopper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -21771,7 +21771,7 @@
     "vocation": [],
     "attack": 50,
     "level": 90,
-    "image": "https://tibiawiki.com.br/images/Stonecutter_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c4/Stonecutter_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -21811,7 +21811,7 @@
     ],
     "attack": 51,
     "level": 150,
-    "image": "https://tibiawiki.com.br/images/Throwing_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/be/Throwing_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -21858,7 +21858,7 @@
     ],
     "attack": 43,
     "level": 40,
-    "image": "https://tibiawiki.com.br/images/Titan_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1e/Titan_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -21892,7 +21892,7 @@
     ],
     "attack": 45,
     "level": 50,
-    "image": "https://tibiawiki.com.br/images/Twin_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a8/Twin_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -21941,7 +21941,7 @@
     ],
     "attack": 51,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/Umbral_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b0/Umbral_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -21983,7 +21983,7 @@
     ],
     "attack": 52,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/Umbral_Chopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/27/Umbral_Chopper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -22025,7 +22025,7 @@
     ],
     "attack": 53,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/Umbral_Master_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/ff/Umbral_Master_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -22073,7 +22073,7 @@
     ],
     "attack": 54,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/Umbral_Master_Chopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9a/Umbral_Master_Chopper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -22119,7 +22119,7 @@
     "vocation": [],
     "attack": 43,
     "level": 55,
-    "image": "https://tibiawiki.com.br/images/Vile_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/78/Vile_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -22157,7 +22157,7 @@
     "vocation": [],
     "attack": 42,
     "level": 40,
-    "image": "https://tibiawiki.com.br/images/Warrior's_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d2/Warrior's_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -22189,7 +22189,7 @@
     "vocation": [],
     "attack": 37,
     "level": 25,
-    "image": "https://tibiawiki.com.br/images/Zaoan_Halberd.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a8/Zaoan_Halberd.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -22224,7 +22224,7 @@
     "attack": 0,
     "attackElement": "Death Damage|Death",
     "level": 330,
-    "image": "https://tibiawiki.com.br/images/Amber_Bludgeon.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/72/Amber_Bludgeon.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -22284,7 +22284,7 @@
     "vocation": [],
     "attack": 50,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/Arcane_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/da/Arcane_Staff.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -22322,7 +22322,7 @@
     "vocation": [],
     "attack": 25,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Banana_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c3/Banana_Staff.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -22360,7 +22360,7 @@
     "vocation": [],
     "attack": 47,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/Blessed_Sceptre.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a9/Blessed_Sceptre.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -22396,7 +22396,7 @@
     ],
     "attack": 46,
     "level": 55,
-    "image": "https://tibiawiki.com.br/images/Bonebreaker.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/57/Bonebreaker.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -22428,7 +22428,7 @@
     "vocation": [],
     "attack": 35,
     "level": 25,
-    "image": "https://tibiawiki.com.br/images/Brutetamer's_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/21/Brutetamer's_Staff.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -22468,7 +22468,7 @@
     "vocation": [],
     "attack": 44,
     "level": 45,
-    "image": "https://tibiawiki.com.br/images/Chaos_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f7/Chaos_Mace.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -22500,7 +22500,7 @@
     "vocation": [],
     "attack": 28,
     "level": 20,
-    "image": "https://tibiawiki.com.br/images/Clerical_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/93/Clerical_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -22532,7 +22532,7 @@
     "vocation": [],
     "attack": 16,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Club_of_the_Fury.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/90/Club_of_the_Fury.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -22575,7 +22575,7 @@
     "vocation": [],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Crowbar.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3c/Crowbar.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -22615,7 +22615,7 @@
     ],
     "attack": 51,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/Crude_Umbral_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/cd/Crude_Umbral_Hammer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -22650,7 +22650,7 @@
     ],
     "attack": 48,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/Crude_Umbral_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/51/Crude_Umbral_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -22683,7 +22683,7 @@
     "vocation": [],
     "attack": 21,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Daramian_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1d/Daramian_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -22715,7 +22715,7 @@
     "vocation": [],
     "attack": 51,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/Dark_Trinity_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e4/Dark_Trinity_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -22760,7 +22760,7 @@
     "vocation": [],
     "attack": 42,
     "level": 48,
-    "image": "https://tibiawiki.com.br/images/Deepling_Squelcher.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/ca/Deepling_Squelcher.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -22798,7 +22798,7 @@
     "vocation": [],
     "attack": 43,
     "level": 38,
-    "image": "https://tibiawiki.com.br/images/Deepling_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/73/Deepling_Staff.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -22837,7 +22837,7 @@
     "vocation": [],
     "attack": 32,
     "level": 25,
-    "image": "https://tibiawiki.com.br/images/Dragon_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1f/Dragon_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -22869,7 +22869,7 @@
     "vocation": [],
     "attack": 35,
     "level": 30,
-    "image": "https://tibiawiki.com.br/images/Dragonbone_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f0/Dragonbone_Staff.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -22904,7 +22904,7 @@
     "attack": 8,
     "attackElement": "Death Damage|Death",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Draining_Inferniarch_Flail.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/96/Draining_Inferniarch_Flail.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -22967,7 +22967,7 @@
     "attack": 8,
     "attackElement": "Ice Damage|Ice",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Draining_Inferniarch_Warhammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/96/Draining_Inferniarch_Warhammer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -23027,7 +23027,7 @@
     "vocation": [],
     "attack": 39,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Enchanted_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3e/Enchanted_Staff.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -23064,7 +23064,7 @@
     "vocation": [],
     "attack": 46,
     "level": 80,
-    "image": "https://tibiawiki.com.br/images/Energized_Demonbone.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/5a/Energized_Demonbone.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -23102,7 +23102,7 @@
     "vocation": [],
     "attack": 20,
     "level": 100,
-    "image": "https://tibiawiki.com.br/images/Ferumbras'_Staff_(Club).gif",
+    "image": "https://www.tibiawiki.com.br/images/0/05/Ferumbras'_Staff_(Club).gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -23146,7 +23146,7 @@
     "vocation": [],
     "attack": 31,
     "level": 20,
-    "image": "https://tibiawiki.com.br/images/Furry_Club.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/76/Furry_Club.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -23181,7 +23181,7 @@
     "attack": 6,
     "attackElement": "Fire Damage|Fire",
     "level": 270,
-    "image": "https://tibiawiki.com.br/images/Gilded_Eldritch_Warmace.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a4/Gilded_Eldritch_Warmace.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -23227,7 +23227,7 @@
     "vocation": [],
     "attack": 33,
     "level": 25,
-    "image": "https://tibiawiki.com.br/images/Glooth_Whip.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1f/Glooth_Whip.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -23265,7 +23265,7 @@
     "vocation": [],
     "attack": 16,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Glutton's_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0b/Glutton's_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -23312,7 +23312,7 @@
     "attack": 8,
     "attackElement": "Earth Damage|Earth",
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/Grand_Sanguine_Bludgeon.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/82/Grand_Sanguine_Bludgeon.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -23377,7 +23377,7 @@
     ],
     "attack": 53,
     "level": 200,
-    "image": "https://tibiawiki.com.br/images/Hammer_of_Destruction.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/aa/Hammer_of_Destruction.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -23423,7 +23423,7 @@
     ],
     "attack": 52,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/Hammer_of_Prophecy.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e3/Hammer_of_Prophecy.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -23469,7 +23469,7 @@
     "attack": 8,
     "attackElement": "Death Damage|Death",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Inferniarch_Flail.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/ff/Inferniarch_Flail.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -23512,7 +23512,7 @@
     "attack": 8,
     "attackElement": "Ice Damage|Ice",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Inferniarch_Warhammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e5/Inferniarch_Warhammer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -23554,7 +23554,7 @@
     ],
     "attack": 52,
     "level": 150,
-    "image": "https://tibiawiki.com.br/images/Jungle_Flail.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d6/Jungle_Flail.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -23599,7 +23599,7 @@
     "vocation": [],
     "attack": 40,
     "level": 40,
-    "image": "https://tibiawiki.com.br/images/Lich_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/5c/Lich_Staff.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -23658,7 +23658,7 @@
     "vocation": [],
     "attack": 27,
     "level": 15,
-    "image": "https://tibiawiki.com.br/images/Life_Preserver.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c8/Life_Preserver.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -23697,7 +23697,7 @@
     "vocation": [],
     "attack": 40,
     "level": 30,
-    "image": "https://tibiawiki.com.br/images/Lunar_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f6/Lunar_Staff.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -23731,7 +23731,7 @@
     ],
     "attack": 50,
     "level": 200,
-    "image": "https://tibiawiki.com.br/images/Mace_of_Destruction.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/bd/Mace_of_Destruction.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -23775,7 +23775,7 @@
     "vocation": [],
     "attack": 51,
     "level": 150,
-    "image": "https://tibiawiki.com.br/images/Maimer.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/12/Maimer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -23814,7 +23814,7 @@
     "vocation": [],
     "attack": 24,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Mallet_Handle.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/cf/Mallet_Handle.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -23857,7 +23857,7 @@
     "vocation": [],
     "attack": 30,
     "level": 20,
-    "image": "https://tibiawiki.com.br/images/Mammoth_Whopper.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/77/Mammoth_Whopper.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -23889,7 +23889,7 @@
     "vocation": [],
     "attack": 44,
     "level": 55,
-    "image": "https://tibiawiki.com.br/images/Metal_Bat.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/48/Metal_Bat.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -23921,7 +23921,7 @@
     "vocation": [],
     "attack": 47,
     "level": 60,
-    "image": "https://tibiawiki.com.br/images/Moohtant_Cudgel.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e4/Moohtant_Cudgel.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -23956,7 +23956,7 @@
     "attack": 6,
     "attackElement": "Earth Damage|Earth",
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Moonsilver_Crusher.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/ff/Moonsilver_Crusher.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -24024,7 +24024,7 @@
     "attack": 6,
     "attackElement": "Ice Damage|Ice",
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Moonsilver_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/65/Moonsilver_Mace.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -24092,7 +24092,7 @@
     "attack": 8,
     "attackElement": "Death Damage|Death",
     "level": 220,
-    "image": "https://tibiawiki.com.br/images/Mortal_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/7d/Mortal_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -24131,7 +24131,7 @@
     "vocation": [],
     "attack": 50,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/Mycological_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e6/Mycological_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -24163,7 +24163,7 @@
     "vocation": [],
     "attack": 45,
     "level": 50,
-    "image": "https://tibiawiki.com.br/images/Ogre_Klubba.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/99/Ogre_Klubba.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -24195,7 +24195,7 @@
     "vocation": [],
     "attack": 49,
     "level": 70,
-    "image": "https://tibiawiki.com.br/images/One_Hit_Wonder.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e0/One_Hit_Wonder.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -24238,7 +24238,7 @@
     "vocation": [],
     "attack": 42,
     "level": 35,
-    "image": "https://tibiawiki.com.br/images/Orcish_Maul.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/dc/Orcish_Maul.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -24272,7 +24272,7 @@
     "vocation": [],
     "attack": 49,
     "level": 90,
-    "image": "https://tibiawiki.com.br/images/Ornate_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f8/Ornate_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -24313,7 +24313,7 @@
     "attack": 8,
     "attackElement": "Death Damage|Death",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Rending_Inferniarch_Flail.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9a/Rending_Inferniarch_Flail.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -24376,7 +24376,7 @@
     "attack": 8,
     "attackElement": "Ice Damage|Ice",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Rending_Inferniarch_Warhammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/50/Rending_Inferniarch_Warhammer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -24439,7 +24439,7 @@
     "attack": 11,
     "attackElement": "Ice Damage|Ice",
     "level": 230,
-    "image": "https://tibiawiki.com.br/images/Resizer.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6d/Resizer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -24479,7 +24479,7 @@
     "vocation": [],
     "attack": 46,
     "level": 80,
-    "image": "https://tibiawiki.com.br/images/Rotten_Demonbone.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/07/Rotten_Demonbone.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -24517,7 +24517,7 @@
     "vocation": [],
     "attack": 8,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Scythe.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/7a/Scythe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -24552,7 +24552,7 @@
     "attack": 8,
     "attackElement": "Death Damage|Death",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Siphoning_Inferniarch_Flail.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/48/Siphoning_Inferniarch_Flail.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -24615,7 +24615,7 @@
     "attack": 8,
     "attackElement": "Ice Damage|Ice",
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Siphoning_Inferniarch_Warhammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/80/Siphoning_Inferniarch_Warhammer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -24675,7 +24675,7 @@
     "vocation": [],
     "attack": 48,
     "level": 82,
-    "image": "https://tibiawiki.com.br/images/Snake_God's_Sceptre.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4d/Snake_God's_Sceptre.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -24717,7 +24717,7 @@
     ],
     "attack": 41,
     "level": 30,
-    "image": "https://tibiawiki.com.br/images/Spiked_Squelcher.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/81/Spiked_Squelcher.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -24754,7 +24754,7 @@
     "vocation": [],
     "attack": 31,
     "level": 20,
-    "image": "https://tibiawiki.com.br/images/Spiky_Club.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c2/Spiky_Club.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -24786,7 +24786,7 @@
     "vocation": [],
     "attack": 18,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Stale_Bread_of_Ancientness.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a9/Stale_Bread_of_Ancientness.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -24832,7 +24832,7 @@
     "attack": 6,
     "attackElement": "Earth Damage|Earth",
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Stellar_Moonsilver_Crusher.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a5/Stellar_Moonsilver_Crusher.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -24900,7 +24900,7 @@
     "attack": 6,
     "attackElement": "Ice Damage|Ice",
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Stellar_Moonsilver_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0e/Stellar_Moonsilver_Mace.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -24965,7 +24965,7 @@
     "vocation": [],
     "attack": 18,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Strange_Mallet.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/db/Strange_Mallet.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25008,7 +25008,7 @@
     "vocation": [],
     "attack": 9,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Studded_Club.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/49/Studded_Club.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25040,7 +25040,7 @@
     "vocation": [],
     "attack": 46,
     "level": 80,
-    "image": "https://tibiawiki.com.br/images/Sulphurous_Demonbone.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c0/Sulphurous_Demonbone.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25078,7 +25078,7 @@
     "vocation": [],
     "attack": 17,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Swampling_Club.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3c/Swampling_Club.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25112,7 +25112,7 @@
     ],
     "attack": 51,
     "level": 100,
-    "image": "https://tibiawiki.com.br/images/The_Stomper.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a0/The_Stomper.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -25152,7 +25152,7 @@
     ],
     "attack": 53,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/Umbral_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4a/Umbral_Hammer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -25194,7 +25194,7 @@
     ],
     "attack": 50,
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/Umbral_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/46/Umbral_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25236,7 +25236,7 @@
     ],
     "attack": 55,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/Umbral_Master_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/69/Umbral_Master_Hammer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -25284,7 +25284,7 @@
     ],
     "attack": 52,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/Umbral_Master_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c1/Umbral_Master_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25330,7 +25330,7 @@
     "vocation": [],
     "attack": 46,
     "level": 80,
-    "image": "https://tibiawiki.com.br/images/Unliving_Demonbone.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/ef/Unliving_Demonbone.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25371,7 +25371,7 @@
     ],
     "attack": 0,
     "level": 180,
-    "image": "https://tibiawiki.com.br/images/Deepling_Ceremonial_Dagger.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1b/Deepling_Ceremonial_Dagger.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25419,7 +25419,7 @@
     ],
     "attack": 0,
     "level": 230,
-    "image": "https://tibiawiki.com.br/images/Deepling_Fork.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9d/Deepling_Fork.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25466,7 +25466,7 @@
     ],
     "attack": 0,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Draining_Inferniarch_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6a/Draining_Inferniarch_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25530,7 +25530,7 @@
     ],
     "attack": 0,
     "level": 80,
-    "image": "https://tibiawiki.com.br/images/Dream_Blossom_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/61/Dream_Blossom_Staff.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25581,7 +25581,7 @@
     ],
     "attack": 0,
     "level": 180,
-    "image": "https://tibiawiki.com.br/images/Energized_Limb.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a7/Energized_Limb.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25622,7 +25622,7 @@
     ],
     "attack": 0,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/Gilded_Eldritch_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e4/Gilded_Eldritch_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25671,7 +25671,7 @@
     ],
     "attack": 0,
     "level": 65,
-    "image": "https://tibiawiki.com.br/images/Glacial_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/8f/Glacial_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25718,7 +25718,7 @@
     ],
     "attack": 0,
     "level": 33,
-    "image": "https://tibiawiki.com.br/images/Hailstorm_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1f/Hailstorm_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25759,7 +25759,7 @@
     ],
     "attack": 0,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Inferniarch_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/7f/Inferniarch_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25808,7 +25808,7 @@
     ],
     "attack": 0,
     "level": 150,
-    "image": "https://tibiawiki.com.br/images/Jungle_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/ac/Jungle_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25856,7 +25856,7 @@
     ],
     "attack": 0,
     "level": 13,
-    "image": "https://tibiawiki.com.br/images/Moonlight_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b4/Moonlight_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25890,7 +25890,7 @@
     ],
     "attack": 0,
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Moonsilver_Sceptre.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/39/Moonsilver_Sceptre.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -25957,7 +25957,7 @@
     ],
     "attack": 0,
     "level": 65,
-    "image": "https://tibiawiki.com.br/images/Muck_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/92/Muck_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26004,7 +26004,7 @@
     ],
     "attack": 0,
     "level": 19,
-    "image": "https://tibiawiki.com.br/images/Necrotic_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d8/Necrotic_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26038,7 +26038,7 @@
     ],
     "attack": 0,
     "level": 22,
-    "image": "https://tibiawiki.com.br/images/Northwind_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6f/Northwind_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26079,7 +26079,7 @@
     ],
     "attack": 0,
     "level": 37,
-    "image": "https://tibiawiki.com.br/images/Ogre_Scepta.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b4/Ogre_Scepta.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26120,7 +26120,7 @@
     ],
     "attack": 0,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Rending_Inferniarch_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d1/Rending_Inferniarch_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26183,7 +26183,7 @@
     ],
     "attack": 0,
     "level": 200,
-    "image": "https://tibiawiki.com.br/images/Rod_of_Destruction.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4e/Rod_of_Destruction.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26237,7 +26237,7 @@
     ],
     "attack": 0,
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/Sanguine_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/ac/Sanguine_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26303,7 +26303,7 @@
     ],
     "attack": 0,
     "level": 40,
-    "image": "https://tibiawiki.com.br/images/Shimmer_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/8a/Shimmer_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26344,7 +26344,7 @@
     ],
     "attack": 0,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Siphoning_Inferniarch_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/08/Siphoning_Inferniarch_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26407,7 +26407,7 @@
     ],
     "attack": 0,
     "level": 6,
-    "image": "https://tibiawiki.com.br/images/Snakebite_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/be/Snakebite_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26441,7 +26441,7 @@
     ],
     "attack": 0,
     "level": 37,
-    "image": "https://tibiawiki.com.br/images/Springsprout_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3a/Springsprout_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26482,7 +26482,7 @@
     ],
     "attack": 0,
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Stellar_Moonsilver_Sceptre.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/90/Stellar_Moonsilver_Sceptre.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26549,7 +26549,7 @@
     ],
     "attack": 0,
     "level": 26,
-    "image": "https://tibiawiki.com.br/images/Terra_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/7e/Terra_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26591,7 +26591,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/The_Chiller.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/03/The_Chiller.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26625,7 +26625,7 @@
     ],
     "attack": 0,
     "level": 42,
-    "image": "https://tibiawiki.com.br/images/Underworld_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/cc/Underworld_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26666,7 +26666,7 @@
     ],
     "attack": 0,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Draining_Inferniarch_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b5/Draining_Inferniarch_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26729,7 +26729,7 @@
     ],
     "attack": 0,
     "level": 100,
-    "image": "https://tibiawiki.com.br/images/Ferumbras'_Staff_(Enchanted_Wand).gif",
+    "image": "https://www.tibiawiki.com.br/images/8/87/Ferumbras'_Staff_(Enchanted_Wand).gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26776,7 +26776,7 @@
     ],
     "attack": 0,
     "level": 65,
-    "image": "https://tibiawiki.com.br/images/Ferumbras'_Staff_(Wand).gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3d/Ferumbras'_Staff_(Wand).gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26823,7 +26823,7 @@
     ],
     "attack": 0,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/Gilded_Eldritch_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a0/Gilded_Eldritch_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26872,7 +26872,7 @@
     ],
     "attack": 0,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Inferniarch_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/95/Inferniarch_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26921,7 +26921,7 @@
     ],
     "attack": 0,
     "level": 150,
-    "image": "https://tibiawiki.com.br/images/Jungle_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/60/Jungle_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -26969,7 +26969,7 @@
     ],
     "attack": 0,
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Moonsilver_Channeler.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a5/Moonsilver_Channeler.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27036,7 +27036,7 @@
     ],
     "attack": 0,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Rending_Inferniarch_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2e/Rending_Inferniarch_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27099,7 +27099,7 @@
     ],
     "attack": 0,
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/Sanguine_Coil.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/7a/Sanguine_Coil.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27164,7 +27164,7 @@
     ],
     "attack": 0,
     "level": 40,
-    "image": "https://tibiawiki.com.br/images/Shimmer_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/58/Shimmer_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27205,7 +27205,7 @@
     ],
     "attack": 0,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Siphoning_Inferniarch_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/69/Siphoning_Inferniarch_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27268,7 +27268,7 @@
     ],
     "attack": 0,
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Stellar_Moonsilver_Channeler.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b8/Stellar_Moonsilver_Channeler.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27335,7 +27335,7 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/The_Scorcher.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/80/The_Scorcher.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27369,7 +27369,7 @@
     ],
     "attack": 0,
     "level": 26,
-    "image": "https://tibiawiki.com.br/images/Wand_of_Cosmic_Energy.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/65/Wand_of_Cosmic_Energy.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27411,7 +27411,7 @@
     ],
     "attack": 0,
     "level": 41,
-    "image": "https://tibiawiki.com.br/images/Wand_of_Darkness.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4a/Wand_of_Darkness.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27458,7 +27458,7 @@
     ],
     "attack": 0,
     "level": 19,
-    "image": "https://tibiawiki.com.br/images/Wand_of_Decay.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/23/Wand_of_Decay.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27492,7 +27492,7 @@
     ],
     "attack": 0,
     "level": 65,
-    "image": "https://tibiawiki.com.br/images/Wand_of_Defiance.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e0/Wand_of_Defiance.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27539,7 +27539,7 @@
     ],
     "attack": 0,
     "level": 200,
-    "image": "https://tibiawiki.com.br/images/Wand_of_Destruction.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/78/Wand_of_Destruction.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27593,7 +27593,7 @@
     ],
     "attack": 0,
     "level": 37,
-    "image": "https://tibiawiki.com.br/images/Wand_of_Dimensions.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0c/Wand_of_Dimensions.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27636,7 +27636,7 @@
     ],
     "attack": 0,
     "level": 22,
-    "image": "https://tibiawiki.com.br/images/Wand_of_Draconia.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d9/Wand_of_Draconia.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27677,7 +27677,7 @@
     ],
     "attack": 0,
     "level": 13,
-    "image": "https://tibiawiki.com.br/images/Wand_of_Dragonbreath.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a2/Wand_of_Dragonbreath.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27711,7 +27711,7 @@
     ],
     "attack": 0,
     "level": 65,
-    "image": "https://tibiawiki.com.br/images/Wand_of_Everblazing.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/19/Wand_of_Everblazing.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27758,7 +27758,7 @@
     ],
     "attack": 0,
     "level": 33,
-    "image": "https://tibiawiki.com.br/images/Wand_of_Inferno.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0e/Wand_of_Inferno.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27799,7 +27799,7 @@
     ],
     "attack": 0,
     "level": 37,
-    "image": "https://tibiawiki.com.br/images/Wand_of_Starstorm.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/8e/Wand_of_Starstorm.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27840,7 +27840,7 @@
     ],
     "attack": 0,
     "level": 42,
-    "image": "https://tibiawiki.com.br/images/Wand_of_Voodoo.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f6/Wand_of_Voodoo.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27881,7 +27881,7 @@
     ],
     "attack": 0,
     "level": 6,
-    "image": "https://tibiawiki.com.br/images/Wand_of_Vortex.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/90/Wand_of_Vortex.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27915,7 +27915,7 @@
     ],
     "attack": 2,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/Arbalest.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0b/Arbalest.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -27947,7 +27947,7 @@
     "vocation": [],
     "attack": 65,
     "level": 80,
-    "image": "https://tibiawiki.com.br/images/Assassin_Star.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/99/Assassin_Star.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -27992,7 +27992,7 @@
     ],
     "attack": 6,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/Bow_of_Cataclysm.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1d/Bow_of_Cataclysm.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -28039,7 +28039,7 @@
     ],
     "attack": 5,
     "level": 200,
-    "image": "https://tibiawiki.com.br/images/Bow_of_Destruction.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/01/Bow_of_Destruction.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -28083,7 +28083,7 @@
     "vocation": [],
     "attack": 1,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Broken_Iks_Spear.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/7b/Broken_Iks_Spear.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -28128,7 +28128,7 @@
     ],
     "attack": 6,
     "level": 200,
-    "image": "https://tibiawiki.com.br/images/Crossbow_of_Destruction.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/39/Crossbow_of_Destruction.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -28172,7 +28172,7 @@
     "vocation": [],
     "attack": 38,
     "level": 42,
-    "image": "https://tibiawiki.com.br/images/Enchanted_Spear.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/68/Enchanted_Spear.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -28215,7 +28215,7 @@
     "vocation": [],
     "attack": 55,
     "level": 60,
-    "image": "https://tibiawiki.com.br/images/Glooth_Spear.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/07/Glooth_Spear.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -28258,7 +28258,7 @@
     "vocation": [],
     "attack": 32,
     "level": 20,
-    "image": "https://tibiawiki.com.br/images/Hunting_Spear.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/38/Hunting_Spear.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -28302,7 +28302,7 @@
     "attack": 48,
     "attackElement": "Earth Damage|Earth",
     "level": 60,
-    "image": "https://tibiawiki.com.br/images/Leaf_Star.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/66/Leaf_Star.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -28352,7 +28352,7 @@
     ],
     "attack": 5,
     "level": 220,
-    "image": "https://tibiawiki.com.br/images/Living_Vine_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/61/Living_Vine_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -28409,7 +28409,7 @@
     ],
     "attack": 10,
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Moonsilver_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/cf/Moonsilver_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -28476,7 +28476,7 @@
     ],
     "attack": 11,
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Moonsilver_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/70/Moonsilver_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -28541,7 +28541,7 @@
     "vocation": [],
     "attack": 35,
     "level": 25,
-    "image": "https://tibiawiki.com.br/images/Royal_Spear.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9b/Royal_Spear.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -28585,7 +28585,7 @@
     "attack": 64,
     "attackElement": "Fire Damage|Fire",
     "level": 120,
-    "image": "https://tibiawiki.com.br/images/Royal_Star.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e8/Royal_Star.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -28634,7 +28634,7 @@
     "vocation": [],
     "attack": 5,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Small_Stone.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/52/Small_Stone.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -28677,7 +28677,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Snowball.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3d/Snowball.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -28725,7 +28725,7 @@
     "vocation": [],
     "attack": 25,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Snowball_with_Ice_Shards.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/5f/Snowball_with_Ice_Shards.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -28773,7 +28773,7 @@
     "vocation": [],
     "attack": 25,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Spear.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/cf/Spear.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -28818,7 +28818,7 @@
     ],
     "attack": 10,
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Stellar_Moonsilver_Bow.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6a/Stellar_Moonsilver_Bow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -28885,7 +28885,7 @@
     ],
     "attack": 11,
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Stellar_Moonsilver_Crossbow.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/8d/Stellar_Moonsilver_Crossbow.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -28950,7 +28950,7 @@
     "vocation": [],
     "attack": 25,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Throwing_Knife.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4d/Throwing_Knife.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -28993,7 +28993,7 @@
     "vocation": [],
     "attack": 30,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Throwing_Star.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0a/Throwing_Star.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -29036,7 +29036,7 @@
     "vocation": [],
     "attack": 28,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Viper_Star.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/aa/Viper_Star.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -29079,7 +29079,7 @@
     "vocation": [],
     "attack": 44,
     "level": 330,
-    "image": "https://tibiawiki.com.br/images/Amber_Kusarigama.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4a/Amber_Kusarigama.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29139,7 +29139,7 @@
     "vocation": [],
     "attack": 40,
     "level": 150,
-    "image": "https://tibiawiki.com.br/images/Bambus_Jo.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e3/Bambus_Jo.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29184,7 +29184,7 @@
     "vocation": [],
     "attack": 39,
     "level": 75,
-    "image": "https://tibiawiki.com.br/images/Crude_Umbral_Katar.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/ee/Crude_Umbral_Katar.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29217,7 +29217,7 @@
     "vocation": [],
     "attack": 45,
     "level": 450,
-    "image": "https://tibiawiki.com.br/images/Crypt_Strike.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/29/Crypt_Strike.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29280,7 +29280,7 @@
     "vocation": [],
     "attack": 40,
     "level": 135,
-    "image": "https://tibiawiki.com.br/images/Depth_Claws.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/56/Depth_Claws.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29326,7 +29326,7 @@
     "vocation": [],
     "attack": 39,
     "level": 90,
-    "image": "https://tibiawiki.com.br/images/Drachaku.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fd/Drachaku.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29365,7 +29365,7 @@
     "vocation": [],
     "attack": 43,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Draining_Inferniarch_Claws.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/96/Draining_Inferniarch_Claws.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29425,7 +29425,7 @@
     "vocation": [],
     "attack": 42,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/Eldritch_Crescent_Moon_Spade.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/69/Eldritch_Crescent_Moon_Spade.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29469,7 +29469,7 @@
     "vocation": [],
     "attack": 42,
     "level": 250,
-    "image": "https://tibiawiki.com.br/images/Gilded_Eldritch_Crescent_Moon_Spade.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/5e/Gilded_Eldritch_Crescent_Moon_Spade.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29513,7 +29513,7 @@
     "vocation": [],
     "attack": 43,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Inferniarch_Claws.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/8f/Inferniarch_Claws.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29553,7 +29553,7 @@
     "vocation": [],
     "attack": 17,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Jo_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/ea/Jo_Staff.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29585,7 +29585,7 @@
     "vocation": [],
     "attack": 10,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Light_Jo_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/48/Light_Jo_Staff.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29617,7 +29617,7 @@
     "vocation": [],
     "attack": 46,
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Moonsilver_Katar.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/06/Moonsilver_Katar.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29682,7 +29682,7 @@
     "vocation": [],
     "attack": 31,
     "level": 40,
-    "image": "https://tibiawiki.com.br/images/Nunchaku.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c8/Nunchaku.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29714,7 +29714,7 @@
     "vocation": [],
     "attack": 40,
     "level": 200,
-    "image": "https://tibiawiki.com.br/images/Nunchaku_of_Destruction.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d4/Nunchaku_of_Destruction.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29758,7 +29758,7 @@
     "vocation": [],
     "attack": 33,
     "level": 50,
-    "image": "https://tibiawiki.com.br/images/Nunchaku_of_Enlightenment.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/95/Nunchaku_of_Enlightenment.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29797,7 +29797,7 @@
     "vocation": [],
     "attack": 38,
     "level": 80,
-    "image": "https://tibiawiki.com.br/images/Pair_of_Iron_Fists.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/8a/Pair_of_Iron_Fists.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29829,7 +29829,7 @@
     "vocation": [],
     "attack": 21,
     "level": 10,
-    "image": "https://tibiawiki.com.br/images/Pair_of_Monk_Fists.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3d/Pair_of_Monk_Fists.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29861,7 +29861,7 @@
     "vocation": [],
     "attack": 43,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Rending_Inferniarch_Claws.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/5e/Rending_Inferniarch_Claws.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29921,7 +29921,7 @@
     "vocation": [],
     "attack": 36,
     "level": 60,
-    "image": "https://tibiawiki.com.br/images/Sai.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d7/Sai.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29953,7 +29953,7 @@
     "vocation": [],
     "attack": 40,
     "level": 100,
-    "image": "https://tibiawiki.com.br/images/Sai_of_Enlightenment.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/54/Sai_of_Enlightenment.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -29992,7 +29992,7 @@
     "vocation": [],
     "attack": 45,
     "level": 600,
-    "image": "https://tibiawiki.com.br/images/Sanguine_Claws.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/21/Sanguine_Claws.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -30055,7 +30055,7 @@
     "vocation": [],
     "attack": 12,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Simple_Jo_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e5/Simple_Jo_Staff.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -30087,7 +30087,7 @@
     "vocation": [],
     "attack": 43,
     "level": 300,
-    "image": "https://tibiawiki.com.br/images/Siphoning_Inferniarch_Claws.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/90/Siphoning_Inferniarch_Claws.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -30147,7 +30147,7 @@
     "vocation": [],
     "attack": 22,
     "level": 15,
-    "image": "https://tibiawiki.com.br/images/Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0e/Staff.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -30179,7 +30179,7 @@
     "vocation": [],
     "attack": 46,
     "level": 1000,
-    "image": "https://tibiawiki.com.br/images/Stellar_Moonsilver_Katar.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/91/Stellar_Moonsilver_Katar.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -30244,7 +30244,7 @@
     "vocation": [],
     "attack": 27,
     "level": 30,
-    "image": "https://tibiawiki.com.br/images/Traditional_Sai.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/8b/Traditional_Sai.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -30276,7 +30276,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Ornate_Carving_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/05/Ornate_Carving_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30319,7 +30319,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Ornate_Carving_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/ea/Ornate_Carving_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30362,7 +30362,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Ornate_Mayhem_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d0/Ornate_Mayhem_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30405,7 +30405,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Ornate_Mayhem_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/ef/Ornate_Mayhem_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30448,7 +30448,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Ornate_Remedy_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/38/Ornate_Remedy_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30491,7 +30491,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Ornate_Remedy_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/32/Ornate_Remedy_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30534,7 +30534,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Plain_Carving_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/77/Plain_Carving_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30577,7 +30577,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Plain_Carving_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/da/Plain_Carving_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30620,7 +30620,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Plain_Mayhem_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c3/Plain_Mayhem_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30663,7 +30663,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Plain_Mayhem_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/ab/Plain_Mayhem_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30706,7 +30706,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Plain_Remedy_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3d/Plain_Remedy_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30749,7 +30749,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Plain_Remedy_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/ba/Plain_Remedy_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30792,7 +30792,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Valuable_Carving_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/22/Valuable_Carving_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30835,7 +30835,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Valuable_Carving_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c7/Valuable_Carving_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30878,7 +30878,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Valuable_Mayhem_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3a/Valuable_Mayhem_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30921,7 +30921,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Valuable_Mayhem_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c4/Valuable_Mayhem_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -30964,7 +30964,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Valuable_Remedy_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a5/Valuable_Remedy_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -31007,7 +31007,7 @@
     "vocation": [],
     "attack": 0,
     "level": 0,
-    "image": "https://tibiawiki.com.br/images/Valuable_Remedy_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/07/Valuable_Remedy_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {

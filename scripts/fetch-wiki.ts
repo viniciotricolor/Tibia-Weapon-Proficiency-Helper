@@ -9,9 +9,14 @@
 
 import * as fs from "fs";
 import * as path from "path";
+import { createHash } from "crypto";
 
 const WIKI_API = "https://tibiawiki.com.br/api.php";
 const USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36";
+
+function computeMD5(input: string): string {
+  return createHash("md5").update(input).digest("hex");
+}
 
 interface WeaponTier {
   tier: number;
@@ -169,7 +174,8 @@ function parseWeapon(wikitext: string, name: string, category: string): Weapon |
 
   const imgMatch = wikitext.match(/\[\[Imagem:([^\]|]+)/i);
   const imageName = imgMatch ? imgMatch[1].replace(/ /g, "_") : `${name.replace(/ /g, "_")}.gif`;
-  const image = `https://tibiawiki.com.br/images/${imageName}`;
+  const md5 = computeMD5(imageName);
+  const image = `https://www.tibiawiki.com.br/images/${md5[0]}/${md5.slice(0, 2)}/${imageName}`;
 
   const sourceRaw = getField(wikitext, "droppedby");
   const source = sourceRaw.replace(/\[\[.*?\|?(.*?)\]\]/g, "$1").replace(/\./g, "").trim();
