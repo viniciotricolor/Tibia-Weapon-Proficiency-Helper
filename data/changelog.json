@@ -1,6 +1,105 @@
 [
   {
-    "version": "2026.1",
+    "version": "v2.2",
+    "date": "2026-06-23",
+    "type": "major",
+    "changes": [
+      {
+        "weapon": "Hamburger Menu",
+        "change_type": "new_feature",
+        "after": "Menu hamburguer para navegacao mobile com todas as paginas"
+      },
+      {
+        "weapon": "Dark/Light Mode Toggle",
+        "change_type": "new_feature",
+        "after": "Botao visivel no header para alternar entre tema claro e escuro"
+      },
+      {
+        "weapon": "Smart Search",
+        "change_type": "new_feature",
+        "after": "Busca inteligente que sugere melhor arma ao digitar nome de monstro ou tipo bestiario"
+      },
+      {
+        "weapon": "Compare Weapons",
+        "change_type": "new_feature",
+        "after": "Nova pagina /compare para comparar ate 3 armas lado a lado com stats e perks"
+      },
+      {
+        "weapon": "Best in Slot",
+        "change_type": "new_feature",
+        "after": "Nova pagina /best-in-slot com melhor arma por vocation e faixa de nivel"
+      },
+      {
+        "weapon": "Share Builds",
+        "change_type": "new_feature",
+        "after": "Botao Share no simulator que copia URL com build configurada"
+      },
+      {
+        "weapon": "Boss/Source Filter",
+        "change_type": "new_feature",
+        "after": "Filtro por boss/fonte de drop: Bakragore, Oberon, Timira, Drume, Brainstealer, Rootkraken, Exaltation Forge"
+      },
+      {
+        "weapon": "All Weapons",
+        "change_type": "data_fix",
+        "after": "Corrigidos perks de 25+ armas baseado nos dados atualizados da TibiaWiki BR"
+      }
+    ]
+  },
+  {
+    "version": "v2.1",
+    "date": "2026-06-23",
+    "type": "minor",
+    "changes": [
+      {
+        "weapon": "All Weapons",
+        "change_type": "data_fix",
+        "after": "Corrigidos perks de 25+ armas baseado nos dados atualizados da TibiaWiki BR"
+      },
+      {
+        "weapon": "Lion Series",
+        "change_type": "data_fix",
+        "after": "Corrigido bestiario de Beast para Lycanthrope e ajustados perks tier 2"
+      },
+      {
+        "weapon": "Naga Series",
+        "change_type": "data_fix",
+        "after": "Sistema de perks completamente atualizado com Magic Level bonuses"
+      },
+      {
+        "weapon": "Amber Series",
+        "change_type": "data_fix",
+        "after": "Sistema de perks atualizado para 5 tiers com Annihilation e bestiario Demon"
+      },
+      {
+        "weapon": "Eldritch Series",
+        "change_type": "data_fix",
+        "after": "Sistema de perks atualizado com auto-attacks, Groundshaker e bestiario Magical"
+      },
+      {
+        "weapon": "Grand Sanguine Series",
+        "change_type": "data_fix",
+        "after": "Sistema de perks atualizado para 7 tiers com Fierce Berserk"
+      },
+      {
+        "weapon": "Crypt Series",
+        "change_type": "data_fix",
+        "after": "Sistema de perks atualizado com Berserk, piercing e 7+ tiers"
+      },
+      {
+        "weapon": "Soul Series",
+        "change_type": "data_fix",
+        "after": "Sistema de perks atualizado para 7 tiers com bestiario Inkborn"
+      },
+      {
+        "weapon": "Filter System",
+        "change_type": "new_feature",
+        "after": "Adicionado filtro por familia de armas (Falcon, Cobra, Lion, Naga, etc)"
+      }
+    ]
+  },
+  {
+    "version": "v2",
     "date": "2026-06-22",
     "type": "major",
     "changes": [
@@ -52,9 +151,9 @@
     ]
   },
   {
-    "version": "13.02",
+    "version": "v1.3",
     "date": "2025-07-16",
-    "type": "major",
+    "type": "minor",
     "changes": [
       {
         "weapon": "Weapon Proficiency System",
@@ -65,420 +164,47 @@
         "weapon": "All Weapons",
         "change_type": "mechanics_change",
         "after": "Weapons now have proficiency perks that unlock as you use them"
-      },
-      {
-        "weapon": "Falcon Longsword",
-        "change_type": "buff",
-        "after": "Added critical chance and critical damage perks"
-      },
-      {
-        "weapon": "Falcon Battleaxe",
-        "change_type": "buff",
-        "after": "Added critical chance and critical damage perks"
-      },
-      {
-        "weapon": "Falcon Mace",
-        "change_type": "buff",
-        "after": "Added critical chance and critical damage perks"
-      },
-      {
-        "weapon": "Falcon Rod",
-        "change_type": "buff",
-        "after": "Added mana on hit and life on kill perks"
-      },
-      {
-        "weapon": "Falcon Wand",
-        "change_type": "buff",
-        "after": "Added mana on hit and life on kill perks"
       }
     ]
   },
   {
-    "version": "13.00",
+    "version": "v1.2",
     "date": "2025-06-17",
-    "type": "major",
+    "type": "minor",
     "changes": [
       {
-        "weapon": "Cobra Sword",
+        "weapon": "Cobra Series",
         "change_type": "buff",
-        "before": "52 attack, no perks",
-        "after": "52 attack with critical chance and life on kill perks"
-      },
-      {
-        "weapon": "Cobra Axe",
-        "change_type": "buff",
-        "before": "44 attack, no perks",
-        "after": "44 attack with critical chance and life on kill perks"
-      },
-      {
-        "weapon": "Cobra Club",
-        "change_type": "buff",
-        "before": "44 attack, no perks",
-        "after": "44 attack with critical chance and life on kill perks"
-      },
-      {
-        "weapon": "Cobra Rod",
-        "change_type": "buff",
-        "before": "No perks",
-        "after": "Added mana on hit and life on kill perks"
-      },
-      {
-        "weapon": "Cobra Wand",
-        "change_type": "buff",
-        "before": "No perks",
-        "after": "Added mana on hit and life on kill perks"
+        "after": "Added critical chance and life on kill perks to all Cobra weapons"
       },
       {
         "weapon": "Gnome Sword",
         "change_type": "buff",
-        "before": "42 attack, Sword Fighting +1",
-        "after": "42 attack with critical chance perk and Sword Fighting +1"
+        "after": "Added critical chance perk and Sword Fighting +1"
       }
     ]
   },
   {
-    "version": "12.90",
+    "version": "v1.1",
     "date": "2025-03-20",
-    "type": "major",
+    "type": "minor",
     "changes": [
       {
-        "weapon": "Eldritch Claymore",
+        "weapon": "Eldritch Series",
         "change_type": "new_weapon",
-        "after": "New two-handed sword with critical chance, critical damage and shielding perks"
-      },
-      {
-        "weapon": "Eldritch Greataxe",
-        "change_type": "new_weapon",
-        "after": "New two-handed axe with critical chance, critical damage and shielding perks"
-      },
-      {
-        "weapon": "Eldritch Warmace",
-        "change_type": "new_weapon",
-        "after": "New two-handed club with critical chance, critical damage and shielding perks"
-      },
-      {
-        "weapon": "Eldritch Rod",
-        "change_type": "new_weapon",
-        "after": "New rod with mana on kill, life on hit and critical chance perks"
-      },
-      {
-        "weapon": "Eldritch Wand",
-        "change_type": "new_weapon",
-        "after": "New wand with mana on kill, life on hit and critical chance perks"
-      },
-      {
-        "weapon": "Gilded Eldritch Claymore",
-        "change_type": "new_weapon",
-        "after": "Gilded version of Eldritch Claymore"
-      },
-      {
-        "weapon": "Gilded Eldritch Greataxe",
-        "change_type": "new_weapon",
-        "after": "Gilded version of Eldritch Greataxe"
-      },
-      {
-        "weapon": "Gilded Eldritch Warmace",
-        "change_type": "new_weapon",
-        "after": "Gilded version of Eldritch Warmace"
-      },
-      {
-        "weapon": "Gilded Eldritch Rod",
-        "change_type": "new_weapon",
-        "after": "Gilded version of Eldritch Rod"
-      },
-      {
-        "weapon": "Gilded Eldritch Wand",
-        "change_type": "new_weapon",
-        "after": "Gilded version of Eldritch Wand"
+        "after": "New Eldritch weapons with critical chance, critical damage and shielding perks"
       }
     ]
   },
   {
-    "version": "12.80",
+    "version": "v1.0",
     "date": "2024-12-12",
     "type": "major",
     "changes": [
       {
-        "weapon": "Lion Longsword",
+        "weapon": "Lion Series",
         "change_type": "new_weapon",
-        "after": "New one-handed sword with critical chance and life on kill perks"
-      },
-      {
-        "weapon": "Lion Axe",
-        "change_type": "new_weapon",
-        "after": "New one-handed axe with critical chance and life on kill perks"
-      },
-      {
-        "weapon": "Lion Hammer",
-        "change_type": "new_weapon",
-        "after": "New one-handed club with critical chance and life on kill perks"
-      },
-      {
-        "weapon": "Lion Rod",
-        "change_type": "new_weapon",
-        "after": "New rod with mana on kill and life on kill perks"
-      },
-      {
-        "weapon": "Lion Wand",
-        "change_type": "new_weapon",
-        "after": "New wand with mana on kill and life on kill perks"
-      }
-    ]
-  },
-  {
-    "version": "12.70",
-    "date": "2024-09-18",
-    "type": "minor",
-    "changes": [
-      {
-        "weapon": "Naga Sword",
-        "change_type": "new_weapon",
-        "after": "New one-handed sword with critical chance and melee skill perks"
-      },
-      {
-        "weapon": "Naga Axe",
-        "change_type": "new_weapon",
-        "after": "New one-handed axe with critical chance and melee skill perks"
-      },
-      {
-        "weapon": "Naga Club",
-        "change_type": "new_weapon",
-        "after": "New one-handed club with critical chance and melee skill perks"
-      },
-      {
-        "weapon": "Naga Rod",
-        "change_type": "new_weapon",
-        "after": "New rod with mana on kill and magic level perks"
-      },
-      {
-        "weapon": "Naga Wand",
-        "change_type": "new_weapon",
-        "after": "New wand with mana on kill and magic level perks"
-      }
-    ]
-  },
-  {
-    "version": "12.60",
-    "date": "2024-06-13",
-    "type": "major",
-    "changes": [
-      {
-        "weapon": "Amber Sabre",
-        "change_type": "new_weapon",
-        "after": "New one-handed sword with critical chance and speed perks"
-      },
-      {
-        "weapon": "Amber Slayer",
-        "change_type": "new_weapon",
-        "after": "New two-handed sword with critical chance and speed perks"
-      },
-      {
-        "weapon": "Amber Axe",
-        "change_type": "new_weapon",
-        "after": "New one-handed axe with critical chance and speed perks"
-      },
-      {
-        "weapon": "Amber Greataxe",
-        "change_type": "new_weapon",
-        "after": "New two-handed axe with critical chance and speed perks"
-      },
-      {
-        "weapon": "Amber Bludgeon",
-        "change_type": "new_weapon",
-        "after": "New two-handed club with critical chance and speed perks"
-      },
-      {
-        "weapon": "Amber Cudgel",
-        "change_type": "new_weapon",
-        "after": "New one-handed club with critical chance and speed perks"
-      },
-      {
-        "weapon": "Amber Rod",
-        "change_type": "new_weapon",
-        "after": "New rod with mana on kill and life on kill perks"
-      },
-      {
-        "weapon": "Amber Wand",
-        "change_type": "new_weapon",
-        "after": "New wand with mana on kill and life on kill perks"
-      }
-    ]
-  },
-  {
-    "version": "12.50",
-    "date": "2024-03-14",
-    "type": "minor",
-    "changes": [
-      {
-        "weapon": "Crypt Slicer",
-        "change_type": "new_weapon",
-        "after": "New two-handed sword with enhanced critical chance and critical damage perks"
-      },
-      {
-        "weapon": "Crypt Splitter",
-        "change_type": "new_weapon",
-        "after": "New two-handed axe with enhanced critical chance and critical damage perks"
-      },
-      {
-        "weapon": "Crypt Breaker",
-        "change_type": "new_weapon",
-        "after": "New two-handed club with enhanced critical chance and critical damage perks"
-      },
-      {
-        "weapon": "Crypt Jaw",
-        "change_type": "new_weapon",
-        "after": "New rod with mana on kill, life on kill and critical chance perks"
-      },
-      {
-        "weapon": "Crypt Bile",
-        "change_type": "new_weapon",
-        "after": "New wand with mana on kill, life on kill and critical chance perks"
-      }
-    ]
-  },
-  {
-    "version": "12.40",
-    "date": "2023-12-07",
-    "type": "major",
-    "changes": [
-      {
-        "weapon": "Grand Sanguine Blade",
-        "change_type": "new_weapon",
-        "after": "New top-tier sword with critical chance, critical damage and life on kill perks"
-      },
-      {
-        "weapon": "Grand Sanguine Razor",
-        "change_type": "new_weapon",
-        "after": "New top-tier two-handed sword with critical chance, critical damage and life on kill perks"
-      },
-      {
-        "weapon": "Grand Sanguine Hatchet",
-        "change_type": "new_weapon",
-        "after": "New top-tier axe with critical chance, critical damage and life on kill perks"
-      },
-      {
-        "weapon": "Grand Sanguine Battleaxe",
-        "change_type": "new_weapon",
-        "after": "New top-tier two-handed axe with critical chance, critical damage and life on kill perks"
-      },
-      {
-        "weapon": "Grand Sanguine Cudgel",
-        "change_type": "new_weapon",
-        "after": "New top-tier club with critical chance, critical damage and life on kill perks"
-      },
-      {
-        "weapon": "Grand Sanguine Bludgeon",
-        "change_type": "new_weapon",
-        "after": "New top-tier two-handed club with critical chance, critical damage and life on kill perks"
-      },
-      {
-        "weapon": "Grand Sanguine Rod",
-        "change_type": "new_weapon",
-        "after": "New top-tier rod with mana on kill, life on kill and critical chance perks"
-      },
-      {
-        "weapon": "Grand Sanguine Coil",
-        "change_type": "new_weapon",
-        "after": "New top-tier wand with mana on kill, life on kill and critical chance perks"
-      }
-    ]
-  },
-  {
-    "version": "12.30",
-    "date": "2023-09-14",
-    "type": "minor",
-    "changes": [
-      {
-        "weapon": "Inferniarch Blade",
-        "change_type": "new_weapon",
-        "after": "New one-handed sword with life on hit and critical chance perks"
-      },
-      {
-        "weapon": "Inferniarch Slayer",
-        "change_type": "new_weapon",
-        "after": "New two-handed sword with life on hit and critical damage perks"
-      },
-      {
-        "weapon": "Inferniarch Battleaxe",
-        "change_type": "new_weapon",
-        "after": "New one-handed axe with life on hit and critical chance perks"
-      },
-      {
-        "weapon": "Inferniarch Greataxe",
-        "change_type": "new_weapon",
-        "after": "New two-handed axe with life on hit and critical damage perks"
-      },
-      {
-        "weapon": "Inferniarch Flail",
-        "change_type": "new_weapon",
-        "after": "New one-handed club with life on hit and critical chance perks"
-      },
-      {
-        "weapon": "Inferniarch Warhammer",
-        "change_type": "new_weapon",
-        "after": "New two-handed club with life on hit and critical damage perks"
-      },
-      {
-        "weapon": "Inferniarch Rod",
-        "change_type": "new_weapon",
-        "after": "New rod with mana on hit and life on kill perks"
-      },
-      {
-        "weapon": "Inferniarch Wand",
-        "change_type": "new_weapon",
-        "after": "New wand with mana on hit and life on kill perks"
-      }
-    ]
-  },
-  {
-    "version": "12.02",
-    "date": "2023-06-15",
-    "type": "minor",
-    "changes": [
-      {
-        "weapon": "Soulhexer",
-        "change_type": "buff",
-        "after": "Added mana on kill, life on hit and critical chance perks"
-      },
-      {
-        "weapon": "Soultainter",
-        "change_type": "buff",
-        "after": "Added mana on kill, life on hit and critical chance perks"
-      },
-      {
-        "weapon": "Blade of Destruction",
-        "change_type": "buff",
-        "after": "Added critical chance and critical damage perks"
-      },
-      {
-        "weapon": "Axe of Destruction",
-        "change_type": "buff",
-        "after": "Added critical chance and critical damage perks"
-      },
-      {
-        "weapon": "Mace of Destruction",
-        "change_type": "buff",
-        "after": "Added critical chance and critical damage perks"
-      },
-      {
-        "weapon": "Rod of Destruction",
-        "change_type": "buff",
-        "after": "Added mana on hit and life on kill perks"
-      },
-      {
-        "weapon": "Wand of Destruction",
-        "change_type": "buff",
-        "after": "Added mana on hit and life on kill perks"
-      },
-      {
-        "weapon": "Chopper of Destruction",
-        "change_type": "buff",
-        "after": "Added critical chance and critical damage perks"
-      },
-      {
-        "weapon": "Hammer of Destruction",
-        "change_type": "buff",
-        "after": "Added critical chance and critical damage perks"
+        "after": "New Lion weapons with critical chance and life on kill perks"
       }
     ]
   }

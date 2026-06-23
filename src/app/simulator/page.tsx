@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { motion } from "motion/react";
 import {
   Calculator, Plus, RotateCcw, Swords, Shield, Heart,
-  Droplets, Zap, Star, Gem, RefreshCw, Trash2,
+  Droplets, Zap, Star, Gem, RefreshCw, Trash2, Share2, Check,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -102,6 +102,7 @@ export default function SimulatorPage() {
   const [selectedTiers, setSelectedTiers] = useState<Set<number>>(new Set());
   const [modifications, setModifications] = useState<ModifiedSlot[]>([]);
   const [showEffectPicker, setShowEffectPicker] = useState<{ tier: number; perkIndex: number } | null>(null);
+  const [copied, setCopied] = useState(false);
 
   const selectedWeapon = useMemo(() => allWeapons.find((w) => w.id === selectedWeaponId), [selectedWeaponId]);
 
@@ -171,6 +172,26 @@ export default function SimulatorPage() {
   };
 
   const sortedWeapons = [...allWeapons].sort((a, b) => a.name.localeCompare(b.name));
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      const w = params.get("w");
+      const t = params.get("t");
+      if (w) setSelectedWeaponId(w);
+      if (t) setSelectedTiers(new Set(t.split(",").map(Number)));
+    }
+  }, []);
+
+  const shareBuild = () => {
+    const params = new URLSearchParams();
+    if (selectedWeaponId) params.set("w", selectedWeaponId);
+    if (selectedTiers.size > 0) params.set("t", Array.from(selectedTiers).join(","));
+    const url = `${window.location.origin}/simulator?${params.toString()}`;
+    navigator.clipboard.writeText(url);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   return (
     <div className="container mx-auto px-4 py-8 max-w-5xl">
@@ -371,7 +392,13 @@ export default function SimulatorPage() {
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <CardTitle className="text-sm">Resumo dos Stats</CardTitle>
-                  <Button variant="ghost" size="sm" onClick={reset}><RotateCcw className="h-3 w-3 mr-1" />Reset</Button>
+                  <div className="flex gap-1">
+                    <Button variant="ghost" size="sm" onClick={shareBuild}>
+                      {copied ? <Check className="h-3 w-3 mr-1" /> : <Share2 className="h-3 w-3 mr-1" />}
+                      {copied ? "Copied!" : "Share"}
+                    </Button>
+                    <Button variant="ghost" size="sm" onClick={reset}><RotateCcw className="h-3 w-3 mr-1" />Reset</Button>
+                  </div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-4">

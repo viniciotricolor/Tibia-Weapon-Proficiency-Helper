@@ -19,6 +19,8 @@ export default function WeaponsPage() {
     handSlots: [],
     weaponTypes: [],
     vocations: [],
+    families: [],
+    sources: [],
     minTier: 1,
     perkSearch: "",
     selectedPerks: [],
@@ -41,6 +43,20 @@ export default function WeaponsPage() {
       result = result.filter((w) =>
         filters.vocations.some((v) => w.vocation.includes(v as never))
       );
+    }
+
+    if (filters.families.length > 0) {
+      result = result.filter((w) => {
+        const nameLower = w.name.toLowerCase();
+        return filters.families.some((f) => nameLower.includes(f));
+      });
+    }
+
+    if (filters.sources.length > 0) {
+      result = result.filter((w) => {
+        const sourceLower = w.source.toLowerCase();
+        return filters.sources.some((s) => sourceLower.includes(s));
+      });
     }
 
     if (filters.perkSearch) {
@@ -98,6 +114,8 @@ export default function WeaponsPage() {
       handSlots: [],
       weaponTypes: [],
       vocations: [],
+      families: [],
+      sources: [],
       minTier: 1,
       perkSearch: "",
       selectedPerks: [],

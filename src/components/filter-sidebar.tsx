@@ -12,6 +12,8 @@ export type FilterState = {
   handSlots: string[];
   weaponTypes: string[];
   vocations: string[];
+  families: string[];
+  sources: string[];
   minTier: number;
   perkSearch: string;
   selectedPerks: string[];
@@ -40,6 +42,29 @@ const vocations = [
   { id: "paladin", label: "Paladin" },
   { id: "sorcerer", label: "Sorcerer" },
   { id: "druid", label: "Druid" },
+];
+
+const weaponFamilies = [
+  { id: "falcon", label: "Falcon" },
+  { id: "cobra", label: "Cobra" },
+  { id: "lion", label: "Lion" },
+  { id: "naga", label: "Naga" },
+  { id: "amber", label: "Amber" },
+  { id: "eldritch", label: "Eldritch" },
+  { id: "grand sanguine", label: "Grand Sanguine" },
+  { id: "crypt", label: "Crypt" },
+  { id: "soul", label: "Soul" },
+  { id: "gnome", label: "Gnome" },
+];
+
+const weaponSources = [
+  { id: "bakragore", label: "Bakragore" },
+  { id: "oberon", label: "Grand Master Oberon" },
+  { id: "timira", label: "Timira" },
+  { id: "drume", label: "Drume" },
+  { id: "brainstealer", label: "The Brainstealer" },
+  { id: "rootkraken", label: "The Rootkraken" },
+  { id: "exaltation", label: "Exaltation Forge" },
 ];
 
 const perkCategories = [
@@ -81,6 +106,22 @@ const perkCategories = [
       { id: "insect", label: "Insect", icon: Bug, color: "text-yellow-600" },
       { id: "undead", label: "Undead", icon: Skull, color: "text-gray-500" },
       { id: "demon", label: "Demon", icon: Skull, color: "text-red-600" },
+      { id: "lycanthrope", label: "Lycanthrope", icon: Bug, color: "text-orange-600" },
+      { id: "magical", label: "Magical", icon: Sparkles, color: "text-purple-500" },
+      { id: "dragon", label: "Dragon", icon: Bug, color: "text-red-500" },
+      { id: "amphibian", label: "Amphibian", icon: Bug, color: "text-teal-500" },
+      { id: "construct", label: "Construct", icon: Bug, color: "text-stone-500" },
+      { id: "demonoid", label: "Demonoid", icon: Skull, color: "text-rose-600" },
+      { id: "exotic", label: "Exotic", icon: Bug, color: "text-fuchsia-500" },
+      { id: "fauna", label: "Fauna", icon: Bug, color: "text-lime-600" },
+      { id: "giant", label: "Giant", icon: Bug, color: "text-amber-600" },
+      { id: "humanoid", label: "Humanoid", icon: Bug, color: "text-sky-500" },
+      { id: "plant", label: "Plant", icon: Bug, color: "text-green-600" },
+      { id: "spirit", label: "Spirit", icon: Sparkles, color: "text-indigo-400" },
+      { id: "vermin", label: "Vermin", icon: Bug, color: "text-yellow-700" },
+      { id: "animal", label: "Animal", icon: Bug, color: "text-orange-400" },
+      { id: "bog", label: "Bog", icon: Bug, color: "text-emerald-700" },
+      { id: "inkborn", label: "Inkborn", icon: Bug, color: "text-violet-600" },
     ],
   },
   {
@@ -147,6 +188,8 @@ export function FilterSidebar({
       handSlots: [],
       weaponTypes: [],
       vocations: [],
+      families: [],
+      sources: [],
       minTier: 1,
       perkSearch: "",
       selectedPerks: [],
@@ -157,6 +200,8 @@ export function FilterSidebar({
     filters.handSlots.length +
     filters.weaponTypes.length +
     filters.vocations.length +
+    filters.families.length +
+    filters.sources.length +
     (filters.minTier > 1 ? 1 : 0) +
     (filters.perkSearch ? 1 : 0) +
     filters.selectedPerks.length;
@@ -229,6 +274,34 @@ export function FilterSidebar({
                 onCheckedChange={() => toggleFilter("handSlots", h.id)}
               />
               {h.label}
+            </label>
+          ))}
+        </FilterSection>
+
+        <Separator />
+
+        <FilterSection title="Weapon Family" icon={Star}>
+          {weaponFamilies.map((f) => (
+            <label key={f.id} className="flex items-center gap-2 text-sm cursor-pointer py-1">
+              <Checkbox
+                checked={filters.families.includes(f.id)}
+                onCheckedChange={() => toggleFilter("families", f.id)}
+              />
+              {f.label}
+            </label>
+          ))}
+        </FilterSection>
+
+        <Separator />
+
+        <FilterSection title="Source / Boss">
+          {weaponSources.map((s) => (
+            <label key={s.id} className="flex items-center gap-2 text-sm cursor-pointer py-1">
+              <Checkbox
+                checked={filters.sources.includes(s.id)}
+                onCheckedChange={() => toggleFilter("sources", s.id)}
+              />
+              {s.label}
             </label>
           ))}
         </FilterSection>
