@@ -13,16 +13,30 @@ interface SearchCommandProps {
 }
 
 const bestiaryMap: Record<string, string[]> = {
-  "mammal": ["mammal"],
-  "bird": ["bird", "ave"],
-  "beast": ["beast", "animal"],
+  "mammal": ["mammal", "mamífero"],
+  "bird": ["bird", "ave", "pássaro"],
+  "beast": ["beast", "animal", "besta"],
   "reptile": ["reptile", "reptil"],
   "insect": ["insect", "inseto"],
-  "undead": ["undead", "morto-vivo", "zumbi", "esqueleto", "fantasma"],
-  "demon": ["demon", "demônio", "diabo"],
+  "undead": ["undead", "morto-vivo", "zumbi", "esqueleto", "fantasma", "undead"],
+  "demon": ["demon", "demônio", "diabo", "demon"],
   "magical": ["magical", "mágica", "elemental"],
   "lycanthrope": ["lycanthrope", "licântrope", "werewolf", "lobisomem"],
   "inkborn": ["inkborn", "ink"],
+  "dragon": ["dragon", "dragão"],
+  "amphibian": ["amphibian", "anfíbio"],
+  "construct": ["construct", "construto", "golem"],
+  "demonoid": ["demonoid", "demonóide"],
+  "exotic": ["exotic", "exótico"],
+  "fauna": ["fauna"],
+  "giant": ["giant", "gigante"],
+  "humanoid": ["humanoid", "humanoide"],
+  "plant": ["plant", "planta"],
+  "spirit": ["spirit", "espírito", "ghost", "fantasma"],
+  "vermin": ["vermin", "verme", "praga"],
+  "animal": ["animal"],
+  "bog": ["bog", "pântano"],
+  "aquatic": ["aquatic", "aquático", "water", "água"],
 };
 
 function scoreWeapon(weapon: Weapon, query: string): number {

@@ -1,5 +1,72 @@
 [
   {
+    "version": "v3.0",
+    "date": "2026-06-23",
+    "type": "major",
+    "changes": [
+      {
+        "weapon": "665 Armas Completas",
+        "change_type": "data_fix",
+        "after": "Banco de dados completo com todas as 665 armas com proficiencia do Tibia"
+      },
+      {
+        "weapon": "Scraper Automatico",
+        "change_type": "new_feature",
+        "after": "Script fetch-wiki.ts busca armas e perks automaticamente do TibiaWiki via API"
+      },
+      {
+        "weapon": "i18n PT-BR / EN",
+        "change_type": "new_feature",
+        "after": "Suporte a dois idiomas com botao de alternancia no header"
+      },
+      {
+        "weapon": "URL com Filtros",
+        "change_type": "new_feature",
+        "after": "Filtros persistem na URL para compartilhamento (ex: /weapons?type=sword&vocation=knight)"
+      },
+      {
+        "weapon": "Favoritos",
+        "change_type": "new_feature",
+        "after": "Salve armas favoritas no localStorage com botao de coracao no detalhe"
+      },
+      {
+        "weapon": "Armas Similares",
+        "change_type": "new_feature",
+        "after": "Secao no detalhe da arma mostra armas do mesmo tipo e vocacao"
+      },
+      {
+        "weapon": "Exportar Build",
+        "change_type": "new_feature",
+        "after": "Botao no simulador copia build formatada como texto"
+      },
+      {
+        "weapon": "Stats Agregados",
+        "change_type": "new_feature",
+        "after": "Barra no topo de /weapons mostra total, com perks, media de tiers e familias"
+      },
+      {
+        "weapon": "Update Notifier",
+        "change_type": "new_feature",
+        "after": "Notificacao quando novos dados estao disponiveis"
+      },
+      {
+        "weapon": "Filtros Completos",
+        "change_type": "data_fix",
+        "after": "9 tipos de arma, 5 vocations (incluindo Monk), 50+ familias, 28 bosses"
+      },
+      {
+        "weapon": "Busca Inteligente no Simulador",
+        "change_type": "new_feature",
+        "after": "Campo de busca com autocomplete substitui dropdown de 665 armas"
+      },
+      {
+        "weapon": "Monk Support",
+        "change_type": "new_feature",
+        "after": "Vocacao Monk adicionada em todas as paginas e filtros"
+      }
+    ]
+  },
+  {
     "version": "v2.2",
     "date": "2026-06-23",
     "type": "major",

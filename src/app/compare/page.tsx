@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef, useEffect } from "react";
 import { motion } from "motion/react";
-import { GitCompareArrows, X } from "lucide-react";
+import { GitCompareArrows, X, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -48,6 +48,29 @@ export default function ComparePage() {
 
   const sortedWeapons = [...allWeapons].sort((a, b) => a.name.localeCompare(b.name));
 
+  const [weaponSearch, setWeaponSearch] = useState("");
+  const [showWeaponList, setShowWeaponList] = useState(false);
+  const weaponListRef = useRef<HTMLDivElement>(null);
+
+  const filteredWeapons = useMemo(() => {
+    if (!weaponSearch) return sortedWeapons.filter((w) => !selectedIds.includes(w.id)).slice(0, 50);
+    const q = weaponSearch.toLowerCase();
+    return sortedWeapons
+      .filter((w) => !selectedIds.includes(w.id))
+      .filter((w) => w.name.toLowerCase().includes(q) || w.type.toLowerCase().includes(q) || w.vocation.some((v) => v.includes(q)))
+      .slice(0, 50);
+  }, [weaponSearch, selectedIds]);
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (weaponListRef.current && !weaponListRef.current.contains(e.target as Node)) {
+        setShowWeaponList(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
   return (
     <div className="container mx-auto px-4 py-8 max-w-5xl">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
@@ -62,15 +85,42 @@ export default function ComparePage() {
         <Card className="mb-6">
           <CardHeader><CardTitle className="text-sm">Adicionar Arma</CardTitle></CardHeader>
           <CardContent>
-            <select
-              onChange={(e) => { if (e.target.value) { addWeapon(e.target.value); e.target.value = ""; } }}
-              className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
-            >
-              <option value="">Selecione uma arma...</option>
-              {sortedWeapons.filter((w) => !selectedIds.includes(w.id)).map((w) => (
-                <option key={w.id} value={w.id}>[{w.type}] {w.name} - Lvl {w.level}</option>
-              ))}
-            </select>
+            <div className="relative" ref={weaponListRef}>
+              <div className="relative">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+                <input
+                  type="text"
+                  value={weaponSearch}
+                  onChange={(e) => { setWeaponSearch(e.target.value); setShowWeaponList(true); }}
+                  onFocus={() => setShowWeaponList(true)}
+                  placeholder="Buscar arma por nome, tipo ou vocation..."
+                  className="w-full rounded-md border border-input bg-background pl-9 pr-3 py-2 text-sm"
+                />
+              </div>
+              {showWeaponList && (
+                <div className="absolute z-50 w-full mt-1 bg-background border rounded-md shadow-lg max-h-60 overflow-y-auto">
+                  {filteredWeapons.length === 0 ? (
+                    <div className="p-3 text-sm text-muted-foreground text-center">Nenhuma arma encontrada</div>
+                  ) : (
+                    filteredWeapons.map((w) => (
+                      <button
+                        key={w.id}
+                        className="w-full text-left px-3 py-2 text-sm hover:bg-accent flex items-center gap-2"
+                        onClick={() => {
+                          addWeapon(w.id);
+                          setShowWeaponList(false);
+                          setWeaponSearch("");
+                        }}
+                      >
+                        <span className="text-muted-foreground capitalize text-xs">{w.type}</span>
+                        <span className="font-medium">{w.name}</span>
+                        <span className="ml-auto text-xs text-muted-foreground">Lvl {w.level}</span>
+                      </button>
+                    ))
+                  )}
+                </div>
+              )}
+            </div>
           </CardContent>
         </Card>
 

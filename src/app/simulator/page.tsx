@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import { motion } from "motion/react";
 import {
   Calculator, Plus, RotateCcw, Swords, Shield, Heart,
-  Droplets, Zap, Star, Gem, RefreshCw, Trash2, Share2, Check,
+  Droplets, Zap, Star, Gem, RefreshCw, Trash2, Share2, Check, Search,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -15,6 +15,7 @@ import {
   type Weapon,
   MODIFICATION_EFFECTS, MODIFICATION_COSTS, REQUIRED_LEVELS,
 } from "@/lib/types";
+import { useI18n } from "@/components/i18n-provider";
 import { cn } from "@/lib/utils";
 
 const allWeapons = weapons as Weapon[];
@@ -24,6 +25,7 @@ const vocationColors: Record<string, string> = {
   paladin: "bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400",
   sorcerer: "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400",
   druid: "bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400",
+  monk: "bg-violet-100 text-violet-700 dark:bg-violet-900/30 dark:text-violet-400",
 };
 
 type SelectedPerk = {
@@ -97,6 +99,7 @@ function parsePerkStats(perks: SelectedPerk[], modifications: ModifiedSlot[]) {
 }
 
 export default function SimulatorPage() {
+  const { t } = useI18n();
   const [tab, setTab] = useState("proficiency");
   const [selectedWeaponId, setSelectedWeaponId] = useState("");
   const [selectedTiers, setSelectedTiers] = useState<Set<number>>(new Set());
@@ -173,6 +176,28 @@ export default function SimulatorPage() {
 
   const sortedWeapons = [...allWeapons].sort((a, b) => a.name.localeCompare(b.name));
 
+  const [weaponSearch, setWeaponSearch] = useState("");
+  const [showWeaponList, setShowWeaponList] = useState(false);
+  const weaponListRef = useRef<HTMLDivElement>(null);
+
+  const filteredWeapons = useMemo(() => {
+    if (!weaponSearch) return sortedWeapons.slice(0, 50);
+    const q = weaponSearch.toLowerCase();
+    return sortedWeapons
+      .filter((w) => w.name.toLowerCase().includes(q) || w.type.toLowerCase().includes(q) || w.vocation.some((v) => v.includes(q)))
+      .slice(0, 50);
+  }, [weaponSearch]);
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (weaponListRef.current && !weaponListRef.current.contains(e.target as Node)) {
+        setShowWeaponList(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
   useEffect(() => {
     if (typeof window !== "undefined") {
       const params = new URLSearchParams(window.location.search);
@@ -189,6 +214,35 @@ export default function SimulatorPage() {
     if (selectedTiers.size > 0) params.set("t", Array.from(selectedTiers).join(","));
     const url = `${window.location.origin}/simulator?${params.toString()}`;
     navigator.clipboard.writeText(url);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
+  const exportBuild = () => {
+    if (!selectedWeapon) return;
+    const lines = [
+      `${selectedWeapon.name} (${selectedWeapon.type})`,
+      `Level: ${selectedWeapon.level} | Atk: ${selectedWeapon.attack} | ${selectedWeapon.hand}`,
+      `Vocation: ${selectedWeapon.vocation.join(", ")}`,
+      "",
+      "Selected Perks:",
+      ...selectedPerks.map((p) => `  T${p.tier}: ${p.perk}`),
+    ];
+    if (modifications.length > 0) {
+      lines.push("", "Modifications:");
+      modifications.forEach((m) => {
+        const eff = MODIFICATION_EFFECTS.find((e) => e.id === m.effectId);
+        lines.push(`  ${eff?.name} ${eff?.values[m.valueIndex]}`);
+      });
+    }
+    lines.push("", "Stats:");
+    if (stats.attack > 0) lines.push(`  Attack: +${stats.attack}`);
+    if (stats.defence > 0) lines.push(`  Defence: +${stats.defence}`);
+    if (stats.criticalChance > 0) lines.push(`  Crit: +${stats.criticalChance.toFixed(1)}%`);
+    if (stats.criticalDamage > 0) lines.push(`  Crit DMG: +${stats.criticalDamage.toFixed(1)}%`);
+    if (stats.magicLevel > 0) lines.push(`  ML: +${stats.magicLevel}`);
+    if (stats.cooldownReduction > 0) lines.push(`  CDR: -${stats.cooldownReduction}s`);
+    navigator.clipboard.writeText(lines.join("\n"));
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -216,16 +270,44 @@ export default function SimulatorPage() {
             <Card>
               <CardHeader><CardTitle className="text-sm">1. Selecione a Arma</CardTitle></CardHeader>
               <CardContent>
-                <select
-                  value={selectedWeaponId}
-                  onChange={(e) => { setSelectedWeaponId(e.target.value); setSelectedTiers(new Set()); setModifications([]); }}
-                  className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
-                >
-                  <option value="">Escolha uma arma...</option>
-                  {sortedWeapons.map((w) => (
-                    <option key={w.id} value={w.id}>[{w.type}] {w.name} - Lvl {w.level}</option>
-                  ))}
-                </select>
+                <div className="relative" ref={weaponListRef}>
+                  <div className="relative">
+                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+                    <input
+                      type="text"
+                      value={showWeaponList ? weaponSearch : selectedWeapon ? `[${selectedWeapon.type}] ${selectedWeapon.name}` : ""}
+                      onChange={(e) => { setWeaponSearch(e.target.value); setShowWeaponList(true); }}
+                      onFocus={() => { setShowWeaponList(true); setWeaponSearch(""); }}
+                      placeholder="Buscar arma por nome, tipo ou vocation..."
+                      className="w-full rounded-md border border-input bg-background pl-9 pr-3 py-2 text-sm"
+                    />
+                  </div>
+                  {showWeaponList && (
+                    <div className="absolute z-50 w-full mt-1 bg-background border rounded-md shadow-lg max-h-60 overflow-y-auto">
+                      {filteredWeapons.length === 0 ? (
+                        <div className="p-3 text-sm text-muted-foreground text-center">Nenhuma arma encontrada</div>
+                      ) : (
+                        filteredWeapons.map((w) => (
+                          <button
+                            key={w.id}
+                            className="w-full text-left px-3 py-2 text-sm hover:bg-accent flex items-center gap-2"
+                            onClick={() => {
+                              setSelectedWeaponId(w.id);
+                              setSelectedTiers(new Set());
+                              setModifications([]);
+                              setShowWeaponList(false);
+                              setWeaponSearch("");
+                            }}
+                          >
+                            <span className="text-muted-foreground capitalize text-xs">{w.type}</span>
+                            <span className="font-medium">{w.name}</span>
+                            <span className="ml-auto text-xs text-muted-foreground">Lvl {w.level}</span>
+                          </button>
+                        ))
+                      )}
+                    </div>
+                  )}
+                </div>
               </CardContent>
             </Card>
 
@@ -395,9 +477,15 @@ export default function SimulatorPage() {
                   <div className="flex gap-1">
                     <Button variant="ghost" size="sm" onClick={shareBuild}>
                       {copied ? <Check className="h-3 w-3 mr-1" /> : <Share2 className="h-3 w-3 mr-1" />}
-                      {copied ? "Copied!" : "Share"}
+                      {copied ? t.simulator.copied : t.simulator.share}
                     </Button>
-                    <Button variant="ghost" size="sm" onClick={reset}><RotateCcw className="h-3 w-3 mr-1" />Reset</Button>
+                    {selectedWeapon && (
+                      <Button variant="ghost" size="sm" onClick={exportBuild}>
+                        <Share2 className="h-3 w-3 mr-1" />
+                        {t.export.copyText}
+                      </Button>
+                    )}
+                    <Button variant="ghost" size="sm" onClick={reset}><RotateCcw className="h-3 w-3 mr-1" />{t.simulator.reset}</Button>
                   </div>
                 </div>
               </CardHeader>

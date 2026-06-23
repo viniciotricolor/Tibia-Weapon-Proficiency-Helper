@@ -17,6 +17,7 @@ const vocationLabels: Record<string, string> = {
   paladin: "Paladin",
   sorcerer: "Sorcerer",
   druid: "Druid",
+  monk: "Monk",
 };
 
 const vocationColors: Record<string, string> = {
@@ -24,6 +25,7 @@ const vocationColors: Record<string, string> = {
   paladin: "bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400",
   sorcerer: "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400",
   druid: "bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400",
+  monk: "bg-violet-100 text-violet-700 dark:bg-violet-900/30 dark:text-violet-400",
 };
 
 const levelRanges = [

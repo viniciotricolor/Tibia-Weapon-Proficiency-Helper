@@ -35,6 +35,10 @@ const weaponTypes = [
   { id: "club", label: "Clubs" },
   { id: "rod", label: "Rods" },
   { id: "wand", label: "Wands" },
+  { id: "bow", label: "Bows" },
+  { id: "crossbow", label: "Crossbows" },
+  { id: "distance", label: "Distance" },
+  { id: "fist", label: "Fists" },
 ];
 
 const vocations = [
@@ -42,6 +46,7 @@ const vocations = [
   { id: "paladin", label: "Paladin" },
   { id: "sorcerer", label: "Sorcerer" },
   { id: "druid", label: "Druid" },
+  { id: "monk", label: "Monk" },
 ];
 
 const weaponFamilies = [
@@ -51,10 +56,52 @@ const weaponFamilies = [
   { id: "naga", label: "Naga" },
   { id: "amber", label: "Amber" },
   { id: "eldritch", label: "Eldritch" },
+  { id: "gilded", label: "Gilded Eldritch" },
   { id: "grand sanguine", label: "Grand Sanguine" },
+  { id: "sanguine", label: "Sanguine" },
   { id: "crypt", label: "Crypt" },
   { id: "soul", label: "Soul" },
+  { id: "moonsilver", label: "Moonsilver" },
+  { id: "inferniarch", label: "Inferniarch" },
+  { id: "draining", label: "Draining" },
+  { id: "rending", label: "Rending" },
+  { id: "siphoning", label: "Siphoning" },
+  { id: "umbral", label: "Umbral" },
+  { id: "stellar", label: "Stellar Moonsilver" },
+  { id: "crude", label: "Crude Umbral" },
+  { id: "ornate", label: "Ornate" },
+  { id: "plain", label: "Plain" },
+  { id: "valuable", label: "Valuable" },
+  { id: "carving", label: "Carving" },
+  { id: "mayhem", label: "Mayhem" },
+  { id: "remedy", label: "Remedy" },
+  { id: "earth", label: "Earth Replica" },
+  { id: "energy", label: "Energy Replica" },
+  { id: "fiery", label: "Fiery Replica" },
+  { id: "icy", label: "Icy Replica" },
   { id: "gnome", label: "Gnome" },
+  { id: "deepling", label: "Deepling" },
+  { id: "rift", label: "Rift" },
+  { id: "hive", label: "Hive" },
+  { id: "warsinger", label: "Warsinger" },
+  { id: "shimmer", label: "Shimmer" },
+  { id: "jungle", label: "Jungle" },
+  { id: "glooth", label: "Glooth" },
+  { id: "demonbone", label: "Demonbone" },
+  { id: "royal", label: "Royal" },
+  { id: "relic", label: "Relic" },
+  { id: "knight", label: "Knight" },
+  { id: "crystal", label: "Crystal" },
+  { id: "pharaoh", label: "Pharaoh" },
+  { id: "djinn", label: "Djinn" },
+  { id: "dragon", label: "Dragon Slayer" },
+  { id: "magic", label: "Magic Longsword" },
+  { id: "arena", label: "Arena" },
+  { id: "heroic", label: "Heroic" },
+  { id: "cranial", label: "Cranial" },
+  { id: "obsidian", label: "Obsidian" },
+  { id: "silver", label: "Silver" },
+  { id: "light", label: "Light" },
 ];
 
 const weaponSources = [
@@ -65,6 +112,27 @@ const weaponSources = [
   { id: "brainstealer", label: "The Brainstealer" },
   { id: "rootkraken", label: "The Rootkraken" },
   { id: "exaltation", label: "Exaltation Forge" },
+  { id: "arbaziloth", label: "Arbaziloth" },
+  { id: "scarlett", label: "Scarlett Etzel" },
+  { id: "gaffir", label: "Gaffir" },
+  { id: "ugly monster", label: "Ugly Monster" },
+  { id: "ancient lion knight", label: "Ancient Lion Knight" },
+  { id: "bag you desire", label: "Bag You Desire" },
+  { id: "soul-smith", label: "Soul-smith" },
+  { id: "demon helmet", label: "Demon Helmet" },
+  { id: "morguthis", label: "Morguthis" },
+  { id: "orshabaal", label: "Orshabaal" },
+  { id: "ghazbaran", label: "Ghazbaran" },
+  { id: "malkhed", label: "Malkhed" },
+  { id: "zarabeshi", label: "Zarabeshi" },
+  { id: "ferumbras", label: "Ferumbras" },
+  { id: "raggyceratops", label: "Raggyceratops" },
+  { id: "plagirath", label: "Plagirath" },
+  { id: "mazamuth", label: "Mazamuth" },
+  { id: "razzagorn", label: "Razzagorn" },
+  { id: "shulgrath", label: "Shulgrath" },
+  { id: "the armoured waste", label: "The Armoured Waste" },
+  { id: "the noxious spawn", label: "The Noxious Spawn" },
 ];
 
 const perkCategories = [
@@ -342,7 +410,7 @@ export function FilterSidebar({
               value={[filters.minTier]}
               onValueChange={([v]) => onFiltersChange({ ...filters, minTier: v })}
               min={1}
-              max={5}
+              max={14}
               step={1}
             />
             <p className="text-xs text-muted-foreground mt-1 text-center">Tier {filters.minTier}</p>

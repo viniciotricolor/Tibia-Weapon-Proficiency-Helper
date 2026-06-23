@@ -2,16 +2,23 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { Shield, Swords, Menu, X, Moon, Sun } from "lucide-react";
+import { Shield, Swords, Menu, X, Moon, Sun, Globe } from "lucide-react";
 import { Button } from "./ui/button";
 import { useTheme } from "next-themes";
+import { useI18n } from "./i18n-provider";
+import { localeNames } from "@/i18n";
 
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const { theme, setTheme } = useTheme();
+  const { t, locale, setLocale } = useI18n();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => setMounted(true), []);
+
+  const toggleLocale = () => {
+    setLocale(locale === "en" ? "pt" : "en");
+  };
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -24,23 +31,28 @@ export function Header() {
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-4 ml-6">
           <Link href="/weapons" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-            Weapons
+            {t.nav.weapons}
           </Link>
           <Link href="/simulator" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-            Simulator
+            {t.nav.simulator}
           </Link>
           <Link href="/compare" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-            Compare
+            {t.nav.compare}
           </Link>
           <Link href="/best-in-slot" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-            Best in Slot
+            {t.nav.bestInSlot}
           </Link>
           <Link href="/changelog" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-            Changelog
+            {t.nav.changelog}
           </Link>
         </nav>
 
-        <div className="ml-auto flex items-center gap-2">
+        <div className="ml-auto flex items-center gap-1">
+          <Button variant="ghost" size="sm" onClick={toggleLocale} title={locale === "en" ? "Portugues" : "English"}>
+            <Globe className="h-4 w-4" />
+            <span className="ml-1 text-xs font-medium">{localeNames[locale]}</span>
+          </Button>
+
           <Button
             variant="ghost"
             size="sm"
@@ -73,19 +85,19 @@ export function Header() {
         <div className="md:hidden border-t bg-background">
           <nav className="container flex flex-col py-2">
             <Link href="/weapons" className="py-2 text-sm text-muted-foreground hover:text-primary" onClick={() => setMobileOpen(false)}>
-              Weapons
+              {t.nav.weapons}
             </Link>
             <Link href="/simulator" className="py-2 text-sm text-muted-foreground hover:text-primary" onClick={() => setMobileOpen(false)}>
-              Simulator
+              {t.nav.simulator}
             </Link>
             <Link href="/compare" className="py-2 text-sm text-muted-foreground hover:text-primary" onClick={() => setMobileOpen(false)}>
-              Compare
+              {t.nav.compare}
             </Link>
             <Link href="/best-in-slot" className="py-2 text-sm text-muted-foreground hover:text-primary" onClick={() => setMobileOpen(false)}>
-              Best in Slot
+              {t.nav.bestInSlot}
             </Link>
             <Link href="/changelog" className="py-2 text-sm text-muted-foreground hover:text-primary" onClick={() => setMobileOpen(false)}>
-              Changelog
+              {t.nav.changelog}
             </Link>
             <a href="https://tibiawiki.com.br" target="_blank" rel="noopener noreferrer" className="py-2 text-sm text-muted-foreground hover:text-primary">
               TibiaWiki BR

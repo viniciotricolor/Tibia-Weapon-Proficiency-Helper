@@ -3,10 +3,12 @@
 import { useMemo } from "react";
 import { cn } from "@/lib/utils";
 import { motion } from "motion/react";
-import { ArrowLeft, ExternalLink, Shield, Swords, Star } from "lucide-react";
+import { ArrowLeft, ExternalLink, Shield, Swords, Star, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { useI18n } from "@/components/i18n-provider";
+import { useFavorites } from "@/lib/use-favorites";
 import weapons from "../../../../data/weapons.json";
 import type { Weapon } from "@/lib/types";
 import Link from "next/link";
@@ -18,6 +20,7 @@ const vocationColors: Record<string, string> = {
   paladin: "bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400",
   sorcerer: "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400",
   druid: "bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400",
+  monk: "bg-violet-100 text-violet-700 dark:bg-violet-900/30 dark:text-violet-400",
 };
 
 function getPerkColor(perk: string): string {
@@ -37,10 +40,20 @@ export default function WeaponDetailPage({
   params: { slug: string };
 }) {
   const { slug } = params;
+  const { t } = useI18n();
+  const { toggle, isFavorite } = useFavorites();
+
   const weapon = useMemo(
     () => allWeapons.find((w) => w.id === slug),
     [slug]
   );
+
+  const similarWeapons = useMemo(() => {
+    if (!weapon) return [];
+    return allWeapons
+      .filter((w) => w.id !== weapon.id && w.type === weapon.type && w.vocation.some((v) => weapon.vocation.includes(v)))
+      .slice(0, 5);
+  }, [weapon]);
 
   if (!weapon) {
     return (
@@ -52,7 +65,7 @@ export default function WeaponDetailPage({
         <Link href="/weapons">
           <Button>
             <ArrowLeft className="h-4 w-4 mr-2" />
-            Back to Weapons
+            {t.detail.back}
           </Button>
         </Link>
       </div>
@@ -70,7 +83,7 @@ export default function WeaponDetailPage({
       >
         <Link href="/weapons" className="inline-flex items-center text-sm text-muted-foreground hover:text-primary mb-6">
           <ArrowLeft className="h-4 w-4 mr-1" />
-          Back to Weapons
+          {t.detail.back}
         </Link>
 
         <div className="flex flex-col md:flex-row gap-8">
@@ -85,7 +98,17 @@ export default function WeaponDetailPage({
                 }}
               />
               <div className="flex-1">
-                <h1 className="text-3xl font-bold">{weapon.name}</h1>
+                <div className="flex items-center gap-2">
+                  <h1 className="text-3xl font-bold">{weapon.name}</h1>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    onClick={() => toggle(weapon.id)}
+                    className="h-8 w-8 p-0"
+                  >
+                    <Heart className={cn("h-5 w-5", isFavorite(weapon.id) ? "fill-red-500 text-red-500" : "text-muted-foreground")} />
+                  </Button>
+                </div>
                 <p className="text-muted-foreground capitalize text-lg">{weapon.type}</p>
                 <div className="flex flex-wrap gap-2 mt-3">
                   {weapon.vocation.map((v) => (
@@ -99,34 +122,34 @@ export default function WeaponDetailPage({
 
             <Card className="mb-6">
               <CardHeader>
-                <CardTitle className="text-sm">Weapon Stats</CardTitle>
+                <CardTitle className="text-sm">{t.detail.weaponStats}</CardTitle>
               </CardHeader>
               <CardContent className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div className="text-center p-3 rounded-lg bg-muted">
                   <Swords className="h-5 w-5 mx-auto mb-1 text-muted-foreground" />
                   <p className="text-2xl font-bold">{weapon.attackElement || weapon.attack || "-"}</p>
-                  <p className="text-xs text-muted-foreground">Attack</p>
+                  <p className="text-xs text-muted-foreground">{t.detail.attack}</p>
                 </div>
                 <div className="text-center p-3 rounded-lg bg-muted">
                   <Star className="h-5 w-5 mx-auto mb-1 text-muted-foreground" />
                   <p className="text-2xl font-bold">{weapon.level}</p>
-                  <p className="text-xs text-muted-foreground">Level</p>
+                  <p className="text-xs text-muted-foreground">{t.detail.level}</p>
                 </div>
                 <div className="text-center p-3 rounded-lg bg-muted">
                   <Shield className="h-5 w-5 mx-auto mb-1 text-muted-foreground" />
                   <p className="text-2xl font-bold">{weapon.hand === "one-handed" ? "1H" : "2H"}</p>
-                  <p className="text-xs text-muted-foreground">Slot</p>
+                  <p className="text-xs text-muted-foreground">{t.detail.slot}</p>
                 </div>
                 <div className="text-center p-3 rounded-lg bg-muted">
                   <p className="text-2xl font-bold">{weapon.perks.length}</p>
-                  <p className="text-xs text-muted-foreground">Tiers</p>
+                  <p className="text-xs text-muted-foreground">{t.detail.tiers}</p>
                 </div>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-sm">Proficiency Perks</CardTitle>
+                <CardTitle className="text-sm">{t.detail.proficiencyPerks}</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 {weapon.perks.map((tierData) => (
@@ -170,7 +193,7 @@ export default function WeaponDetailPage({
               <CardContent className="pt-6">
                 <a href={wikiUrl} target="_blank" rel="noopener noreferrer" className="block">
                   <Button className="w-full" variant="outline">
-                    View on TibiaWiki
+                    {t.detail.viewOnWiki}
                     <ExternalLink className="h-4 w-4 ml-2" />
                   </Button>
                 </a>
@@ -179,12 +202,31 @@ export default function WeaponDetailPage({
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-sm">Source</CardTitle>
+                <CardTitle className="text-sm">{t.detail.source}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">{weapon.source}</p>
               </CardContent>
             </Card>
+
+            {similarWeapons.length > 0 && (
+              <Card>
+                <CardHeader>
+                  <CardTitle className="text-sm">{t.detail.similarWeapons}</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-2">
+                  {similarWeapons.map((w) => (
+                    <Link key={w.id} href={`/weapons/${w.id}`} className="block p-2 rounded border hover:bg-accent transition-colors">
+                      <div className="flex items-center gap-2">
+                        <img src={w.image} alt={w.name} className="w-5 h-5 object-contain" />
+                        <span className="text-xs font-medium">{w.name}</span>
+                        <span className="ml-auto text-[10px] text-muted-foreground">Lvl {w.level}</span>
+                      </div>
+                    </Link>
+                  ))}
+                </CardContent>
+              </Card>
+            )}
           </div>
         </div>
       </motion.div>

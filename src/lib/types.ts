@@ -4,11 +4,12 @@ export type WeaponType =
   | "club"
   | "rod"
   | "wand"
+  | "bow"
+  | "crossbow"
   | "distance"
-  | "fist"
-  | "soul weapon";
+  | "fist";
 
-export type Vocation = "knight" | "paladin" | "sorcerer" | "druid";
+export type Vocation = "knight" | "paladin" | "sorcerer" | "druid" | "monk";
 
 export type HandSlot = "one-handed" | "two-handed";
 
@@ -93,6 +94,7 @@ export const SPELL_AUGMENTS: Record<Vocation, string[]> = {
   paladin: ["Divine Caldera", "Divine Barrage", "Ethereal Barrage", "Divine Grenade", "Strong Ethereal Spear"],
   sorcerer: ["Energy Wave", "Hell's Core", "Great Fire Wave", "Rage of the Skies", "Death Echo"],
   druid: ["Strong Ice Wave", "Terra Wave", "Ice Burst", "Terra Burst", "Forked Glacier"],
+  monk: ["Flurry of Blows", "Rapid Strike", "Pummel"],
 };
 
 export const MODIFICATION_EFFECTS: ModificationOption[] = [
