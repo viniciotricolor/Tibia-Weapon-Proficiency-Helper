@@ -1,0 +1,745 @@
+[
+  {
+    "id": "falcon-longsword",
+    "name": "Falcon Longsword",
+    "type": "sword",
+    "vocation": ["knight"],
+    "attack": 56,
+    "level": 300,
+    "image": "https://tibiawiki.com.br/images/0/0e/Falcon_Longsword.gif",
+    "hand": "two-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence", "+14.00% do seu Shielding como extra damage para suas spells", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+2.50% critical extra damage", "+5% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+6.00% damage contra Bird", "+28.00% do seu Shielding como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Grand Chaplain Gaunder, Grand Master Oberon"
+  },
+  {
+    "id": "falcon-battleaxe",
+    "name": "Falcon Battleaxe",
+    "type": "axe",
+    "vocation": ["knight"],
+    "attack": 10,
+    "attackElement": "+47 Energy",
+    "level": 300,
+    "image": "https://tibiawiki.com.br/images/3/36/Falcon_Battleaxe.gif",
+    "hand": "two-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence", "+10.00% do seu Shielding como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+2.50% critical extra damage", "+5% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+6.00% damage contra Bird", "+28.00% do seu Shielding como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Grand Chaplain Gaunder, Grand Master Oberon"
+  },
+  {
+    "id": "falcon-mace",
+    "name": "Falcon Mace",
+    "type": "club",
+    "vocation": ["knight"],
+    "attack": 11,
+    "attackElement": "+41 Energy",
+    "level": 300,
+    "image": "https://tibiawiki.com.br/images/5/57/Falcon_Mace.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+10.00% do seu Shielding como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+2.50% critical extra damage para auto-attacks", "+5% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+6.00% damage contra Bird", "+28.00% do seu Shielding como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Grand Chaplain Gaunder, Grand Master Oberon"
+  },
+  {
+    "id": "cobra-sword",
+    "name": "Cobra Sword",
+    "type": "sword",
+    "vocation": ["knight"],
+    "attack": 52,
+    "level": 220,
+    "image": "https://tibiawiki.com.br/images/e/e6/Cobra_Sword.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+12.00% do seu Sword Fighting como extra damage para suas spells", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+16 hit points on kill", "+3% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+4.00% damage contra Mammal", "+20.00% do seu Sword Fighting como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Scarlett Etzel, Ugly Monster"
+  },
+  {
+    "id": "cobra-axe",
+    "name": "Cobra Axe",
+    "type": "axe",
+    "vocation": ["knight"],
+    "attack": 8,
+    "attackElement": "+44 Ice",
+    "level": 220,
+    "image": "https://tibiawiki.com.br/images/d/d1/Cobra_Axe.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+8.00% do seu Axe Fighting como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+16 hit points on kill", "+3% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+4.00% damage contra Mammal", "+20.00% do seu Axe Fighting como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Gaffir, Scarlett Etzel, Ugly Monster"
+  },
+  {
+    "id": "cobra-club",
+    "name": "Cobra Club",
+    "type": "club",
+    "vocation": ["knight"],
+    "attack": 8,
+    "attackElement": "+44 Fire",
+    "level": 220,
+    "image": "https://tibiawiki.com.br/images/a/a3/Cobra_Club.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+8.00% do seu Club Fighting como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+16 hit points on kill", "+3% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+4.00% damage contra Mammal", "+20.00% do seu Club Fighting como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Scarlett Etzel, Ugly Monster"
+  },
+  {
+    "id": "gnome-sword",
+    "name": "Gnome Sword",
+    "type": "sword",
+    "vocation": ["knight"],
+    "attack": 10,
+    "attackElement": "+42 Energy",
+    "level": 250,
+    "image": "https://tibiawiki.com.br/images/c/c2/Gnome_Sword.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+5 mana on kill", "+1 Sword Fighting"] },
+      { "tier": 2, "perks": ["+8 mana on kill", "+3.00% critical hit chance para auto-attacks"] },
+      { "tier": 3, "perks": ["+20 hit points on kill", "+1 attack", "+2.00% damage contra Reptile"] }
+    ],
+    "source": "The Baron from Below, The Count Of The Core, The Duke Of The Depths"
+  },
+  {
+    "id": "lion-longsword",
+    "name": "Lion Longsword",
+    "type": "sword",
+    "vocation": ["knight"],
+    "attack": 8,
+    "attackElement": "+44 Earth",
+    "level": 270,
+    "image": "https://tibiawiki.com.br/images/e/ef/Lion_Longsword.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+12.00% do seu Sword Fighting como extra damage para suas spells", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+16 hit points on kill", "+3% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+4.00% damage contra Beast", "+20.00% do seu Sword Fighting como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Drume"
+  },
+  {
+    "id": "lion-axe",
+    "name": "Lion Axe",
+    "type": "axe",
+    "vocation": ["knight"],
+    "attack": 8,
+    "attackElement": "+44 Earth",
+    "level": 270,
+    "image": "https://tibiawiki.com.br/images/b/b3/Lion_Axe.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+8.00% do seu Axe Fighting como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+16 hit points on kill", "+3% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+4.00% damage contra Beast", "+20.00% do seu Axe Fighting como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Ancient Lion Knight, Drume"
+  },
+  {
+    "id": "lion-hammer",
+    "name": "Lion Hammer",
+    "type": "club",
+    "vocation": ["knight"],
+    "attack": 8,
+    "attackElement": "+44 Earth",
+    "level": 270,
+    "image": "https://tibiawiki.com.br/images/3/3d/Lion_Hammer.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+8.00% do seu Club Fighting como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+16 hit points on kill", "+3% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+4.00% damage contra Beast", "+20.00% do seu Club Fighting como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Ancient Lion Knight, Drume"
+  },
+  {
+    "id": "naga-sword",
+    "name": "Naga Sword",
+    "type": "sword",
+    "vocation": ["knight"],
+    "attack": 8,
+    "attackElement": "+44 Energy",
+    "level": 300,
+    "image": "https://tibiawiki.com.br/images/6/6d/Naga_Sword.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+12.00% do seu Sword Fighting como extra damage para suas spells", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+16 hit points on kill", "+3% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+4.00% damage contra Reptile", "+20.00% do seu Sword Fighting como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Timira the Many-Headed"
+  },
+  {
+    "id": "naga-axe",
+    "name": "Naga Axe",
+    "type": "axe",
+    "vocation": ["knight"],
+    "attack": 8,
+    "attackElement": "+44 Energy",
+    "level": 300,
+    "image": "https://tibiawiki.com.br/images/0/02/Naga_Axe.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+8.00% do seu Axe Fighting como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+16 hit points on kill", "+3% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+4.00% damage contra Reptile", "+20.00% do seu Axe Fighting como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Timira the Many-Headed"
+  },
+  {
+    "id": "naga-club",
+    "name": "Naga Club",
+    "type": "club",
+    "vocation": ["knight"],
+    "attack": 8,
+    "attackElement": "+44 Energy",
+    "level": 300,
+    "image": "https://tibiawiki.com.br/images/7/7e/Naga_Club.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+8.00% do seu Club Fighting como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+16 hit points on kill", "+3% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+4.00% damage contra Reptile", "+20.00% do seu Club Fighting como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Timira the Many-Headed"
+  },
+  {
+    "id": "amber-sabre",
+    "name": "Amber Sabre",
+    "type": "sword",
+    "vocation": ["knight"],
+    "attack": 0,
+    "attackElement": "+46 Energy",
+    "level": 330,
+    "image": "https://tibiawiki.com.br/images/7/7e/Amber_Sabre.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+12.00% do seu Sword Fighting como extra damage para suas spells", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+16 hit points on kill", "+3% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+4.00% damage contra Insect", "+20.00% do seu Sword Fighting como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "The Rootkraken"
+  },
+  {
+    "id": "amber-axe",
+    "name": "Amber Axe",
+    "type": "axe",
+    "vocation": ["knight"],
+    "attack": 0,
+    "attackElement": "+46 Ice",
+    "level": 330,
+    "image": "https://tibiawiki.com.br/images/8/87/Amber_Axe.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+8.00% do seu Axe Fighting como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+16 hit points on kill", "+3% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+4.00% damage contra Insect", "+20.00% do seu Axe Fighting como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "The Rootkraken"
+  },
+  {
+    "id": "amber-cudgel",
+    "name": "Amber Cudgel",
+    "type": "club",
+    "vocation": ["knight"],
+    "attack": 0,
+    "attackElement": "+46 Fire",
+    "level": 330,
+    "image": "https://tibiawiki.com.br/images/4/4b/Amber_Cudgel.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+8.00% do seu Club Fighting como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+16 hit points on kill", "+3% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+4.00% damage contra Insect", "+20.00% do seu Club Fighting como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "The Rootkraken"
+  },
+  {
+    "id": "eldritch-claymore",
+    "name": "Eldritch Claymore",
+    "type": "sword",
+    "vocation": ["knight"],
+    "attack": 6,
+    "attackElement": "+50 Fire",
+    "level": 270,
+    "image": "https://tibiawiki.com.br/images/3/3b/Eldritch_Claymore.gif",
+    "hand": "two-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence", "+14.00% do seu Shielding como extra damage para suas spells", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+2.50% critical extra damage", "+5% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+6.00% damage contra Undead", "+28.00% do seu Shielding como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "The Brainstealer"
+  },
+  {
+    "id": "eldritch-greataxe",
+    "name": "Eldritch Greataxe",
+    "type": "axe",
+    "vocation": ["knight"],
+    "attack": 56,
+    "level": 270,
+    "image": "https://tibiawiki.com.br/images/3/35/Eldritch_Greataxe.gif",
+    "hand": "two-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence", "+10.00% do seu Shielding como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+2.50% critical extra damage", "+5% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+6.00% damage contra Undead", "+28.00% do seu Shielding como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "The Brainstealer"
+  },
+  {
+    "id": "eldritch-warmace",
+    "name": "Eldritch Warmace",
+    "type": "club",
+    "vocation": ["knight"],
+    "attack": 6,
+    "attackElement": "+50 Fire",
+    "level": 270,
+    "image": "https://tibiawiki.com.br/images/c/c8/Eldritch_Warmace.gif",
+    "hand": "two-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+10.00% do seu Shielding como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+2.50% critical extra damage", "+5% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+6.00% damage contra Undead", "+28.00% do seu Shielding como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "The Brainstealer"
+  },
+  {
+    "id": "grand-sanguine-blade",
+    "name": "Grand Sanguine Blade",
+    "type": "sword",
+    "vocation": ["knight"],
+    "attack": 8,
+    "attackElement": "+46 Fire",
+    "level": 600,
+    "image": "https://tibiawiki.com.br/images/8/84/Grand_Sanguine_Blade.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+12.00% do seu Sword Fighting como extra damage para suas spells", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+16 hit points on kill", "+3% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+4.00% damage contra All Creatures", "+20.00% do seu Sword Fighting como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Bakragore"
+  },
+  {
+    "id": "grand-sanguine-hatchet",
+    "name": "Grand Sanguine Hatchet",
+    "type": "axe",
+    "vocation": ["knight"],
+    "attack": 8,
+    "attackElement": "+46 Fire",
+    "level": 600,
+    "image": "https://tibiawiki.com.br/images/a/a1/Grand_Sanguine_Hatchet.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+8.00% do seu Axe Fighting como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+16 hit points on kill", "+3% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+4.00% damage contra All Creatures", "+20.00% do seu Axe Fighting como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Bakragore"
+  },
+  {
+    "id": "grand-sanguine-cudgel",
+    "name": "Grand Sanguine Cudgel",
+    "type": "club",
+    "vocation": ["knight"],
+    "attack": 8,
+    "attackElement": "+46 Death",
+    "level": 600,
+    "image": "https://tibiawiki.com.br/images/2/2a/Grand_Sanguine_Cudgel.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+8.00% do seu Club Fighting como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+16 hit points on kill", "+3% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+4.00% damage contra All Creatures", "+20.00% do seu Club Fighting como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Bakragore"
+  },
+  {
+    "id": "cobra-rod",
+    "name": "Cobra Rod",
+    "type": "rod",
+    "vocation": ["druid"],
+    "attack": 0,
+    "level": 220,
+    "image": "https://tibiawiki.com.br/images/4/46/Cobra_Rod.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 hit points on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Earth spells e runes", "+1 Earth Magic Level", "-4s cooldown para Strong Terra Strike"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Earth spells e runes", "+5.00% do seu Magic Level como extra damage para suas spells"] },
+      { "tier": 4, "perks": ["+4.00% damage contra Mammal", "+1 Earth Magic Level", "+10% critical extra damage para Strong Terra Strike"] },
+      { "tier": 5, "perks": ["+5.00% critical extra damage"] }
+    ],
+    "source": "Gaffir, Scarlett Etzel, Ugly Monster"
+  },
+  {
+    "id": "falcon-rod",
+    "name": "Falcon Rod",
+    "type": "rod",
+    "vocation": ["druid"],
+    "attack": 0,
+    "level": 300,
+    "image": "https://tibiawiki.com.br/images/4/4e/Falcon_Rod.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 hit points on hit"] },
+      { "tier": 2, "perks": ["+10.00% critical hit chance para auto-attacks", "+20 mana on kill"] },
+      { "tier": 3, "perks": ["+1% critical hit chance para Terra Wave", "+100.00% do seu Shielding como extra damage para auto-attacks"] },
+      { "tier": 4, "perks": ["+5.00% do seu Magic Level como extra damage para suas spells", "+50.00% critical extra damage para auto-attacks"] },
+      { "tier": 5, "perks": ["+1 Earth Magic Level", "+5.00% damage contra Bird", "+5.00% critical extra damage"] }
+    ],
+    "source": "Grand Master Oberon, Preceptor Lazare"
+  },
+  {
+    "id": "naga-rod",
+    "name": "Naga Rod",
+    "type": "rod",
+    "vocation": ["druid"],
+    "attack": 0,
+    "level": 250,
+    "image": "https://tibiawiki.com.br/images/f/fa/Naga_Rod.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 hit points on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Ice spells e runes", "+1 Ice Magic Level"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Ice spells e runes", "+5.00% do seu Magic Level como extra damage para suas spells"] },
+      { "tier": 4, "perks": ["+4.00% damage contra Reptile", "+1 Ice Magic Level", "-4s cooldown para Ice Wave"] },
+      { "tier": 5, "perks": ["+5.00% critical extra damage", "+10% critical extra damage para Ice Wave"] }
+    ],
+    "source": "Timira the Many-Headed"
+  },
+  {
+    "id": "lion-rod",
+    "name": "Lion Rod",
+    "type": "rod",
+    "vocation": ["druid"],
+    "attack": 0,
+    "level": 270,
+    "image": "https://tibiawiki.com.br/images/4/47/Lion_Rod.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 hit points on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Earth spells e runes", "+1 Earth Magic Level"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Earth spells e runes", "+5.00% do seu Magic Level como extra damage para suas spells"] },
+      { "tier": 4, "perks": ["+4.00% damage contra Beast", "+1 Earth Magic Level", "-4s cooldown para Terra Wave"] },
+      { "tier": 5, "perks": ["+5.00% critical extra damage", "+10% critical extra damage para Terra Wave"] }
+    ],
+    "source": "Ancient Lion Knight, Drume"
+  },
+  {
+    "id": "amber-rod",
+    "name": "Amber Rod",
+    "type": "rod",
+    "vocation": ["druid"],
+    "attack": 0,
+    "level": 330,
+    "image": "https://tibiawiki.com.br/images/3/35/Amber_Rod.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 hit points on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Ice spells e runes", "+1 Ice Magic Level"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Ice spells e runes", "+5.00% do seu Magic Level como extra damage para suas spells"] },
+      { "tier": 4, "perks": ["+4.00% damage contra Insect", "+1 Ice Magic Level", "+10% critical extra damage para Ice Wave"] },
+      { "tier": 5, "perks": ["+5.00% critical extra damage"] }
+    ],
+    "source": "The Rootkraken"
+  },
+  {
+    "id": "eldritch-rod",
+    "name": "Eldritch Rod",
+    "type": "rod",
+    "vocation": ["druid"],
+    "attack": 0,
+    "level": 250,
+    "image": "https://tibiawiki.com.br/images/8/8a/Eldritch_Rod.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 hit points on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Ice spells e runes", "+1 Ice Magic Level"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Ice spells e runes", "+5.00% do seu Magic Level como extra damage para suas spells"] },
+      { "tier": 4, "perks": ["+4.00% damage contra Undead", "+1 Ice Magic Level", "+10% critical extra damage para Ice Wave"] },
+      { "tier": 5, "perks": ["+5.00% critical extra damage"] }
+    ],
+    "source": "The Brainstealer"
+  },
+  {
+    "id": "grand-sanguine-rod",
+    "name": "Grand Sanguine Rod",
+    "type": "rod",
+    "vocation": ["druid"],
+    "attack": 0,
+    "level": 600,
+    "image": "https://tibiawiki.com.br/images/4/47/Grand_Sanguine_Rod.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 hit points on hit", "+3 mana on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Earth spells e runes", "+1 Earth Magic Level"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Earth spells e runes", "+5.00% do seu Magic Level como extra damage para suas spells"] },
+      { "tier": 4, "perks": ["+4.00% damage contra All Creatures", "+1 Earth Magic Level", "+10% critical extra damage para Terra Wave"] },
+      { "tier": 5, "perks": ["+5.00% critical extra damage", "-8s cooldown para Terra Wave"] }
+    ],
+    "source": "Bakragore"
+  },
+  {
+    "id": "cobra-wand",
+    "name": "Cobra Wand",
+    "type": "wand",
+    "vocation": ["sorcerer"],
+    "attack": 0,
+    "level": 270,
+    "image": "https://tibiawiki.com.br/images/8/84/Cobra_Wand.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 mana on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Energy spells e runes"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Fire spells e runes", "+1.00% critical hit chance para Energy spells e runes"] },
+      { "tier": 4, "perks": ["+1 Fire Magic Level", "+1% critical hit chance para Great Energy Beam"] },
+      { "tier": 5, "perks": ["+4.00% damage contra Mammal", "+5.00% critical extra damage"] }
+    ],
+    "source": "Scarlett Etzel, Gaffir"
+  },
+  {
+    "id": "falcon-wand",
+    "name": "Falcon Wand",
+    "type": "wand",
+    "vocation": ["sorcerer"],
+    "attack": 0,
+    "level": 300,
+    "image": "https://tibiawiki.com.br/images/2/23/Falcon_Wand.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 mana on hit"] },
+      { "tier": 2, "perks": ["+10.00% critical hit chance para auto-attacks", "+20 life on kill"] },
+      { "tier": 3, "perks": ["+1% critical hit chance para Energy Wave", "+100.00% do seu Shielding como extra damage para auto-attacks"] },
+      { "tier": 4, "perks": ["+5.00% do seu Magic Level como extra damage para suas spells", "+50.00% critical extra damage para auto-attacks"] },
+      { "tier": 5, "perks": ["+1 Energy Magic Level", "+5.00% damage contra Bird", "+5.00% critical extra damage"] }
+    ],
+    "source": "Grand Canon Dominus, Grand Master Oberon"
+  },
+  {
+    "id": "naga-wand",
+    "name": "Naga Wand",
+    "type": "wand",
+    "vocation": ["sorcerer"],
+    "attack": 0,
+    "level": 250,
+    "image": "https://tibiawiki.com.br/images/d/dc/Naga_Wand.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 mana on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Energy spells e runes", "+1 Energy Magic Level"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Energy spells e runes", "+5.00% do seu Magic Level como extra damage para suas spells"] },
+      { "tier": 4, "perks": ["+4.00% damage contra Reptile", "+1 Energy Magic Level", "-4s cooldown para Energy Wave"] },
+      { "tier": 5, "perks": ["+5.00% critical extra damage", "+10% critical extra damage para Energy Wave"] }
+    ],
+    "source": "Timira the Many-Headed"
+  },
+  {
+    "id": "lion-wand",
+    "name": "Lion Wand",
+    "type": "wand",
+    "vocation": ["sorcerer"],
+    "attack": 0,
+    "level": 220,
+    "image": "https://tibiawiki.com.br/images/a/ac/Lion_Wand.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 mana on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Ice spells e runes", "+1 Ice Magic Level"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Ice spells e runes", "+5.00% do seu Magic Level como extra damage para suas spells"] },
+      { "tier": 4, "perks": ["+4.00% damage contra Beast", "+1 Ice Magic Level", "-4s cooldown para Ice Wave"] },
+      { "tier": 5, "perks": ["+5.00% critical extra damage", "+10% critical extra damage para Ice Wave"] }
+    ],
+    "source": "Ancient Lion Knight, Drume"
+  },
+  {
+    "id": "amber-wand",
+    "name": "Amber Wand",
+    "type": "wand",
+    "vocation": ["sorcerer"],
+    "attack": 0,
+    "level": 330,
+    "image": "https://tibiawiki.com.br/images/1/18/Amber_Wand.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 mana on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Energy spells e runes", "+1 Energy Magic Level"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Energy spells e runes", "+5.00% do seu Magic Level como extra damage para suas spells"] },
+      { "tier": 4, "perks": ["+4.00% damage contra Insect", "+1 Energy Magic Level", "+10% critical extra damage para Energy Wave"] },
+      { "tier": 5, "perks": ["+5.00% critical extra damage"] }
+    ],
+    "source": "The Rootkraken"
+  },
+  {
+    "id": "eldritch-wand",
+    "name": "Eldritch Wand",
+    "type": "wand",
+    "vocation": ["sorcerer"],
+    "attack": 0,
+    "level": 250,
+    "image": "https://tibiawiki.com.br/images/d/d1/Eldritch_Wand.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 mana on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Fire spells e runes", "+1 Fire Magic Level"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Fire spells e runes", "+5.00% do seu Magic Level como extra damage para suas spells"] },
+      { "tier": 4, "perks": ["+4.00% damage contra Undead", "+1 Fire Magic Level", "+10% critical extra damage para Sudden Death"] },
+      { "tier": 5, "perks": ["+5.00% critical extra damage"] }
+    ],
+    "source": "The Brainstealer"
+  },
+  {
+    "id": "grand-sanguine-coil",
+    "name": "Grand Sanguine Coil",
+    "type": "wand",
+    "vocation": ["sorcerer"],
+    "attack": 0,
+    "level": 600,
+    "image": "https://tibiawiki.com.br/images/1/1a/Grand_Sanguine_Coil.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 mana on hit", "+3 hit points on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Fire spells e runes", "+1 Fire Magic Level"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Fire spells e runes", "+5.00% do seu Magic Level como extra damage para suas spells"] },
+      { "tier": 4, "perks": ["+4.00% damage contra All Creatures", "+1 Fire Magic Level", "+10% critical extra damage para Sudden Death"] },
+      { "tier": 5, "perks": ["+5.00% critical extra damage", "-8s cooldown para Sudden Death"] }
+    ],
+    "source": "Bakragore"
+  },
+  {
+    "id": "soulhexer",
+    "name": "Soulhexer",
+    "type": "rod",
+    "vocation": ["druid"],
+    "attack": 0,
+    "level": 400,
+    "image": "https://tibiawiki.com.br/images/5/5e/Soulhexer.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 hit points on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Ice spells e runes", "+1 Ice Magic Level"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Ice spells e runes", "+5.00% do seu Magic Level como extra damage para suas spells"] },
+      { "tier": 4, "perks": ["+4.00% damage contra Demon", "+1 Ice Magic Level", "+10% critical extra damage para Ice Wave"] },
+      { "tier": 5, "perks": ["+5.00% critical extra damage", "-6s cooldown para Ice Wave"] }
+    ],
+    "source": "Crafted via Exaltation Forge"
+  },
+  {
+    "id": "soultainter",
+    "name": "Soultainter",
+    "type": "wand",
+    "vocation": ["sorcerer"],
+    "attack": 0,
+    "level": 400,
+    "image": "https://tibiawiki.com.br/images/0/08/Soultainter.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 mana on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Death spells e runes", "+1 Death Magic Level"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Death spells e runes", "+5.00% do seu Magic Level como extra damage para suas spells"] },
+      { "tier": 4, "perks": ["+4.00% damage contra Demon", "+1 Death Magic Level", "+10% critical extra damage para Sudden Death"] },
+      { "tier": 5, "perks": ["+5.00% critical extra damage", "-6s cooldown para Sudden Death"] }
+    ],
+    "source": "Crafted via Exaltation Forge"
+  },
+  {
+    "id": "crypt-slicer",
+    "name": "Crypt Slicer",
+    "type": "sword",
+    "vocation": ["knight"],
+    "attack": 58,
+    "level": 450,
+    "image": "https://tibiawiki.com.br/images/5/5b/Crypt_Slicer.gif",
+    "hand": "two-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence", "+14.00% do seu Shielding como extra damage para suas spells", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+2.50% critical extra damage", "+5% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+6.00% damage contra Undead", "+28.00% do seu Shielding como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Crafted via Exaltation Forge"
+  },
+  {
+    "id": "crypt-splitter",
+    "name": "Crypt Splitter",
+    "type": "axe",
+    "vocation": ["knight"],
+    "attack": 58,
+    "level": 450,
+    "image": "https://tibiawiki.com.br/images/3/34/Crypt_Splitter.gif",
+    "hand": "two-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence", "+10.00% do seu Shielding como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+2.50% critical extra damage", "+5% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+6.00% damage contra Undead", "+28.00% do seu Shielding como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Crafted via Exaltation Forge"
+  },
+  {
+    "id": "crypt-breaker",
+    "name": "Crypt Breaker",
+    "type": "club",
+    "vocation": ["knight"],
+    "attack": 58,
+    "level": 450,
+    "image": "https://tibiawiki.com.br/images/9/9e/Crypt_Breaker.gif",
+    "hand": "two-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+1 defence modifier", "+10.00% do seu Shielding como extra damage para auto-attacks", "+2% critical hit chance para Front Sweep"] },
+      { "tier": 2, "perks": ["+2.50% critical extra damage", "+5% mana leech para Front Sweep", "-2s cooldown para Front Sweep"] },
+      { "tier": 3, "perks": ["+6.00% damage contra Undead", "+28.00% do seu Shielding como extra healing para suas spells", "+5.00% critical extra damage"] }
+    ],
+    "source": "Crafted via Exaltation Forge"
+  },
+  {
+    "id": "crypt-jaw",
+    "name": "Crypt Jaw",
+    "type": "rod",
+    "vocation": ["druid"],
+    "attack": 0,
+    "level": 450,
+    "image": "https://tibiawiki.com.br/images/0/08/Crypt_Jaw.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 hit points on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Earth spells e runes", "+1 Earth Magic Level"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Earth spells e runes", "+5.00% do seu Magic Level como extra damage para suas spells"] },
+      { "tier": 4, "perks": ["+4.00% damage contra Undead", "+1 Earth Magic Level", "+10% critical extra damage para Terra Wave"] },
+      { "tier": 5, "perks": ["+5.00% critical extra damage", "-6s cooldown para Terra Wave"] }
+    ],
+    "source": "Crafted via Exaltation Forge"
+  },
+  {
+    "id": "crypt-bile",
+    "name": "Crypt Bile",
+    "type": "wand",
+    "vocation": ["sorcerer"],
+    "attack": 0,
+    "level": 450,
+    "image": "https://tibiawiki.com.br/images/5/51/Crypt_Bile.gif",
+    "hand": "one-handed",
+    "perks": [
+      { "tier": 1, "perks": ["+3 mana on hit"] },
+      { "tier": 2, "perks": ["+5.00% critical extra damage para Death spells e runes", "+1 Death Magic Level"] },
+      { "tier": 3, "perks": ["+1.00% critical hit chance para Death spells e runes", "+5.00% do seu Magic Level como extra damage para suas spells"] },
+      { "tier": 4, "perks": ["+4.00% damage contra Undead", "+1 Death Magic Level", "+10% critical extra damage para Sudden Death"] },
+      { "tier": 5, "perks": ["+5.00% critical extra damage", "-6s cooldown para Sudden Death"] }
+    ],
+    "source": "Crafted via Exaltation Forge"
+  }
+]
