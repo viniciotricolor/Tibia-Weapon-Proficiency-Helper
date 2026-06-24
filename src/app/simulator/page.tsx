@@ -253,22 +253,22 @@ export default function SimulatorPage() {
         <div className="flex items-center gap-3 mb-6">
           <Calculator className="h-8 w-8 text-primary" />
           <div>
-            <h1 className="text-3xl font-bold">Simulador de Proficiencia</h1>
-            <p className="text-muted-foreground">Monte sua build, modifique perks e veja o resumo</p>
+            <h1 className="text-3xl font-bold">{t.simulator.title} <span className="text-sm font-normal text-muted-foreground align-super">Beta</span></h1>
+            <p className="text-muted-foreground">{t.simulator.subtitle}</p>
           </div>
         </div>
 
         <Tabs value={tab} onValueChange={setTab} className="mb-6">
           <TabsList>
-            <TabsTrigger value="proficiency">Proficiency Perks</TabsTrigger>
-            <TabsTrigger value="modify">Modify Slots</TabsTrigger>
+            <TabsTrigger value="proficiency">{t.simulator.tabProficiency}</TabsTrigger>
+            <TabsTrigger value="modify">{t.simulator.tabModify}</TabsTrigger>
           </TabsList>
         </Tabs>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2 space-y-4">
             <Card>
-              <CardHeader><CardTitle className="text-sm">1. Selecione a Arma</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-sm">{t.simulator.step1}</CardTitle></CardHeader>
               <CardContent>
                 <div className="relative" ref={weaponListRef}>
                   <div className="relative">
@@ -278,7 +278,7 @@ export default function SimulatorPage() {
                       value={showWeaponList ? weaponSearch : selectedWeapon ? `[${selectedWeapon.type}] ${selectedWeapon.name}` : ""}
                       onChange={(e) => { setWeaponSearch(e.target.value); setShowWeaponList(true); }}
                       onFocus={() => { setShowWeaponList(true); setWeaponSearch(""); }}
-                      placeholder="Buscar arma por nome, tipo ou vocation..."
+                      placeholder={t.simulator.searchWeapon}
                       className="w-full rounded-md border border-input bg-background pl-9 pr-3 py-2 text-sm"
                     />
                   </div>
@@ -313,7 +313,7 @@ export default function SimulatorPage() {
 
             {selectedWeapon && tab === "proficiency" && (
               <Card>
-                <CardHeader><CardTitle className="text-sm">2. Selecione os Tiers</CardTitle></CardHeader>
+                <CardHeader><CardTitle className="text-sm">{t.simulator.step2}</CardTitle></CardHeader>
                 <CardContent className="space-y-4">
                   <div className="flex items-center gap-2 mb-4">
                     <img src={selectedWeapon.image} alt={selectedWeapon.name} className="w-10 h-10 object-contain" />
@@ -358,8 +358,8 @@ export default function SimulatorPage() {
                     })}
                   </div>
                   <div className="flex gap-2">
-                    <Button variant="outline" size="sm" onClick={() => setSelectedTiers(new Set(selectedWeapon.perks.map((t) => t.tier)))}>Select All</Button>
-                    <Button variant="outline" size="sm" onClick={() => setSelectedTiers(new Set())}>Deselect All</Button>
+                    <Button variant="outline" size="sm" onClick={() => setSelectedTiers(new Set(selectedWeapon.perks.map((t) => t.tier)))}>{t.simulator.selectAll}</Button>
+                    <Button variant="outline" size="sm" onClick={() => setSelectedTiers(new Set())}>{t.simulator.deselectAll}</Button>
                   </div>
                 </CardContent>
               </Card>
@@ -371,15 +371,15 @@ export default function SimulatorPage() {
                   <CardTitle className="text-sm flex items-center gap-2">
                     <Gem className="h-4 w-4" /> Modify Perk Slots
                     <Badge variant="outline" className="text-[10px]">
-                      {modifications.length}/2 slots used
+                      {modifications.length}/2 {t.simulator.slotsUsed}
                     </Badge>
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="bg-muted rounded-lg p-3 text-xs space-y-1">
-                    <p><strong>First slot:</strong> {MODIFICATION_COSTS.firstSlot} dust, requires Level {REQUIRED_LEVELS.firstSlot}</p>
-                    <p><strong>Second slot:</strong> {MODIFICATION_COSTS.secondSlot} dust, requires Mastery (Level {REQUIRED_LEVELS.secondSlot})</p>
-                    <p className="text-muted-foreground">Refine costs increase per step. Reshape costs {MODIFICATION_COSTS.reshape} dust.</p>
+                    <p><strong>{t.simulator.firstSlot}:</strong> {MODIFICATION_COSTS.firstSlot} {t.simulator.dust}, {t.simulator.requiresLevel} {REQUIRED_LEVELS.firstSlot}</p>
+                    <p><strong>{t.simulator.secondSlot}:</strong> {MODIFICATION_COSTS.secondSlot} {t.simulator.dust}, {t.simulator.requiresMastery} {REQUIRED_LEVELS.secondSlot})</p>
+                    <p className="text-muted-foreground">{t.simulator.refineCosts} {MODIFICATION_COSTS.reshape} {t.simulator.dust}.</p>
                   </div>
 
                   {selectedWeapon.perks.map((tierData) => {
@@ -437,7 +437,7 @@ export default function SimulatorPage() {
                           </div>
                           {showEffectPicker?.tier === tierData.tier && showEffectPicker?.perkIndex === i && (
                             <div className="mt-2 border-t pt-2 space-y-1">
-                              <p className="text-[10px] text-muted-foreground mb-1">Choose effect:</p>
+                              <p className="text-[10px] text-muted-foreground mb-1">{t.simulator.chooseEffect}</p>
                               <div className="grid grid-cols-2 gap-1">
                                 {MODIFICATION_EFFECTS.map((eff) => (
                                   <button key={eff.id}
@@ -449,7 +449,7 @@ export default function SimulatorPage() {
                                 ))}
                               </div>
                               <Button variant="ghost" size="sm" className="text-[10px] w-full"
-                                onClick={() => setShowEffectPicker(null)}>Cancel</Button>
+                                onClick={() => setShowEffectPicker(null)}>{t.simulator.cancel}</Button>
                             </div>
                           )}
                         </div>
@@ -459,8 +459,8 @@ export default function SimulatorPage() {
 
                   {modifications.length > 0 && (
                     <div className="bg-muted rounded-lg p-3 text-xs">
-                      <p>Total Dust Cost: <strong>{totalDust}</strong></p>
-                      <p className="text-muted-foreground">Slots modificados: {modifications.length}/2</p>
+                      <p>{t.simulator.totalDust}: <strong>{totalDust}</strong></p>
+                      <p className="text-muted-foreground">{modifications.length}/2 {t.simulator.slotsUsed}</p>
                     </div>
                   )}
                 </CardContent>
@@ -473,7 +473,7 @@ export default function SimulatorPage() {
             <Card className="sticky top-20">
               <CardHeader>
                 <div className="flex items-center justify-between">
-                  <CardTitle className="text-sm">Resumo dos Stats</CardTitle>
+                  <CardTitle className="text-sm">{t.simulator.statsSummary}</CardTitle>
                   <div className="flex gap-1">
                     <Button variant="ghost" size="sm" onClick={shareBuild}>
                       {copied ? <Check className="h-3 w-3 mr-1" /> : <Share2 className="h-3 w-3 mr-1" />}
@@ -493,12 +493,12 @@ export default function SimulatorPage() {
                 {selectedPerks.length === 0 && modifications.length === 0 ? (
                   <div className="text-center py-8 text-muted-foreground">
                     <Calculator className="h-12 w-12 mx-auto mb-3 opacity-50" />
-                    <p className="text-sm">Selecione uma arma e perks</p>
+                    <p className="text-sm">{t.simulator.noWeapon}</p>
                   </div>
                 ) : (
                   <>
                     <div className="space-y-1">
-                      <p className="text-xs font-medium text-muted-foreground uppercase">Perks ({selectedPerks.length})</p>
+                      <p className="text-xs font-medium text-muted-foreground uppercase">{t.simulator.perks} ({selectedPerks.length})</p>
                       {selectedPerks.map((p, i) => (
                         <div key={i} className="text-xs flex items-start gap-1">
                           <Badge variant="outline" className="text-[9px] shrink-0">T{p.tier}</Badge>
@@ -508,7 +508,7 @@ export default function SimulatorPage() {
                     </div>
                     {modifications.length > 0 && (
                       <div className="space-y-1">
-                        <p className="text-xs font-medium text-amber-600 uppercase">Modifications ({modifications.length})</p>
+                        <p className="text-xs font-medium text-amber-600 uppercase">{t.simulator.modifications} ({modifications.length})</p>
                         {modifications.map((m, i) => {
                           const eff = MODIFICATION_EFFECTS.find((e) => e.id === m.effectId);
                           return (

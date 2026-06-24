@@ -8,6 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import weapons from "../../../data/weapons.json";
 import type { Weapon } from "@/lib/types";
+import { useI18n } from "@/components/i18n-provider";
 
 const allWeapons = weapons as Weapon[];
 
@@ -29,6 +30,7 @@ function extractStats(weapon: Weapon) {
 }
 
 export default function ComparePage() {
+  const { t } = useI18n();
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
 
   const selectedWeapons = useMemo(
@@ -77,13 +79,13 @@ export default function ComparePage() {
         <div className="flex items-center gap-3 mb-6">
           <GitCompareArrows className="h-8 w-8 text-primary" />
           <div>
-            <h1 className="text-3xl font-bold">Comparar Armas</h1>
-            <p className="text-muted-foreground">Selecione ate 3 armas para comparar lado a lado</p>
+            <h1 className="text-3xl font-bold">{t.compare2.title}</h1>
+            <p className="text-muted-foreground">{t.compare2.subtitle}</p>
           </div>
         </div>
 
         <Card className="mb-6">
-          <CardHeader><CardTitle className="text-sm">Adicionar Arma</CardTitle></CardHeader>
+          <CardHeader><CardTitle className="text-sm">{t.compare2.addWeapon}</CardTitle></CardHeader>
           <CardContent>
             <div className="relative" ref={weaponListRef}>
               <div className="relative">
@@ -93,14 +95,14 @@ export default function ComparePage() {
                   value={weaponSearch}
                   onChange={(e) => { setWeaponSearch(e.target.value); setShowWeaponList(true); }}
                   onFocus={() => setShowWeaponList(true)}
-                  placeholder="Buscar arma por nome, tipo ou vocation..."
+                  placeholder={t.compare2.searchWeapon}
                   className="w-full rounded-md border border-input bg-background pl-9 pr-3 py-2 text-sm"
                 />
               </div>
               {showWeaponList && (
                 <div className="absolute z-50 w-full mt-1 bg-background border rounded-md shadow-lg max-h-60 overflow-y-auto">
                   {filteredWeapons.length === 0 ? (
-                    <div className="p-3 text-sm text-muted-foreground text-center">Nenhuma arma encontrada</div>
+                    <div className="p-3 text-sm text-muted-foreground text-center">{t.compare2.noResults}</div>
                   ) : (
                     filteredWeapons.map((w) => (
                       <button
@@ -127,7 +129,7 @@ export default function ComparePage() {
         {selectedWeapons.length === 0 ? (
           <div className="text-center py-16 text-muted-foreground">
             <GitCompareArrows className="h-16 w-16 mx-auto mb-4 opacity-30" />
-            <p>Selecione armas acima para comparar</p>
+            <p>{t.compare2.noWeapon}</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

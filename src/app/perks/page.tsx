@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import weapons from "../../../data/weapons.json";
 import type { Weapon } from "@/lib/types";
+import { useI18n } from "@/components/i18n-provider";
 
 const allWeapons = weapons as Weapon[];
 
@@ -44,6 +45,7 @@ function getPerkColor(perk: string): string {
 }
 
 export default function PerksPage() {
+  const { t } = useI18n();
   const [search, setSearch] = useState("");
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [sortBy, setSortBy] = useState<"count" | "name">("count");
@@ -98,9 +100,9 @@ export default function PerksPage() {
         <div className="flex items-center gap-3 mb-6">
           <Star className="h-8 w-8 text-primary" />
           <div>
-            <h1 className="text-3xl font-bold">Perks</h1>
+            <h1 className="text-3xl font-bold">{t.perks.title}</h1>
             <p className="text-muted-foreground">
-              {allPerks.length} perks unicos em {allWeapons.length} armas
+              {allPerks.length} {t.perks.subtitle} {allWeapons.length} {t.perks.weapons}
             </p>
           </div>
         </div>
@@ -113,7 +115,7 @@ export default function PerksPage() {
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="Buscar perk..."
+              placeholder={t.perks.searchPlaceholder}
               className="w-full rounded-md border border-input bg-background pl-9 pr-3 py-2 text-sm"
             />
             {search && (
@@ -128,8 +130,8 @@ export default function PerksPage() {
               onChange={(e) => setSortBy(e.target.value as "count" | "name")}
               className="rounded-md border bg-background px-3 py-2 text-sm"
             >
-              <option value="count">Mais comuns</option>
-              <option value="name">Alfabetico</option>
+              <option value="count">{t.perks.sortByCommon}</option>
+              <option value="name">{t.perks.sortByAlpha}</option>
             </select>
           </div>
         </div>
@@ -160,13 +162,13 @@ export default function PerksPage() {
               onClick={() => setSelectedCategories([])}
               className="text-xs text-muted-foreground hover:text-foreground"
             >
-              Limpar
+              {t.perks.clear}
             </button>
           )}
         </div>
 
         <p className="text-sm text-muted-foreground mb-4">
-          {filtered.length} perks encontrados
+          {filtered.length} {t.perks.found}
         </p>
 
         {/* Perks grid */}
@@ -189,7 +191,7 @@ export default function PerksPage() {
                             {item.perk}
                           </p>
                           <p className="text-xs text-muted-foreground mt-1">
-                            Usado em {item.count} arma{item.count !== 1 ? "s" : ""}
+                            {t.perks.usedIn} {item.count} {item.count !== 1 ? t.perks.weaponsPlural : t.perks.weapon}
                           </p>
                         </div>
                         <Badge variant="outline" className="text-[10px] shrink-0">

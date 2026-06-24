@@ -9,6 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import weapons from "../../../data/weapons.json";
 import type { Weapon } from "@/lib/types";
+import { useI18n } from "@/components/i18n-provider";
 
 const allWeapons = weapons as Weapon[];
 
@@ -54,6 +55,7 @@ function getScore(w: Weapon): number {
 }
 
 export default function BestInSlotPage() {
+  const { t } = useI18n();
   const [selectedVocation, setSelectedVocation] = useState<string>("knight");
   const [selectedRange, setSelectedRange] = useState<string>("250-300");
 
@@ -84,7 +86,7 @@ export default function BestInSlotPage() {
           <Trophy className="h-8 w-8 text-primary" />
           <div>
             <h1 className="text-3xl font-bold">Best in Slot</h1>
-            <p className="text-muted-foreground">Melhor arma por vocation e nivel</p>
+            <p className="text-muted-foreground">{t.bis2.subtitle}</p>
           </div>
         </div>
 
@@ -125,7 +127,7 @@ export default function BestInSlotPage() {
         {bestWeapons.length === 0 ? (
           <div className="text-center py-16 text-muted-foreground">
             <Trophy className="h-16 w-16 mx-auto mb-4 opacity-30" />
-            <p>Nenhuma arma encontrada para essa vocation/nivel</p>
+            <p>{t.bis2.noResults}</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -160,7 +162,7 @@ export default function BestInSlotPage() {
                   </Link>
                   {alternatives.length > 0 && (
                     <div className="space-y-1">
-                      <p className="text-[10px] text-muted-foreground uppercase font-medium">Alternativas</p>
+                      <p className="text-[10px] text-muted-foreground uppercase font-medium">{t.bis2.alternatives}</p>
                       {alternatives.map((alt) => (
                         <Link key={alt.id} href={`/weapons/${alt.id}`} className="block p-2 rounded border hover:bg-accent transition-colors">
                           <div className="flex items-center justify-between">
