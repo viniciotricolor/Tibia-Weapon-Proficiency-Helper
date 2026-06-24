@@ -33,6 +33,9 @@ export function Header() {
           <Link href="/weapons" className="text-sm text-muted-foreground hover:text-primary transition-colors">
             {t.nav.weapons}
           </Link>
+          <Link href="/perks" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            Perks
+          </Link>
           <Link href="/simulator" className="text-sm text-muted-foreground hover:text-primary transition-colors">
             {t.nav.simulator}
           </Link>
@@ -86,6 +89,9 @@ export function Header() {
           <nav className="container flex flex-col py-2">
             <Link href="/weapons" className="py-2 text-sm text-muted-foreground hover:text-primary" onClick={() => setMobileOpen(false)}>
               {t.nav.weapons}
+            </Link>
+            <Link href="/perks" className="py-2 text-sm text-muted-foreground hover:text-primary" onClick={() => setMobileOpen(false)}>
+              Perks
             </Link>
             <Link href="/simulator" className="py-2 text-sm text-muted-foreground hover:text-primary" onClick={() => setMobileOpen(false)}>
               {t.nav.simulator}

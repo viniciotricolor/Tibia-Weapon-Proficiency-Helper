@@ -8,30 +8,40 @@
     ],
     "attack": 56,
     "level": 300,
-    "image": "https://www.tibiawiki.com.br/images/4/42/Falcon_Longsword.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/42//Falcon_Longsword.gif",
     "hand": "two-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 defence",
-          "+14.00% do seu Shielding como extra damage para suas spells",
-          "+2% critical hit chance para Front Sweep"
+          "+1 defence"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+2.50% critical extra damage",
-          "+5% mana leech para Front Sweep",
-          "-2s cooldown para Front Sweep"
+          "+14.00% do seu Shielding como extra damage para suas spells"
         ]
       },
       {
         "tier": 3,
         "perks": [
+          "+2% critical hit chance para Front Sweep",
+          "+2.50% critical extra damage",
+          "+5% mana leech para Front Sweep"
+        ]
+      },
+      {
+        "tier": 4,
+        "perks": [
+          "-2s cooldown para Front Sweep",
           "+6.00% damage contra Bird",
-          "+28.00% do seu Shielding como extra healing para suas spells",
+          "+28.00% do seu Shielding como extra healing para suas spells"
+        ]
+      },
+      {
+        "tier": 5,
+        "perks": [
           "+5.00% critical extra damage"
         ]
       }
@@ -48,30 +58,40 @@
     "attack": 10,
     "attackElement": "+47 Energy",
     "level": 300,
-    "image": "https://www.tibiawiki.com.br/images/1/16/Falcon_Battleaxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/16//Falcon_Battleaxe.gif",
     "hand": "two-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 defence",
-          "+10.00% do seu Shielding como extra damage para auto-attacks",
-          "+2% critical hit chance para Front Sweep"
+          "+1 defence"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+2.50% critical extra damage",
-          "+5% mana leech para Front Sweep",
-          "-2s cooldown para Front Sweep"
+          "+10.00% do seu Shielding como extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
+          "+2% critical hit chance para Front Sweep",
+          "+2.50% critical extra damage",
+          "+5% mana leech para Front Sweep"
+        ]
+      },
+      {
+        "tier": 4,
+        "perks": [
+          "-2s cooldown para Front Sweep",
           "+6.00% damage contra Bird",
-          "+28.00% do seu Shielding como extra healing para suas spells",
+          "+28.00% do seu Shielding como extra healing para suas spells"
+        ]
+      },
+      {
+        "tier": 5,
+        "perks": [
           "+5.00% critical extra damage"
         ]
       }
@@ -88,30 +108,40 @@
     "attack": 11,
     "attackElement": "+41 Energy",
     "level": 300,
-    "image": "https://www.tibiawiki.com.br/images/4/48/Falcon_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/48//Falcon_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 defence modifier",
-          "+10.00% do seu Shielding como extra damage para auto-attacks",
-          "+2% critical hit chance para Front Sweep"
+          "+1 defence modifier"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+2.50% critical extra damage para auto-attacks",
-          "+5% mana leech para Front Sweep",
-          "-2s cooldown para Front Sweep"
+          "+10.00% do seu Shielding como extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
+          "+2% critical hit chance para Front Sweep",
+          "+2.50% critical extra damage para auto-attacks",
+          "+5% mana leech para Front Sweep"
+        ]
+      },
+      {
+        "tier": 4,
+        "perks": [
+          "-2s cooldown para Front Sweep",
           "+6.00% damage contra Bird",
-          "+28.00% do seu Shielding como extra healing para suas spells",
+          "+28.00% do seu Shielding como extra healing para suas spells"
+        ]
+      },
+      {
+        "tier": 5,
+        "perks": [
           "+5.00% critical extra damage"
         ]
       }
@@ -127,30 +157,40 @@
     ],
     "attack": 52,
     "level": 220,
-    "image": "https://www.tibiawiki.com.br/images/6/6f/Cobra_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6f//Cobra_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 defence modifier",
-          "+12.00% do seu Sword Fighting como extra damage para suas spells",
-          "+2% critical hit chance para Front Sweep"
+          "+1 defence modifier"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+16 hit points on kill",
-          "+3% mana leech para Front Sweep",
-          "-2s cooldown para Front Sweep"
+          "+12.00% do seu Sword Fighting como extra damage para suas spells"
         ]
       },
       {
         "tier": 3,
         "perks": [
+          "+2% critical hit chance para Front Sweep",
+          "+16 hit points on kill",
+          "+3% mana leech para Front Sweep"
+        ]
+      },
+      {
+        "tier": 4,
+        "perks": [
+          "-2s cooldown para Front Sweep",
           "+4.00% damage contra Mammal",
-          "+20.00% do seu Sword Fighting como extra healing para suas spells",
+          "+20.00% do seu Sword Fighting como extra healing para suas spells"
+        ]
+      },
+      {
+        "tier": 5,
+        "perks": [
           "+5.00% critical extra damage"
         ]
       }
@@ -167,30 +207,40 @@
     "attack": 8,
     "attackElement": "+44 Ice",
     "level": 220,
-    "image": "https://www.tibiawiki.com.br/images/1/1c/Cobra_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1c//Cobra_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 defence modifier",
-          "+8.00% do seu Axe Fighting como extra damage para auto-attacks",
-          "+2% critical hit chance para Front Sweep"
+          "+1 defence modifier"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+16 hit points on kill",
-          "+3% mana leech para Front Sweep",
-          "-2s cooldown para Front Sweep"
+          "+8.00% do seu Axe Fighting como extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
+          "+2% critical hit chance para Front Sweep",
+          "+16 hit points on kill",
+          "+3% mana leech para Front Sweep"
+        ]
+      },
+      {
+        "tier": 4,
+        "perks": [
+          "-2s cooldown para Front Sweep",
           "+4.00% damage contra Mammal",
-          "+20.00% do seu Axe Fighting como extra healing para suas spells",
+          "+20.00% do seu Axe Fighting como extra healing para suas spells"
+        ]
+      },
+      {
+        "tier": 5,
+        "perks": [
           "+5.00% critical extra damage"
         ]
       }
@@ -207,30 +257,40 @@
     "attack": 8,
     "attackElement": "+44 Fire",
     "level": 220,
-    "image": "https://www.tibiawiki.com.br/images/2/2f/Cobra_Club.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2f//Cobra_Club.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 defence modifier",
-          "+8.00% do seu Club Fighting como extra damage para auto-attacks",
-          "+2% critical hit chance para Front Sweep"
+          "+1 defence modifier"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+16 hit points on kill",
-          "+3% mana leech para Front Sweep",
-          "-2s cooldown para Front Sweep"
+          "+8.00% do seu Club Fighting como extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
+          "+2% critical hit chance para Front Sweep",
+          "+16 hit points on kill",
+          "+3% mana leech para Front Sweep"
+        ]
+      },
+      {
+        "tier": 4,
+        "perks": [
+          "-2s cooldown para Front Sweep",
           "+4.00% damage contra Mammal",
-          "+20.00% do seu Club Fighting como extra healing para suas spells",
+          "+20.00% do seu Club Fighting como extra healing para suas spells"
+        ]
+      },
+      {
+        "tier": 5,
+        "perks": [
           "+5.00% critical extra damage"
         ]
       }
@@ -247,27 +307,32 @@
     "attack": 10,
     "attackElement": "+42 Energy",
     "level": 250,
-    "image": "https://www.tibiawiki.com.br/images/4/4d/Gnome_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4d//Gnome_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+5 mana on kill",
-          "+1 Sword Fighting"
+          "+5 mana on kill"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+8 mana on kill",
-          "+3.00% critical hit chance para auto-attacks"
+          "+1 Sword Fighting",
+          "+8 mana on kill"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+20 hit points on kill",
+          "+3.00% critical hit chance para auto-attacks",
+          "+20 hit points on kill"
+        ]
+      },
+      {
+        "tier": 4,
+        "perks": [
           "+1 attack",
           "+2.00% damage contra Reptile"
         ]
@@ -285,30 +350,40 @@
     "attack": 8,
     "attackElement": "+44 Earth",
     "level": 270,
-    "image": "https://www.tibiawiki.com.br/images/b/b8/Lion_Longsword.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b8//Lion_Longsword.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 defence modifier",
-          "+8.00% do seu Sword Fighting como extra damage para auto-attacks",
-          "+2% critical hit chance para Front Sweep"
+          "+1 defence modifier"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+8 mana on kill",
-          "+5% life leech para Front Sweep",
-          "-2s cooldown para Front Sweep"
+          "+8.00% do seu Sword Fighting como extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
+          "+2% critical hit chance para Front Sweep",
+          "+8 mana on kill",
+          "+5% life leech para Front Sweep"
+        ]
+      },
+      {
+        "tier": 4,
+        "perks": [
+          "-2s cooldown para Front Sweep",
           "+3.00% damage contra Lycanthrope",
-          "+20.00% do seu Sword Fighting como extra healing para suas spells",
+          "+20.00% do seu Sword Fighting como extra healing para suas spells"
+        ]
+      },
+      {
+        "tier": 5,
+        "perks": [
           "+5.00% critical extra damage"
         ]
       }
@@ -325,30 +400,40 @@
     "attack": 8,
     "attackElement": "+44 Earth",
     "level": 270,
-    "image": "https://www.tibiawiki.com.br/images/8/89/Lion_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/89//Lion_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 defence modifier",
-          "+8.00% do seu Axe Fighting como extra damage para auto-attacks",
-          "+2% critical hit chance para Front Sweep"
+          "+1 defence modifier"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+8 mana on kill",
-          "+5% life leech para Front Sweep",
-          "-2s cooldown para Front Sweep"
+          "+8.00% do seu Axe Fighting como extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
+          "+2% critical hit chance para Front Sweep",
+          "+8 mana on kill",
+          "+5% life leech para Front Sweep"
+        ]
+      },
+      {
+        "tier": 4,
+        "perks": [
+          "-2s cooldown para Front Sweep",
           "+3.00% damage contra Lycanthrope",
-          "+20.00% do seu Axe Fighting como extra healing para suas spells",
+          "+20.00% do seu Axe Fighting como extra healing para suas spells"
+        ]
+      },
+      {
+        "tier": 5,
+        "perks": [
           "+5.00% critical extra damage"
         ]
       }
@@ -365,30 +450,40 @@
     "attack": 8,
     "attackElement": "+44 Earth",
     "level": 270,
-    "image": "https://www.tibiawiki.com.br/images/d/db/Lion_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/db//Lion_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 defence modifier",
-          "+8.00% do seu Club Fighting como extra damage para auto-attacks",
-          "+2% critical hit chance para Front Sweep"
+          "+1 defence modifier"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+8 mana on kill",
-          "+5% life leech para Front Sweep",
-          "-2s cooldown para Front Sweep"
+          "+8.00% do seu Club Fighting como extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
+          "+2% critical hit chance para Front Sweep",
+          "+8 mana on kill",
+          "+5% life leech para Front Sweep"
+        ]
+      },
+      {
+        "tier": 4,
+        "perks": [
+          "-2s cooldown para Front Sweep",
           "+3.00% damage contra Lycanthrope",
-          "+20.00% do seu Club Fighting como extra healing para suas spells",
+          "+20.00% do seu Club Fighting como extra healing para suas spells"
+        ]
+      },
+      {
+        "tier": 5,
+        "perks": [
           "+5.00% critical extra damage"
         ]
       }
@@ -405,28 +500,38 @@
     "attack": 8,
     "attackElement": "+44 Ice",
     "level": 300,
-    "image": "https://www.tibiawiki.com.br/images/1/1e/Naga_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1e//Naga_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 defence modifier",
-          "+15 mana on kill"
+          "+1 defence modifier"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+30 hit points on kill",
-          "+75.00% do seu Magic Level como extra damage para auto-attacks"
+          "+15 mana on kill",
+          "+30 hit points on kill"
         ]
       },
       {
         "tier": 3,
         "perks": [
+          "+75.00% do seu Magic Level como extra damage para auto-attacks"
+        ]
+      },
+      {
+        "tier": 4,
+        "perks": [
           "+1 Sword Fighting",
-          "+3.00% damage contra Reptile",
+          "+3.00% damage contra Reptile"
+        ]
+      },
+      {
+        "tier": 5,
+        "perks": [
           "+50.00% do seu Magic Level como extra damage para suas spells"
         ]
       }
@@ -443,28 +548,38 @@
     "attack": 8,
     "attackElement": "+44 Energy",
     "level": 300,
-    "image": "https://www.tibiawiki.com.br/images/4/49/Naga_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/49//Naga_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 defence modifier",
-          "+15 mana on kill"
+          "+1 defence modifier"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+30 hit points on kill",
-          "+75.00% do seu Magic Level como extra damage para auto-attacks"
+          "+15 mana on kill",
+          "+30 hit points on kill"
         ]
       },
       {
         "tier": 3,
         "perks": [
+          "+75.00% do seu Magic Level como extra damage para auto-attacks"
+        ]
+      },
+      {
+        "tier": 4,
+        "perks": [
           "+1 Axe Fighting",
-          "+3.00% damage contra Reptile",
+          "+3.00% damage contra Reptile"
+        ]
+      },
+      {
+        "tier": 5,
+        "perks": [
           "+50.00% do seu Magic Level como extra damage para suas spells"
         ]
       }
@@ -480,28 +595,38 @@
     ],
     "attack": 52,
     "level": 300,
-    "image": "https://www.tibiawiki.com.br/images/6/63/Naga_Club.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/63//Naga_Club.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 defence modifier",
-          "+15 mana on kill"
+          "+1 defence modifier"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+30 hit points on kill",
-          "+100.00% do seu Magic Level como extra damage para auto-attacks"
+          "+15 mana on kill",
+          "+30 hit points on kill"
         ]
       },
       {
         "tier": 3,
         "perks": [
+          "+100.00% do seu Magic Level como extra damage para auto-attacks"
+        ]
+      },
+      {
+        "tier": 4,
+        "perks": [
           "+1 Club Fighting",
-          "+3.00% damage contra Reptile",
+          "+3.00% damage contra Reptile"
+        ]
+      },
+      {
+        "tier": 5,
+        "perks": [
           "+75.00% do seu Magic Level como extra damage para suas spells"
         ]
       }
@@ -518,43 +643,53 @@
     "attack": 0,
     "attackElement": "+46 Energy",
     "level": 330,
-    "image": "https://www.tibiawiki.com.br/images/c/ce/Amber_Sabre.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/ce//Amber_Sabre.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 Sword Fighting",
-          "+7% critical extra damage para Annihilation"
+          "+1 Sword Fighting"
         ]
       },
       {
         "tier": 2,
-        "perks": [
-          "+50% life leech para Annihilation",
-          "-6s cooldown para Annihilation"
-        ]
-      },
-      {
-        "tier": 3,
         "perks": [
           "+7% critical extra damage para Annihilation",
           "+50% life leech para Annihilation"
         ]
       },
       {
+        "tier": 3,
+        "perks": [
+          "-6s cooldown para Annihilation"
+        ]
+      },
+      {
         "tier": 4,
         "perks": [
-          "+2.5% critical hit chance para Annihilation",
-          "-8s cooldown para Annihilation"
+          "+7% critical extra damage para Annihilation",
+          "+50% life leech para Annihilation"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+3.00% damage contra Demon",
+          "+2.5% critical hit chance para Annihilation",
+          "-8s cooldown para Annihilation",
+          "+3.00% damage contra Demon"
+        ]
+      },
+      {
+        "tier": 6,
+        "perks": [
           "+1 attack",
-          "+50% mana leech para Annihilation",
+          "+50% mana leech para Annihilation"
+        ]
+      },
+      {
+        "tier": 7,
+        "perks": [
           "+1 attack"
         ]
       }
@@ -571,43 +706,53 @@
     "attack": 0,
     "attackElement": "+46 Ice",
     "level": 330,
-    "image": "https://www.tibiawiki.com.br/images/d/d2/Amber_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d2//Amber_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 Axe Fighting",
-          "+7% critical extra damage para Annihilation"
+          "+1 Axe Fighting"
         ]
       },
       {
         "tier": 2,
-        "perks": [
-          "+50% life leech para Annihilation",
-          "-6s cooldown para Annihilation"
-        ]
-      },
-      {
-        "tier": 3,
         "perks": [
           "+7% critical extra damage para Annihilation",
           "+50% life leech para Annihilation"
         ]
       },
       {
+        "tier": 3,
+        "perks": [
+          "-6s cooldown para Annihilation"
+        ]
+      },
+      {
         "tier": 4,
         "perks": [
-          "+2.5% critical hit chance para Annihilation",
-          "-8s cooldown para Annihilation"
+          "+7% critical extra damage para Annihilation",
+          "+50% life leech para Annihilation"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+3.00% damage contra Demon",
+          "+2.5% critical hit chance para Annihilation",
+          "-8s cooldown para Annihilation",
+          "+3.00% damage contra Demon"
+        ]
+      },
+      {
+        "tier": 6,
+        "perks": [
           "+1 attack",
-          "+50% mana leech para Annihilation",
+          "+50% mana leech para Annihilation"
+        ]
+      },
+      {
+        "tier": 7,
+        "perks": [
           "+1 attack"
         ]
       }
@@ -624,43 +769,53 @@
     "attack": 0,
     "attackElement": "+46 Fire",
     "level": 330,
-    "image": "https://www.tibiawiki.com.br/images/6/69/Amber_Cudgel.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/69//Amber_Cudgel.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 Club Fighting",
-          "+7% critical extra damage para Annihilation"
+          "+1 Club Fighting"
         ]
       },
       {
         "tier": 2,
-        "perks": [
-          "+50% life leech para Annihilation",
-          "-6s cooldown para Annihilation"
-        ]
-      },
-      {
-        "tier": 3,
         "perks": [
           "+7% critical extra damage para Annihilation",
           "+50% life leech para Annihilation"
         ]
       },
       {
+        "tier": 3,
+        "perks": [
+          "-6s cooldown para Annihilation"
+        ]
+      },
+      {
         "tier": 4,
         "perks": [
-          "+2.5% critical hit chance para Annihilation",
-          "-8s cooldown para Annihilation"
+          "+7% critical extra damage para Annihilation",
+          "+50% life leech para Annihilation"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+3.00% damage contra Demon",
+          "+2.5% critical hit chance para Annihilation",
+          "-8s cooldown para Annihilation",
+          "+3.00% damage contra Demon"
+        ]
+      },
+      {
+        "tier": 6,
+        "perks": [
           "+1 attack",
-          "+50% mana leech para Annihilation",
+          "+50% mana leech para Annihilation"
+        ]
+      },
+      {
+        "tier": 7,
+        "perks": [
           "+1 attack"
         ]
       }
@@ -677,34 +832,39 @@
     "attack": 6,
     "attackElement": "+50 Fire",
     "level": 270,
-    "image": "https://www.tibiawiki.com.br/images/a/a2/Eldritch_Claymore.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a2//Eldritch_Claymore.gif",
     "hand": "two-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+20.00% critical extra damage para auto-attacks",
-          "+75.00% do seu Magic Level como extra damage para auto-attacks"
+          "+20.00% critical extra damage para auto-attacks"
         ]
       },
       {
         "tier": 2,
+        "perks": [
+          "+75.00% do seu Magic Level como extra damage para auto-attacks"
+        ]
+      },
+      {
+        "tier": 3,
         "perks": [
           "+50.00% do seu Magic Level como extra damage para suas spells",
           "+5.00% critical hit chance para auto-attacks"
         ]
       },
       {
-        "tier": 3,
+        "tier": 4,
         "perks": [
           "+3.00% damage contra Magical",
-          "+8% critical extra damage para Groundshaker"
+          "+8% critical extra damage para Groundshaker",
+          "+2.00% mana leech"
         ]
       },
       {
-        "tier": 4,
+        "tier": 5,
         "perks": [
-          "+2.00% mana leech",
           "+1.5% critical hit chance para Groundshaker"
         ]
       }
@@ -720,34 +880,39 @@
     ],
     "attack": 56,
     "level": 270,
-    "image": "https://www.tibiawiki.com.br/images/7/70/Eldritch_Greataxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/70//Eldritch_Greataxe.gif",
     "hand": "two-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+20.00% critical extra damage para auto-attacks",
-          "+75.00% do seu Magic Level como extra damage para auto-attacks"
+          "+20.00% critical extra damage para auto-attacks"
         ]
       },
       {
         "tier": 2,
+        "perks": [
+          "+75.00% do seu Magic Level como extra damage para auto-attacks"
+        ]
+      },
+      {
+        "tier": 3,
         "perks": [
           "+100.00% do seu Magic Level como extra damage para suas spells",
           "+5.00% critical hit chance para auto-attacks"
         ]
       },
       {
-        "tier": 3,
+        "tier": 4,
         "perks": [
           "+3.00% damage contra Magical",
-          "+8% critical extra damage para Groundshaker"
+          "+8% critical extra damage para Groundshaker",
+          "+2.00% mana leech"
         ]
       },
       {
-        "tier": 4,
+        "tier": 5,
         "perks": [
-          "+2.00% mana leech",
           "+1.5% critical hit chance para Groundshaker"
         ]
       }
@@ -764,34 +929,39 @@
     "attack": 6,
     "attackElement": "+50 Fire",
     "level": 270,
-    "image": "https://www.tibiawiki.com.br/images/9/90/Eldritch_Warmace.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/90//Eldritch_Warmace.gif",
     "hand": "two-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+20.00% critical extra damage para auto-attacks",
-          "+75.00% do seu Magic Level como extra damage para auto-attacks"
+          "+20.00% critical extra damage para auto-attacks"
         ]
       },
       {
         "tier": 2,
+        "perks": [
+          "+75.00% do seu Magic Level como extra damage para auto-attacks"
+        ]
+      },
+      {
+        "tier": 3,
         "perks": [
           "+50.00% do seu Magic Level como extra damage para suas spells",
           "+5.00% critical hit chance para auto-attacks"
         ]
       },
       {
-        "tier": 3,
+        "tier": 4,
         "perks": [
           "+3.00% damage contra Magical",
-          "+8% critical extra damage para Groundshaker"
+          "+8% critical extra damage para Groundshaker",
+          "+2.00% mana leech"
         ]
       },
       {
-        "tier": 4,
+        "tier": 5,
         "perks": [
-          "+2.00% mana leech",
           "+1.5% critical hit chance para Groundshaker"
         ]
       }
@@ -1105,34 +1275,39 @@
     ],
     "attack": 0,
     "level": 250,
-    "image": "https://www.tibiawiki.com.br/images/f/fa/Naga_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fa//Naga_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+3.00% critical extra damage para Ice spells e runes",
-          "+1 Ice Magic Level"
+          "+3.00% critical extra damage para Ice spells e runes"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+3.00% damage contra Reptile",
-          "+10% critical extra damage para Ultimate Ice Strike"
+          "+1 Ice Magic Level",
+          "+3.00% damage contra Reptile"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+15% life leech para Ultimate Ice Strike",
-          "+10% critical extra damage para Ultimate Ice Strike"
+          "+10% critical extra damage para Ultimate Ice Strike",
+          "+15% life leech para Ultimate Ice Strike"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+15% life leech para Ultimate Ice Strike",
+          "+10% critical extra damage para Ultimate Ice Strike",
+          "+15% life leech para Ultimate Ice Strike"
+        ]
+      },
+      {
+        "tier": 5,
+        "perks": [
           "+1 Ice Magic Level"
         ]
       }
@@ -1196,42 +1371,52 @@
     ],
     "attack": 0,
     "level": 330,
-    "image": "https://www.tibiawiki.com.br/images/f/f3/Amber_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f3//Amber_Rod.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 Magic Level",
-          "+8.00% do seu Magic Level como extra healing para suas spells"
+          "+1 Magic Level"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+5.00% critical extra damage para offensive runes",
-          "+1.00% critical hit chance para Ice spells e runes"
+          "+8.00% do seu Magic Level como extra healing para suas spells",
+          "+5.00% critical extra damage para offensive runes"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+25 hit points on kill",
-          "+1.00% critical hit chance para offensive runes"
+          "+1.00% critical hit chance para Ice spells e runes",
+          "+25 hit points on kill"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+3.00% damage contra Demon",
-          "+1 Ice Magic Level"
+          "+1.00% critical hit chance para offensive runes",
+          "+3.00% damage contra Demon"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+6% critical extra damage para Strong Ice Wave",
-          "+7.00% critical extra damage para Ice spells e runes",
+          "+1 Ice Magic Level",
+          "+6% critical extra damage para Strong Ice Wave"
+        ]
+      },
+      {
+        "tier": 6,
+        "perks": [
+          "+7.00% critical extra damage para Ice spells e runes"
+        ]
+      },
+      {
+        "tier": 7,
+        "perks": [
           "+10% life leech para Strong Ice Wave"
         ]
       }
@@ -1460,34 +1645,39 @@
     ],
     "attack": 0,
     "level": 250,
-    "image": "https://www.tibiawiki.com.br/images/d/d2/Naga_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d2//Naga_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+3.00% critical extra damage para Energy spells e runes",
-          "+1 Energy Magic Level"
+          "+3.00% critical extra damage para Energy spells e runes"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+3.00% damage contra Reptile",
-          "+10% critical extra damage para Ultimate Energy Strike"
+          "+1 Energy Magic Level",
+          "+3.00% damage contra Reptile"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+15% life leech para Ultimate Energy Strike",
-          "+10% critical extra damage para Ultimate Energy Strike"
+          "+10% critical extra damage para Ultimate Energy Strike",
+          "+15% life leech para Ultimate Energy Strike"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+15% life leech para Ultimate Energy Strike",
+          "+10% critical extra damage para Ultimate Energy Strike",
+          "+15% life leech para Ultimate Energy Strike"
+        ]
+      },
+      {
+        "tier": 5,
+        "perks": [
           "+1 Energy Magic Level"
         ]
       }
@@ -1503,7 +1693,7 @@
     ],
     "attack": 0,
     "level": 220,
-    "image": "https://www.tibiawiki.com.br/images/a/a7/Lion_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a7//Lion_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1515,40 +1705,29 @@
       {
         "tier": 2,
         "perks": [
-          "+5.00% critical extra damage para Fire spells e runes"
-        ]
-      },
-      {
-        "tier": 3,
-        "perks": [
-          "+1.00% critical hit chance para Fire spells e runes"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+5.00% critical extra damage para Fire spells e runes",
           "+1 Fire Magic Level",
           "-4s cooldown para Strong Flame Strike"
         ]
       },
       {
-        "tier": 5,
+        "tier": 3,
         "perks": [
           "+1.00% critical hit chance para Fire spells e runes",
           "+5.00% do seu Magic Level como extra damage para suas spells"
         ]
       },
       {
-        "tier": 6,
+        "tier": 4,
         "perks": [
-          "+3.00% damage contra Lycanthrope"
+          "+3.00% damage contra Lycanthrope",
+          "+1 Fire Magic Level",
+          "+10% critical extra damage para Strong Flame Strike"
         ]
       },
       {
-        "tier": 7,
+        "tier": 5,
         "perks": [
-          "+1 Fire Magic Level",
-          "+10% critical extra damage para Strong Flame Strike",
           "+5.00% critical extra damage"
         ]
       }
@@ -1564,42 +1743,52 @@
     ],
     "attack": 0,
     "level": 330,
-    "image": "https://www.tibiawiki.com.br/images/1/18/Amber_Wand.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/18//Amber_Wand.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 Magic Level",
-          "+4.00% do seu Magic Level como extra damage para suas spells"
+          "+1 Magic Level"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+5.00% critical extra damage para offensive runes",
-          "+1.00% critical hit chance para Energy spells e runes"
+          "+4.00% do seu Magic Level como extra damage para suas spells",
+          "+5.00% critical extra damage para offensive runes"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+30 mana on kill",
-          "+1.00% critical hit chance para offensive runes"
+          "+1.00% critical hit chance para Energy spells e runes",
+          "+30 mana on kill"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+3.00% damage contra Demon",
-          "+1 Energy Magic Level"
+          "+1.00% critical hit chance para offensive runes",
+          "+3.00% damage contra Demon"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+10% critical extra damage para Rage of the Skies",
-          "+7.00% critical extra damage para Energy spells e runes",
+          "+1 Energy Magic Level",
+          "+10% critical extra damage para Rage of the Skies"
+        ]
+      },
+      {
+        "tier": 6,
+        "perks": [
+          "+7.00% critical extra damage para Energy spells e runes"
+        ]
+      },
+      {
+        "tier": 7,
+        "perks": [
           "+50% mana leech para Rage of the Skies"
         ]
       }
@@ -5063,13 +5252,13 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/1/1f/Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1f//Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+3 damage at melee range"
+          "+1 defence modifier"
         ]
       },
       {
@@ -5081,18 +5270,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% hit chance"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -5108,13 +5286,13 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/3/31/Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/31//Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+3 damage at melee range"
+          "+1 defence modifier"
         ]
       },
       {
@@ -5126,18 +5304,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% hit chance"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -5153,13 +5320,13 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/3/37/Club.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/37//Club.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+3 damage at melee range"
+          "+1 defence modifier"
         ]
       },
       {
@@ -5171,18 +5338,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% hit chance"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -5198,7 +5354,7 @@
     ],
     "attack": 23,
     "level": 20,
-    "image": "https://www.tibiawiki.com.br/images/2/2f/Fists_of_Enlightenment.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2f//Fists_of_Enlightenment.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5210,30 +5366,20 @@
       {
         "tier": 2,
         "perks": [
-          "+15.00% critical extra damage para auto-attacks"
+          "+15.00% critical extra damage para auto-attacks",
+          "+6 mana on kill"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+6 mana on kill"
+          "+4% base damage para Greater Tiger Clash"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+4% base damage para Greater Tiger Clash"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+1 Fist Fighting"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
+          "+1 Fist Fighting",
           "+5.00% do seu Magic Level como extra damage para suas spells"
         ]
       }
@@ -5249,7 +5395,7 @@
     ],
     "attack": 43,
     "level": 300,
-    "image": "https://www.tibiawiki.com.br/images/4/4b/Falcon_Sai.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4b//Falcon_Sai.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5261,53 +5407,28 @@
       {
         "tier": 2,
         "perks": [
-          "+15.00% do seu Shielding como extra damage para suas spells"
+          "+15.00% do seu Shielding como extra damage para suas spells",
+          "+15.00% do seu Shielding como extra healing para suas spells"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+15.00% do seu Shielding como extra healing para suas spells"
+          "+4.00% life leech",
+          "+10% critical extra damage para Flurry of Blows",
+          "+5% life leech para Flurry of Blows"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+4.00% life leech"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+10% critical extra damage para Flurry of Blows"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+5% life leech para Flurry of Blows"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
-          "+1% critical hit chance para Flurry of Blows"
-        ]
-      },
-      {
-        "tier": 8,
-        "perks": [
-          "+5.00% damage contra Bird"
-        ]
-      },
-      {
-        "tier": 9,
-        "perks": [
+          "+1% critical hit chance para Flurry of Blows",
+          "+5.00% damage contra Bird",
           "+20.00% do seu Shielding como extra damage para suas spells"
         ]
       },
       {
-        "tier": 10,
+        "tier": 5,
         "perks": [
           "+5.00% critical extra damage"
         ]
@@ -5324,7 +5445,7 @@
     ],
     "attack": 43,
     "level": 300,
-    "image": "https://www.tibiawiki.com.br/images/6/6e/Naga_Katar.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6e//Naga_Katar.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5336,41 +5457,26 @@
       {
         "tier": 2,
         "perks": [
-          "+30 hit points on kill"
+          "+30 hit points on kill",
+          "+15 mana on kill"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+15 mana on kill"
+          "+12.00% do seu Magic Level como extra damage para auto-attacks"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+12.00% do seu Magic Level como extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+1 Magic Level"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+3.00% damage contra Reptile"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
+          "+1 Magic Level",
+          "+3.00% damage contra Reptile",
           "+1 attack"
         ]
       },
       {
-        "tier": 8,
+        "tier": 5,
         "perks": [
           "+12.00% do seu Magic Level como extra damage para suas spells"
         ]
@@ -5387,54 +5493,39 @@
     ],
     "attack": 43,
     "level": 270,
-    "image": "https://www.tibiawiki.com.br/images/d/d4/Lion_Claws.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d4//Lion_Claws.gif",
     "hand": "two-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+13.00% critical extra damage",
-          "+8.00% do seu Fist Fighting como extra damage para auto-attacks"
+          "+13.00% critical extra damage"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+6.00% critical extra damage"
+          "+8.00% do seu Fist Fighting como extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+5% life leech para Flurry of Blows"
+          "+6.00% critical extra damage",
+          "+5% life leech para Flurry of Blows",
+          "+3% mana leech para Flurry of Blows"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+3% mana leech para Flurry of Blows"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+1% critical hit chance para Flurry of Blows"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+3.00% damage contra Lycanthrope"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
+          "+1% critical hit chance para Flurry of Blows",
+          "+3.00% damage contra Lycanthrope",
           "+10.00% do seu Fist Fighting como extra healing para suas spells"
         ]
       },
       {
-        "tier": 8,
+        "tier": 5,
         "perks": [
           "+5.00% critical extra damage"
         ]
@@ -5581,7 +5672,7 @@
     ],
     "attack": 40,
     "level": 120,
-    "image": "https://www.tibiawiki.com.br/images/6/69/Umbral_Katar.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/69//Umbral_Katar.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5593,26 +5684,21 @@
       {
         "tier": 2,
         "perks": [
-          "+12.00% do seu Fist Fighting como extra damage para auto-attacks"
+          "+12.00% do seu Fist Fighting como extra damage para auto-attacks",
+          "+25 hit points on kill"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+25 hit points on kill",
-          "+3.00% damage contra Humanoid"
+          "+3.00% damage contra Humanoid",
+          "+2.00% critical hit chance para auto-attacks"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+2.00% critical hit chance para auto-attacks",
-          "+5.00% do seu Fist Fighting como extra damage para suas spells"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
+          "+5.00% do seu Fist Fighting como extra damage para suas spells",
           "+15 mana on kill"
         ]
       }
@@ -5628,7 +5714,7 @@
     ],
     "attack": 41,
     "level": 250,
-    "image": "https://www.tibiawiki.com.br/images/d/d9/Umbral_Master_Katar.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d9//Umbral_Master_Katar.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -5640,31 +5726,26 @@
       {
         "tier": 2,
         "perks": [
-          "+16.00% do seu Fist Fighting como extra damage para auto-attacks"
+          "+16.00% do seu Fist Fighting como extra damage para auto-attacks",
+          "+40 hit points on kill"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+40 hit points on kill",
-          "+3.00% damage contra Humanoid"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+3.00% damage contra Humanoid",
           "+3.00% critical hit chance para auto-attacks"
         ]
       },
       {
-        "tier": 5,
+        "tier": 4,
         "perks": [
           "+5.00% do seu Fist Fighting como extra damage para suas spells",
           "+20 mana on kill"
         ]
       },
       {
-        "tier": 6,
+        "tier": 5,
         "perks": [
           "+15.00% do seu Fist Fighting como extra damage para suas spells"
         ]
@@ -11621,7 +11702,7 @@
     ],
     "attack": 44,
     "level": 45,
-    "image": "https://www.tibiawiki.com.br/images/a/a1/Dragon_Slayer.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a1//Dragon_Slayer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11639,17 +11720,12 @@
       {
         "tier": 3,
         "perks": [
-          "+2.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+2.00% critical hit chance para auto-attacks",
           "+8 mana on kill"
         ]
       },
       {
-        "tier": 5,
+        "tier": 4,
         "perks": [
           "+5.00% damage contra Dragon"
         ]
@@ -11705,7 +11781,7 @@
     ],
     "attack": 44,
     "level": 60,
-    "image": "https://www.tibiawiki.com.br/images/f/ff/Mystic_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/ff//Mystic_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -11717,30 +11793,15 @@
       {
         "tier": 2,
         "perks": [
-          "+2.00% damage contra Elemental"
+          "+2.00% damage contra Elemental",
+          "+3.00% do seu Sword Fighting como extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+3.00% do seu Sword Fighting como extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
-          "+2.00% damage contra bosses e Sinister Embraced"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+4.00% do seu Sword Fighting como extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
+          "+2.00% damage contra bosses e Sinister Embraced",
+          "+4.00% do seu Sword Fighting como extra damage para auto-attacks",
           "+10% critical extra damage para Brutal Strike"
         ]
       }
@@ -11756,7 +11817,7 @@
     ],
     "attack": 42,
     "level": 50,
-    "image": "https://www.tibiawiki.com.br/images/d/d5/Relic_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d5//Relic_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -11774,12 +11835,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -11795,7 +11851,7 @@
     ],
     "attack": 33,
     "level": 25,
-    "image": "https://www.tibiawiki.com.br/images/4/4e/Knight_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4e//Knight_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -11813,12 +11869,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -11834,7 +11885,7 @@
     ],
     "attack": 44,
     "level": 60,
-    "image": "https://www.tibiawiki.com.br/images/0/03/Heroic_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/03//Heroic_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -11846,30 +11897,15 @@
       {
         "tier": 2,
         "perks": [
-          "+2.00% damage contra Elemental"
+          "+2.00% damage contra Elemental",
+          "+3.00% do seu Axe Fighting como extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+3.00% do seu Axe Fighting como extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
-          "+2.00% damage contra bosses e Sinister Embraced"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+4.00% do seu Axe Fighting como extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
+          "+2.00% damage contra bosses e Sinister Embraced",
+          "+4.00% do seu Axe Fighting como extra damage para auto-attacks",
           "+10% critical extra damage para Brutal Strike"
         ]
       }
@@ -11885,7 +11921,7 @@
     ],
     "attack": 44,
     "level": 60,
-    "image": "https://www.tibiawiki.com.br/images/5/57/Cranial_Basher.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/57//Cranial_Basher.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -11897,30 +11933,15 @@
       {
         "tier": 2,
         "perks": [
-          "+2.00% damage contra Elemental"
+          "+2.00% damage contra Elemental",
+          "+3.00% do seu Club Fighting como extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+3.00% do seu Club Fighting como extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
-          "+2.00% damage contra bosses e Sinister Embraced"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+4.00% do seu Club Fighting como extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
+          "+2.00% damage contra bosses e Sinister Embraced",
+          "+4.00% do seu Club Fighting como extra damage para auto-attacks",
           "+10% critical extra damage para Brutal Strike"
         ]
       }
@@ -11936,7 +11957,7 @@
     ],
     "attack": 38,
     "level": 35,
-    "image": "https://www.tibiawiki.com.br/images/a/aa/Crystal_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/aa//Crystal_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -11954,12 +11975,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -11975,7 +11991,7 @@
     ],
     "attack": 39,
     "level": 75,
-    "image": "https://www.tibiawiki.com.br/images/b/bd/Glooth_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/bd//Glooth_Blade.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -11987,48 +12003,28 @@
       {
         "tier": 2,
         "perks": [
-          "+4 mana on hit"
+          "+4 mana on hit",
+          "+0.50% damage contra bosses e Sinister Embraced"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+0.50% damage contra bosses e Sinister Embraced"
+          "+8 mana on hit",
+          "+1.00% damage contra bosses e Sinister Embraced"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+8 mana on hit"
+          "+16 mana on hit",
+          "+2.00% damage contra bosses e Sinister Embraced"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+1.00% damage contra bosses e Sinister Embraced"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+16 mana on hit"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
-          "+2.00% damage contra bosses e Sinister Embraced"
-        ]
-      },
-      {
-        "tier": 8,
-        "perks": [
-          "+32 mana on hit"
-        ]
-      },
-      {
-        "tier": 9,
-        "perks": [
+          "+32 mana on hit",
           "+4.00% damage contra bosses e Sinister Embraced"
         ]
       }
@@ -12044,7 +12040,7 @@
     ],
     "attack": 39,
     "level": 75,
-    "image": "https://www.tibiawiki.com.br/images/2/2d/Glooth_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/2d//Glooth_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12056,48 +12052,28 @@
       {
         "tier": 2,
         "perks": [
-          "+4 mana on hit"
+          "+4 mana on hit",
+          "+0.50% damage contra bosses e Sinister Embraced"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+0.50% damage contra bosses e Sinister Embraced"
+          "+8 mana on hit",
+          "+1.00% damage contra bosses e Sinister Embraced"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+8 mana on hit"
+          "+16 mana on hit",
+          "+2.00% damage contra bosses e Sinister Embraced"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+1.00% damage contra bosses e Sinister Embraced"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+16 mana on hit"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
-          "+2.00% damage contra bosses e Sinister Embraced"
-        ]
-      },
-      {
-        "tier": 8,
-        "perks": [
-          "+32 mana on hit"
-        ]
-      },
-      {
-        "tier": 9,
-        "perks": [
+          "+32 mana on hit",
           "+4.00% damage contra bosses e Sinister Embraced"
         ]
       }
@@ -12113,7 +12089,7 @@
     ],
     "attack": 39,
     "level": 75,
-    "image": "https://www.tibiawiki.com.br/images/5/56/Glooth_Club.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/56//Glooth_Club.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12125,48 +12101,28 @@
       {
         "tier": 2,
         "perks": [
-          "+4 mana on hit"
+          "+4 mana on hit",
+          "+0.50% damage contra bosses e Sinister Embraced"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+0.50% damage contra bosses e Sinister Embraced"
+          "+8 mana on hit",
+          "+1.00% damage contra bosses e Sinister Embraced"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+8 mana on hit"
+          "+16 mana on hit",
+          "+2.00% damage contra bosses e Sinister Embraced"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+1.00% damage contra bosses e Sinister Embraced"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+16 mana on hit"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
-          "+2.00% damage contra bosses e Sinister Embraced"
-        ]
-      },
-      {
-        "tier": 8,
-        "perks": [
-          "+32 mana on hit"
-        ]
-      },
-      {
-        "tier": 9,
-        "perks": [
+          "+32 mana on hit",
           "+4.00% damage contra bosses e Sinister Embraced"
         ]
       }
@@ -12507,7 +12463,7 @@
     ],
     "attack": 36,
     "level": 30,
-    "image": "https://www.tibiawiki.com.br/images/1/18/Bright_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/18//Bright_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -12525,17 +12481,12 @@
       {
         "tier": 3,
         "perks": [
-          "+2.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+2.00% critical hit chance para auto-attacks",
           "+5 mana on kill"
         ]
       },
       {
-        "tier": 5,
+        "tier": 4,
         "perks": [
           "+2.00% do seu Sword Fighting como extra damage para auto-attacks"
         ]
@@ -12552,7 +12503,7 @@
     ],
     "attack": 46,
     "level": 55,
-    "image": "https://www.tibiawiki.com.br/images/1/1b/Giant_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1b//Giant_Sword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12570,17 +12521,12 @@
       {
         "tier": 3,
         "perks": [
-          "+2.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+2.00% critical hit chance para auto-attacks",
           "+8 mana on kill"
         ]
       },
       {
-        "tier": 5,
+        "tier": 4,
         "perks": [
           "+3.00% damage contra Giant"
         ]
@@ -12654,7 +12600,7 @@
     ],
     "attack": 40,
     "level": 30,
-    "image": "https://www.tibiawiki.com.br/images/c/c0/Glorious_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c0//Glorious_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12672,12 +12618,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -12693,7 +12634,7 @@
     ],
     "attack": 46,
     "level": 50,
-    "image": "https://www.tibiawiki.com.br/images/6/67/Guardian_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/67//Guardian_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12711,12 +12652,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -12732,7 +12668,7 @@
     ],
     "attack": 47,
     "level": 60,
-    "image": "https://www.tibiawiki.com.br/images/8/87/Abyss_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/87//Abyss_Hammer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12750,12 +12686,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -12771,7 +12702,7 @@
     ],
     "attack": 45,
     "level": 65,
-    "image": "https://www.tibiawiki.com.br/images/9/95/Onyx_Flail.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/95//Onyx_Flail.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -12789,12 +12720,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -12951,7 +12877,7 @@
     ],
     "attack": 25,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/4/40/Battle_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/40//Battle_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -12969,12 +12895,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -12990,7 +12911,7 @@
     ],
     "attack": 24,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/b/b1/Battle_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b1//Battle_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13008,12 +12929,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13029,7 +12945,7 @@
     ],
     "attack": 24,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/4/42/Spike_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/42//Spike_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13047,12 +12963,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13068,7 +12979,7 @@
     ],
     "attack": 35,
     "level": 25,
-    "image": "https://www.tibiawiki.com.br/images/f/f5/Double_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/f5//Double_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13086,12 +12997,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13107,7 +13013,7 @@
     ],
     "attack": 31,
     "level": 20,
-    "image": "https://www.tibiawiki.com.br/images/5/5e/Dwarven_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/5e//Dwarven_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13125,12 +13031,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13146,7 +13047,7 @@
     ],
     "attack": 10,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/1/1a/Golden_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1a//Golden_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13164,17 +13065,12 @@
       {
         "tier": 3,
         "perks": [
-          "+2.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+2.00% critical hit chance para auto-attacks",
           "+5 mana on kill"
         ]
       },
       {
-        "tier": 5,
+        "tier": 4,
         "perks": [
           "+2.00% damage contra Construct"
         ]
@@ -13191,7 +13087,7 @@
     ],
     "attack": 48,
     "level": 65,
-    "image": "https://www.tibiawiki.com.br/images/7/7a/War_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/7a//War_Axe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13209,12 +13105,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13230,7 +13121,7 @@
     ],
     "attack": 21,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/a/a7/Steel_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a7//Steel_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13248,12 +13139,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13269,7 +13155,7 @@
     ],
     "attack": 10,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/c/c1/Hand_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c1//Hand_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13287,12 +13173,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13308,7 +13189,7 @@
     ],
     "attack": 15,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/5/5d/Hatchet.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/5d//Hatchet.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13326,12 +13207,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13347,7 +13223,7 @@
     ],
     "attack": 17,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/2/27/Longsword.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/27//Longsword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13365,12 +13241,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13386,7 +13257,7 @@
     ],
     "attack": 30,
     "level": 20,
-    "image": "https://www.tibiawiki.com.br/images/9/92/Two_Handed_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/92//Two_Handed_Sword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13404,12 +13275,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13425,7 +13291,7 @@
     ],
     "attack": 26,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/8/87/Broadsword.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/87//Broadsword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13443,12 +13309,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13464,7 +13325,7 @@
     ],
     "attack": 19,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/a/a3/Scimitar.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a3//Scimitar.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13482,12 +13343,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13503,7 +13359,7 @@
     ],
     "attack": 16,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/d/d0/Katana.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d0//Katana.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13521,12 +13377,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13542,7 +13393,7 @@
     ],
     "attack": 25,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/b/b3/Morning_Star.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/b3//Morning_Star.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13560,12 +13411,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13581,7 +13427,7 @@
     ],
     "attack": 16,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/2/26/Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/26//Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13599,12 +13445,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13620,7 +13461,7 @@
     ],
     "attack": 45,
     "level": 50,
-    "image": "https://www.tibiawiki.com.br/images/2/25/War_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/25//War_Hammer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13638,12 +13479,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13659,7 +13495,7 @@
     ],
     "attack": 28,
     "level": 20,
-    "image": "https://www.tibiawiki.com.br/images/d/da/Barbarian_Axe.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/da//Barbarian_Axe.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13677,12 +13513,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13698,7 +13529,7 @@
     ],
     "attack": 18,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/5/50/Iron_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/50//Iron_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13716,12 +13547,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13737,7 +13563,7 @@
     ],
     "attack": 51,
     "level": 85,
-    "image": "https://www.tibiawiki.com.br/images/3/3d/Skullcrusher.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3d//Skullcrusher.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13755,17 +13581,12 @@
       {
         "tier": 3,
         "perks": [
-          "+20.00% critical extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+20.00% critical extra damage para auto-attacks",
           "+30 hit points on kill"
         ]
       },
       {
-        "tier": 5,
+        "tier": 4,
         "perks": [
           "+2.00% damage contra Humanoid"
         ]
@@ -13782,7 +13603,7 @@
     ],
     "attack": 48,
     "level": 65,
-    "image": "https://www.tibiawiki.com.br/images/1/13/Hammer_of_Wrath.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/13//Hammer_of_Wrath.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -13800,12 +13621,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13821,7 +13637,7 @@
     ],
     "attack": 46,
     "level": 70,
-    "image": "https://www.tibiawiki.com.br/images/0/07/Jade_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/07//Jade_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13839,12 +13655,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13860,7 +13671,7 @@
     ],
     "attack": 37,
     "level": 30,
-    "image": "https://www.tibiawiki.com.br/images/c/c2/Sapphire_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/c2//Sapphire_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13878,12 +13689,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -13899,7 +13705,7 @@
     ],
     "attack": 49,
     "level": 85,
-    "image": "https://www.tibiawiki.com.br/images/e/e1/Thunder_Hammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/e/e1//Thunder_Hammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13917,36 +13723,21 @@
       {
         "tier": 3,
         "perks": [
-          "+1 Club Fighting"
+          "+1 Club Fighting",
+          "+20.00% critical extra damage para auto-attacks",
+          "+50% base damage para Whirlwind Throw"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+20.00% critical extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+50% base damage para Whirlwind Throw",
-          "+16% base damage para Whirlwind Throw"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+5.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
+          "+16% base damage para Whirlwind Throw",
+          "+5.00% critical hit chance para auto-attacks",
           "+15% critical hit chance para Whirlwind Throw"
         ]
       },
       {
-        "tier": 8,
+        "tier": 5,
         "perks": [
           "+5.00% damage contra bosses e Sinister Embraced"
         ]
@@ -13963,7 +13754,7 @@
     ],
     "attack": 34,
     "level": 25,
-    "image": "https://www.tibiawiki.com.br/images/0/02/Diamond_Sceptre.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/02//Diamond_Sceptre.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -13981,12 +13772,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -14002,7 +13788,7 @@
     ],
     "attack": 43,
     "level": 55,
-    "image": "https://www.tibiawiki.com.br/images/a/ae/Queen%27s_Sceptre.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/5b//Queen's_Sceptre.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14020,24 +13806,14 @@
       {
         "tier": 3,
         "perks": [
-          "+10% critical extra damage para Brutal Strike"
+          "+10% critical extra damage para Brutal Strike",
+          "+10% healing para Wound Cleansing"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+10% healing para Wound Cleansing"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+10% life leech para Brutal Strike"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
+          "+10% life leech para Brutal Strike",
           "+1 Healing Magic Level"
         ]
       }
@@ -14053,7 +13829,7 @@
     ],
     "attack": 24,
     "level": 30,
-    "image": "https://www.tibiawiki.com.br/images/4/4c/Fire_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4c//Fire_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14071,12 +13847,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -14143,7 +13914,7 @@
     ],
     "attack": 48,
     "level": 80,
-    "image": "https://www.tibiawiki.com.br/images/f/fd/Magic_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fd//Magic_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14155,30 +13926,15 @@
       {
         "tier": 2,
         "perks": [
-          "-30s cooldown para Intense Wound Cleansing"
+          "-30s cooldown para Intense Wound Cleansing",
+          "+1 defence modifier",
+          "+10.00% do seu Sword Fighting como extra healing para suas spells"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+1 defence modifier"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
-          "+10.00% do seu Sword Fighting como extra healing para suas spells"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+10% life leech para Berserk"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
+          "+10% life leech para Berserk",
           "+5% mana leech para Berserk"
         ]
       }
@@ -14194,7 +13950,7 @@
     ],
     "attack": 43,
     "level": 40,
-    "image": "https://www.tibiawiki.com.br/images/0/03/Mercenary_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/03//Mercenary_Sword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -14212,12 +13968,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -14233,7 +13984,7 @@
     ],
     "attack": 45,
     "level": 50,
-    "image": "https://www.tibiawiki.com.br/images/6/6f/Thaian_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6f//Thaian_Sword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -14245,30 +13996,20 @@
       {
         "tier": 2,
         "perks": [
-          "+10.00% critical extra damage para auto-attacks"
+          "+10.00% critical extra damage para auto-attacks",
+          "+1.00% damage contra bosses e Sinister Embraced"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+1.00% damage contra bosses e Sinister Embraced"
+          "+2.00% critical hit chance para auto-attacks"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+2.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+3.00% damage contra Undead"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
+          "+3.00% damage contra Undead",
           "+2.00% damage contra bosses e Sinister Embraced"
         ]
       }
@@ -14284,7 +14025,7 @@
     ],
     "attack": 35,
     "level": 25,
-    "image": "https://www.tibiawiki.com.br/images/4/48/Crystal_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/48//Crystal_Sword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -14302,12 +14043,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -14323,7 +14059,7 @@
     ],
     "attack": 49,
     "level": 100,
-    "image": "https://www.tibiawiki.com.br/images/0/0d/Emerald_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/0/0d//Emerald_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14335,29 +14071,19 @@
       {
         "tier": 2,
         "perks": [
-          "+4.00% do seu Sword Fighting como extra damage para auto-attacks"
+          "+4.00% do seu Sword Fighting como extra damage para auto-attacks",
+          "+2.00% critical hit chance para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+2.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
-          "+4.00% damage contra bosses e Sinister Embraced"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
+          "+4.00% damage contra bosses e Sinister Embraced",
           "+3% mana leech para Fierce Berserk"
         ]
       },
       {
-        "tier": 6,
+        "tier": 4,
         "perks": [
           "+1 Sword Fighting"
         ]
@@ -14374,7 +14100,7 @@
     ],
     "attack": 42,
     "level": 50,
-    "image": "https://www.tibiawiki.com.br/images/b/bd/Northern_Star.gif",
+    "image": "https://www.tibiawiki.com.br/images/b/bd//Northern_Star.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14386,13 +14112,15 @@
       {
         "tier": 2,
         "perks": [
-          "+5.00% do seu Club Fighting como extra damage para suas spells"
+          "+5.00% do seu Club Fighting como extra damage para suas spells",
+          "+20 hit points on kill"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+20 hit points on kill"
+          "+5.00% do seu Club Fighting como extra damage para suas spells",
+          "+10.00% do seu Club Fighting como extra damage para auto-attacks"
         ]
       },
       {
@@ -14403,18 +14131,6 @@
       },
       {
         "tier": 5,
-        "perks": [
-          "+10.00% do seu Club Fighting como extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+5.00% do seu Club Fighting como extra damage para suas spells"
-        ]
-      },
-      {
-        "tier": 7,
         "perks": [
           "+2.00% damage contra Dragon"
         ]
@@ -14431,7 +14147,7 @@
     ],
     "attack": 47,
     "level": 60,
-    "image": "https://www.tibiawiki.com.br/images/5/55/Demonrage_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/55//Demonrage_Sword.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -14449,12 +14165,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -14470,7 +14181,7 @@
     ],
     "attack": 18,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/7/79/Serpent_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/79//Serpent_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14488,17 +14199,12 @@
       {
         "tier": 3,
         "perks": [
-          "+2.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+2.00% critical hit chance para auto-attacks",
           "+5 mana on kill"
         ]
       },
       {
-        "tier": 5,
+        "tier": 4,
         "perks": [
           "+1.00% damage contra Reptile"
         ]
@@ -14515,7 +14221,7 @@
     ],
     "attack": 41,
     "level": 45,
-    "image": "https://www.tibiawiki.com.br/images/8/85/Pharaoh_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/85//Pharaoh_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14527,41 +14233,26 @@
       {
         "tier": 2,
         "perks": [
-          "+10.00% do seu Sword Fighting como extra damage para auto-attacks"
+          "+10.00% do seu Sword Fighting como extra damage para auto-attacks",
+          "+15 mana on kill"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+15 mana on kill"
+          "+10.00% do seu Sword Fighting como extra damage para auto-attacks",
+          "+10.00% do seu Magic Level como extra damage para auto-attacks"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+10.00% do seu Sword Fighting como extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+10.00% do seu Magic Level como extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+2 attack"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
+          "+2 attack",
           "+25.00% do seu Sword Fighting como extra damage para suas spells"
         ]
       },
       {
-        "tier": 8,
+        "tier": 5,
         "perks": [
           "+2.00% damage contra Magical"
         ]
@@ -14578,7 +14269,7 @@
     ],
     "attack": 21,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/d/dd/Jagged_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/dd//Jagged_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14596,12 +14287,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -14617,7 +14303,7 @@
     ],
     "attack": 38,
     "level": 35,
-    "image": "https://www.tibiawiki.com.br/images/d/d9/Djinn_Blade.gif",
+    "image": "https://www.tibiawiki.com.br/images/d/d9//Djinn_Blade.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14629,47 +14315,27 @@
       {
         "tier": 2,
         "perks": [
-          "+7.00% do seu Sword Fighting como extra damage para auto-attacks"
+          "+7.00% do seu Sword Fighting como extra damage para auto-attacks",
+          "+21 hit points on kill"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+21 hit points on kill"
+          "+7.00% critical hit chance para auto-attacks",
+          "+14 mana on kill"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+7.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+14 mana on kill"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+14.00% do seu Sword Fighting como extra damage para suas spells"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
-          "+2 attack"
-        ]
-      },
-      {
-        "tier": 8,
-        "perks": [
+          "+14.00% do seu Sword Fighting como extra damage para suas spells",
+          "+2 attack",
           "+42.00% critical extra damage para auto-attacks"
         ]
       },
       {
-        "tier": 9,
+        "tier": 5,
         "perks": [
           "+2.00% damage contra bosses e Sinister Embraced"
         ]
@@ -14686,7 +14352,7 @@
     ],
     "attack": 45,
     "level": 65,
-    "image": "https://www.tibiawiki.com.br/images/6/6f/Runed_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/6f//Runed_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14704,12 +14370,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -14725,7 +14386,7 @@
     ],
     "attack": 24,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/f/ff/Giant_Smithhammer.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/ff//Giant_Smithhammer.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14743,17 +14404,12 @@
       {
         "tier": 3,
         "perks": [
-          "+1 attack"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1 attack",
           "+7.50% do seu Club Fighting como extra damage para suas spells"
         ]
       },
       {
-        "tier": 5,
+        "tier": 4,
         "perks": [
           "+1 attack"
         ]
@@ -14770,7 +14426,7 @@
     ],
     "attack": 36,
     "level": 30,
-    "image": "https://www.tibiawiki.com.br/images/5/54/Skull_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/5/54//Skull_Staff.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14788,12 +14444,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -14809,7 +14460,7 @@
     ],
     "attack": 50,
     "level": 100,
-    "image": "https://www.tibiawiki.com.br/images/8/86/Obsidian_Truncheon.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/86//Obsidian_Truncheon.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14827,17 +14478,12 @@
       {
         "tier": 3,
         "perks": [
-          "+2.50% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+2.50% critical hit chance para auto-attacks",
           "+20 hit points on kill"
         ]
       },
       {
-        "tier": 5,
+        "tier": 4,
         "perks": [
           "+2.00% damage contra Undead"
         ]
@@ -14854,7 +14500,7 @@
     ],
     "attack": 30,
     "level": 20,
-    "image": "https://www.tibiawiki.com.br/images/1/1b/Taurus_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/1b//Taurus_Mace.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -14872,12 +14518,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -14893,7 +14534,7 @@
     ],
     "attack": 41,
     "level": 45,
-    "image": "https://www.tibiawiki.com.br/images/f/fc/Silver_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fc//Silver_Mace.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -14905,35 +14546,25 @@
       {
         "tier": 2,
         "perks": [
-          "+15% mana leech para Groundshaker"
+          "+15% mana leech para Groundshaker",
+          "+5.00% do seu Club Fighting como extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+5.00% do seu Club Fighting como extra damage para auto-attacks"
+          "+2.00% damage contra Lycanthrope"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+2.00% damage contra Lycanthrope"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+10% critical hit chance para Groundshaker"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
+          "+10% critical hit chance para Groundshaker",
           "+10.00% do seu Club Fighting como extra damage para auto-attacks"
         ]
       },
       {
-        "tier": 7,
+        "tier": 5,
         "perks": [
           "+5.00% do seu Club Fighting como extra damage para suas spells"
         ]
@@ -14950,7 +14581,7 @@
     ],
     "attack": 49,
     "level": 70,
-    "image": "https://www.tibiawiki.com.br/images/9/90/Heavy_Mace.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/90//Heavy_Mace.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -14968,12 +14599,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -15034,7 +14660,7 @@
     ],
     "attack": 39,
     "level": 35,
-    "image": "https://www.tibiawiki.com.br/images/3/35/Shadow_Sceptre.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/35//Shadow_Sceptre.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15052,12 +14678,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -15073,7 +14694,7 @@
     ],
     "attack": 48,
     "level": 80,
-    "image": "https://www.tibiawiki.com.br/images/4/47/Demonbone.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/47//Demonbone.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15091,17 +14712,12 @@
       {
         "tier": 3,
         "perks": [
-          "+1 Club Fighting"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1 Club Fighting",
           "+3.00% do seu Club Fighting como extra damage para suas spells"
         ]
       },
       {
-        "tier": 5,
+        "tier": 4,
         "perks": [
           "+3.00% damage contra Human"
         ]
@@ -15118,7 +14734,7 @@
     ],
     "attack": 12,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/9/90/Bone_Club.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/90//Bone_Club.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15136,12 +14752,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -15157,7 +14768,7 @@
     ],
     "attack": 11,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/6/61/Short_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/61//Short_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15175,12 +14786,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -15196,7 +14802,7 @@
     ],
     "attack": 7,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/2/29/Wooden_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/29//Wooden_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15214,12 +14820,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -15235,7 +14836,7 @@
     ],
     "attack": 13,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/3/3a/Bone_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/3/3a//Bone_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15253,17 +14854,12 @@
       {
         "tier": 3,
         "perks": [
-          "+2.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+2.00% critical hit chance para auto-attacks",
           "+5 mana on kill"
         ]
       },
       {
-        "tier": 5,
+        "tier": 4,
         "perks": [
           "+1.00% damage contra Undead"
         ]
@@ -15280,7 +14876,7 @@
     ],
     "attack": 9,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/8/85/Silver_Dagger.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/85//Silver_Dagger.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15298,17 +14894,12 @@
       {
         "tier": 3,
         "perks": [
-          "+2.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+2.00% critical hit chance para auto-attacks",
           "+5 mana on kill"
         ]
       },
       {
-        "tier": 5,
+        "tier": 4,
         "perks": [
           "+1.00% damage contra Lycanthrope"
         ]
@@ -15325,7 +14916,7 @@
     ],
     "attack": 23,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/6/66/Sabre.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/66//Sabre.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15343,12 +14934,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -15364,7 +14950,7 @@
     ],
     "attack": 18,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/1/12/Rapier.gif",
+    "image": "https://www.tibiawiki.com.br/images/1/12//Rapier.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15382,12 +14968,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -15403,7 +14984,7 @@
     ],
     "attack": 10,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/f/fb/Combat_Knife.gif",
+    "image": "https://www.tibiawiki.com.br/images/f/fb//Combat_Knife.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15421,12 +15002,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -15442,7 +15018,7 @@
     ],
     "attack": 18,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/4/4a/Cowtana.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4a//Cowtana.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15460,12 +15036,7 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -15481,7 +15052,7 @@
     ],
     "attack": 26,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/c/cb/Crimson_Sword.gif",
+    "image": "https://www.tibiawiki.com.br/images/c/cb//Crimson_Sword.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15499,13 +15070,8 @@
       {
         "tier": 3,
         "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
-          "+5 hit points on kill"
+          "+2.00% critical hit chance para auto-attacks",
+          "+10 hit points on kill"
         ]
       }
     ],
@@ -15644,7 +15210,7 @@
     ],
     "attack": 43,
     "level": 40,
-    "image": "https://www.tibiawiki.com.br/images/7/77/Amber_Staff.gif",
+    "image": "https://www.tibiawiki.com.br/images/7/77//Amber_Staff.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -15662,17 +15228,12 @@
       {
         "tier": 3,
         "perks": [
-          "+2.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+2.00% critical hit chance para auto-attacks",
           "+8 mana on kill"
         ]
       },
       {
-        "tier": 5,
+        "tier": 4,
         "perks": [
           "+0.50% damage contra Demon"
         ]
@@ -15689,7 +15250,7 @@
     ],
     "attack": 42,
     "level": 250,
-    "image": "https://www.tibiawiki.com.br/images/6/62/Cobra_Bo.gif",
+    "image": "https://www.tibiawiki.com.br/images/6/62//Cobra_Bo.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -15707,41 +15268,21 @@
       {
         "tier": 3,
         "perks": [
-          "+4.00% life leech"
+          "+4.00% life leech",
+          "+10% critical extra damage para Flurry of Blows",
+          "+3% mana leech para Flurry of Blows"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+10% critical extra damage para Flurry of Blows"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+3% mana leech para Flurry of Blows"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+1% critical hit chance para Flurry of Blows"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
-          "+4.00% damage contra Mammal"
-        ]
-      },
-      {
-        "tier": 8,
-        "perks": [
+          "+1% critical hit chance para Flurry of Blows",
+          "+4.00% damage contra Mammal",
           "+10.00% do seu Fist Fighting como extra healing para suas spells"
         ]
       },
       {
-        "tier": 9,
+        "tier": 5,
         "perks": [
           "+5.00% critical extra damage"
         ]
@@ -15758,7 +15299,7 @@
     ],
     "attack": 6,
     "level": 270,
-    "image": "https://www.tibiawiki.com.br/images/a/a1/Gilded_Eldritch_Claymore.gif",
+    "image": "https://www.tibiawiki.com.br/images/a/a1//Gilded_Eldritch_Claymore.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -15776,35 +15317,20 @@
       {
         "tier": 3,
         "perks": [
-          "+50.00% do seu Magic Level como extra damage para suas spells"
+          "+50.00% do seu Magic Level como extra damage para suas spells",
+          "+5.00% critical hit chance para auto-attacks"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+5.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+3.00% damage contra Magical"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+12% critical extra damage para Groundshaker"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
+          "+3.00% damage contra Magical",
+          "+12% critical extra damage para Groundshaker",
           "+2.00% mana leech"
         ]
       },
       {
-        "tier": 8,
+        "tier": 5,
         "perks": [
           "+2% critical hit chance para Groundshaker"
         ]
@@ -15821,7 +15347,7 @@
     ],
     "attack": 56,
     "level": 270,
-    "image": "https://www.tibiawiki.com.br/images/8/88/Gilded_Eldritch_Greataxe.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/88//Gilded_Eldritch_Greataxe.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -15839,35 +15365,20 @@
       {
         "tier": 3,
         "perks": [
-          "+100.00% do seu Magic Level como extra damage para suas spells"
+          "+100.00% do seu Magic Level como extra damage para suas spells",
+          "+5.00% critical hit chance para auto-attacks"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+5.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+3.00% damage contra Magical"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+12% critical extra damage para Groundshaker"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
+          "+3.00% damage contra Magical",
+          "+12% critical extra damage para Groundshaker",
           "+2.00% mana leech"
         ]
       },
       {
-        "tier": 8,
+        "tier": 5,
         "perks": [
           "+2% critical hit chance para Groundshaker"
         ]
@@ -15884,7 +15395,7 @@
     ],
     "attack": 7,
     "level": 400,
-    "image": "https://www.tibiawiki.com.br/images/8/80/Soulcutter.gif",
+    "image": "https://www.tibiawiki.com.br/images/8/80//Soulcutter.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -15896,59 +15407,44 @@
       {
         "tier": 2,
         "perks": [
-          "+10.00% critical extra damage para auto-attacks"
+          "+10.00% critical extra damage para auto-attacks",
+          "+5.00% do seu Sword Fighting como extra damage para auto-attacks",
+          "+3.00% life leech"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+5.00% do seu Sword Fighting como extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
-          "+3.00% life leech",
-          "+3.00% damage contra Inkborn"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
+          "+3.00% damage contra Inkborn",
           "+10% critical extra damage para Executioner's Throw",
           "+2.00% mana leech"
         ]
       },
       {
-        "tier": 6,
+        "tier": 4,
         "perks": [
           "+20% critical extra damage para Executioner's Throw",
-          "+3.00% critical hit chance para auto-attacks"
+          "+3.00% critical hit chance para auto-attacks",
+          "+4% base damage para Executioner's Throw"
         ]
       },
       {
-        "tier": 7,
+        "tier": 5,
         "perks": [
-          "+4% base damage para Executioner's Throw",
-          "+7.50% do seu Sword Fighting como extra damage para suas spells"
-        ]
-      },
-      {
-        "tier": 8,
-        "perks": [
+          "+7.50% do seu Sword Fighting como extra damage para suas spells",
           "+1.5% critical hit chance para Executioner's Throw",
           "+1 attack"
         ]
       },
       {
-        "tier": 9,
+        "tier": 6,
         "perks": [
           "+10.00% critical extra damage",
           "+20 mana on kill"
         ]
       },
       {
-        "tier": 10,
+        "tier": 7,
         "perks": [
           "+1.00% critical hit chance"
         ]
@@ -15965,7 +15461,7 @@
     ],
     "attack": 10,
     "level": 400,
-    "image": "https://www.tibiawiki.com.br/images/2/23/Soulshredder.gif",
+    "image": "https://www.tibiawiki.com.br/images/2/23//Soulshredder.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -15977,65 +15473,45 @@
       {
         "tier": 2,
         "perks": [
-          "+5.00% do seu Sword Fighting como extra damage para auto-attacks"
+          "+5.00% do seu Sword Fighting como extra damage para auto-attacks",
+          "+5% life leech para Executioner's Throw",
+          "+4.00% critical extra damage"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+5% life leech para Executioner's Throw"
+          "+3.00% damage contra Inkborn",
+          "+2% mana leech para Executioner's Throw",
+          "+6.00% critical extra damage"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+4.00% critical extra damage",
-          "+3.00% damage contra Inkborn"
+          "+20% critical extra damage para Executioner's Throw",
+          "+3.00% critical hit chance para auto-attacks",
+          "+4% base damage para Executioner's Throw"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+2% mana leech para Executioner's Throw"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+6.00% critical extra damage",
-          "+20% critical extra damage para Executioner's Throw"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
-          "+3.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 8,
-        "perks": [
-          "+4% base damage para Executioner's Throw",
-          "+7.50% do seu Sword Fighting como extra damage para suas spells"
-        ]
-      },
-      {
-        "tier": 9,
-        "perks": [
+          "+7.50% do seu Sword Fighting como extra damage para suas spells",
           "+1.5% critical hit chance para Executioner's Throw",
           "+1 attack"
         ]
       },
       {
-        "tier": 10,
+        "tier": 6,
         "perks": [
-          "+10.00% critical extra damage"
+          "+10.00% critical extra damage",
+          "+20 mana on kill"
         ]
       },
       {
-        "tier": 11,
+        "tier": 7,
         "perks": [
-          "+20 mana on kill",
           "+1.00% critical hit chance"
         ]
       }
@@ -16051,7 +15527,7 @@
     ],
     "attack": 6,
     "level": 400,
-    "image": "https://www.tibiawiki.com.br/images/9/93/Soulcrusher.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/93//Soulcrusher.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -16063,65 +15539,45 @@
       {
         "tier": 2,
         "perks": [
-          "+10.00% critical extra damage para auto-attacks"
+          "+10.00% critical extra damage para auto-attacks",
+          "+5.00% do seu Club Fighting como extra damage para auto-attacks",
+          "+3.00% life leech"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+5.00% do seu Club Fighting como extra damage para auto-attacks"
+          "+3.00% damage contra Inkborn",
+          "+10% critical extra damage para Executioner's Throw",
+          "+2.00% mana leech"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+3.00% life leech",
-          "+3.00% damage contra Inkborn"
+          "+20% critical extra damage para Executioner's Throw",
+          "+3.00% critical hit chance para auto-attacks",
+          "+4% base damage para Executioner's Throw"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+10% critical extra damage para Executioner's Throw"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+2.00% mana leech",
-          "+20% critical extra damage para Executioner's Throw"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
-          "+3.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 8,
-        "perks": [
-          "+4% base damage para Executioner's Throw",
-          "+7.50% do seu Club Fighting como extra damage para suas spells"
-        ]
-      },
-      {
-        "tier": 9,
-        "perks": [
+          "+7.50% do seu Club Fighting como extra damage para suas spells",
           "+1.5% critical hit chance para Executioner's Throw",
           "+1 attack"
         ]
       },
       {
-        "tier": 10,
+        "tier": 6,
         "perks": [
-          "+10.00% critical extra damage"
+          "+10.00% critical extra damage",
+          "+20 mana on kill"
         ]
       },
       {
-        "tier": 11,
+        "tier": 7,
         "perks": [
-          "+20 mana on kill",
           "+1.00% critical hit chance"
         ]
       }
@@ -16137,7 +15593,7 @@
     ],
     "attack": 10,
     "level": 400,
-    "image": "https://www.tibiawiki.com.br/images/9/9f/Soulmaimer.gif",
+    "image": "https://www.tibiawiki.com.br/images/9/9f//Soulmaimer.gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -16149,65 +15605,45 @@
       {
         "tier": 2,
         "perks": [
-          "+5.00% do seu Club Fighting como extra damage para auto-attacks"
+          "+5.00% do seu Club Fighting como extra damage para auto-attacks",
+          "+5% life leech para Executioner's Throw",
+          "+4.00% critical extra damage"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+5% life leech para Executioner's Throw"
+          "+3.00% damage contra Inkborn",
+          "+2% mana leech para Executioner's Throw",
+          "+6.00% critical extra damage"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+4.00% critical extra damage",
-          "+3.00% damage contra Inkborn"
+          "+20% critical extra damage para Executioner's Throw",
+          "+3.00% critical hit chance para auto-attacks",
+          "+4% base damage para Executioner's Throw"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+2% mana leech para Executioner's Throw"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+6.00% critical extra damage",
-          "+20% critical extra damage para Executioner's Throw"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
-          "+3.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 8,
-        "perks": [
-          "+4% base damage para Executioner's Throw",
-          "+7.50% do seu Club Fighting como extra damage para suas spells"
-        ]
-      },
-      {
-        "tier": 9,
-        "perks": [
+          "+7.50% do seu Club Fighting como extra damage para suas spells",
           "+1.5% critical hit chance para Executioner's Throw",
           "+1 attack"
         ]
       },
       {
-        "tier": 10,
+        "tier": 6,
         "perks": [
-          "+10.00% critical extra damage"
+          "+10.00% critical extra damage",
+          "+20 mana on kill"
         ]
       },
       {
-        "tier": 11,
+        "tier": 7,
         "perks": [
-          "+20 mana on kill",
           "+1.00% critical hit chance"
         ]
       }
@@ -16223,7 +15659,7 @@
     ],
     "attack": 7,
     "level": 400,
-    "image": "https://www.tibiawiki.com.br/images/4/42/Soulbiter.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/42//Soulbiter.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -16235,65 +15671,45 @@
       {
         "tier": 2,
         "perks": [
-          "+10.00% critical extra damage para auto-attacks"
+          "+10.00% critical extra damage para auto-attacks",
+          "+5.00% do seu Axe Fighting como extra damage para auto-attacks",
+          "+3.00% life leech"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+5.00% do seu Axe Fighting como extra damage para auto-attacks"
+          "+3.00% damage contra Inkborn",
+          "+10% critical extra damage para Executioner's Throw",
+          "+2.00% mana leech"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+3.00% life leech",
-          "+3.00% damage contra Inkborn"
+          "+20% critical extra damage para Executioner's Throw",
+          "+3.00% critical hit chance para auto-attacks",
+          "+4% base damage para Executioner's Throw"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+10% critical extra damage para Executioner's Throw"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+2.00% mana leech",
-          "+20% critical extra damage para Executioner's Throw"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
-          "+3.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 8,
-        "perks": [
-          "+4% base damage para Executioner's Throw",
-          "+7.50% do seu Axe Fighting como extra damage para suas spells"
-        ]
-      },
-      {
-        "tier": 9,
-        "perks": [
+          "+7.50% do seu Axe Fighting como extra damage para suas spells",
           "+1.5% critical hit chance para Executioner's Throw",
           "+1 attack"
         ]
       },
       {
-        "tier": 10,
+        "tier": 6,
         "perks": [
-          "+10.00% critical extra damage"
+          "+10.00% critical extra damage",
+          "+20 mana on kill"
         ]
       },
       {
-        "tier": 11,
+        "tier": 7,
         "perks": [
-          "+20 mana on kill",
           "+1.00% critical hit chance"
         ]
       }
@@ -16309,7 +15725,7 @@
     ],
     "attack": 10,
     "level": 400,
-    "image": "https://www.tibiawiki.com.br/images/4/4f/Souleater_%28Axe%29.gif",
+    "image": "https://www.tibiawiki.com.br/images/4/4a//Souleater_(Axe).gif",
     "hand": "two-handed",
     "perks": [
       {
@@ -16321,65 +15737,45 @@
       {
         "tier": 2,
         "perks": [
-          "+5.00% do seu Axe Fighting como extra damage para auto-attacks"
+          "+5.00% do seu Axe Fighting como extra damage para auto-attacks",
+          "+5% life leech para Executioner's Throw",
+          "+4.00% critical extra damage"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+5% life leech para Executioner's Throw"
+          "+3.00% damage contra Inkborn",
+          "+2% mana leech para Executioner's Throw",
+          "+6.00% critical extra damage"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+4.00% critical extra damage",
-          "+3.00% damage contra Inkborn"
+          "+20% critical extra damage para Executioner's Throw",
+          "+3.00% critical hit chance para auto-attacks",
+          "+4% base damage para Executioner's Throw"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+2% mana leech para Executioner's Throw"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+6.00% critical extra damage",
-          "+20% critical extra damage para Executioner's Throw"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
-          "+3.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 8,
-        "perks": [
-          "+4% base damage para Executioner's Throw",
-          "+7.50% do seu Axe Fighting como extra damage para suas spells"
-        ]
-      },
-      {
-        "tier": 9,
-        "perks": [
+          "+7.50% do seu Axe Fighting como extra damage para suas spells",
           "+1.5% critical hit chance para Executioner's Throw",
           "+1 attack"
         ]
       },
       {
-        "tier": 10,
+        "tier": 6,
         "perks": [
-          "+10.00% critical extra damage"
+          "+10.00% critical extra damage",
+          "+20 mana on kill"
         ]
       },
       {
-        "tier": 11,
+        "tier": 7,
         "perks": [
-          "+20 mana on kill",
           "+1.00% critical hit chance"
         ]
       }

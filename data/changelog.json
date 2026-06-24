@@ -63,6 +63,26 @@
         "weapon": "Monk Support",
         "change_type": "new_feature",
         "after": "Vocacao Monk adicionada em todas as paginas e filtros"
+      },
+      {
+        "weapon": "Perks Page",
+        "change_type": "new_feature",
+        "after": "Nova aba /perks com listagem de todos os 876 perks unicos, busca e filtros por categoria"
+      },
+      {
+        "weapon": "CSP Images Fix",
+        "change_type": "bug_fix",
+        "after": "Content-Security-Policy atualizado para permitir imagens de www.tibiawiki.com.br"
+      },
+      {
+        "weapon": "Tier Count Fix",
+        "change_type": "bug_fix",
+        "after": "117 armas com numero de tiers corrigido (ex: Naga Katar 8->5 tiers)"
+      },
+      {
+        "weapon": "Image URLs Fix",
+        "change_type": "bug_fix",
+        "after": "657 URLs de imagem corrigidas com paths MD5 corretos do MediaWiki"
       }
     ]
   },
