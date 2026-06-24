@@ -154,6 +154,7 @@ function parseWeapon(wikitext: string, name: string, category: string): Weapon |
     if (!perkField) continue;
 
     const perkTexts: string[] = [];
+    // Match all Weapon Perk templates in the field (there can be multiple)
     const perkRegex = /\{\{Weapon Perk\|[^|]*\|[^|]*\|([^}]+)\}\}/g;
     let perkMatch;
     while ((perkMatch = perkRegex.exec(perkField)) !== null) {

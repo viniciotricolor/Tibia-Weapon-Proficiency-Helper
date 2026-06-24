@@ -3,8 +3,9 @@
 import { useState, useMemo, useEffect, useRef } from "react";
 import { motion } from "motion/react";
 import {
-  Calculator, Plus, RotateCcw, Swords, Shield, Heart,
+  Calculator, RotateCcw, Swords, Shield, Heart,
   Droplets, Zap, Star, Gem, RefreshCw, Trash2, Share2, Check, Search,
+  HelpCircle,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -41,6 +42,69 @@ type ModifiedSlot = {
   valueIndex: number;
   originalPerk: string;
 };
+
+type PerkStats = {
+  attack: number; defence: number; hitPoints: number; manaPoints: number;
+  criticalChance: number; criticalDamage: number; magicLevel: number;
+  shielding: number; skillBonus: number; cooldownReduction: number;
+  lifeLeech: number; manaLeech: number; spellDamage: number; healBonus: number;
+  speed: number; armourPen: number;
+};
+
+const emptyStats = (): PerkStats => ({
+  attack: 0, defence: 0, hitPoints: 0, manaPoints: 0,
+  criticalChance: 0, criticalDamage: 0, magicLevel: 0,
+  shielding: 0, skillBonus: 0, cooldownReduction: 0,
+  lifeLeech: 0, manaLeech: 0, spellDamage: 0, healBonus: 0,
+  speed: 0, armourPen: 0,
+});
+
+function parseSinglePerkStats(perk: string): PerkStats {
+  const stats = emptyStats();
+  const p = perk.toLowerCase();
+  if (p.includes("+1 attack") || p.includes("+2 attack"))
+    stats.attack += parseInt(perk.match(/\+(\d+)\s*attack/)?.[1] || "0");
+  if (p.includes("defence modifier") || p.includes("+1 defence")) stats.defence += 1;
+  if (p.includes("hit points on kill")) stats.hitPoints += parseInt(perk.match(/\+(\d+)/)?.[1] || "0");
+  if (p.includes("mana on kill")) stats.manaPoints += parseInt(perk.match(/\+(\d+)/)?.[1] || "0");
+  if (p.includes("hit points on hit")) stats.hitPoints += parseInt(perk.match(/\+(\d+)/)?.[1] || "0");
+  if (p.includes("mana on hit")) stats.manaPoints += parseInt(perk.match(/\+(\d+)/)?.[1] || "0");
+  if (p.includes("critical hit chance")) stats.criticalChance += parseFloat(perk.match(/([\d.]+)%/)?.[1] || "0");
+  if (p.includes("critical extra damage") && !p.includes("para")) stats.criticalDamage += parseFloat(perk.match(/([\d.]+)%/)?.[1] || "0");
+  if (p.includes("magic level")) { const v = parseInt(perk.match(/\+(\d+)/)?.[1] || "0"); if (v > 0 && v <= 10) stats.magicLevel += v; }
+  if (p.includes("shielding como extra")) stats.shielding += parseFloat(perk.match(/([\d.]+)%/)?.[1] || "0");
+  if (p.includes("fighting como extra") && p.includes("damage")) stats.skillBonus += parseFloat(perk.match(/([\d.]+)%/)?.[1] || "0");
+  if (p.includes("cooldown para")) stats.cooldownReduction += parseInt(perk.match(/-(\d+)s/)?.[1] || "0");
+  if (p.includes("mana leech para")) stats.manaLeech += parseFloat(perk.match(/([\d.]+)%/)?.[1] || "0");
+  if (p.includes("magic level como extra damage")) stats.spellDamage += parseFloat(perk.match(/([\d.]+)%/)?.[1] || "0");
+  if (p.includes("shielding como extra healing") || p.includes("fighting como extra healing")) stats.healBonus += parseFloat(perk.match(/([\d.]+)%/)?.[1] || "0");
+  return stats;
+}
+
+function parseModificationStats(mod: ModifiedSlot): PerkStats {
+  const stats = emptyStats();
+  const effect = MODIFICATION_EFFECTS.find((e) => e.id === mod.effectId);
+  if (!effect) return stats;
+  const val = effect.values[mod.valueIndex];
+  const num = parseFloat(val.replace(/[^0-9.-]/g, ""));
+  switch (effect.effect) {
+    case "critical_chance": stats.criticalChance += num; break;
+    case "critical_damage": stats.criticalDamage += num; break;
+    case "mana_leech": stats.manaLeech += num; break;
+    case "life_leech": stats.lifeLeech += num; break;
+    case "mana_on_hit": stats.manaPoints += num; break;
+    case "life_on_hit": stats.hitPoints += num; break;
+    case "mana_on_kill": stats.manaPoints += num; break;
+    case "life_on_kill": stats.hitPoints += num; break;
+    case "attack_bonus": stats.attack += num; break;
+    case "defence_bonus": stats.defence += num; break;
+    case "magic_level": stats.magicLevel += num; break;
+    case "speed": stats.speed += num; break;
+    case "cooldown_reduction": stats.cooldownReduction += Math.abs(num); break;
+    case "armour_penetration": stats.armourPen += num; break;
+  }
+  return stats;
+}
 
 function parsePerkStats(perks: SelectedPerk[], modifications: ModifiedSlot[]) {
   const stats = {
@@ -102,7 +166,7 @@ export default function SimulatorPage() {
   const { t } = useI18n();
   const [tab, setTab] = useState("proficiency");
   const [selectedWeaponId, setSelectedWeaponId] = useState("");
-  const [selectedTiers, setSelectedTiers] = useState<Set<number>>(new Set());
+  const [selectedPerkKeys, setSelectedPerkKeys] = useState<Set<string>>(new Set());
   const [modifications, setModifications] = useState<ModifiedSlot[]>([]);
   const [showEffectPicker, setShowEffectPicker] = useState<{ tier: number; perkIndex: number } | null>(null);
   const [copied, setCopied] = useState(false);
@@ -113,15 +177,16 @@ export default function SimulatorPage() {
     if (!selectedWeapon) return [];
     const perks: SelectedPerk[] = [];
     selectedWeapon.perks.forEach((t) => {
-      if (selectedTiers.has(t.tier)) {
-        t.perks.forEach((perk, i) => {
+      t.perks.forEach((perk, i) => {
+        const key = `${t.tier}-${i}`;
+        if (selectedPerkKeys.has(key)) {
           const isModified = modifications.some((m) => m.tier === t.tier && m.perkIndex === i);
           if (!isModified) perks.push({ tier: t.tier, perkIndex: i, perk });
-        });
-      }
+        }
+      });
     });
     return perks;
-  }, [selectedWeapon, selectedTiers, modifications]);
+  }, [selectedWeapon, selectedPerkKeys, modifications]);
 
   const stats = useMemo(() => parsePerkStats(selectedPerks, modifications), [selectedPerks, modifications]);
 
@@ -132,11 +197,22 @@ export default function SimulatorPage() {
     return dust;
   }, [modifications]);
 
-  const toggleTier = (tier: number) => {
-    setSelectedTiers((prev) => {
+  const togglePerk = (tier: number, perkIndex: number) => {
+    const key = `${tier}-${perkIndex}`;
+    setSelectedPerkKeys((prev) => {
       const next = new Set(prev);
-      if (next.has(tier)) next.delete(tier);
-      else next.add(tier);
+      if (next.has(key)) {
+        // Deselect this perk
+        next.delete(key);
+      } else {
+        // Remove any other perk in the same tier (only 1 per tier allowed)
+        Array.from(prev).forEach((k) => {
+          const [t] = k.split("-").map(Number);
+          if (t === tier) next.delete(k);
+        });
+        // Add the new perk
+        next.add(key);
+      }
       return next;
     });
   };
@@ -169,7 +245,7 @@ export default function SimulatorPage() {
 
   const reset = () => {
     setSelectedWeaponId("");
-    setSelectedTiers(new Set());
+    setSelectedPerkKeys(new Set());
     setModifications([]);
     setTab("proficiency");
   };
@@ -204,14 +280,14 @@ export default function SimulatorPage() {
       const w = params.get("w");
       const t = params.get("t");
       if (w) setSelectedWeaponId(w);
-      if (t) setSelectedTiers(new Set(t.split(",").map(Number)));
+      if (t) setSelectedPerkKeys(new Set(t.split(",")));
     }
   }, []);
 
   const shareBuild = () => {
     const params = new URLSearchParams();
     if (selectedWeaponId) params.set("w", selectedWeaponId);
-    if (selectedTiers.size > 0) params.set("t", Array.from(selectedTiers).join(","));
+    if (selectedPerkKeys.size > 0) params.set("t", Array.from(selectedPerkKeys).join(","));
     const url = `${window.location.origin}/simulator?${params.toString()}`;
     navigator.clipboard.writeText(url);
     setCopied(true);
@@ -258,6 +334,23 @@ export default function SimulatorPage() {
           </div>
         </div>
 
+        <Card className="mb-6 bg-muted/50">
+          <CardHeader className="pb-2">
+            <CardTitle className="text-sm flex items-center gap-2">
+              <HelpCircle className="h-4 w-4" />
+              Como Usar o Simulador
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="text-xs text-muted-foreground space-y-2">
+            <p><strong>1. Selecione a arma:</strong> Use a barra de pesquisa para encontrar a arma desejada. Clique nela para selecionar.</p>
+            <p><strong>2. Escolha os perks:</strong> Na aba &quot;Proficiency&quot;, selecione APENAS 1 perk de cada tier. Cada tier oferece várias opções, mas você só pode escolher uma.</p>
+            <p><strong>3. Modifique slots (opcional):</strong> Na aba &quot;Modify Slot&quot;, você pode substituir perks originais por efeitos modificados. Clique em &quot;Modify&quot; ao lado do perk que deseja trocar.</p>
+            <p><strong>4. Veja os stats:</strong> O painel lateral mostra o resumo dos stats totais com base nos perks selecionados.</p>
+            <p><strong>5. Comparar antes/depois:</strong> Ao modificar um perk, aparece uma comparação mostrando os stats antes e depois da modificação.</p>
+            <p><strong>6. Compartilhe:</strong> Use os botões &quot;Compartilhar&quot; ou &quot;Copiar&quot; para salvar ou enviar sua build.</p>
+          </CardContent>
+        </Card>
+
         <Tabs value={tab} onValueChange={setTab} className="mb-6">
           <TabsList>
             <TabsTrigger value="proficiency">{t.simulator.tabProficiency}</TabsTrigger>
@@ -293,7 +386,7 @@ export default function SimulatorPage() {
                             className="w-full text-left px-3 py-2 text-sm hover:bg-accent flex items-center gap-2"
                             onClick={() => {
                               setSelectedWeaponId(w.id);
-                              setSelectedTiers(new Set());
+                              setSelectedPerkKeys(new Set());
                               setModifications([]);
                               setShowWeaponList(false);
                               setWeaponSearch("");
@@ -328,38 +421,51 @@ export default function SimulatorPage() {
                   </div>
                   <div className="space-y-3">
                     {selectedWeapon.perks.map((tierData) => {
-                      const isSelected = selectedTiers.has(tierData.tier);
                       return (
                         <div key={tierData.tier}
-                          className={cn("border rounded-lg p-3 transition-all cursor-pointer",
-                            isSelected ? "border-primary bg-primary/5" : "border-border hover:border-primary/50")}
-                          onClick={() => toggleTier(tierData.tier)}
+                          className="border rounded-lg p-3 transition-all border-border hover:border-primary/50"
                         >
-                          <div className="flex items-center justify-between mb-2">
-                            <div className="flex items-center gap-2">
-                              <div className="flex items-center gap-0.5">
-                                {Array.from({ length: Math.min(tierData.tier, 7) }).map((_, i) => (
-                                  <Star key={i} className={cn("h-3 w-3",
-                                    i >= 5 ? "fill-yellow-300 text-yellow-300" : "fill-amber-400 text-amber-400")} />
-                                ))}
-                              </div>
-                              <span className="font-semibold text-sm">Tier {tierData.tier}</span>
+                          <div className="flex items-center gap-2 mb-2">
+                            <div className="flex items-center gap-0.5">
+                              {Array.from({ length: Math.min(tierData.tier, 7) }).map((_, i) => (
+                                <Star key={i} className={cn("h-3 w-3",
+                                  i >= 5 ? "fill-yellow-300 text-yellow-300" : "fill-amber-400 text-amber-400")} />
+                              ))}
                             </div>
-                            <div className={cn("w-6 h-6 rounded-full border-2 flex items-center justify-center transition-colors",
-                              isSelected ? "bg-primary border-primary text-primary-foreground" : "border-muted-foreground")}>
-                              {isSelected && <Plus className="h-3 w-3" />}
-                            </div>
+                            <span className="font-semibold text-sm">Tier {tierData.tier}</span>
                           </div>
                           <div className="space-y-1">
-                            {tierData.perks.map((perk, i) => <p key={i} className="text-xs text-muted-foreground flex items-start gap-1"><span className="text-primary">•</span>{perk}</p>)}
+                            {tierData.perks.map((perk, i) => {
+                              const key = `${tierData.tier}-${i}`;
+                              const isPerkSelected = selectedPerkKeys.has(key);
+                              return (
+                                <div key={i}
+                                  className={cn("flex items-start gap-2 p-1.5 rounded cursor-pointer transition-colors",
+                                    isPerkSelected ? "bg-primary/10" : "hover:bg-muted")}
+                                  onClick={() => togglePerk(tierData.tier, i)}
+                                >
+                                  <div className={cn("w-4 h-4 mt-0.5 rounded border flex items-center justify-center transition-colors shrink-0",
+                                    isPerkSelected ? "bg-primary border-primary text-primary-foreground" : "border-muted-foreground")}>
+                                    {isPerkSelected && <Check className="h-3 w-3" />}
+                                  </div>
+                                  <p className="text-xs text-muted-foreground">{perk}</p>
+                                </div>
+                              );
+                            })}
                           </div>
                         </div>
                       );
                     })}
                   </div>
                   <div className="flex gap-2">
-                    <Button variant="outline" size="sm" onClick={() => setSelectedTiers(new Set(selectedWeapon.perks.map((t) => t.tier)))}>{t.simulator.selectAll}</Button>
-                    <Button variant="outline" size="sm" onClick={() => setSelectedTiers(new Set())}>{t.simulator.deselectAll}</Button>
+                    <Button variant="outline" size="sm" onClick={() => {
+                      const allKeys = new Set<string>();
+                      selectedWeapon.perks.forEach(t => {
+                        t.perks.forEach((_, i) => allKeys.add(`${t.tier}-${i}`));
+                      });
+                      setSelectedPerkKeys(allKeys);
+                    }}>{t.simulator.selectAll}</Button>
+                    <Button variant="outline" size="sm" onClick={() => setSelectedPerkKeys(new Set())}>{t.simulator.deselectAll}</Button>
                   </div>
                 </CardContent>
               </Card>
@@ -383,11 +489,15 @@ export default function SimulatorPage() {
                   </div>
 
                   {selectedWeapon.perks.map((tierData) => {
-                    if (!selectedTiers.has(tierData.tier)) return null;
                     return tierData.perks.map((perk, i) => {
+                      const key = `${tierData.tier}-${i}`;
+                      if (!selectedPerkKeys.has(key)) return null;
                       const mod = modifications.find((m) => m.tier === tierData.tier && m.perkIndex === i);
                       const effect = mod ? MODIFICATION_EFFECTS.find((e) => e.id === mod.effectId) : null;
                       const canModify = modifications.length < 2 || !!mod;
+
+                      const beforeStats = parseSinglePerkStats(perk);
+                      const afterStats = mod ? parseModificationStats(mod) : null;
 
                       return (
                         <div key={`${tierData.tier}-${i}`}
@@ -396,17 +506,7 @@ export default function SimulatorPage() {
                           <div className="flex items-center justify-between mb-2">
                             <div className="flex items-center gap-2">
                               <Badge variant="outline" className="text-[10px]">T{tierData.tier}</Badge>
-                              {mod ? (
-                                <div className="flex items-center gap-1">
-                                  <Gem className="h-3 w-3 text-amber-500" />
-                                  <span className="text-xs font-medium text-amber-600">{effect?.name}</span>
-                                  <span className="text-xs text-muted-foreground">
-                                    {effect?.values[mod.valueIndex]}
-                                  </span>
-                                </div>
-                              ) : (
-                                <span className="text-xs text-muted-foreground">{perk}</span>
-                              )}
+                              <span className="text-xs text-muted-foreground">{perk}</span>
                             </div>
                             <div className="flex items-center gap-1">
                               {mod ? (
@@ -435,6 +535,63 @@ export default function SimulatorPage() {
                               )}
                             </div>
                           </div>
+
+                          {mod && afterStats && (
+                            <div className="mt-2 border-t pt-2">
+                              <div className="flex items-center gap-1 mb-2">
+                                <Gem className="h-3 w-3 text-amber-500" />
+                                <span className="text-[10px] font-medium text-amber-600">{effect?.name}</span>
+                                <span className="text-[10px] text-muted-foreground">{effect?.values[mod.valueIndex]}</span>
+                              </div>
+                              <div className="grid grid-cols-2 gap-2 text-[10px]">
+                                <div className="space-y-1">
+                                  <p className="font-medium text-muted-foreground">Antes</p>
+                                  <div className="space-y-0.5">
+                                    {beforeStats.attack > 0 && <p className="text-red-500">+{beforeStats.attack} Attack</p>}
+                                    {beforeStats.defence > 0 && <p className="text-blue-500">+{beforeStats.defence} Defence</p>}
+                                    {beforeStats.hitPoints > 0 && <p className="text-green-500">+{beforeStats.hitPoints} HP</p>}
+                                    {beforeStats.manaPoints > 0 && <p className="text-blue-400">+{beforeStats.manaPoints} MP</p>}
+                                    {beforeStats.criticalChance > 0 && <p className="text-amber-500">+{beforeStats.criticalChance}% Crit</p>}
+                                    {beforeStats.criticalDamage > 0 && <p className="text-orange-500">+{beforeStats.criticalDamage}% Crit DMG</p>}
+                                    {beforeStats.magicLevel > 0 && <p className="text-purple-500">+{beforeStats.magicLevel} ML</p>}
+                                    {beforeStats.cooldownReduction > 0 && <p className="text-orange-400">-{beforeStats.cooldownReduction}s CDR</p>}
+                                    {beforeStats.spellDamage > 0 && <p className="text-purple-400">+{beforeStats.spellDamage}% Spell DMG</p>}
+                                    {beforeStats.healBonus > 0 && <p className="text-green-400">+{beforeStats.healBonus}% Heal</p>}
+                                    {beforeStats.manaLeech > 0 && <p className="text-blue-300">+{beforeStats.manaLeech}% Mana Leech</p>}
+                                    {beforeStats.attack === 0 && beforeStats.defence === 0 && beforeStats.hitPoints === 0 &&
+                                      beforeStats.manaPoints === 0 && beforeStats.criticalChance === 0 && beforeStats.criticalDamage === 0 &&
+                                      beforeStats.magicLevel === 0 && beforeStats.cooldownReduction === 0 && beforeStats.spellDamage === 0 &&
+                                      beforeStats.healBonus === 0 && beforeStats.manaLeech === 0 && (
+                                      <p className="text-muted-foreground">Sem stats numéricos</p>
+                                    )}
+                                  </div>
+                                </div>
+                                <div className="space-y-1">
+                                  <p className="font-medium text-amber-600">Depois</p>
+                                  <div className="space-y-0.5">
+                                    {afterStats.attack > 0 && <p className="text-green-500">+{afterStats.attack} Attack</p>}
+                                    {afterStats.defence > 0 && <p className="text-green-500">+{afterStats.defence} Defence</p>}
+                                    {afterStats.hitPoints > 0 && <p className="text-green-500">+{afterStats.hitPoints} HP</p>}
+                                    {afterStats.manaPoints > 0 && <p className="text-green-500">+{afterStats.manaPoints} MP</p>}
+                                    {afterStats.criticalChance > 0 && <p className="text-green-500">+{afterStats.criticalChance}% Crit</p>}
+                                    {afterStats.criticalDamage > 0 && <p className="text-green-500">+{afterStats.criticalDamage}% Crit DMG</p>}
+                                    {afterStats.magicLevel > 0 && <p className="text-green-500">+{afterStats.magicLevel} ML</p>}
+                                    {afterStats.cooldownReduction > 0 && <p className="text-green-500">-{afterStats.cooldownReduction}s CDR</p>}
+                                    {afterStats.spellDamage > 0 && <p className="text-green-500">+{afterStats.spellDamage}% Spell DMG</p>}
+                                    {afterStats.healBonus > 0 && <p className="text-green-500">+{afterStats.healBonus}% Heal</p>}
+                                    {afterStats.manaLeech > 0 && <p className="text-green-500">+{afterStats.manaLeech}% Mana Leech</p>}
+                                    {afterStats.attack === 0 && afterStats.defence === 0 && afterStats.hitPoints === 0 &&
+                                      afterStats.manaPoints === 0 && afterStats.criticalChance === 0 && afterStats.criticalDamage === 0 &&
+                                      afterStats.magicLevel === 0 && afterStats.cooldownReduction === 0 && afterStats.spellDamage === 0 &&
+                                      afterStats.healBonus === 0 && afterStats.manaLeech === 0 && (
+                                      <p className="text-muted-foreground">Sem stats numéricos</p>
+                                    )}
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          )}
+
                           {showEffectPicker?.tier === tierData.tier && showEffectPicker?.perkIndex === i && (
                             <div className="mt-2 border-t pt-2 space-y-1">
                               <p className="text-[10px] text-muted-foreground mb-1">{t.simulator.chooseEffect}</p>

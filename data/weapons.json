@@ -1188,28 +1188,28 @@
         "tier": 2,
         "perks": [
           "+5.00% critical extra damage para Earth spells e runes",
-          "+1 Earth Magic Level"
+          "+1 Earth Magic Level",
+          "-4s cooldown para Strong Terra Strike"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "-4s cooldown para Strong Terra Strike",
-          "+1.00% critical hit chance para Earth spells e runes"
+          "+1.00% critical hit chance para Earth spells e runes",
+          "+5.00% do seu Magic Level como extra damage para suas spells"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+5.00% do seu Magic Level como extra damage para suas spells",
-          "+4.00% damage contra Mammal"
+          "+4.00% damage contra Mammal",
+          "+1 Earth Magic Level",
+          "+10% critical extra damage para Strong Terra Strike"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+1 Earth Magic Level",
-          "+10% critical extra damage para Strong Terra Strike",
           "+5.00% critical extra damage"
         ]
       }
@@ -1225,7 +1225,7 @@
     ],
     "attack": 0,
     "level": 300,
-    "image": "https://www.tibiawiki.com.br/images/6/61/Falcon_Rod.gif",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -1238,33 +1238,34 @@
         "tier": 2,
         "perks": [
           "+10.00% critical hit chance para auto-attacks",
-          "+20 mana on kill"
+          "+20 mana on kill",
+          "+1% critical hit chance para Terra Wave"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+1% critical hit chance para Terra Wave",
-          "+100.00% do seu Shielding como extra damage para auto-attacks"
+          "+100.00% do seu Shielding como extra damage para auto-attacks",
+          "+5.00% do seu Magic Level como extra damage para suas spells"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+5.00% do seu Magic Level como extra damage para suas spells",
-          "+50.00% critical extra damage para auto-attacks"
+          "+50.00% critical extra damage para auto-attacks",
+          "+1 Earth Magic Level",
+          "+5.00% damage contra Bird"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+1 Earth Magic Level",
-          "+5.00% damage contra Bird",
           "+5.00% critical extra damage"
         ]
       }
     ],
-    "source": "Grand Master Oberon, Preceptor Lazare"
+    "source": "Grand Master Oberon, Preceptor Lazare",
+    "attackElement": "+1 Earth"
   },
   {
     "id": "naga-rod",
@@ -1979,30 +1980,31 @@
     "name": "Soultainter",
     "type": "wand",
     "vocation": [
-      "sorcerer"
+      "sorcerer",
+      "druid"
     ],
     "attack": 0,
     "level": 400,
-    "image": "https://www.tibiawiki.com.br/images/6/6d/Soultainter.gif",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
     "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+5.00% critical extra damage",
-          "+7.50% critical extra damage para Death spells e runes"
+          "+5.00% critical extra damage"
         ]
       },
       {
         "tier": 2,
         "perks": [
-          "+1 Magic Level",
-          "+2% critical hit chance para Great Death Beam"
+          "+7.50% critical extra damage para Death spells e runes",
+          "+1 Magic Level"
         ]
       },
       {
         "tier": 3,
         "perks": [
+          "+2% critical hit chance para Great Death Beam",
           "+5.00% critical extra damage",
           "+3.00% damage contra Inkborn"
         ]
@@ -2011,32 +2013,33 @@
         "tier": 4,
         "perks": [
           "+1.50% critical hit chance para Death spells e runes",
-          "+10% critical extra damage para Great Death Beam"
+          "+10% critical extra damage para Great Death Beam",
+          "+1.00% critical hit chance para offensive runes"
         ]
       },
       {
         "tier": 5,
         "perks": [
-          "+1.00% critical hit chance para offensive runes",
-          "+2 Death Magic Level"
+          "+2 Death Magic Level",
+          "+1 Magic Level"
         ]
       },
       {
         "tier": 6,
         "perks": [
-          "+1 Magic Level",
-          "+10.00% critical extra damage"
+          "+10.00% critical extra damage",
+          "+12.00% critical extra damage para offensive runes"
         ]
       },
       {
         "tier": 7,
         "perks": [
-          "+12.00% critical extra damage para offensive runes",
           "+1.00% critical hit chance"
         ]
       }
     ],
-    "source": "Crafted via Exaltation Forge"
+    "source": "Crafted via Exaltation Forge",
+    "attackElement": "+2 Death"
   },
   {
     "id": "crypt-slicer",
@@ -2047,19 +2050,19 @@
     ],
     "attack": 58,
     "level": 450,
-    "image": "https://www.tibiawiki.com.br/images/a/a1/Crypt_Slicer.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 Sword Fighting",
-          "+100.00% do seu Magic Level como extra damage para auto-attacks"
+          "+1 Sword Fighting"
         ]
       },
       {
         "tier": 2,
         "perks": [
+          "+100.00% do seu Magic Level como extra damage para auto-attacks",
           "+5% life leech para Berserk",
           "+12% armor penetration"
         ]
@@ -2068,35 +2071,38 @@
         "tier": 3,
         "perks": [
           "+10% Earth pierce",
-          "+2% mana leech para Berserk"
+          "+2% mana leech para Berserk",
+          "+6% Physical pierce"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+6% Physical pierce",
-          "+10.00% damage contra targets above 95% hit points"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
+          "+10.00% damage contra targets above 95% hit points",
           "+3.00% damage contra Undead",
           "+2.50% damage contra targets below 30% hit points"
         ]
       },
       {
-        "tier": 6,
+        "tier": 5,
         "perks": [
           "+15% Earth pierce",
-          "+1 attack"
+          "+1 attack",
+          "+16% armor penetration"
+        ]
+      },
+      {
+        "tier": 6,
+        "perks": [
+          "+700.00% do seu Magic Level como extra healing para suas spells",
+          "+20% armor penetration"
         ]
       },
       {
         "tier": 7,
         "perks": [
-          "+16% armor penetration",
-          "+700.00% do seu Magic Level como extra healing para suas spells"
+          "+20% Earth pierce",
+          "+8% Physical pierce"
         ]
       }
     ],
@@ -2111,19 +2117,19 @@
     ],
     "attack": 58,
     "level": 450,
-    "image": "https://www.tibiawiki.com.br/images/8/87/Crypt_Splitter.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 Axe Fighting",
-          "+100.00% do seu Magic Level como extra damage para auto-attacks"
+          "+1 Axe Fighting"
         ]
       },
       {
         "tier": 2,
         "perks": [
+          "+100.00% do seu Magic Level como extra damage para auto-attacks",
           "+5% life leech para Berserk",
           "+12% armor penetration"
         ]
@@ -2132,35 +2138,38 @@
         "tier": 3,
         "perks": [
           "+10% Energy pierce",
-          "+2% mana leech para Berserk"
+          "+2% mana leech para Berserk",
+          "+6% Physical pierce"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+6% Physical pierce",
-          "+10.00% damage contra targets above 95% hit points"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
+          "+10.00% damage contra targets above 95% hit points",
           "+3.00% damage contra Undead",
           "+2.50% damage contra targets below 30% hit points"
         ]
       },
       {
-        "tier": 6,
+        "tier": 5,
         "perks": [
           "+15% Energy pierce",
-          "+1 attack"
+          "+1 attack",
+          "+16% armor penetration"
+        ]
+      },
+      {
+        "tier": 6,
+        "perks": [
+          "+700.00% do seu Magic Level como extra healing para suas spells",
+          "+20% armor penetration"
         ]
       },
       {
         "tier": 7,
         "perks": [
-          "+16% armor penetration",
-          "+700.00% do seu Magic Level como extra healing para suas spells"
+          "+20% Energy pierce",
+          "+8% Physical pierce"
         ]
       }
     ],
@@ -2175,19 +2184,19 @@
     ],
     "attack": 58,
     "level": 450,
-    "image": "https://www.tibiawiki.com.br/images/e/ec/Crypt_Breaker.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
         "perks": [
-          "+1 Club Fighting",
-          "+100.00% do seu Magic Level como extra damage para auto-attacks"
+          "+1 Club Fighting"
         ]
       },
       {
         "tier": 2,
         "perks": [
+          "+100.00% do seu Magic Level como extra damage para auto-attacks",
           "+5% life leech para Berserk",
           "+12% armor penetration"
         ]
@@ -2196,35 +2205,38 @@
         "tier": 3,
         "perks": [
           "+10% Fire pierce",
-          "+2% mana leech para Berserk"
+          "+2% mana leech para Berserk",
+          "+6% Physical pierce"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+6% Physical pierce",
-          "+10.00% damage contra targets above 95% hit points"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
+          "+10.00% damage contra targets above 95% hit points",
           "+3.00% damage contra Undead",
           "+2.50% damage contra targets below 30% hit points"
         ]
       },
       {
-        "tier": 6,
+        "tier": 5,
         "perks": [
           "+15% Fire pierce",
-          "+1 attack"
+          "+1 attack",
+          "+16% armor penetration"
+        ]
+      },
+      {
+        "tier": 6,
+        "perks": [
+          "+700.00% do seu Magic Level como extra healing para suas spells",
+          "+20% armor penetration"
         ]
       },
       {
         "tier": 7,
         "perks": [
-          "+16% armor penetration",
-          "+700.00% do seu Magic Level como extra healing para suas spells"
+          "+20% Fire pierce",
+          "+8% Physical pierce"
         ]
       }
     ],
@@ -2855,8 +2867,8 @@
     ],
     "attack": 5,
     "level": 120,
-    "image": "https://www.tibiawiki.com.br/images/7/7b/Rift_Bow.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
@@ -2873,17 +2885,12 @@
       {
         "tier": 3,
         "perks": [
-          "+10 damage at range 7"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
+          "+10 damage at range 7",
           "+10 hit points on kill"
         ]
       },
       {
-        "tier": 5,
+        "tier": 4,
         "perks": [
           "+2.00% damage contra Fey"
         ]
@@ -2946,8 +2953,8 @@
     ],
     "attack": 3,
     "level": 80,
-    "image": "https://www.tibiawiki.com.br/images/f/f8/Warsinger_Bow.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
@@ -2958,23 +2965,18 @@
       {
         "tier": 2,
         "perks": [
-          "+10 hit points on kill"
+          "+10 hit points on kill",
+          "+10 mana on kill"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+10 mana on kill"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
           "+1 attack"
         ]
       },
       {
-        "tier": 5,
+        "tier": 4,
         "perks": [
           "+15 damage at range 7"
         ]
@@ -3455,8 +3457,8 @@
     ],
     "attack": 20,
     "level": 100,
-    "image": "https://www.tibiawiki.com.br/images/0/0b/The_Devileye.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
@@ -3467,35 +3469,25 @@
       {
         "tier": 2,
         "perks": [
-          "+5 hit points on hit"
+          "+5 hit points on hit",
+          "+15.00% critical extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+15.00% critical extra damage para auto-attacks"
+          "+3 mana on hit",
+          "+1.50% damage contra bosses e Sinister Embraced"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+3 mana on hit"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+1.50% damage contra bosses e Sinister Embraced"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
           "+2.50% critical hit chance para auto-attacks"
         ]
       },
       {
-        "tier": 7,
+        "tier": 5,
         "perks": [
           "+3.00% damage contra bosses e Sinister Embraced"
         ]
@@ -4028,8 +4020,8 @@
     ],
     "attack": 7,
     "level": 300,
-    "image": "https://www.tibiawiki.com.br/images/4/42/Inferniarch_Bow.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
@@ -4040,36 +4032,21 @@
       {
         "tier": 2,
         "perks": [
-          "+10.00% do seu Distance Fighting como extra damage para auto-attacks"
+          "+10.00% do seu Distance Fighting como extra damage para auto-attacks",
+          "+10.00% critical extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+10.00% critical extra damage para auto-attacks"
+          "+15.00% critical extra damage para auto-attacks"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+15.00% critical extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+5% life leech para Strong Ethereal Spear"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+1% critical hit chance para Strong Ethereal Spear"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
+          "+5% life leech para Strong Ethereal Spear",
+          "+1% critical hit chance para Strong Ethereal Spear",
           "+3% mana leech para Strong Ethereal Spear"
         ]
       }
@@ -4085,8 +4062,8 @@
     ],
     "attack": 8,
     "level": 300,
-    "image": "https://www.tibiawiki.com.br/images/e/e7/Inferniarch_Arbalest.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
@@ -4097,36 +4074,21 @@
       {
         "tier": 2,
         "perks": [
-          "+10.00% do seu Distance Fighting como extra damage para auto-attacks"
+          "+10.00% do seu Distance Fighting como extra damage para auto-attacks",
+          "+10.00% critical extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+10.00% critical extra damage para auto-attacks"
+          "+15.00% critical extra damage para auto-attacks"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+15.00% critical extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+5% life leech para Strong Ethereal Spear"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
-          "+1% critical hit chance para Strong Ethereal Spear"
-        ]
-      },
-      {
-        "tier": 7,
-        "perks": [
+          "+5% life leech para Strong Ethereal Spear",
+          "+1% critical hit chance para Strong Ethereal Spear",
           "+3% mana leech para Strong Ethereal Spear"
         ]
       }
@@ -4250,8 +4212,8 @@
     ],
     "attack": 2,
     "level": 50,
-    "image": "https://www.tibiawiki.com.br/images/9/9a/Composite_Hornbow.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
@@ -4262,17 +4224,12 @@
       {
         "tier": 2,
         "perks": [
-          "+10.00% critical extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 3,
-        "perks": [
+          "+10.00% critical extra damage para auto-attacks",
           "+1.00% hit chance"
         ]
       },
       {
-        "tier": 4,
+        "tier": 3,
         "perks": [
           "+1.00% critical hit chance para auto-attacks"
         ]
@@ -4348,8 +4305,8 @@
     ],
     "attack": 1,
     "level": 40,
-    "image": "https://www.tibiawiki.com.br/images/e/e8/Shimmer_Bow.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
@@ -4360,29 +4317,19 @@
       {
         "tier": 2,
         "perks": [
-          "+7.00% do seu Fishing como extra damage para suas spells"
+          "+7.00% do seu Fishing como extra damage para suas spells",
+          "+1 attack"
         ]
       },
       {
         "tier": 3,
         "perks": [
+          "+3.00% damage contra Aquatic",
           "+1 attack"
         ]
       },
       {
         "tier": 4,
-        "perks": [
-          "+3.00% damage contra Aquatic"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+1 attack"
-        ]
-      },
-      {
-        "tier": 6,
         "perks": [
           "+25.00% do seu Fishing como extra damage para auto-attacks"
         ]
@@ -4399,8 +4346,8 @@
     ],
     "attack": 0,
     "level": 40,
-    "image": "https://www.tibiawiki.com.br/images/5/5e/Silkweaver_Bow.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
@@ -4411,17 +4358,12 @@
       {
         "tier": 2,
         "perks": [
-          "+3.00% damage contra Humanoid"
-        ]
-      },
-      {
-        "tier": 3,
-        "perks": [
+          "+3.00% damage contra Humanoid",
           "+2 mana on hit"
         ]
       },
       {
-        "tier": 4,
+        "tier": 3,
         "perks": [
           "+1 attack"
         ]
@@ -4438,8 +4380,8 @@
     ],
     "attack": 1,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/0/0d/Icicle_Bow.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
@@ -4450,29 +4392,19 @@
       {
         "tier": 2,
         "perks": [
-          "-4s cooldown para Lesser Ethereal Spear"
+          "-4s cooldown para Lesser Ethereal Spear",
+          "+8.00% critical extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+8.00% critical extra damage para auto-attacks"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
-          "+100% mana leech para Lesser Ethereal Spear"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
+          "+100% mana leech para Lesser Ethereal Spear",
           "+50% base damage para Lesser Ethereal Spear"
         ]
       },
       {
-        "tier": 6,
+        "tier": 4,
         "perks": [
           "+2.00% critical hit chance para auto-attacks"
         ]
@@ -4489,8 +4421,8 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/2/20/Elvish_Bow.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
@@ -4501,17 +4433,12 @@
       {
         "tier": 2,
         "perks": [
-          "+1 attack"
-        ]
-      },
-      {
-        "tier": 3,
-        "perks": [
+          "+1 attack",
           "+10 hit points on kill"
         ]
       },
       {
-        "tier": 4,
+        "tier": 3,
         "perks": [
           "+2.00% hit chance"
         ]
@@ -4528,8 +4455,8 @@
     ],
     "attack": 6,
     "level": 150,
-    "image": "https://www.tibiawiki.com.br/images/0/08/Jungle_Bow.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
@@ -4540,35 +4467,25 @@
       {
         "tier": 2,
         "perks": [
-          "+1 Distance Fighting"
+          "+1 Distance Fighting",
+          "+5.00% do seu Distance Fighting como extra damage para auto-attacks"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+5.00% do seu Distance Fighting como extra damage para auto-attacks"
+          "+2.50% critical hit chance para auto-attacks",
+          "+3.00% damage contra Vermin"
         ]
       },
       {
         "tier": 4,
         "perks": [
-          "+2.50% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
-          "+3.00% damage contra Vermin"
-        ]
-      },
-      {
-        "tier": 6,
-        "perks": [
           "+12 mana on kill"
         ]
       },
       {
-        "tier": 7,
+        "tier": 5,
         "perks": [
           "+15.00% critical extra damage para auto-attacks"
         ]
@@ -4585,8 +4502,8 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/9/94/Refined_Bow.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
@@ -4597,24 +4514,14 @@
       {
         "tier": 2,
         "perks": [
-          "+4.00% do seu Distance Fighting como extra damage para auto-attacks"
+          "+4.00% do seu Distance Fighting como extra damage para auto-attacks",
+          "+1.00% hit chance"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+1.00% hit chance"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -5162,8 +5069,8 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/a/ad/Bow.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
@@ -5174,24 +5081,14 @@
       {
         "tier": 2,
         "perks": [
-          "+4.00% do seu Distance Fighting como extra damage para auto-attacks"
+          "+4.00% do seu Distance Fighting como extra damage para auto-attacks",
+          "+1.00% hit chance"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+1.00% hit chance"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -5207,8 +5104,8 @@
     ],
     "attack": 0,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/5/51/Crossbow.gif",
-    "hand": "two-handed",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
+    "hand": "one-handed",
     "perks": [
       {
         "tier": 1,
@@ -5219,24 +5116,14 @@
       {
         "tier": 2,
         "perks": [
-          "+4.00% do seu Distance Fighting como extra damage para auto-attacks"
+          "+4.00% do seu Distance Fighting como extra damage para auto-attacks",
+          "+1.00% hit chance"
         ]
       },
       {
         "tier": 3,
         "perks": [
-          "+1.00% hit chance"
-        ]
-      },
-      {
-        "tier": 4,
-        "perks": [
-          "+1.00% critical hit chance para auto-attacks"
-        ]
-      },
-      {
-        "tier": 5,
-        "perks": [
+          "+1.00% critical hit chance para auto-attacks",
           "+5 hit points on kill"
         ]
       }
@@ -5762,7 +5649,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/e/e3/Earth_Relic_Sword_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -5796,7 +5683,8 @@
         ]
       }
     ],
-    "source": "NPC Cillia (Thais)"
+    "source": "NPC Cillia (Thais)",
+    "attackElement": "+1 Earth"
   },
   {
     "id": "earth-spike-sword-replica",
@@ -5807,7 +5695,7 @@
     ],
     "attack": 5,
     "level": 0,
-    "image": "https://www.tibiawiki.com.br/images/3/37/Earth_Spike_Sword_Replica.gif",
+    "image": "https://www.tibiawiki.com.br/images/thumb/9/90/Reliable_Ram.gif/50px-Reliable_Ram.gif",
     "hand": "one-handed",
     "perks": [
       {
@@ -5841,7 +5729,8 @@
         ]
       }
     ],
-    "source": "NPC Cillia (Thais)"
+    "source": "NPC Cillia (Thais)",
+    "attackElement": "+1 Earth"
   },
   {
     "id": "earth-blacksteel-replica",
