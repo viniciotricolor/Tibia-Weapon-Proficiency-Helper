@@ -277,6 +277,11 @@ async function main() {
     console.log(`  Updated: ${perks.length} tiers, ${perks.reduce((sum, t) => sum + t.perks.length, 0)} total perks`);
     updated++;
 
+    if (updated % 50 === 0) {
+      fs.writeFileSync(weaponsPath, JSON.stringify(weapons, null, 2), "utf-8");
+      console.log(`  [Saved progress: ${updated} weapons updated]`);
+    }
+
     await sleep(DELAY_MS);
   }
 
