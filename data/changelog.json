@@ -1,6 +1,58 @@
 [
   {
-    "version": "v3.0",
+    "version": "3.1",
+    "date": "2026-06-24",
+    "type": "major",
+    "changes": [
+      {
+        "weapon": "Aba Mastery (Beta)",
+        "change_type": "new_feature",
+        "after": "Nova aba /mastery com sistema de proficiencia de armas e arvore de talentos interativa"
+      },
+      {
+        "weapon": "730 Icones de Perks",
+        "change_type": "data_fix",
+        "after": "730 imagens de perks baixadas do TibiaWiki para icones de proficiencia"
+      },
+      {
+        "weapon": "623 Imagens Corrigidas",
+        "change_type": "data_fix",
+        "after": "623 armas com imagens corrigidas do TibiaWiki"
+      },
+      {
+        "weapon": "Favoritos Global",
+        "change_type": "new_feature",
+        "after": "Sistema de favoritos com Heart icon em todas as armas e filtro na lista"
+      },
+      {
+        "weapon": "Salvar/Carregar Builds",
+        "change_type": "new_feature",
+        "after": "Salve builds de mastery no localStorage com nome personalizado"
+      },
+      {
+        "weapon": "Exportar Build URL",
+        "change_type": "new_feature",
+        "after": "Botao copia link com build configurado para compartilhar"
+      },
+      {
+        "weapon": "Filtro por Elemento",
+        "change_type": "new_feature",
+        "after": "Filtro por elemento (Earth, Fire, Ice, Energy, Death, Holy, Physical) na pagina de armas"
+      },
+      {
+        "weapon": "Badges de Tier",
+        "change_type": "new_feature",
+        "after": "Badges coloridos nas armas (F=Falcon, C=Cobra, L=Lion, GS=Grand Sanguine, etc)"
+      },
+      {
+        "weapon": "Beta Banner",
+        "change_type": "new_feature",
+        "after": "Banner indicando que Mastery esta em beta, aguardando Summer Update 2026"
+      }
+    ]
+  },
+  {
+    "version": "3.0",
     "date": "2026-06-23",
     "type": "major",
     "changes": [
@@ -87,7 +139,7 @@
     ]
   },
   {
-    "version": "v2.2",
+    "version": "2.2",
     "date": "2026-06-23",
     "type": "major",
     "changes": [
@@ -134,7 +186,7 @@
     ]
   },
   {
-    "version": "v2.1",
+    "version": "2.1",
     "date": "2026-06-23",
     "type": "minor",
     "changes": [
@@ -186,7 +238,7 @@
     ]
   },
   {
-    "version": "v2",
+    "version": "2",
     "date": "2026-06-22",
     "type": "major",
     "changes": [
@@ -238,7 +290,7 @@
     ]
   },
   {
-    "version": "v1.3",
+    "version": "1.3",
     "date": "2025-07-16",
     "type": "minor",
     "changes": [
@@ -255,7 +307,7 @@
     ]
   },
   {
-    "version": "v1.2",
+    "version": "1.2",
     "date": "2025-06-17",
     "type": "minor",
     "changes": [
@@ -272,7 +324,7 @@
     ]
   },
   {
-    "version": "v1.1",
+    "version": "1.1",
     "date": "2025-03-20",
     "type": "minor",
     "changes": [
@@ -284,7 +336,7 @@
     ]
   },
   {
-    "version": "v1.0",
+    "version": "1.0",
     "date": "2024-12-12",
     "type": "major",
     "changes": [
