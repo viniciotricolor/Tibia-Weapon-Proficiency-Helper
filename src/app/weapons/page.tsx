@@ -56,6 +56,13 @@ export default function WeaponsPage() {
       });
     }
 
+    if (filters.elements && filters.elements.length > 0) {
+      result = result.filter((w) => {
+        const elem = (w.attackElement || "").toLowerCase();
+        return filters.elements.some((e) => elem.includes(e));
+      });
+    }
+
     if (filters.perkSearch) {
       const search = filters.perkSearch.toLowerCase();
       result = result.filter((w) =>
@@ -123,6 +130,7 @@ export default function WeaponsPage() {
       vocations: [],
       families: [],
       sources: [],
+      elements: [],
       minTier: 1,
       perkSearch: "",
       selectedPerks: [],

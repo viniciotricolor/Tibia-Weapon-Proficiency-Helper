@@ -16,6 +16,7 @@ function parseFilters(search: string): FilterState {
     vocations: getArray("vocation"),
     families: getArray("family"),
     sources: getArray("source"),
+    elements: getArray("element"),
     minTier: parseInt(params.get("tier") || "1") || 1,
     perkSearch: params.get("perk") || "",
     selectedPerks: getArray("perkCat"),
@@ -29,6 +30,7 @@ function filtersToParams(filters: FilterState): Record<string, string> {
   if (filters.vocations.length) params.vocation = filters.vocations.join(",");
   if (filters.families.length) params.family = filters.families.join(",");
   if (filters.sources.length) params.source = filters.sources.join(",");
+  if (filters.elements && filters.elements.length) params.element = filters.elements.join(",");
   if (filters.minTier > 1) params.tier = String(filters.minTier);
   if (filters.perkSearch) params.perk = filters.perkSearch;
   if (filters.selectedPerks.length) params.perkCat = filters.selectedPerks.join(",");
@@ -43,7 +45,7 @@ export function useFilterURL() {
     }
     return {
       handSlots: [], weaponTypes: [], vocations: [], families: [],
-      sources: [], minTier: 1, perkSearch: "", selectedPerks: [],
+      sources: [], elements: [], minTier: 1, perkSearch: "", selectedPerks: [],
     };
   });
 

@@ -14,6 +14,7 @@ export type FilterState = {
   vocations: string[];
   families: string[];
   sources: string[];
+  elements: string[];
   minTier: number;
   perkSearch: string;
   selectedPerks: string[];
@@ -102,6 +103,16 @@ const weaponFamilies = [
   { id: "obsidian", label: "Obsidian" },
   { id: "silver", label: "Silver" },
   { id: "light", label: "Light" },
+];
+
+const elements = [
+  { id: "earth", label: "Earth", color: "text-green-500" },
+  { id: "fire", label: "Fire", color: "text-orange-500" },
+  { id: "ice", label: "Ice", color: "text-blue-400" },
+  { id: "energy", label: "Energy", color: "text-yellow-400" },
+  { id: "death", label: "Death", color: "text-purple-500" },
+  { id: "holy", label: "Holy", color: "text-amber-300" },
+  { id: "physical", label: "Physical", color: "text-gray-400" },
 ];
 
 const weaponSources = [
@@ -258,6 +269,7 @@ export function FilterSidebar({
       vocations: [],
       families: [],
       sources: [],
+      elements: [],
       minTier: 1,
       perkSearch: "",
       selectedPerks: [],
@@ -270,6 +282,7 @@ export function FilterSidebar({
     filters.vocations.length +
     filters.families.length +
     filters.sources.length +
+    filters.elements.length +
     (filters.minTier > 1 ? 1 : 0) +
     (filters.perkSearch ? 1 : 0) +
     filters.selectedPerks.length;
@@ -356,6 +369,20 @@ export function FilterSidebar({
                 onCheckedChange={() => toggleFilter("families", f.id)}
               />
               {f.label}
+            </label>
+          ))}
+        </FilterSection>
+
+        <Separator />
+
+        <FilterSection title="Element" icon={Flame}>
+          {elements.map((e) => (
+            <label key={e.id} className="flex items-center gap-2 text-sm cursor-pointer py-1">
+              <Checkbox
+                checked={filters.elements.includes(e.id)}
+                onCheckedChange={() => toggleFilter("elements", e.id)}
+              />
+              <span className={e.color}>{e.label}</span>
             </label>
           ))}
         </FilterSection>

@@ -3,8 +3,10 @@
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 import type { Weapon } from "@/lib/types";
-import { ExternalLink, Shield, Swords } from "lucide-react";
+import { ExternalLink, Shield, Swords, Star } from "lucide-react";
 import Link from "next/link";
+import { useFavoritesStore } from "@/hooks/useFavorites";
+import { Heart } from "lucide-react";
 
 interface WeaponCardProps {
   weapon: Weapon;
@@ -19,8 +21,35 @@ const vocationColors: Record<string, string> = {
   monk: "bg-violet-100 text-violet-700 dark:bg-violet-900/30 dark:text-violet-400",
 };
 
+const tierBadges: Record<string, { label: string; color: string }> = {
+  "grand sanguine": { label: "GS", color: "bg-yellow-500 text-yellow-950" },
+  sanguine: { label: "S", color: "bg-orange-500 text-orange-950" },
+  soul: { label: "Soul", color: "bg-purple-500 text-purple-100" },
+  Falcon: { label: "F", color: "bg-amber-500 text-amber-950" },
+  cobra: { label: "C", color: "bg-green-500 text-green-950" },
+  lion: { label: "L", color: "bg-blue-500 text-blue-100" },
+  naga: { label: "N", color: "bg-cyan-500 text-cyan-950" },
+  amber: { label: "A", color: "bg-yellow-600 text-yellow-100" },
+  eldritch: { label: "E", color: "bg-violet-500 text-violet-100" },
+  crypt: { label: "Cr", color: "bg-gray-500 text-gray-100" },
+  moonsilver: { label: "M", color: "bg-indigo-400 text-indigo-950" },
+  inferniarch: { label: "I", color: "bg-red-600 text-red-100" },
+  gnome: { label: "G", color: "bg-teal-500 text-teal-950" },
+};
+
+function getWeaponTier(name: string): { label: string; color: string } | null {
+  const lower = name.toLowerCase();
+  for (const [key, badge] of Object.entries(tierBadges)) {
+    if (lower.includes(key.toLowerCase())) return badge;
+  }
+  return null;
+}
+
 export function WeaponCard({ weapon, index }: WeaponCardProps) {
   const wikiUrl = `https://tibiawiki.com.br/wiki/${encodeURIComponent(weapon.name)}`;
+  const { toggleFavorite, isFavorite } = useFavoritesStore();
+  const tier = getWeaponTier(weapon.name);
+  const fav = isFavorite(weapon.id);
 
   return (
     <motion.div
@@ -35,30 +64,51 @@ export function WeaponCard({ weapon, index }: WeaponCardProps) {
 
       <div className="flex items-start justify-between mb-3">
         <div className="flex items-center gap-2">
-          <img
-            src={weapon.image}
-            alt={weapon.name}
-            className="w-8 h-8 object-contain"
-            onError={(e) => {
-              (e.target as HTMLImageElement).style.display = "none";
-            }}
-          />
+          <div className="relative">
+            <img
+              src={weapon.image}
+              alt={weapon.name}
+              className="w-8 h-8 object-contain"
+              onError={(e) => {
+                (e.target as HTMLImageElement).style.display = "none";
+              }}
+            />
+          </div>
           <div>
-            <h3 className="font-semibold text-sm leading-tight group-hover:text-primary transition-colors">
-              {weapon.name}
-            </h3>
+            <div className="flex items-center gap-1.5">
+              <h3 className="font-semibold text-sm leading-tight group-hover:text-primary transition-colors">
+                {weapon.name}
+              </h3>
+              {tier && (
+                <span className={cn("px-1 py-0.5 rounded text-[8px] font-bold", tier.color)}>
+                  {tier.label}
+                </span>
+              )}
+            </div>
             <p className="text-xs text-muted-foreground capitalize">{weapon.type}</p>
           </div>
         </div>
-        <a
-          href={wikiUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="relative z-20 text-muted-foreground hover:text-primary transition-colors"
-          onClick={(e) => e.stopPropagation()}
-        >
-          <ExternalLink className="h-4 w-4" />
-        </a>
+        <div className="relative z-20 flex items-center gap-1">
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              toggleFavorite(weapon.id);
+            }}
+            className="text-muted-foreground hover:text-red-500 transition-colors"
+          >
+            <Heart className={cn("h-4 w-4", fav && "fill-red-500 text-red-500")} />
+          </button>
+          <a
+            href={wikiUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <ExternalLink className="h-4 w-4" />
+          </a>
+        </div>
       </div>
 
       <div className="flex items-center gap-3 mb-3 text-xs text-muted-foreground">
@@ -75,6 +125,12 @@ export function WeaponCard({ weapon, index }: WeaponCardProps) {
           )}
           {weapon.hand === "one-handed" ? "1H" : "2H"}
         </span>
+        {weapon.perks.length > 0 && (
+          <span className="flex items-center gap-0.5">
+            <Star className="h-3 w-3 fill-amber-500 text-amber-500" />
+            {weapon.perks.length}
+          </span>
+        )}
       </div>
 
       <div className="flex flex-wrap gap-1 mb-3">

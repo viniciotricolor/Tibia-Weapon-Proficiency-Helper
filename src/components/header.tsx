@@ -48,6 +48,9 @@ export function Header() {
           <Link href="/changelog" className="text-sm text-muted-foreground hover:text-primary transition-colors">
             {t.nav.changelog}
           </Link>
+          <Link href="/mastery" className="text-sm text-amber-600 dark:text-amber-400 hover:text-amber-700 dark:hover:text-amber-300 transition-colors font-medium">
+            Mastery <span className="text-[10px] opacity-70">Beta</span>
+          </Link>
         </nav>
 
         <div className="ml-auto flex items-center gap-1">
@@ -104,6 +107,9 @@ export function Header() {
             </Link>
             <Link href="/changelog" className="py-2 text-sm text-muted-foreground hover:text-primary" onClick={() => setMobileOpen(false)}>
               {t.nav.changelog}
+            </Link>
+            <Link href="/mastery" className="py-2 text-sm text-amber-600 dark:text-amber-400 hover:text-amber-700 dark:hover:text-amber-300 font-medium" onClick={() => setMobileOpen(false)}>
+              Mastery <span className="text-[10px] opacity-70">Beta</span>
             </Link>
             <a href="https://tibiawiki.com.br" target="_blank" rel="noopener noreferrer" className="py-2 text-sm text-muted-foreground hover:text-primary">
               TibiaWiki BR

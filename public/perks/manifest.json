@@ -1,0 +1,2922 @@
+[
+  {
+    "name": "Proficiency_Augment_Cooldown.gif",
+    "local": "/perks/proficiency_augment_cooldown.gif"
+  },
+  {
+    "name": "Proficiency_Augment_Critical_Chance.gif",
+    "local": "/perks/proficiency_augment_critical_chance.gif"
+  },
+  {
+    "name": "Proficiency_Augment_Critical_Dmg.gif",
+    "local": "/perks/proficiency_augment_critical_dmg.gif"
+  },
+  {
+    "name": "Proficiency_Augment_Damage.gif",
+    "local": "/perks/proficiency_augment_damage.gif"
+  },
+  {
+    "name": "Proficiency_Augment_Life_Leech.gif",
+    "local": "/perks/proficiency_augment_life_leech.gif"
+  },
+  {
+    "name": "Proficiency_Augment_Mana_Leech.gif",
+    "local": "/perks/proficiency_augment_mana_leech.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Animate_Dead_Rune.gif",
+    "local": "/perks/proficiency_spell_animate_dead_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Annihilation.gif",
+    "local": "/perks/proficiency_spell_annihilation.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Apprentice's_Strike.gif",
+    "local": "/perks/proficiency_spell_apprentice's_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Arrow_Call.gif",
+    "local": "/perks/proficiency_spell_arrow_call.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Aura_of_Exposed_Weakness.gif",
+    "local": "/perks/proficiency_spell_aura_of_exposed_weakness.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Aura_of_Sapped_Strength.gif",
+    "local": "/perks/proficiency_spell_aura_of_sapped_strength.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Avalanche_Rune.gif",
+    "local": "/perks/proficiency_spell_avalanche_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Avatar_of_Balance.gif",
+    "local": "/perks/proficiency_spell_avatar_of_balance.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Avatar_of_Light.gif",
+    "local": "/perks/proficiency_spell_avatar_of_light.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Avatar_of_Nature.gif",
+    "local": "/perks/proficiency_spell_avatar_of_nature.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Avatar_of_Steel.gif",
+    "local": "/perks/proficiency_spell_avatar_of_steel.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Avatar_of_Storm.gif",
+    "local": "/perks/proficiency_spell_avatar_of_storm.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Balanced_Brawl.gif",
+    "local": "/perks/proficiency_spell_balanced_brawl.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Berserk.gif",
+    "local": "/perks/proficiency_spell_berserk.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Blood_Rage.gif",
+    "local": "/perks/proficiency_spell_blood_rage.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Bruise_Bane.gif",
+    "local": "/perks/proficiency_spell_bruise_bane.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Brutal_Strike.gif",
+    "local": "/perks/proficiency_spell_brutal_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Buzz.gif",
+    "local": "/perks/proficiency_spell_buzz.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Cancel_Invisibility.gif",
+    "local": "/perks/proficiency_spell_cancel_invisibility.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Cancel_Magic_Shield.gif",
+    "local": "/perks/proficiency_spell_cancel_magic_shield.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Chained_Penance.gif",
+    "local": "/perks/proficiency_spell_chained_penance.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Challenge.gif",
+    "local": "/perks/proficiency_spell_challenge.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Chameleon_Rune.gif",
+    "local": "/perks/proficiency_spell_chameleon_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Charge.gif",
+    "local": "/perks/proficiency_spell_charge.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Chill_Out.gif",
+    "local": "/perks/proficiency_spell_chill_out.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Chivalrous_Challenge.gif",
+    "local": "/perks/proficiency_spell_chivalrous_challenge.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Conjure_Arrow.gif",
+    "local": "/perks/proficiency_spell_conjure_arrow.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Conjure_Diamond_Arrow.gif",
+    "local": "/perks/proficiency_spell_conjure_diamond_arrow.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Conjure_Explosive_Arrow.gif",
+    "local": "/perks/proficiency_spell_conjure_explosive_arrow.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Conjure_Spectral_Bolt.gif",
+    "local": "/perks/proficiency_spell_conjure_spectral_bolt.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Conjure_Wand_of_Darkness.gif",
+    "local": "/perks/proficiency_spell_conjure_wand_of_darkness.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Convince_Creature_Rune.gif",
+    "local": "/perks/proficiency_spell_convince_creature_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Creature_Illusion.gif",
+    "local": "/perks/proficiency_spell_creature_illusion.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Cure_Bleeding.gif",
+    "local": "/perks/proficiency_spell_cure_bleeding.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Cure_Burning.gif",
+    "local": "/perks/proficiency_spell_cure_burning.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Cure_Curse.gif",
+    "local": "/perks/proficiency_spell_cure_curse.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Cure_Electrification.gif",
+    "local": "/perks/proficiency_spell_cure_electrification.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Cure_Poison.gif",
+    "local": "/perks/proficiency_spell_cure_poison.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Cure_Poison_Rune.gif",
+    "local": "/perks/proficiency_spell_cure_poison_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Curse.gif",
+    "local": "/perks/proficiency_spell_curse.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Death_Echo.gif",
+    "local": "/perks/proficiency_spell_death_echo.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Death_Strike.gif",
+    "local": "/perks/proficiency_spell_death_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Destroy_Field_Rune.gif",
+    "local": "/perks/proficiency_spell_destroy_field_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Devastating_Knockout.gif",
+    "local": "/perks/proficiency_spell_devastating_knockout.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Disintegrate_Rune.gif",
+    "local": "/perks/proficiency_spell_disintegrate_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Divine_Barrage.gif",
+    "local": "/perks/proficiency_spell_divine_barrage.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Divine_Caldera.gif",
+    "local": "/perks/proficiency_spell_divine_caldera.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Divine_Dazzle.gif",
+    "local": "/perks/proficiency_spell_divine_dazzle.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Divine_Defiance.gif",
+    "local": "/perks/proficiency_spell_divine_defiance.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Divine_Empowerment.gif",
+    "local": "/perks/proficiency_spell_divine_empowerment.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Divine_Grenade.gif",
+    "local": "/perks/proficiency_spell_divine_grenade.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Divine_Healing.gif",
+    "local": "/perks/proficiency_spell_divine_healing.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Divine_Missile.gif",
+    "local": "/perks/proficiency_spell_divine_missile.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Double_Jab.gif",
+    "local": "/perks/proficiency_spell_double_jab.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Electrify.gif",
+    "local": "/perks/proficiency_spell_electrify.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Elemental_Synthesis.gif",
+    "local": "/perks/proficiency_spell_elemental_synthesis.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Enchant_Party.gif",
+    "local": "/perks/proficiency_spell_enchant_party.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Enchant_Spear.gif",
+    "local": "/perks/proficiency_spell_enchant_spear.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Energy_Beam.gif",
+    "local": "/perks/proficiency_spell_energy_beam.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Energy_Bomb_Rune.gif",
+    "local": "/perks/proficiency_spell_energy_bomb_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Energy_Field_Rune.gif",
+    "local": "/perks/proficiency_spell_energy_field_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Energy_Strike.gif",
+    "local": "/perks/proficiency_spell_energy_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Energy_Wall_Rune.gif",
+    "local": "/perks/proficiency_spell_energy_wall_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Energy_Wave.gif",
+    "local": "/perks/proficiency_spell_energy_wave.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Enlighten_Party.gif",
+    "local": "/perks/proficiency_spell_enlighten_party.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Envenom.gif",
+    "local": "/perks/proficiency_spell_envenom.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Eternal_Winter.gif",
+    "local": "/perks/proficiency_spell_eternal_winter.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Ethereal_Barrage.gif",
+    "local": "/perks/proficiency_spell_ethereal_barrage.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Ethereal_Spear.gif",
+    "local": "/perks/proficiency_spell_ethereal_spear.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Executioner's_Throw.gif",
+    "local": "/perks/proficiency_spell_executioner's_throw.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Explosion_Rune.gif",
+    "local": "/perks/proficiency_spell_explosion_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Expose_Weakness.gif",
+    "local": "/perks/proficiency_spell_expose_weakness.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Fair_Wound_Cleansing.gif",
+    "local": "/perks/proficiency_spell_fair_wound_cleansing.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Fierce_Berserk.gif",
+    "local": "/perks/proficiency_spell_fierce_berserk.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Find_Fiend.gif",
+    "local": "/perks/proficiency_spell_find_fiend.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Find_Person.gif",
+    "local": "/perks/proficiency_spell_find_person.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Fire_Bomb_Rune.gif",
+    "local": "/perks/proficiency_spell_fire_bomb_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Fire_Field_Rune.gif",
+    "local": "/perks/proficiency_spell_fire_field_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Fire_Wall_Rune.gif",
+    "local": "/perks/proficiency_spell_fire_wall_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Fire_Wave.gif",
+    "local": "/perks/proficiency_spell_fire_wave.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Fireball_Rune.gif",
+    "local": "/perks/proficiency_spell_fireball_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Flame_Strike.gif",
+    "local": "/perks/proficiency_spell_flame_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Flurry_of_Blows.gif",
+    "local": "/perks/proficiency_spell_flurry_of_blows.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Focus_Harmony.gif",
+    "local": "/perks/proficiency_spell_focus_harmony.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Focus_Serenity.gif",
+    "local": "/perks/proficiency_spell_focus_serenity.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Food.gif",
+    "local": "/perks/proficiency_spell_food.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Forceful_Uppercut.gif",
+    "local": "/perks/proficiency_spell_forceful_uppercut.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Forked_Glacier.gif",
+    "local": "/perks/proficiency_spell_forked_glacier.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Forked_Thorns.gif",
+    "local": "/perks/proficiency_spell_forked_thorns.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Front_Sweep.gif",
+    "local": "/perks/proficiency_spell_front_sweep.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Great_Death_Beam.gif",
+    "local": "/perks/proficiency_spell_great_death_beam.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Great_Energy_Beam.gif",
+    "local": "/perks/proficiency_spell_great_energy_beam.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Great_Fire_Wave.gif",
+    "local": "/perks/proficiency_spell_great_fire_wave.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Great_Fireball_Rune.gif",
+    "local": "/perks/proficiency_spell_great_fireball_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Great_Light.gif",
+    "local": "/perks/proficiency_spell_great_light.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Greater_Flurry_of_Blows.gif",
+    "local": "/perks/proficiency_spell_greater_flurry_of_blows.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Greater_Tiger_Clash.gif",
+    "local": "/perks/proficiency_spell_greater_tiger_clash.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Groundshaker.gif",
+    "local": "/perks/proficiency_spell_groundshaker.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Haste.gif",
+    "local": "/perks/proficiency_spell_haste.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Heal_Friend.gif",
+    "local": "/perks/proficiency_spell_heal_friend.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Heal_Party.gif",
+    "local": "/perks/proficiency_spell_heal_party.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Heavy_Magic_Missile_Rune.gif",
+    "local": "/perks/proficiency_spell_heavy_magic_missile_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Hell's_Core.gif",
+    "local": "/perks/proficiency_spell_hell's_core.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Holy_Flash.gif",
+    "local": "/perks/proficiency_spell_holy_flash.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Holy_Missile_Rune.gif",
+    "local": "/perks/proficiency_spell_holy_missile_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Ice_Burst.gif",
+    "local": "/perks/proficiency_spell_ice_burst.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Ice_Strike.gif",
+    "local": "/perks/proficiency_spell_ice_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Ice_Wave.gif",
+    "local": "/perks/proficiency_spell_ice_wave.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Icicle_Rune.gif",
+    "local": "/perks/proficiency_spell_icicle_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Ignite.gif",
+    "local": "/perks/proficiency_spell_ignite.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Inflict_Wound.gif",
+    "local": "/perks/proficiency_spell_inflict_wound.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Intense_Healing.gif",
+    "local": "/perks/proficiency_spell_intense_healing.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Intense_Healing_Rune.gif",
+    "local": "/perks/proficiency_spell_intense_healing_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Intense_Recovery.gif",
+    "local": "/perks/proficiency_spell_intense_recovery.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Intense_Wound_Cleansing.gif",
+    "local": "/perks/proficiency_spell_intense_wound_cleansing.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Invisible.gif",
+    "local": "/perks/proficiency_spell_invisible.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Lesser_Ethereal_Spear.gif",
+    "local": "/perks/proficiency_spell_lesser_ethereal_spear.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Lesser_Front_Sweep.gif",
+    "local": "/perks/proficiency_spell_lesser_front_sweep.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Lesser_Mystic_Repulse.gif",
+    "local": "/perks/proficiency_spell_lesser_mystic_repulse.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Levitate.gif",
+    "local": "/perks/proficiency_spell_levitate.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Light.gif",
+    "local": "/perks/proficiency_spell_light.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Light_Healing.gif",
+    "local": "/perks/proficiency_spell_light_healing.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Light_Magic_Missile_Rune.gif",
+    "local": "/perks/proficiency_spell_light_magic_missile_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Light_Stone_Shower_Rune.gif",
+    "local": "/perks/proficiency_spell_light_stone_shower_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Lightning.gif",
+    "local": "/perks/proficiency_spell_lightning.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Magic_Patch.gif",
+    "local": "/perks/proficiency_spell_magic_patch.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Magic_Rope.gif",
+    "local": "/perks/proficiency_spell_magic_rope.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Magic_Shield.gif",
+    "local": "/perks/proficiency_spell_magic_shield.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Magic_Wall_Rune.gif",
+    "local": "/perks/proficiency_spell_magic_wall_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Mass_Healing.gif",
+    "local": "/perks/proficiency_spell_mass_healing.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Mass_Spirit_Mend.gif",
+    "local": "/perks/proficiency_spell_mass_spirit_mend.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Master_of_Decay.gif",
+    "local": "/perks/proficiency_spell_master_of_decay.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Master_of_Flames.gif",
+    "local": "/perks/proficiency_spell_master_of_flames.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Master_of_Thunder.gif",
+    "local": "/perks/proficiency_spell_master_of_thunder.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Mentor_Other.gif",
+    "local": "/perks/proficiency_spell_mentor_other.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Mud_Attack.gif",
+    "local": "/perks/proficiency_spell_mud_attack.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Mystic_Repulse.gif",
+    "local": "/perks/proficiency_spell_mystic_repulse.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Nature's_Embrace.gif",
+    "local": "/perks/proficiency_spell_nature's_embrace.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Paralyse_Rune.gif",
+    "local": "/perks/proficiency_spell_paralyse_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Physical_Strike.gif",
+    "local": "/perks/proficiency_spell_physical_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Poison_Bomb_Rune.gif",
+    "local": "/perks/proficiency_spell_poison_bomb_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Poison_Field_Rune.gif",
+    "local": "/perks/proficiency_spell_poison_field_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Poison_Wall_Rune.gif",
+    "local": "/perks/proficiency_spell_poison_wall_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Practise_Fire_Wave.gif",
+    "local": "/perks/proficiency_spell_practise_fire_wave.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Practise_Healing.gif",
+    "local": "/perks/proficiency_spell_practise_healing.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Practise_Magic_Missile_Rune.gif",
+    "local": "/perks/proficiency_spell_practise_magic_missile_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Protect_Party.gif",
+    "local": "/perks/proficiency_spell_protect_party.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Protector.gif",
+    "local": "/perks/proficiency_spell_protector.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Rage_of_the_Skies.gif",
+    "local": "/perks/proficiency_spell_rage_of_the_skies.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Recovery.gif",
+    "local": "/perks/proficiency_spell_recovery.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Restoration.gif",
+    "local": "/perks/proficiency_spell_restoration.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Restore_Balance.gif",
+    "local": "/perks/proficiency_spell_restore_balance.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Salvation.gif",
+    "local": "/perks/proficiency_spell_salvation.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Sap_Strength.gif",
+    "local": "/perks/proficiency_spell_sap_strength.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Scorch.gif",
+    "local": "/perks/proficiency_spell_scorch.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Shared_Conservation.gif",
+    "local": "/perks/proficiency_spell_shared_conservation.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Sharpshooter.gif",
+    "local": "/perks/proficiency_spell_sharpshooter.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Shield_Bash.gif",
+    "local": "/perks/proficiency_spell_shield_bash.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Shield_Slam.gif",
+    "local": "/perks/proficiency_spell_shield_slam.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Soulfire_Rune.gif",
+    "local": "/perks/proficiency_spell_soulfire_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Spirit_Mend.gif",
+    "local": "/perks/proficiency_spell_spirit_mend.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Spiritual_Outburst.gif",
+    "local": "/perks/proficiency_spell_spiritual_outburst.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Stalagmite_Rune.gif",
+    "local": "/perks/proficiency_spell_stalagmite_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Stone_Shower_Rune.gif",
+    "local": "/perks/proficiency_spell_stone_shower_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Strong_Energy_Strike.gif",
+    "local": "/perks/proficiency_spell_strong_energy_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Strong_Ethereal_Spear.gif",
+    "local": "/perks/proficiency_spell_strong_ethereal_spear.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Strong_Flame_Strike.gif",
+    "local": "/perks/proficiency_spell_strong_flame_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Strong_Haste.gif",
+    "local": "/perks/proficiency_spell_strong_haste.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Strong_Ice_Strike.gif",
+    "local": "/perks/proficiency_spell_strong_ice_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Strong_Ice_Wave.gif",
+    "local": "/perks/proficiency_spell_strong_ice_wave.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Strong_Terra_Strike.gif",
+    "local": "/perks/proficiency_spell_strong_terra_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Sudden_Death_Rune.gif",
+    "local": "/perks/proficiency_spell_sudden_death_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Summon_Creature.gif",
+    "local": "/perks/proficiency_spell_summon_creature.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Summon_Druid_Familiar.gif",
+    "local": "/perks/proficiency_spell_summon_druid_familiar.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Summon_Knight_Familiar.gif",
+    "local": "/perks/proficiency_spell_summon_knight_familiar.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Summon_Monk_Familiar.gif",
+    "local": "/perks/proficiency_spell_summon_monk_familiar.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Summon_Paladin_Familiar.gif",
+    "local": "/perks/proficiency_spell_summon_paladin_familiar.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Summon_Sorcerer_Familiar.gif",
+    "local": "/perks/proficiency_spell_summon_sorcerer_familiar.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Sweeping_Takedown.gif",
+    "local": "/perks/proficiency_spell_sweeping_takedown.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Swift_Foot.gif",
+    "local": "/perks/proficiency_spell_swift_foot.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Swift_Jab.gif",
+    "local": "/perks/proficiency_spell_swift_jab.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Terra_Burst.gif",
+    "local": "/perks/proficiency_spell_terra_burst.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Terra_Strike.gif",
+    "local": "/perks/proficiency_spell_terra_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Terra_Wave.gif",
+    "local": "/perks/proficiency_spell_terra_wave.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Thousand_Fist_Blows.gif",
+    "local": "/perks/proficiency_spell_thousand_fist_blows.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Thunderstorm_Rune.gif",
+    "local": "/perks/proficiency_spell_thunderstorm_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Tiger_Clash.gif",
+    "local": "/perks/proficiency_spell_tiger_clash.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Train_Party.gif",
+    "local": "/perks/proficiency_spell_train_party.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Ultimate_Energy_Strike.gif",
+    "local": "/perks/proficiency_spell_ultimate_energy_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Ultimate_Flame_Strike.gif",
+    "local": "/perks/proficiency_spell_ultimate_flame_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Ultimate_Healing.gif",
+    "local": "/perks/proficiency_spell_ultimate_healing.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Ultimate_Healing_Rune.gif",
+    "local": "/perks/proficiency_spell_ultimate_healing_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Ultimate_Ice_Strike.gif",
+    "local": "/perks/proficiency_spell_ultimate_ice_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Ultimate_Light.gif",
+    "local": "/perks/proficiency_spell_ultimate_light.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Ultimate_Terra_Strike.gif",
+    "local": "/perks/proficiency_spell_ultimate_terra_strike.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Unknown.gif",
+    "local": "/perks/proficiency_spell_unknown.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Virtue_of_Harmony.gif",
+    "local": "/perks/proficiency_spell_virtue_of_harmony.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Virtue_of_Justice.gif",
+    "local": "/perks/proficiency_spell_virtue_of_justice.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Virtue_of_Sustain.gif",
+    "local": "/perks/proficiency_spell_virtue_of_sustain.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Whirlwind_Throw.gif",
+    "local": "/perks/proficiency_spell_whirlwind_throw.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Wild_Growth_Rune.gif",
+    "local": "/perks/proficiency_spell_wild_growth_rune.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Wound_Cleansing.gif",
+    "local": "/perks/proficiency_spell_wound_cleansing.gif"
+  },
+  {
+    "name": "Proficiency_Spell_Wrath_of_Nature.gif",
+    "local": "/perks/proficiency_spell_wrath_of_nature.gif"
+  },
+  {
+    "name": "Proficiency_Type_Armour_Penetration.gif",
+    "local": "/perks/proficiency_type_armour_penetration.gif"
+  },
+  {
+    "name": "Proficiency_Type_Auto_Atk_Critical_Chance.gif",
+    "local": "/perks/proficiency_type_auto_atk_critical_chance.gif"
+  },
+  {
+    "name": "Proficiency_Type_Auto_Atk_Critical_Dmg.gif",
+    "local": "/perks/proficiency_type_auto_atk_critical_dmg.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Amphibic.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_amphibic.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Aquatic.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_aquatic.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Bird.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_bird.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Construct.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_construct.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Demon.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_demon.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Dragon.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_dragon.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Elemental.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_elemental.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Extra_Dimensional.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_extra_dimensional.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Fey.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_fey.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Giant.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_giant.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Human.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_human.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Humanoid.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_humanoid.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Inkborn.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_inkborn.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Lycanthrope.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_lycanthrope.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Magical.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_magical.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Mammal.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_mammal.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Plant.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_plant.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Reptile.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_reptile.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Slime.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_slime.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Undead.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_undead.gif"
+  },
+  {
+    "name": "Proficiency_Type_Bestiary_Dmg_Vermin.gif",
+    "local": "/perks/proficiency_type_bestiary_dmg_vermin.gif"
+  },
+  {
+    "name": "Proficiency_Type_Critical_Chance.gif",
+    "local": "/perks/proficiency_type_critical_chance.gif"
+  },
+  {
+    "name": "Proficiency_Type_Critical_Dmg.gif",
+    "local": "/perks/proficiency_type_critical_dmg.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Critical_Chance_Death.gif",
+    "local": "/perks/proficiency_type_element_critical_chance_death.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Critical_Chance_Earth.gif",
+    "local": "/perks/proficiency_type_element_critical_chance_earth.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Critical_Chance_Energy.gif",
+    "local": "/perks/proficiency_type_element_critical_chance_energy.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Critical_Chance_Fire.gif",
+    "local": "/perks/proficiency_type_element_critical_chance_fire.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Critical_Chance_Holy.gif",
+    "local": "/perks/proficiency_type_element_critical_chance_holy.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Critical_Chance_Ice.gif",
+    "local": "/perks/proficiency_type_element_critical_chance_ice.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Critical_Chance_Physical.gif",
+    "local": "/perks/proficiency_type_element_critical_chance_physical.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Critical_Dmg_Death.gif",
+    "local": "/perks/proficiency_type_element_critical_dmg_death.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Critical_Dmg_Earth.gif",
+    "local": "/perks/proficiency_type_element_critical_dmg_earth.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Critical_Dmg_Energy.gif",
+    "local": "/perks/proficiency_type_element_critical_dmg_energy.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Critical_Dmg_Fire.gif",
+    "local": "/perks/proficiency_type_element_critical_dmg_fire.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Critical_Dmg_Holy.gif",
+    "local": "/perks/proficiency_type_element_critical_dmg_holy.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Critical_Dmg_Ice.gif",
+    "local": "/perks/proficiency_type_element_critical_dmg_ice.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Critical_Dmg_Physical.gif",
+    "local": "/perks/proficiency_type_element_critical_dmg_physical.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Pierce_Death.gif",
+    "local": "/perks/proficiency_type_element_pierce_death.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Pierce_Earth.gif",
+    "local": "/perks/proficiency_type_element_pierce_earth.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Pierce_Energy.gif",
+    "local": "/perks/proficiency_type_element_pierce_energy.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Pierce_Fire.gif",
+    "local": "/perks/proficiency_type_element_pierce_fire.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Pierce_Holy.gif",
+    "local": "/perks/proficiency_type_element_pierce_holy.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Pierce_Ice.gif",
+    "local": "/perks/proficiency_type_element_pierce_ice.gif"
+  },
+  {
+    "name": "Proficiency_Type_Element_Pierce_Physical.gif",
+    "local": "/perks/proficiency_type_element_pierce_physical.gif"
+  },
+  {
+    "name": "Proficiency_Type_Life_Leech.gif",
+    "local": "/perks/proficiency_type_life_leech.gif"
+  },
+  {
+    "name": "Proficiency_Type_Life_On_Hit.gif",
+    "local": "/perks/proficiency_type_life_on_hit.gif"
+  },
+  {
+    "name": "Proficiency_Type_Life_On_Kill.gif",
+    "local": "/perks/proficiency_type_life_on_kill.gif"
+  },
+  {
+    "name": "Proficiency_Type_Mana_Leech.gif",
+    "local": "/perks/proficiency_type_mana_leech.gif"
+  },
+  {
+    "name": "Proficiency_Type_Mana_On_Hit.gif",
+    "local": "/perks/proficiency_type_mana_on_hit.gif"
+  },
+  {
+    "name": "Proficiency_Type_Mana_On_Kill.gif",
+    "local": "/perks/proficiency_type_mana_on_kill.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Dmg_Axe.gif",
+    "local": "/perks/proficiency_type_perc_spell_dmg_axe.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Dmg_Club.gif",
+    "local": "/perks/proficiency_type_perc_spell_dmg_club.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Dmg_Distance.gif",
+    "local": "/perks/proficiency_type_perc_spell_dmg_distance.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Dmg_Fishing.gif",
+    "local": "/perks/proficiency_type_perc_spell_dmg_fishing.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Dmg_Fist.gif",
+    "local": "/perks/proficiency_type_perc_spell_dmg_fist.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Dmg_Magic.gif",
+    "local": "/perks/proficiency_type_perc_spell_dmg_magic.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Dmg_Shield.gif",
+    "local": "/perks/proficiency_type_perc_spell_dmg_shield.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Dmg_Sword.gif",
+    "local": "/perks/proficiency_type_perc_spell_dmg_sword.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Heal_Axe.gif",
+    "local": "/perks/proficiency_type_perc_spell_heal_axe.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Heal_Club.gif",
+    "local": "/perks/proficiency_type_perc_spell_heal_club.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Heal_Distance.gif",
+    "local": "/perks/proficiency_type_perc_spell_heal_distance.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Heal_Fishing.gif",
+    "local": "/perks/proficiency_type_perc_spell_heal_fishing.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Heal_Fist.gif",
+    "local": "/perks/proficiency_type_perc_spell_heal_fist.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Heal_Magic.gif",
+    "local": "/perks/proficiency_type_perc_spell_heal_magic.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Heal_Shield.gif",
+    "local": "/perks/proficiency_type_perc_spell_heal_shield.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perc_Spell_Heal_Sword.gif",
+    "local": "/perks/proficiency_type_perc_spell_heal_sword.gif"
+  },
+  {
+    "name": "Proficiency_Type_Perfect_Shot_Damage.gif",
+    "local": "/perks/proficiency_type_perfect_shot_damage.gif"
+  },
+  {
+    "name": "Proficiency_Type_Powerful_Foe_Bonus.gif",
+    "local": "/perks/proficiency_type_powerful_foe_bonus.gif"
+  },
+  {
+    "name": "Proficiency_Type_Rune_Critical_Chance.gif",
+    "local": "/perks/proficiency_type_rune_critical_chance.gif"
+  },
+  {
+    "name": "Proficiency_Type_Rune_Critical_Dmg.gif",
+    "local": "/perks/proficiency_type_rune_critical_dmg.gif"
+  },
+  {
+    "name": "Proficiency_Type_Skill_Axe.gif",
+    "local": "/perks/proficiency_type_skill_axe.gif"
+  },
+  {
+    "name": "Proficiency_Type_Skill_Club.gif",
+    "local": "/perks/proficiency_type_skill_club.gif"
+  },
+  {
+    "name": "Proficiency_Type_Skill_Distance.gif",
+    "local": "/perks/proficiency_type_skill_distance.gif"
+  },
+  {
+    "name": "Proficiency_Type_Skill_Fishing.gif",
+    "local": "/perks/proficiency_type_skill_fishing.gif"
+  },
+  {
+    "name": "Proficiency_Type_Skill_Fist.gif",
+    "local": "/perks/proficiency_type_skill_fist.gif"
+  },
+  {
+    "name": "Proficiency_Type_Skill_Magic.gif",
+    "local": "/perks/proficiency_type_skill_magic.gif"
+  },
+  {
+    "name": "Proficiency_Type_Skill_Shield.gif",
+    "local": "/perks/proficiency_type_skill_shield.gif"
+  },
+  {
+    "name": "Proficiency_Type_Skill_Sword.gif",
+    "local": "/perks/proficiency_type_skill_sword.gif"
+  },
+  {
+    "name": "Mana_Cask.gif",
+    "local": "/perks/mana_cask.gif"
+  },
+  {
+    "name": "Mana_Drain_Icone.gif",
+    "local": "/perks/mana_drain_icone.gif"
+  },
+  {
+    "name": "Mana_Drain_Resistance_(Basic_Mod).gif",
+    "local": "/perks/mana_drain_resistance_(basic_mod).gif"
+  },
+  {
+    "name": "Mana_Keg.gif",
+    "local": "/perks/mana_keg.gif"
+  },
+  {
+    "name": "Mana_Leech_(Conviction).gif",
+    "local": "/perks/mana_leech_(conviction).gif"
+  },
+  {
+    "name": "Mana_Potion.gif",
+    "local": "/perks/mana_potion.gif"
+  },
+  {
+    "name": "Life_Buoy.gif",
+    "local": "/perks/life_buoy.gif"
+  },
+  {
+    "name": "Life_Crystal.gif",
+    "local": "/perks/life_crystal.gif"
+  },
+  {
+    "name": "Life_Drain-Mana_Drain_Resistance_(Basic_Mod).gif",
+    "local": "/perks/life_drain-mana_drain_resistance_(basic_mod).gif"
+  },
+  {
+    "name": "Life_Drain.gif",
+    "local": "/perks/life_drain.gif"
+  },
+  {
+    "name": "Life_Drain_(Old).gif",
+    "local": "/perks/life_drain_(old).gif"
+  },
+  {
+    "name": "Life_Drain_Ball.gif",
+    "local": "/perks/life_drain_ball.gif"
+  },
+  {
+    "name": "Life_Drain_Beam.gif",
+    "local": "/perks/life_drain_beam.gif"
+  },
+  {
+    "name": "Life_Drain_Berserk.gif",
+    "local": "/perks/life_drain_berserk.gif"
+  },
+  {
+    "name": "Life_Drain_Icon.gif",
+    "local": "/perks/life_drain_icon.gif"
+  },
+  {
+    "name": "Life_Drain_Icone.gif",
+    "local": "/perks/life_drain_icone.gif"
+  },
+  {
+    "name": "Life_Drain_Resistance_(Basic_Mod).gif",
+    "local": "/perks/life_drain_resistance_(basic_mod).gif"
+  },
+  {
+    "name": "Life_Leech_(Conviction).gif",
+    "local": "/perks/life_leech_(conviction).gif"
+  },
+  {
+    "name": "Life_Preserver.gif",
+    "local": "/perks/life_preserver.gif"
+  },
+  {
+    "name": "Life_Ring.gif",
+    "local": "/perks/life_ring.gif"
+  },
+  {
+    "name": "Life_weapon_perk.png",
+    "local": "/perks/life_weapon_perk.gif"
+  },
+  {
+    "name": "Bestiary_Betterment.gif",
+    "local": "/perks/bestiary_betterment.gif"
+  },
+  {
+    "name": "Bestiary_Tracker.png",
+    "local": "/perks/bestiary_tracker.gif"
+  },
+  {
+    "name": "Spell_List_Icon.png",
+    "local": "/perks/spell_list_icon.gif"
+  },
+  {
+    "name": "Spell_Rune.gif",
+    "local": "/perks/spell_rune.gif"
+  },
+  {
+    "name": "Spell_Scroll.gif",
+    "local": "/perks/spell_scroll.gif"
+  },
+  {
+    "name": "Spell_list.png",
+    "local": "/perks/spell_list.gif"
+  },
+  {
+    "name": "Skill_Button.gif",
+    "local": "/perks/skill_button.gif"
+  },
+  {
+    "name": "Skill_Trainer_(Axe).gif",
+    "local": "/perks/skill_trainer_(axe).gif"
+  },
+  {
+    "name": "Skill_Trainer_(Club).gif",
+    "local": "/perks/skill_trainer_(club).gif"
+  },
+  {
+    "name": "Skill_Trainer_(Distance).gif",
+    "local": "/perks/skill_trainer_(distance).gif"
+  },
+  {
+    "name": "Skill_Trainer_(Fist).gif",
+    "local": "/perks/skill_trainer_(fist).gif"
+  },
+  {
+    "name": "Skill_Trainer_(Magic).gif",
+    "local": "/perks/skill_trainer_(magic).gif"
+  },
+  {
+    "name": "Skill_Trainer_(Sword).gif",
+    "local": "/perks/skill_trainer_(sword).gif"
+  },
+  {
+    "name": "Damage_Resonance.gif",
+    "local": "/perks/damage_resonance.gif"
+  },
+  {
+    "name": "Damaged_Armor_Plates.gif",
+    "local": "/perks/damaged_armor_plates.gif"
+  },
+  {
+    "name": "Damaged_Crystal.gif",
+    "local": "/perks/damaged_crystal.gif"
+  },
+  {
+    "name": "Damaged_Crystal01.gif",
+    "local": "/perks/damaged_crystal01.gif"
+  },
+  {
+    "name": "Damaged_Crystal02.gif",
+    "local": "/perks/damaged_crystal02.gif"
+  },
+  {
+    "name": "Damaged_Crystal_Golem.gif",
+    "local": "/perks/damaged_crystal_golem.gif"
+  },
+  {
+    "name": "Damaged_Helmet.gif",
+    "local": "/perks/damaged_helmet.gif"
+  },
+  {
+    "name": "Damaged_Logbook.gif",
+    "local": "/perks/damaged_logbook.gif"
+  },
+  {
+    "name": "Damaged_Steel_Helmet.gif",
+    "local": "/perks/damaged_steel_helmet.gif"
+  },
+  {
+    "name": "Damaged_Worker_Golem.gif",
+    "local": "/perks/damaged_worker_golem.gif"
+  },
+  {
+    "name": "Damaged_Worm_Head.gif",
+    "local": "/perks/damaged_worm_head.gif"
+  },
+  {
+    "name": "Leech.gif",
+    "local": "/perks/leech.gif"
+  },
+  {
+    "name": "Leech.png",
+    "local": "/perks/leech.gif"
+  },
+  {
+    "name": "Leechbloom.gif",
+    "local": "/perks/leechbloom.gif"
+  },
+  {
+    "name": "Earth_Amplification.gif",
+    "local": "/perks/earth_amplification.gif"
+  },
+  {
+    "name": "Earth_Archway.gif",
+    "local": "/perks/earth_archway.gif"
+  },
+  {
+    "name": "Earth_Arrow.gif",
+    "local": "/perks/earth_arrow.gif"
+  },
+  {
+    "name": "Earth_Barbarian_Axe.gif",
+    "local": "/perks/earth_barbarian_axe.gif"
+  },
+  {
+    "name": "Earth_Barbarian_Axe_(Old).gif",
+    "local": "/perks/earth_barbarian_axe_(old).gif"
+  },
+  {
+    "name": "Earth_Barbaric_Axe_Replica.gif",
+    "local": "/perks/earth_barbaric_axe_replica.gif"
+  },
+  {
+    "name": "Earth_Basher_Replica.gif",
+    "local": "/perks/earth_basher_replica.gif"
+  },
+  {
+    "name": "Earth_Blacksteel_Replica.gif",
+    "local": "/perks/earth_blacksteel_replica.gif"
+  },
+  {
+    "name": "Earth_Blacksteel_Sword.gif",
+    "local": "/perks/earth_blacksteel_sword.gif"
+  },
+  {
+    "name": "Earth_Cleric_Mace_Replica.gif",
+    "local": "/perks/earth_cleric_mace_replica.gif"
+  },
+  {
+    "name": "Earth_Clerical_Mace.gif",
+    "local": "/perks/earth_clerical_mace.gif"
+  },
+  {
+    "name": "Earth_Cranial_Basher.gif",
+    "local": "/perks/earth_cranial_basher.gif"
+  },
+  {
+    "name": "Earth_Crystal_Mace.gif",
+    "local": "/perks/earth_crystal_mace.gif"
+  },
+  {
+    "name": "Earth_Crystal_Mace_Replica.gif",
+    "local": "/perks/earth_crystal_mace_replica.gif"
+  },
+  {
+    "name": "Earth_Dragon_Slayer.gif",
+    "local": "/perks/earth_dragon_slayer.gif"
+  },
+  {
+    "name": "Earth_Elemental.gif",
+    "local": "/perks/earth_elemental.gif"
+  },
+  {
+    "name": "Earth_Elemental_(Old).gif",
+    "local": "/perks/earth_elemental_(old).gif"
+  },
+  {
+    "name": "Earth_Headchopper.gif",
+    "local": "/perks/earth_headchopper.gif"
+  },
+  {
+    "name": "Earth_Headchopper_Replica.gif",
+    "local": "/perks/earth_headchopper_replica.gif"
+  },
+  {
+    "name": "Earth_Heroic_Axe.gif",
+    "local": "/perks/earth_heroic_axe.gif"
+  },
+  {
+    "name": "Earth_Heroic_Axe_Replica.gif",
+    "local": "/perks/earth_heroic_axe_replica.gif"
+  },
+  {
+    "name": "Earth_Knight_Axe.gif",
+    "local": "/perks/earth_knight_axe.gif"
+  },
+  {
+    "name": "Earth_Knight_Axe_Replica.gif",
+    "local": "/perks/earth_knight_axe_replica.gif"
+  },
+  {
+    "name": "Earth_Mountain.gif",
+    "local": "/perks/earth_mountain.gif"
+  },
+  {
+    "name": "Earth_Mystic_Blade.gif",
+    "local": "/perks/earth_mystic_blade.gif"
+  },
+  {
+    "name": "Earth_Mystic_Blade_Replica.gif",
+    "local": "/perks/earth_mystic_blade_replica.gif"
+  },
+  {
+    "name": "Earth_Orcish_Maul.gif",
+    "local": "/perks/earth_orcish_maul.gif"
+  },
+  {
+    "name": "Earth_Orcish_Maul_Replica.gif",
+    "local": "/perks/earth_orcish_maul_replica.gif"
+  },
+  {
+    "name": "Earth_Overlord.gif",
+    "local": "/perks/earth_overlord.gif"
+  },
+  {
+    "name": "Earth_Portal.gif",
+    "local": "/perks/earth_portal.gif"
+  },
+  {
+    "name": "Earth_Relic_Sword.gif",
+    "local": "/perks/earth_relic_sword.gif"
+  },
+  {
+    "name": "Earth_Relic_Sword_Replica.gif",
+    "local": "/perks/earth_relic_sword_replica.gif"
+  },
+  {
+    "name": "Earth_Resilience.gif",
+    "local": "/perks/earth_resilience.gif"
+  },
+  {
+    "name": "Earth_Resistance_(Basic_Mod).gif",
+    "local": "/perks/earth_resistance_(basic_mod).gif"
+  },
+  {
+    "name": "Earth_Resistance_(Conviction).gif",
+    "local": "/perks/earth_resistance_(conviction).gif"
+  },
+  {
+    "name": "Earth_Shrine.gif",
+    "local": "/perks/earth_shrine.gif"
+  },
+  {
+    "name": "Earth_Slayer_Replica.gif",
+    "local": "/perks/earth_slayer_replica.gif"
+  },
+  {
+    "name": "Earth_Spike_Sword.gif",
+    "local": "/perks/earth_spike_sword.gif"
+  },
+  {
+    "name": "Earth_Spike_Sword_Replica.gif",
+    "local": "/perks/earth_spike_sword_replica.gif"
+  },
+  {
+    "name": "Earth_Tile.gif",
+    "local": "/perks/earth_tile.gif"
+  },
+  {
+    "name": "Earth_War_Axe.gif",
+    "local": "/perks/earth_war_axe.gif"
+  },
+  {
+    "name": "Earth_War_Axe_Replica.gif",
+    "local": "/perks/earth_war_axe_replica.gif"
+  },
+  {
+    "name": "Earth_War_Hammer.gif",
+    "local": "/perks/earth_war_hammer.gif"
+  },
+  {
+    "name": "Earth_War_Hammer_Replica.gif",
+    "local": "/perks/earth_war_hammer_replica.gif"
+  },
+  {
+    "name": "Earth_Wave.gif",
+    "local": "/perks/earth_wave.gif"
+  },
+  {
+    "name": "Fire_Amplification.gif",
+    "local": "/perks/fire_amplification.gif"
+  },
+  {
+    "name": "Fire_Archway.gif",
+    "local": "/perks/fire_archway.gif"
+  },
+  {
+    "name": "Fire_Axe.gif",
+    "local": "/perks/fire_axe.gif"
+  },
+  {
+    "name": "Fire_Axe_Quest_1-1.png",
+    "local": "/perks/fire_axe_quest_1-1.gif"
+  },
+  {
+    "name": "Fire_Axe_Quest_1-2.png",
+    "local": "/perks/fire_axe_quest_1-2.gif"
+  },
+  {
+    "name": "Fire_Axe_Quest_1-3.png",
+    "local": "/perks/fire_axe_quest_1-3.gif"
+  },
+  {
+    "name": "Fire_Axe_Quest_1-4.png",
+    "local": "/perks/fire_axe_quest_1-4.gif"
+  },
+  {
+    "name": "Fire_Axe_Quest_1-5.png",
+    "local": "/perks/fire_axe_quest_1-5.gif"
+  },
+  {
+    "name": "Fire_Axe_Quest_1-6.png",
+    "local": "/perks/fire_axe_quest_1-6.gif"
+  },
+  {
+    "name": "Fire_Axe_Quest_1-7.png",
+    "local": "/perks/fire_axe_quest_1-7.gif"
+  },
+  {
+    "name": "Fire_Axe_Quest_1-8.png",
+    "local": "/perks/fire_axe_quest_1-8.gif"
+  },
+  {
+    "name": "Fire_Axe_Quest_Mapa_1-1.png",
+    "local": "/perks/fire_axe_quest_mapa_1-1.gif"
+  },
+  {
+    "name": "Fire_Axe_Quest_Mapa_1-2.png",
+    "local": "/perks/fire_axe_quest_mapa_1-2.gif"
+  },
+  {
+    "name": "Fire_Axe_Quest_Mapa_1-3.png",
+    "local": "/perks/fire_axe_quest_mapa_1-3.gif"
+  },
+  {
+    "name": "Fire_Axe_Quest_Mapa_1-4.png",
+    "local": "/perks/fire_axe_quest_mapa_1-4.gif"
+  },
+  {
+    "name": "Fire_Axe_Quest_Mapa_1-5.png",
+    "local": "/perks/fire_axe_quest_mapa_1-5.gif"
+  },
+  {
+    "name": "Fire_Axe_Quest_Mapa_1-6.png",
+    "local": "/perks/fire_axe_quest_mapa_1-6.gif"
+  },
+  {
+    "name": "Fire_Axe_Quest_Mapa_1-7.png",
+    "local": "/perks/fire_axe_quest_mapa_1-7.gif"
+  },
+  {
+    "name": "Fire_Basin.gif",
+    "local": "/perks/fire_basin.gif"
+  },
+  {
+    "name": "Fire_Blacksteel_Replica.gif",
+    "local": "/perks/fire_blacksteel_replica.gif"
+  },
+  {
+    "name": "Fire_Bomb_Rune.gif",
+    "local": "/perks/fire_bomb_rune.gif"
+  },
+  {
+    "name": "Fire_Bomb_Rune1.gif",
+    "local": "/perks/fire_bomb_rune1.gif"
+  },
+  {
+    "name": "Fire_Bomb_Rune_Preview.gif",
+    "local": "/perks/fire_bomb_rune_preview.gif"
+  },
+  {
+    "name": "Fire_Bowl.gif",
+    "local": "/perks/fire_bowl.gif"
+  },
+  {
+    "name": "Fire_Bug.gif",
+    "local": "/perks/fire_bug.gif"
+  },
+  {
+    "name": "Fire_Devil.gif",
+    "local": "/perks/fire_devil.gif"
+  },
+  {
+    "name": "Fire_Devil_(Old).gif",
+    "local": "/perks/fire_devil_(old).gif"
+  },
+  {
+    "name": "Fire_Devil_(Old2).gif",
+    "local": "/perks/fire_devil_(old2).gif"
+  },
+  {
+    "name": "Fire_Devil_Sprites.png",
+    "local": "/perks/fire_devil_sprites.gif"
+  },
+  {
+    "name": "Fire_Dragon_Dojo_Mapa.png",
+    "local": "/perks/fire_dragon_dojo_mapa.gif"
+  },
+  {
+    "name": "Fire_Dragon_Dojo_Rota.png",
+    "local": "/perks/fire_dragon_dojo_rota.gif"
+  },
+  {
+    "name": "Fire_Elemental.gif",
+    "local": "/perks/fire_elemental.gif"
+  },
+  {
+    "name": "Fire_Elemental_(Old).gif",
+    "local": "/perks/fire_elemental_(old).gif"
+  },
+  {
+    "name": "Fire_Elemental_(Old2).gif",
+    "local": "/perks/fire_elemental_(old2).gif"
+  },
+  {
+    "name": "Fire_Field.gif",
+    "local": "/perks/fire_field.gif"
+  },
+  {
+    "name": "Fire_Field_(Old).gif",
+    "local": "/perks/fire_field_(old).gif"
+  },
+  {
+    "name": "Fire_Field_(Rune)_(Old).gif",
+    "local": "/perks/fire_field_(rune)_(old).gif"
+  },
+  {
+    "name": "Fire_Field_(Yellow).gif",
+    "local": "/perks/fire_field_(yellow).gif"
+  },
+  {
+    "name": "Fire_Field_Explosion.gif",
+    "local": "/perks/fire_field_explosion.gif"
+  },
+  {
+    "name": "Fire_Field_Rune.gif",
+    "local": "/perks/fire_field_rune.gif"
+  },
+  {
+    "name": "Fire_Field_Rune_Preview.gif",
+    "local": "/perks/fire_field_rune_preview.gif"
+  },
+  {
+    "name": "Fire_Mushroom.gif",
+    "local": "/perks/fire_mushroom.gif"
+  },
+  {
+    "name": "Fire_Mushroom_(Old).gif",
+    "local": "/perks/fire_mushroom_(old).gif"
+  },
+  {
+    "name": "Fire_Overlord.gif",
+    "local": "/perks/fire_overlord.gif"
+  },
+  {
+    "name": "Fire_Portal.gif",
+    "local": "/perks/fire_portal.gif"
+  },
+  {
+    "name": "Fire_Resilience.gif",
+    "local": "/perks/fire_resilience.gif"
+  },
+  {
+    "name": "Fire_Resistance_(Basic_Mod).gif",
+    "local": "/perks/fire_resistance_(basic_mod).gif"
+  },
+  {
+    "name": "Fire_Resistance_(Conviction).gif",
+    "local": "/perks/fire_resistance_(conviction).gif"
+  },
+  {
+    "name": "Fire_Shrine.gif",
+    "local": "/perks/fire_shrine.gif"
+  },
+  {
+    "name": "Fire_Sword.gif",
+    "local": "/perks/fire_sword.gif"
+  },
+  {
+    "name": "Fire_Sword_(Old).gif",
+    "local": "/perks/fire_sword_(old).gif"
+  },
+  {
+    "name": "Fire_Sword_(Old2).gif",
+    "local": "/perks/fire_sword_(old2).gif"
+  },
+  {
+    "name": "Fire_Wall_(Old).gif",
+    "local": "/perks/fire_wall_(old).gif"
+  },
+  {
+    "name": "Fire_Wall_Rune.gif",
+    "local": "/perks/fire_wall_rune.gif"
+  },
+  {
+    "name": "Fire_Wall_Rune_Preview.gif",
+    "local": "/perks/fire_wall_rune_preview.gif"
+  },
+  {
+    "name": "Fire_Wave.gif",
+    "local": "/perks/fire_wave.gif"
+  },
+  {
+    "name": "Fire_Wave_Preview.gif",
+    "local": "/perks/fire_wave_preview.gif"
+  },
+  {
+    "name": "Ice_(Objeto).gif",
+    "local": "/perks/ice_(objeto).gif"
+  },
+  {
+    "name": "Ice_Amplification.gif",
+    "local": "/perks/ice_amplification.gif"
+  },
+  {
+    "name": "Ice_Archway.gif",
+    "local": "/perks/ice_archway.gif"
+  },
+  {
+    "name": "Ice_Barricade.gif",
+    "local": "/perks/ice_barricade.gif"
+  },
+  {
+    "name": "Ice_Beam.gif",
+    "local": "/perks/ice_beam.gif"
+  },
+  {
+    "name": "Ice_Berserk.gif",
+    "local": "/perks/ice_berserk.gif"
+  },
+  {
+    "name": "Ice_Blockade.gif",
+    "local": "/perks/ice_blockade.gif"
+  },
+  {
+    "name": "Ice_Burst.gif",
+    "local": "/perks/ice_burst.gif"
+  },
+  {
+    "name": "Ice_Burst_Preview.gif",
+    "local": "/perks/ice_burst_preview.gif"
+  },
+  {
+    "name": "Ice_Cabinet.gif",
+    "local": "/perks/ice_cabinet.gif"
+  },
+  {
+    "name": "Ice_Chest.gif",
+    "local": "/perks/ice_chest.gif"
+  },
+  {
+    "name": "Ice_Crawler.gif",
+    "local": "/perks/ice_crawler.gif"
+  },
+  {
+    "name": "Ice_Cream_Cone_(Blue-Barian).gif",
+    "local": "/perks/ice_cream_cone_(blue-barian).gif"
+  },
+  {
+    "name": "Ice_Cream_Cone_(Chilly_Cherry).gif",
+    "local": "/perks/ice_cream_cone_(chilly_cherry).gif"
+  },
+  {
+    "name": "Ice_Cream_Cone_(Crispy_Chocolate_Chips).gif",
+    "local": "/perks/ice_cream_cone_(crispy_chocolate_chips).gif"
+  },
+  {
+    "name": "Ice_Cream_Cone_(Mellow_Melon).gif",
+    "local": "/perks/ice_cream_cone_(mellow_melon).gif"
+  },
+  {
+    "name": "Ice_Cream_Cone_(Sprinkles).gif",
+    "local": "/perks/ice_cream_cone_(sprinkles).gif"
+  },
+  {
+    "name": "Ice_Cream_Cone_(Sweet_Strawberry).gif",
+    "local": "/perks/ice_cream_cone_(sweet_strawberry).gif"
+  },
+  {
+    "name": "Ice_Cream_Cone_(Velvet_Vanilla).gif",
+    "local": "/perks/ice_cream_cone_(velvet_vanilla).gif"
+  },
+  {
+    "name": "Ice_Cream_Cone_(Venorean_Dream).gif",
+    "local": "/perks/ice_cream_cone_(venorean_dream).gif"
+  },
+  {
+    "name": "Ice_Cream_Snowman.gif",
+    "local": "/perks/ice_cream_snowman.gif"
+  },
+  {
+    "name": "Ice_Cube.gif",
+    "local": "/perks/ice_cube.gif"
+  },
+  {
+    "name": "Ice_Dragon.gif",
+    "local": "/perks/ice_dragon.gif"
+  },
+  {
+    "name": "Ice_Floor_Tile.gif",
+    "local": "/perks/ice_floor_tile.gif"
+  },
+  {
+    "name": "Ice_Flower.gif",
+    "local": "/perks/ice_flower.gif"
+  },
+  {
+    "name": "Ice_Flower_(Objeto).gif",
+    "local": "/perks/ice_flower_(objeto).gif"
+  },
+  {
+    "name": "Ice_Flower_01.gif",
+    "local": "/perks/ice_flower_01.gif"
+  },
+  {
+    "name": "Ice_Flower_02.gif",
+    "local": "/perks/ice_flower_02.gif"
+  },
+  {
+    "name": "Ice_Flower_Seeds.gif",
+    "local": "/perks/ice_flower_seeds.gif"
+  },
+  {
+    "name": "Ice_Furniture.gif",
+    "local": "/perks/ice_furniture.gif"
+  },
+  {
+    "name": "Ice_Golem.gif",
+    "local": "/perks/ice_golem.gif"
+  },
+  {
+    "name": "Ice_Hatchet.gif",
+    "local": "/perks/ice_hatchet.gif"
+  },
+  {
+    "name": "Ice_Horror.gif",
+    "local": "/perks/ice_horror.gif"
+  },
+  {
+    "name": "Ice_Mammoth.gif",
+    "local": "/perks/ice_mammoth.gif"
+  },
+  {
+    "name": "Ice_Overlord.gif",
+    "local": "/perks/ice_overlord.gif"
+  },
+  {
+    "name": "Ice_Pick.gif",
+    "local": "/perks/ice_pick.gif"
+  },
+  {
+    "name": "Ice_Portal.gif",
+    "local": "/perks/ice_portal.gif"
+  },
+  {
+    "name": "Ice_Rapier.gif",
+    "local": "/perks/ice_rapier.gif"
+  },
+  {
+    "name": "Ice_Rapier_(Old).gif",
+    "local": "/perks/ice_rapier_(old).gif"
+  },
+  {
+    "name": "Ice_Resilience.gif",
+    "local": "/perks/ice_resilience.gif"
+  },
+  {
+    "name": "Ice_Resistance_(Basic_Mod).gif",
+    "local": "/perks/ice_resistance_(basic_mod).gif"
+  },
+  {
+    "name": "Ice_Resistance_(Conviction).gif",
+    "local": "/perks/ice_resistance_(conviction).gif"
+  },
+  {
+    "name": "Ice_Robe.gif",
+    "local": "/perks/ice_robe.gif"
+  },
+  {
+    "name": "Ice_Shard.gif",
+    "local": "/perks/ice_shard.gif"
+  },
+  {
+    "name": "Ice_Shield.gif",
+    "local": "/perks/ice_shield.gif"
+  },
+  {
+    "name": "Ice_Shrine.gif",
+    "local": "/perks/ice_shrine.gif"
+  },
+  {
+    "name": "Ice_Shrine_(Old).gif",
+    "local": "/perks/ice_shrine_(old).gif"
+  },
+  {
+    "name": "Ice_Stone_Floor.gif",
+    "local": "/perks/ice_stone_floor.gif"
+  },
+  {
+    "name": "Ice_Stool.gif",
+    "local": "/perks/ice_stool.gif"
+  },
+  {
+    "name": "Ice_Strike.gif",
+    "local": "/perks/ice_strike.gif"
+  },
+  {
+    "name": "Ice_Strike_Preview.gif",
+    "local": "/perks/ice_strike_preview.gif"
+  },
+  {
+    "name": "Ice_Table.gif",
+    "local": "/perks/ice_table.gif"
+  },
+  {
+    "name": "Ice_Tile.gif",
+    "local": "/perks/ice_tile.gif"
+  },
+  {
+    "name": "Ice_Wall.gif",
+    "local": "/perks/ice_wall.gif"
+  },
+  {
+    "name": "Ice_Wave.gif",
+    "local": "/perks/ice_wave.gif"
+  },
+  {
+    "name": "Ice_Wave_Preview.gif",
+    "local": "/perks/ice_wave_preview.gif"
+  },
+  {
+    "name": "Ice_Witch.gif",
+    "local": "/perks/ice_witch.gif"
+  },
+  {
+    "name": "Ice_Witch_Cadaver.gif",
+    "local": "/perks/ice_witch_cadaver.gif"
+  },
+  {
+    "name": "Ice_Witch_Temple_-1.png",
+    "local": "/perks/ice_witch_temple_-1.gif"
+  },
+  {
+    "name": "Ice_Witch_Temple_-2.png",
+    "local": "/perks/ice_witch_temple_-2.gif"
+  },
+  {
+    "name": "Ice_Witch_Temple_-3.png",
+    "local": "/perks/ice_witch_temple_-3.gif"
+  },
+  {
+    "name": "Energy_Amplification.gif",
+    "local": "/perks/energy_amplification.gif"
+  },
+  {
+    "name": "Energy_Archway.gif",
+    "local": "/perks/energy_archway.gif"
+  },
+  {
+    "name": "Energy_Axe_Replica.gif",
+    "local": "/perks/energy_axe_replica.gif"
+  },
+  {
+    "name": "Energy_Ball.gif",
+    "local": "/perks/energy_ball.gif"
+  },
+  {
+    "name": "Energy_Bar.gif",
+    "local": "/perks/energy_bar.gif"
+  },
+  {
+    "name": "Energy_Barbarian_Axe.gif",
+    "local": "/perks/energy_barbarian_axe.gif"
+  },
+  {
+    "name": "Energy_Barbarian_Axe_(Old).gif",
+    "local": "/perks/energy_barbarian_axe_(old).gif"
+  },
+  {
+    "name": "Energy_Basher_Replica.gif",
+    "local": "/perks/energy_basher_replica.gif"
+  },
+  {
+    "name": "Energy_Beam.gif",
+    "local": "/perks/energy_beam.gif"
+  },
+  {
+    "name": "Energy_Beam_Preview.gif",
+    "local": "/perks/energy_beam_preview.gif"
+  },
+  {
+    "name": "Energy_Blacksteel_Replica.gif",
+    "local": "/perks/energy_blacksteel_replica.gif"
+  },
+  {
+    "name": "Energy_Blacksteel_Sword.gif",
+    "local": "/perks/energy_blacksteel_sword.gif"
+  },
+  {
+    "name": "Energy_Blade_Replica.gif",
+    "local": "/perks/energy_blade_replica.gif"
+  },
+  {
+    "name": "Energy_Bomb_Rune.gif",
+    "local": "/perks/energy_bomb_rune.gif"
+  },
+  {
+    "name": "Energy_Bomb_Rune1.gif",
+    "local": "/perks/energy_bomb_rune1.gif"
+  },
+  {
+    "name": "Energy_Bomb_Rune_Preview.gif",
+    "local": "/perks/energy_bomb_rune_preview.gif"
+  },
+  {
+    "name": "Energy_Cleric_Mace_Replica.gif",
+    "local": "/perks/energy_cleric_mace_replica.gif"
+  },
+  {
+    "name": "Energy_Clerical_Mace.gif",
+    "local": "/perks/energy_clerical_mace.gif"
+  },
+  {
+    "name": "Energy_Clerical_Mace_(Old).gif",
+    "local": "/perks/energy_clerical_mace_(old).gif"
+  },
+  {
+    "name": "Energy_Cranial_Basher.gif",
+    "local": "/perks/energy_cranial_basher.gif"
+  },
+  {
+    "name": "Energy_Crystal_Mace.gif",
+    "local": "/perks/energy_crystal_mace.gif"
+  },
+  {
+    "name": "Energy_Dragon_Slayer.gif",
+    "local": "/perks/energy_dragon_slayer.gif"
+  },
+  {
+    "name": "Energy_Drink.gif",
+    "local": "/perks/energy_drink.gif"
+  },
+  {
+    "name": "Energy_Elemental.gif",
+    "local": "/perks/energy_elemental.gif"
+  },
+  {
+    "name": "Energy_Field.gif",
+    "local": "/perks/energy_field.gif"
+  },
+  {
+    "name": "Energy_Field_(Old).gif",
+    "local": "/perks/energy_field_(old).gif"
+  },
+  {
+    "name": "Energy_Field_(Yellow).gif",
+    "local": "/perks/energy_field_(yellow).gif"
+  },
+  {
+    "name": "Energy_Field_Rune.gif",
+    "local": "/perks/energy_field_rune.gif"
+  },
+  {
+    "name": "Energy_Field_Rune_Preview.gif",
+    "local": "/perks/energy_field_rune_preview.gif"
+  },
+  {
+    "name": "Energy_Gate.gif",
+    "local": "/perks/energy_gate.gif"
+  },
+  {
+    "name": "Energy_Generator.gif",
+    "local": "/perks/energy_generator.gif"
+  },
+  {
+    "name": "Energy_Generator_(Old).gif",
+    "local": "/perks/energy_generator_(old).gif"
+  },
+  {
+    "name": "Energy_Got_One.png",
+    "local": "/perks/energy_got_one.gif"
+  },
+  {
+    "name": "Energy_Headchopper.gif",
+    "local": "/perks/energy_headchopper.gif"
+  },
+  {
+    "name": "Energy_Headchopper_(Old).gif",
+    "local": "/perks/energy_headchopper_(old).gif"
+  },
+  {
+    "name": "Energy_Headchopper_Replica.gif",
+    "local": "/perks/energy_headchopper_replica.gif"
+  },
+  {
+    "name": "Energy_Heroic_Axe.gif",
+    "local": "/perks/energy_heroic_axe.gif"
+  },
+  {
+    "name": "Energy_Heroic_Axe_(Old).gif",
+    "local": "/perks/energy_heroic_axe_(old).gif"
+  },
+  {
+    "name": "Energy_Heroic_Axe_Replica.gif",
+    "local": "/perks/energy_heroic_axe_replica.gif"
+  },
+  {
+    "name": "Energy_Knight_Axe.gif",
+    "local": "/perks/energy_knight_axe.gif"
+  },
+  {
+    "name": "Energy_Knight_Axe_(Old).gif",
+    "local": "/perks/energy_knight_axe_(old).gif"
+  },
+  {
+    "name": "Energy_Knight_Axe_Replica.gif",
+    "local": "/perks/energy_knight_axe_replica.gif"
+  },
+  {
+    "name": "Energy_Mace_Replica.gif",
+    "local": "/perks/energy_mace_replica.gif"
+  },
+  {
+    "name": "Energy_Mystic_Blade.gif",
+    "local": "/perks/energy_mystic_blade.gif"
+  },
+  {
+    "name": "Energy_Net.gif",
+    "local": "/perks/energy_net.gif"
+  },
+  {
+    "name": "Energy_Orcish_Maul.gif",
+    "local": "/perks/energy_orcish_maul.gif"
+  },
+  {
+    "name": "Energy_Orcish_Maul_Replica.gif",
+    "local": "/perks/energy_orcish_maul_replica.gif"
+  },
+  {
+    "name": "Energy_Overlord.gif",
+    "local": "/perks/energy_overlord.gif"
+  },
+  {
+    "name": "Energy_Portal.gif",
+    "local": "/perks/energy_portal.gif"
+  },
+  {
+    "name": "Energy_Prison.gif",
+    "local": "/perks/energy_prison.gif"
+  },
+  {
+    "name": "Energy_Pulse.gif",
+    "local": "/perks/energy_pulse.gif"
+  },
+  {
+    "name": "Energy_Relic_Sword.gif",
+    "local": "/perks/energy_relic_sword.gif"
+  },
+  {
+    "name": "Energy_Relic_Sword_Replica.gif",
+    "local": "/perks/energy_relic_sword_replica.gif"
+  },
+  {
+    "name": "Energy_Resilience.gif",
+    "local": "/perks/energy_resilience.gif"
+  },
+  {
+    "name": "Energy_Resistance_(Basic_Mod).gif",
+    "local": "/perks/energy_resistance_(basic_mod).gif"
+  },
+  {
+    "name": "Energy_Resistance_(Conviction).gif",
+    "local": "/perks/energy_resistance_(conviction).gif"
+  },
+  {
+    "name": "Energy_Ring.gif",
+    "local": "/perks/energy_ring.gif"
+  },
+  {
+    "name": "Energy_Robe.gif",
+    "local": "/perks/energy_robe.gif"
+  },
+  {
+    "name": "Energy_Sala.png",
+    "local": "/perks/energy_sala.gif"
+  },
+  {
+    "name": "Energy_Shrine.gif",
+    "local": "/perks/energy_shrine.gif"
+  },
+  {
+    "name": "Energy_Slayer_Replica.gif",
+    "local": "/perks/energy_slayer_replica.gif"
+  },
+  {
+    "name": "Energy_Soil.gif",
+    "local": "/perks/energy_soil.gif"
+  },
+  {
+    "name": "Energy_Sphere.gif",
+    "local": "/perks/energy_sphere.gif"
+  },
+  {
+    "name": "Energy_Spike_Sword.gif",
+    "local": "/perks/energy_spike_sword.gif"
+  },
+  {
+    "name": "Energy_Spike_Sword_Replica.gif",
+    "local": "/perks/energy_spike_sword_replica.gif"
+  },
+  {
+    "name": "Energy_Strike.gif",
+    "local": "/perks/energy_strike.gif"
+  },
+  {
+    "name": "Energy_Strike_Preview.gif",
+    "local": "/perks/energy_strike_preview.gif"
+  },
+  {
+    "name": "Energy_TP.png",
+    "local": "/perks/energy_tp.gif"
+  },
+  {
+    "name": "Energy_Trap.gif",
+    "local": "/perks/energy_trap.gif"
+  },
+  {
+    "name": "Energy_Vein.gif",
+    "local": "/perks/energy_vein.gif"
+  },
+  {
+    "name": "Energy_Vein_(Marapur).gif",
+    "local": "/perks/energy_vein_(marapur).gif"
+  },
+  {
+    "name": "Energy_Wall_(Old).gif",
+    "local": "/perks/energy_wall_(old).gif"
+  },
+  {
+    "name": "Energy_Wall_Rune.gif",
+    "local": "/perks/energy_wall_rune.gif"
+  },
+  {
+    "name": "Energy_Wall_Rune_Preview.gif",
+    "local": "/perks/energy_wall_rune_preview.gif"
+  },
+  {
+    "name": "Energy_War_Axe.gif",
+    "local": "/perks/energy_war_axe.gif"
+  },
+  {
+    "name": "Energy_War_Axe_(Old).gif",
+    "local": "/perks/energy_war_axe_(old).gif"
+  },
+  {
+    "name": "Energy_War_Axe_Replica.gif",
+    "local": "/perks/energy_war_axe_replica.gif"
+  },
+  {
+    "name": "Energy_War_Hammer.gif",
+    "local": "/perks/energy_war_hammer.gif"
+  },
+  {
+    "name": "Energy_War_Hammer_Replica.gif",
+    "local": "/perks/energy_war_hammer_replica.gif"
+  },
+  {
+    "name": "Energy_Wave.gif",
+    "local": "/perks/energy_wave.gif"
+  },
+  {
+    "name": "Energy_Wave_Preview.gif",
+    "local": "/perks/energy_wave_preview.gif"
+  },
+  {
+    "name": "Energy_overlord.png",
+    "local": "/perks/energy_overlord.gif"
+  },
+  {
+    "name": "Death_(NPC).gif",
+    "local": "/perks/death_(npc).gif"
+  },
+  {
+    "name": "Death_Amplification.gif",
+    "local": "/perks/death_amplification.gif"
+  },
+  {
+    "name": "Death_Berserk.gif",
+    "local": "/perks/death_berserk.gif"
+  },
+  {
+    "name": "Death_Blob.gif",
+    "local": "/perks/death_blob.gif"
+  },
+  {
+    "name": "Death_Blob_(Old).gif",
+    "local": "/perks/death_blob_(old).gif"
+  },
+  {
+    "name": "Death_Bomb.gif",
+    "local": "/perks/death_bomb.gif"
+  },
+  {
+    "name": "Death_Crawler.gif",
+    "local": "/perks/death_crawler.gif"
+  },
+  {
+    "name": "Death_Dragon.gif",
+    "local": "/perks/death_dragon.gif"
+  },
+  {
+    "name": "Death_Echo.gif",
+    "local": "/perks/death_echo.gif"
+  },
+  {
+    "name": "Death_Echo_Preview.gif",
+    "local": "/perks/death_echo_preview.gif"
+  },
+  {
+    "name": "Death_Gaze.gif",
+    "local": "/perks/death_gaze.gif"
+  },
+  {
+    "name": "Death_Knell.gif",
+    "local": "/perks/death_knell.gif"
+  },
+  {
+    "name": "Death_List2.png",
+    "local": "/perks/death_list2.gif"
+  },
+  {
+    "name": "Death_Oyoroi.gif",
+    "local": "/perks/death_oyoroi.gif"
+  },
+  {
+    "name": "Death_Phoenix.gif",
+    "local": "/perks/death_phoenix.gif"
+  },
+  {
+    "name": "Death_Portal.gif",
+    "local": "/perks/death_portal.gif"
+  },
+  {
+    "name": "Death_Priest.gif",
+    "local": "/perks/death_priest.gif"
+  },
+  {
+    "name": "Death_Priest_Shargon.gif",
+    "local": "/perks/death_priest_shargon.gif"
+  },
+  {
+    "name": "Death_Reaper.gif",
+    "local": "/perks/death_reaper.gif"
+  },
+  {
+    "name": "Death_Redemption.png",
+    "local": "/perks/death_redemption.gif"
+  },
+  {
+    "name": "Death_Resilience.gif",
+    "local": "/perks/death_resilience.gif"
+  },
+  {
+    "name": "Death_Resistance_(Basic_Mod).gif",
+    "local": "/perks/death_resistance_(basic_mod).gif"
+  },
+  {
+    "name": "Death_Ring.gif",
+    "local": "/perks/death_ring.gif"
+  },
+  {
+    "name": "Death_Strike.gif",
+    "local": "/perks/death_strike.gif"
+  },
+  {
+    "name": "Death_Strike_Preview.gif",
+    "local": "/perks/death_strike_preview.gif"
+  },
+  {
+    "name": "Death_Toll.gif",
+    "local": "/perks/death_toll.gif"
+  },
+  {
+    "name": "Holy_Amplification.gif",
+    "local": "/perks/holy_amplification.gif"
+  },
+  {
+    "name": "Holy_Ash.gif",
+    "local": "/perks/holy_ash.gif"
+  },
+  {
+    "name": "Holy_Bog_Frog.gif",
+    "local": "/perks/holy_bog_frog.gif"
+  },
+  {
+    "name": "Holy_Falcon.gif",
+    "local": "/perks/holy_falcon.gif"
+  },
+  {
+    "name": "Holy_Flash.gif",
+    "local": "/perks/holy_flash.gif"
+  },
+  {
+    "name": "Holy_Flash_Preview.gif",
+    "local": "/perks/holy_flash_preview.gif"
+  },
+  {
+    "name": "Holy_Icon.gif",
+    "local": "/perks/holy_icon.gif"
+  },
+  {
+    "name": "Holy_Missile_Rune.gif",
+    "local": "/perks/holy_missile_rune.gif"
+  },
+  {
+    "name": "Holy_Missile_Rune_Preview.gif",
+    "local": "/perks/holy_missile_rune_preview.gif"
+  },
+  {
+    "name": "Holy_Orchid.gif",
+    "local": "/perks/holy_orchid.gif"
+  },
+  {
+    "name": "Holy_Portal.gif",
+    "local": "/perks/holy_portal.gif"
+  },
+  {
+    "name": "Holy_Resilience.gif",
+    "local": "/perks/holy_resilience.gif"
+  },
+  {
+    "name": "Holy_Resistance_(Basic_Mod).gif",
+    "local": "/perks/holy_resistance_(basic_mod).gif"
+  },
+  {
+    "name": "Holy_Scarab.gif",
+    "local": "/perks/holy_scarab.gif"
+  },
+  {
+    "name": "Holy_Shrines_Location.png",
+    "local": "/perks/holy_shrines_location.gif"
+  },
+  {
+    "name": "Holy_Soil.gif",
+    "local": "/perks/holy_soil.gif"
+  },
+  {
+    "name": "Holy_Tree.gif",
+    "local": "/perks/holy_tree.gif"
+  },
+  {
+    "name": "Holy_and_Death_Resistance_(Conviction).gif",
+    "local": "/perks/holy_and_death_resistance_(conviction).gif"
+  },
+  {
+    "name": "Physical_Amplification.gif",
+    "local": "/perks/physical_amplification.gif"
+  },
+  {
+    "name": "Physical_Damage_Icon.gif",
+    "local": "/perks/physical_damage_icon.gif"
+  },
+  {
+    "name": "Physical_Resilience.gif",
+    "local": "/perks/physical_resilience.gif"
+  },
+  {
+    "name": "Physical_Resistance_(Basic_Mod).gif",
+    "local": "/perks/physical_resistance_(basic_mod).gif"
+  },
+  {
+    "name": "Physical_Strike.gif",
+    "local": "/perks/physical_strike.gif"
+  },
+  {
+    "name": "Physical_Strike_Preview.gif",
+    "local": "/perks/physical_strike_preview.gif"
+  },
+  {
+    "name": "Front_Sweep.gif",
+    "local": "/perks/front_sweep.gif"
+  },
+  {
+    "name": "Front_Sweep_Preview.gif",
+    "local": "/perks/front_sweep_preview.gif"
+  },
+  {
+    "name": "Berserk.gif",
+    "local": "/perks/berserk.gif"
+  },
+  {
+    "name": "Berserk_Potion.gif",
+    "local": "/perks/berserk_potion.gif"
+  },
+  {
+    "name": "Berserk_Potion_Quest.png",
+    "local": "/perks/berserk_potion_quest.gif"
+  },
+  {
+    "name": "Berserk_Preview.gif",
+    "local": "/perks/berserk_preview.gif"
+  },
+  {
+    "name": "Berserker.gif",
+    "local": "/perks/berserker.gif"
+  },
+  {
+    "name": "Berserker_Chicken.gif",
+    "local": "/perks/berserker_chicken.gif"
+  },
+  {
+    "name": "Divine_Barrage.gif",
+    "local": "/perks/divine_barrage.gif"
+  },
+  {
+    "name": "Divine_Barrage_Preview.gif",
+    "local": "/perks/divine_barrage_preview.gif"
+  },
+  {
+    "name": "Divine_Caldera.gif",
+    "local": "/perks/divine_caldera.gif"
+  },
+  {
+    "name": "Divine_Caldera_Preview.gif",
+    "local": "/perks/divine_caldera_preview.gif"
+  },
+  {
+    "name": "Divine_Dazzle.gif",
+    "local": "/perks/divine_dazzle.gif"
+  },
+  {
+    "name": "Divine_Dazzle_Preview.gif",
+    "local": "/perks/divine_dazzle_preview.gif"
+  },
+  {
+    "name": "Divine_Defiance.gif",
+    "local": "/perks/divine_defiance.gif"
+  },
+  {
+    "name": "Divine_Defiance_Preview.gif",
+    "local": "/perks/divine_defiance_preview.gif"
+  },
+  {
+    "name": "Divine_Empowerment.gif",
+    "local": "/perks/divine_empowerment.gif"
+  },
+  {
+    "name": "Divine_Empowerment_1.gif",
+    "local": "/perks/divine_empowerment_1.gif"
+  },
+  {
+    "name": "Divine_Empowerment_Preview.gif",
+    "local": "/perks/divine_empowerment_preview.gif"
+  },
+  {
+    "name": "Divine_Grenade.gif",
+    "local": "/perks/divine_grenade.gif"
+  },
+  {
+    "name": "Divine_Grenade_1.gif",
+    "local": "/perks/divine_grenade_1.gif"
+  },
+  {
+    "name": "Divine_Grenade_Preview.gif",
+    "local": "/perks/divine_grenade_preview.gif"
+  },
+  {
+    "name": "Divine_Healing.gif",
+    "local": "/perks/divine_healing.gif"
+  },
+  {
+    "name": "Divine_Healing_Preview.gif",
+    "local": "/perks/divine_healing_preview.gif"
+  },
+  {
+    "name": "Divine_Missile.gif",
+    "local": "/perks/divine_missile.gif"
+  },
+  {
+    "name": "Divine_Missile_Preview.gif",
+    "local": "/perks/divine_missile_preview.gif"
+  },
+  {
+    "name": "Divine_Plate.gif",
+    "local": "/perks/divine_plate.gif"
+  },
+  {
+    "name": "Divine_Wrath_Icon.gif",
+    "local": "/perks/divine_wrath_icon.gif"
+  },
+  {
+    "name": "Terra_Amulet.gif",
+    "local": "/perks/terra_amulet.gif"
+  },
+  {
+    "name": "Terra_Beam.gif",
+    "local": "/perks/terra_beam.gif"
+  },
+  {
+    "name": "Terra_Bomb.gif",
+    "local": "/perks/terra_bomb.gif"
+  },
+  {
+    "name": "Terra_Boots.gif",
+    "local": "/perks/terra_boots.gif"
+  },
+  {
+    "name": "Terra_Burst.gif",
+    "local": "/perks/terra_burst.gif"
+  },
+  {
+    "name": "Terra_Burst_Preview.gif",
+    "local": "/perks/terra_burst_preview.gif"
+  },
+  {
+    "name": "Terra_Explosion.gif",
+    "local": "/perks/terra_explosion.gif"
+  },
+  {
+    "name": "Terra_Helmet.gif",
+    "local": "/perks/terra_helmet.gif"
+  },
+  {
+    "name": "Terra_Hood.gif",
+    "local": "/perks/terra_hood.gif"
+  },
+  {
+    "name": "Terra_Hood_(Old).gif",
+    "local": "/perks/terra_hood_(old).gif"
+  },
+  {
+    "name": "Terra_Legs.gif",
+    "local": "/perks/terra_legs.gif"
+  },
+  {
+    "name": "Terra_Mantle.gif",
+    "local": "/perks/terra_mantle.gif"
+  },
+  {
+    "name": "Terra_Mantle_(Old).gif",
+    "local": "/perks/terra_mantle_(old).gif"
+  },
+  {
+    "name": "Terra_Rod.gif",
+    "local": "/perks/terra_rod.gif"
+  },
+  {
+    "name": "Terra_Strike.gif",
+    "local": "/perks/terra_strike.gif"
+  },
+  {
+    "name": "Terra_Strike_Preview.gif",
+    "local": "/perks/terra_strike_preview.gif"
+  },
+  {
+    "name": "Terra_Wave.gif",
+    "local": "/perks/terra_wave.gif"
+  },
+  {
+    "name": "Terra_Wave_Preview.gif",
+    "local": "/perks/terra_wave_preview.gif"
+  },
+  {
+    "name": "Great_Fire_Bomb.gif",
+    "local": "/perks/great_fire_bomb.gif"
+  },
+  {
+    "name": "Great_Fire_Wave.gif",
+    "local": "/perks/great_fire_wave.gif"
+  },
+  {
+    "name": "Great_Fire_Wave_Preview.gif",
+    "local": "/perks/great_fire_wave_preview.gif"
+  },
+  {
+    "name": "Rage_of_Mazoran.gif",
+    "local": "/perks/rage_of_mazoran.gif"
+  },
+  {
+    "name": "Rage_of_the_Skies.gif",
+    "local": "/perks/rage_of_the_skies.gif"
+  },
+  {
+    "name": "Rage_of_the_Skies_Preview.gif",
+    "local": "/perks/rage_of_the_skies_preview.gif"
+  },
+  {
+    "name": "Forked_Glacier.gif",
+    "local": "/perks/forked_glacier.gif"
+  },
+  {
+    "name": "Forked_Glacier_Preview.gif",
+    "local": "/perks/forked_glacier_preview.gif"
+  },
+  {
+    "name": "Forked_Thorns.gif",
+    "local": "/perks/forked_thorns.gif"
+  },
+  {
+    "name": "Forked_Thorns_Preview.gif",
+    "local": "/perks/forked_thorns_preview.gif"
+  },
+  {
+    "name": "Flurry_of_Blows.gif",
+    "local": "/perks/flurry_of_blows.gif"
+  },
+  {
+    "name": "Flurry_of_Blows_Preview.gif",
+    "local": "/perks/flurry_of_blows_preview.gif"
+  },
+  {
+    "name": "Rapid_Boar.gif",
+    "local": "/perks/rapid_boar.gif"
+  },
+  {
+    "name": "Strong_Cloth.gif",
+    "local": "/perks/strong_cloth.gif"
+  },
+  {
+    "name": "Strong_Energy_Strike.gif",
+    "local": "/perks/strong_energy_strike.gif"
+  },
+  {
+    "name": "Strong_Energy_Strike_Preview.gif",
+    "local": "/perks/strong_energy_strike_preview.gif"
+  },
+  {
+    "name": "Strong_Ethereal_Spear.gif",
+    "local": "/perks/strong_ethereal_spear.gif"
+  },
+  {
+    "name": "Strong_Ethereal_Spear_Preview.gif",
+    "local": "/perks/strong_ethereal_spear_preview.gif"
+  },
+  {
+    "name": "Strong_Fire_Wave.gif",
+    "local": "/perks/strong_fire_wave.gif"
+  },
+  {
+    "name": "Strong_Flame_Strike.gif",
+    "local": "/perks/strong_flame_strike.gif"
+  },
+  {
+    "name": "Strong_Flame_Strike_Preview.gif",
+    "local": "/perks/strong_flame_strike_preview.gif"
+  },
+  {
+    "name": "Strong_Glooth_Horror.gif",
+    "local": "/perks/strong_glooth_horror.gif"
+  },
+  {
+    "name": "Strong_Haste.gif",
+    "local": "/perks/strong_haste.gif"
+  },
+  {
+    "name": "Strong_Haste_Preview.gif",
+    "local": "/perks/strong_haste_preview.gif"
+  },
+  {
+    "name": "Strong_Health_Cask.gif",
+    "local": "/perks/strong_health_cask.gif"
+  },
+  {
+    "name": "Strong_Health_Keg.gif",
+    "local": "/perks/strong_health_keg.gif"
+  },
+  {
+    "name": "Strong_Health_Potion.gif",
+    "local": "/perks/strong_health_potion.gif"
+  },
+  {
+    "name": "Strong_Ice_Strike.gif",
+    "local": "/perks/strong_ice_strike.gif"
+  },
+  {
+    "name": "Strong_Ice_Strike_Preview.gif",
+    "local": "/perks/strong_ice_strike_preview.gif"
+  },
+  {
+    "name": "Strong_Ice_Wave.gif",
+    "local": "/perks/strong_ice_wave.gif"
+  },
+  {
+    "name": "Strong_Ice_Wave_Preview.gif",
+    "local": "/perks/strong_ice_wave_preview.gif"
+  },
+  {
+    "name": "Strong_Mana_Cask.gif",
+    "local": "/perks/strong_mana_cask.gif"
+  },
+  {
+    "name": "Strong_Mana_Keg.gif",
+    "local": "/perks/strong_mana_keg.gif"
+  },
+  {
+    "name": "Strong_Mana_Potion.gif",
+    "local": "/perks/strong_mana_potion.gif"
+  },
+  {
+    "name": "Strong_Orger_Beer.gif",
+    "local": "/perks/strong_orger_beer.gif"
+  },
+  {
+    "name": "Strong_Sinew.gif",
+    "local": "/perks/strong_sinew.gif"
+  },
+  {
+    "name": "Strong_Soul.gif",
+    "local": "/perks/strong_soul.gif"
+  },
+  {
+    "name": "Strong_Terra_Strike.gif",
+    "local": "/perks/strong_terra_strike.gif"
+  },
+  {
+    "name": "Strong_Terra_Strike_Preview.gif",
+    "local": "/perks/strong_terra_strike_preview.gif"
+  },
+  {
+    "name": "Strong_Water_Vortex.gif",
+    "local": "/perks/strong_water_vortex.gif"
+  },
+  {
+    "name": "Groundshaker.gif",
+    "local": "/perks/groundshaker.gif"
+  },
+  {
+    "name": "Groundshaker_Beam.gif",
+    "local": "/perks/groundshaker_beam.gif"
+  },
+  {
+    "name": "Groundshaker_Preview.gif",
+    "local": "/perks/groundshaker_preview.gif"
+  },
+  {
+    "name": "Shield_Slam.gif",
+    "local": "/perks/shield_slam.gif"
+  },
+  {
+    "name": "Shield_Slam_Preview.gif",
+    "local": "/perks/shield_slam_preview.gif"
+  },
+  {
+    "name": "Ethereal_Barrage.gif",
+    "local": "/perks/ethereal_barrage.gif"
+  },
+  {
+    "name": "Ethereal_Barrage_Preview.gif",
+    "local": "/perks/ethereal_barrage_preview.gif"
+  },
+  {
+    "name": "Ethereal_Coned_Hat.gif",
+    "local": "/perks/ethereal_coned_hat.gif"
+  },
+  {
+    "name": "Ethereal_Ring.gif",
+    "local": "/perks/ethereal_ring.gif"
+  },
+  {
+    "name": "Ethereal_Spear.gif",
+    "local": "/perks/ethereal_spear.gif"
+  },
+  {
+    "name": "Ethereal_Spear_Preview.gif",
+    "local": "/perks/ethereal_spear_preview.gif"
+  }
+]
