@@ -1,11 +1,10 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useMemo, useCallback } from "react";
+import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import type { FilterState } from "@/components/filter-sidebar";
 
-function parseFilters(search: string): FilterState {
-  const params = new URLSearchParams(search);
+function parseParams(params: URLSearchParams): FilterState {
   const getArray = (key: string): string[] => {
     const val = params.get(key);
     return val ? val.split(",") : [];
@@ -39,26 +38,21 @@ function filtersToParams(filters: FilterState): Record<string, string> {
 
 export function useFilterURL() {
   const router = useRouter();
-  const [filters, setFiltersState] = useState<FilterState>(() => {
-    if (typeof window !== "undefined") {
-      return parseFilters(window.location.search);
-    }
-    return {
-      handSlots: [], weaponTypes: [], vocations: [], families: [],
-      sources: [], elements: [], minTier: 1, perkSearch: "", selectedPerks: [],
-    };
-  });
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
 
-  useEffect(() => {
-    setFiltersState(parseFilters(window.location.search));
-  }, []);
+  // Derive filters reactively from the URL search params — this automatically
+  // re-syncs on back/forward navigation and programmatic URL changes.
+  const filters = useMemo(() => parseParams(searchParams), [searchParams]);
 
-  const setFilters = useCallback((newFilters: FilterState) => {
-    setFiltersState(newFilters);
-    const params = filtersToParams(newFilters);
-    const qs = new URLSearchParams(params).toString();
-    router.replace(`/weapons${qs ? `?${qs}` : ""}`, { scroll: false });
-  }, [router]);
+  const setFilters = useCallback(
+    (newFilters: FilterState) => {
+      const params = filtersToParams(newFilters);
+      const qs = new URLSearchParams(params).toString();
+      router.replace(`${pathname}${qs ? `?${qs}` : ""}`, { scroll: false });
+    },
+    [router, pathname],
+  );
 
   return { filters, setFilters };
 }

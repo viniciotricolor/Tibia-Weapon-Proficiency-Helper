@@ -1,12 +1,11 @@
 "use client";
 
 import { createContext, useContext, useState, useEffect, type ReactNode } from "react";
-import { type Locale, translations } from "@/i18n";
+import { type Locale, type Translations, translations } from "@/i18n";
 
 type I18nContextType = {
   locale: Locale;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  t: any;
+  t: Translations;
   setLocale: (locale: Locale) => void;
 };
 

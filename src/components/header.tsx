@@ -64,7 +64,7 @@ export function Header() {
             size="sm"
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
           >
-            {mounted && theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+            {mounted && theme === "dark" ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
           </Button>
 
           <a href="https://tibiawiki.com.br" target="_blank" rel="noopener noreferrer" className="hidden sm:block">

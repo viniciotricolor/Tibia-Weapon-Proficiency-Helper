@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import { ChangelogFeed } from "@/components/changelog-feed";
 import { useI18n } from "@/components/i18n-provider";
-import changelog from "../../../data/changelog.json";
+import changelog from "@/data/changelog.json";
 import type { ChangelogEntry } from "@/lib/types";
 
 const entries = changelog as ChangelogEntry[];

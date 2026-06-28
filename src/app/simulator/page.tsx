@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import weapons from "../../../data/weapons.json";
+import weapons from "@/data/weapons.json";
 import {
   type Weapon,
   MODIFICATION_EFFECTS, MODIFICATION_COSTS, REQUIRED_LEVELS,
@@ -262,7 +262,7 @@ export default function SimulatorPage() {
     return sortedWeapons
       .filter((w) => w.name.toLowerCase().includes(q) || w.type.toLowerCase().includes(q) || w.vocation.some((v) => v.includes(q)))
       .slice(0, 50);
-  }, [weaponSearch]);
+  }, [weaponSearch, sortedWeapons]);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -459,11 +459,11 @@ export default function SimulatorPage() {
                   </div>
                   <div className="flex gap-2">
                     <Button variant="outline" size="sm" onClick={() => {
-                      const allKeys = new Set<string>();
+                      const firstPerks = new Set<string>();
                       selectedWeapon.perks.forEach(t => {
-                        t.perks.forEach((_, i) => allKeys.add(`${t.tier}-${i}`));
+                        if (t.perks.length > 0) firstPerks.add(`${t.tier}-0`);
                       });
-                      setSelectedPerkKeys(allKeys);
+                      setSelectedPerkKeys(firstPerks);
                     }}>{t.simulator.selectAll}</Button>
                     <Button variant="outline" size="sm" onClick={() => setSelectedPerkKeys(new Set())}>{t.simulator.deselectAll}</Button>
                   </div>

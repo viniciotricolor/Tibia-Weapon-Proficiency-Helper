@@ -148,7 +148,7 @@ export default {
   },
   stats: {
     totalWeapons: "Total de Armas",
-    withComPerks: "Com Perks",
+    withPerks: "Com Perks",
     avgTiers: "Media de Tiers",
     families: "Familias",
   },

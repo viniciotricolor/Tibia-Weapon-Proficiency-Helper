@@ -1,5 +1,5 @@
 import type { WeaponMastery } from "@/types/mastery";
-import weapons from "../../data/weapons.json";
+import weapons from "@/data/weapons.json";
 import type { Weapon } from "@/lib/types";
 
 const allWeapons = weapons as Weapon[];

@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
-import weapons from "../../../data/weapons.json";
+import weapons from "@/data/weapons.json";
 import type { Weapon } from "@/lib/types";
 import { useI18n } from "@/components/i18n-provider";
 

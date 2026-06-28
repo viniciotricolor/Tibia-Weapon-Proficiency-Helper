@@ -6,14 +6,14 @@ import { GitCompareArrows, X, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import weapons from "../../../data/weapons.json";
+import weapons from "@/data/weapons.json";
 import type { Weapon } from "@/lib/types";
 import { useI18n } from "@/components/i18n-provider";
 
 const allWeapons = weapons as Weapon[];
 
 function extractStats(weapon: Weapon) {
-  const stats = { attack: weapon.attack, defence: 0, hp: 0, mp: 0, crit: 0, critDmg: 0, ml: 0, tiers: weapon.perks.length, bestiary: "" };
+  const stats = { attack: weapon.attack, defence: 0, hp: 0, mp: 0, crit: 0, critDmg: 0, ml: 0, tiers: weapon.perks.length, bestiary: "", cooldownReduction: 0, manaLeech: 0, lifeLeech: 0, skillBonus: 0, speed: 0, armourPen: 0 };
   weapon.perks.forEach((tier) => {
     tier.perks.forEach((perk) => {
       const p = perk.toLowerCase();
@@ -24,6 +24,15 @@ function extractStats(weapon: Weapon) {
       if (p.includes("critical extra damage") && !p.includes("para")) stats.critDmg += parseFloat(perk.match(/([\d.]+)%/)?.[1] || "0");
       if (p.includes("magic level") && !p.includes("extra")) stats.ml += parseInt(perk.match(/\+(\d+)/)?.[1] || "0");
       if (p.includes("damage contra")) stats.bestiary = perk;
+      if (p.includes("cooldown")) stats.cooldownReduction += Math.abs(parseFloat(perk.match(/([\d.]+)/)?.[1] || "0"));
+      if (p.includes("mana leech")) stats.manaLeech += parseFloat(perk.match(/([\d.]+)%/)?.[1] || "0");
+      if (p.includes("life leech")) stats.lifeLeech += parseFloat(perk.match(/([\d.]+)%/)?.[1] || "0");
+      if (p.includes("skill as damage") || p.includes("skill as heal")) {
+        const m = perk.match(/([\d.]+)%/);
+        if (m) stats.skillBonus += parseFloat(m[1]);
+      }
+      if (p.includes("speed")) stats.speed += parseInt(perk.match(/\+(\d+)/)?.[1] || "0");
+      if (p.includes("armour penetration")) stats.armourPen += parseFloat(perk.match(/([\d.]+)%/)?.[1] || "0");
     });
   });
   return stats;
@@ -37,6 +46,21 @@ export default function ComparePage() {
     () => selectedIds.map((id) => allWeapons.find((w) => w.id === id)).filter(Boolean) as Weapon[],
     [selectedIds]
   );
+
+  const extents = useMemo(() => {
+    const statKeys: (keyof ReturnType<typeof extractStats>)[] = [
+      "attack", "defence", "hp", "mp", "crit", "critDmg", "ml", "tiers",
+      "cooldownReduction", "manaLeech", "lifeLeech", "skillBonus", "speed", "armourPen"
+    ];
+    if (selectedWeapons.length < 2) return null;
+    const statsList = selectedWeapons.map(extractStats);
+    const result: Record<string, { max: number; min: number }> = {};
+    for (const key of statKeys) {
+      const values = statsList.map((s) => s[key] as number);
+      result[key] = { max: Math.max(...values), min: Math.min(...values) };
+    }
+    return result;
+  }, [selectedWeapons]);
 
   const addWeapon = (id: string) => {
     if (!selectedIds.includes(id) && selectedIds.length < 3) {
@@ -61,7 +85,7 @@ export default function ComparePage() {
       .filter((w) => !selectedIds.includes(w.id))
       .filter((w) => w.name.toLowerCase().includes(q) || w.type.toLowerCase().includes(q) || w.vocation.some((v) => v.includes(q)))
       .slice(0, 50);
-  }, [weaponSearch, selectedIds]);
+  }, [weaponSearch, selectedIds, sortedWeapons]);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -72,6 +96,15 @@ export default function ComparePage() {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+
+  const highlightCls = (key: string, value: number, defaultCls = "font-bold"): string => {
+    if (!extents) return defaultCls;
+    const e = extents[key];
+    if (e.max === e.min) return defaultCls;
+    if (value === e.max) return "font-bold text-green-600";
+    if (value === e.min) return "text-red-500";
+    return defaultCls;
+  };
 
   return (
     <div className="container mx-auto px-4 py-8 max-w-5xl">
@@ -154,14 +187,20 @@ export default function ComparePage() {
                   </CardHeader>
                   <CardContent className="space-y-3">
                     <div className="grid grid-cols-2 gap-2 text-xs">
-                      <div className="flex justify-between"><span className="text-muted-foreground">Atk</span><span className="font-bold">{weapon.attack}</span></div>
-                      <div className="flex justify-between"><span className="text-muted-foreground">Def</span><span className="font-bold">+{stats.defence}</span></div>
-                      {stats.hp > 0 && <div className="flex justify-between"><span className="text-muted-foreground">HP</span><span className="font-bold text-green-600">+{stats.hp}</span></div>}
-                      {stats.mp > 0 && <div className="flex justify-between"><span className="text-muted-foreground">MP</span><span className="font-bold text-blue-600">+{stats.mp}</span></div>}
-                      {stats.crit > 0 && <div className="flex justify-between"><span className="text-muted-foreground">Crit</span><span className="font-bold text-red-600">+{stats.crit.toFixed(1)}%</span></div>}
-                      {stats.critDmg > 0 && <div className="flex justify-between"><span className="text-muted-foreground">CritDmg</span><span className="font-bold text-orange-600">+{stats.critDmg.toFixed(1)}%</span></div>}
-                      {stats.ml > 0 && <div className="flex justify-between"><span className="text-muted-foreground">ML</span><span className="font-bold text-purple-600">+{stats.ml}</span></div>}
-                      <div className="flex justify-between"><span className="text-muted-foreground">Tiers</span><span className="font-bold">{stats.tiers}</span></div>
+                      <div className="flex justify-between"><span className="text-muted-foreground">Atk</span><span className={highlightCls("attack", weapon.attack)}>{weapon.attack}</span></div>
+                      <div className="flex justify-between"><span className="text-muted-foreground">Def</span><span className={highlightCls("defence", stats.defence)}>+{stats.defence}</span></div>
+                      {stats.hp > 0 && <div className="flex justify-between"><span className="text-muted-foreground">HP</span><span className={highlightCls("hp", stats.hp, "font-bold text-green-600")}>+{stats.hp}</span></div>}
+                      {stats.mp > 0 && <div className="flex justify-between"><span className="text-muted-foreground">MP</span><span className={highlightCls("mp", stats.mp, "font-bold text-blue-600")}>+{stats.mp}</span></div>}
+                      {stats.crit > 0 && <div className="flex justify-between"><span className="text-muted-foreground">Crit</span><span className={highlightCls("crit", stats.crit, "font-bold text-red-600")}>+{stats.crit.toFixed(1)}%</span></div>}
+                      {stats.critDmg > 0 && <div className="flex justify-between"><span className="text-muted-foreground">CritDmg</span><span className={highlightCls("critDmg", stats.critDmg, "font-bold text-orange-600")}>+{stats.critDmg.toFixed(1)}%</span></div>}
+                      {stats.ml > 0 && <div className="flex justify-between"><span className="text-muted-foreground">ML</span><span className={highlightCls("ml", stats.ml, "font-bold text-purple-600")}>+{stats.ml}</span></div>}
+                      {stats.cooldownReduction > 0 && <div className="flex justify-between"><span className="text-muted-foreground">CDR</span><span className={highlightCls("cooldownReduction", stats.cooldownReduction)}>-{stats.cooldownReduction.toFixed(1)}s</span></div>}
+                      {stats.manaLeech > 0 && <div className="flex justify-between"><span className="text-muted-foreground">ManaLeech</span><span className={highlightCls("manaLeech", stats.manaLeech)}>+{stats.manaLeech}%</span></div>}
+                      {stats.lifeLeech > 0 && <div className="flex justify-between"><span className="text-muted-foreground">LifeLeech</span><span className={highlightCls("lifeLeech", stats.lifeLeech)}>+{stats.lifeLeech}%</span></div>}
+                      {stats.skillBonus > 0 && <div className="flex justify-between"><span className="text-muted-foreground">Skill%</span><span className={highlightCls("skillBonus", stats.skillBonus)}>+{stats.skillBonus}%</span></div>}
+                      {stats.speed > 0 && <div className="flex justify-between"><span className="text-muted-foreground">Speed</span><span className={highlightCls("speed", stats.speed)}>+{stats.speed}</span></div>}
+                      {stats.armourPen > 0 && <div className="flex justify-between"><span className="text-muted-foreground">ArmourPen</span><span className={highlightCls("armourPen", stats.armourPen)}>+{stats.armourPen}%</span></div>}
+                      <div className="flex justify-between"><span className="text-muted-foreground">Tiers</span><span className={highlightCls("tiers", stats.tiers)}>{stats.tiers}</span></div>
                     </div>
                     {stats.bestiary && (
                       <div className="text-xs p-2 rounded bg-amber-50 dark:bg-amber-900/20 text-amber-700 dark:text-amber-400">

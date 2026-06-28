@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { useMasteryStore } from "@/hooks/useMastery";
 import { useFavoritesStore } from "@/hooks/useFavorites";
-import weapons from "../../../data/weapons.json";
+import weapons from "@/data/weapons.json";
 import type { Weapon } from "@/lib/types";
 
 const allWeapons = weapons as Weapon[];

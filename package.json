@@ -6,7 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fetch:wiki": "npx tsx scripts/fetch-wiki.ts",
+    "fetch:perk-icons": "npx tsx scripts/fetch-perk-icons.ts",
+    "fetch:all-perk-icons": "npx tsx scripts/fetch-all-perk-icons.ts",
+    "fetch:html": "npx tsx scripts/fetch-html.ts",
+    "fix:images": "npx tsx scripts/fix-weapon-images.ts",
+    "fix:tiers": "python3 scripts/fix-tiers.py",
+    "validate:perks": "npx tsx scripts/validate-perks.ts",
+    "check:tier-gaps": "npx tsx scripts/check-tier-gaps.ts",
+    "check:tier-counts": "npx tsx scripts/check-tier-counts.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.14",
@@ -22,22 +33,29 @@
     "cmdk": "^1.1.1",
     "lucide-react": "^1.21.0",
     "motion": "^12.40.0",
-    "next": "14.2.35",
+    "next": "^16.2.9",
     "next-themes": "^0.4.6",
     "react": "^18",
     "react-dom": "^18",
+    "react-window": "^2.2.7",
     "tailwind-merge": "^3.6.0",
     "tailwindcss-animate": "^1.0.7",
     "zustand": "^5.0.14"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-window": "^1.8.8",
+    "@vitest/ui": "^4.1.9",
     "eslint": "^8",
-    "eslint-config-next": "14.2.35",
+    "eslint-config-next": "^16.2.9",
+    "jsdom": "^29.1.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.1.9"
   }
 }

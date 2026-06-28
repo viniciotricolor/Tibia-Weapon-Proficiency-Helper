@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { SearchCommand } from "@/components/search-command";
 import { useI18n } from "@/components/i18n-provider";
 import Link from "next/link";
-import weapons from "../../data/weapons.json";
+import weapons from "@/data/weapons.json";
 import type { Weapon } from "@/lib/types";
 
 const allWeapons = weapons as Weapon[];

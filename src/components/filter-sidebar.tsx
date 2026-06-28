@@ -7,6 +7,7 @@ import { ScrollArea } from "./ui/scroll-area";
 import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
 import { ChevronDown, ChevronUp, RotateCcw, Heart, Droplets, Zap, Shield, Sparkles, Swords, Gauge, Bug, Flame, Skull, Star } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 export type FilterState = {
   handSlots: string[];
@@ -437,7 +438,7 @@ export function FilterSidebar({
               value={[filters.minTier]}
               onValueChange={([v]) => onFiltersChange({ ...filters, minTier: v })}
               min={1}
-              max={14}
+              max={7}
               step={1}
             />
             <p className="text-xs text-muted-foreground mt-1 text-center">Tier {filters.minTier}</p>
@@ -448,6 +449,3 @@ export function FilterSidebar({
   );
 }
 
-function cn(...classes: (string | boolean | undefined | null)[]) {
-  return classes.filter(Boolean).join(" ");
-}

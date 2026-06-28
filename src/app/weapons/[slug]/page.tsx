@@ -8,8 +8,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useI18n } from "@/components/i18n-provider";
-import { useFavorites } from "@/lib/use-favorites";
-import weapons from "../../../../data/weapons.json";
+import { useFavoritesStore } from "@/hooks/useFavorites";
+import weapons from "@/data/weapons.json";
 import type { Weapon } from "@/lib/types";
 import Link from "next/link";
 
@@ -41,7 +41,7 @@ export default function WeaponDetailPage({
 }) {
   const { slug } = params;
   const { t } = useI18n();
-  const { toggle, isFavorite } = useFavorites();
+  const { toggleFavorite, isFavorite } = useFavoritesStore();
 
   const weapon = useMemo(
     () => allWeapons.find((w) => w.id === slug),
@@ -103,7 +103,7 @@ export default function WeaponDetailPage({
                   <Button
                     variant="ghost"
                     size="sm"
-                    onClick={() => toggle(weapon.id)}
+                    onClick={() => toggleFavorite(weapon.id)}
                     className="h-8 w-8 p-0"
                   >
                     <Heart className={cn("h-5 w-5", isFavorite(weapon.id) ? "fill-red-500 text-red-500" : "text-muted-foreground")} />
@@ -112,7 +112,7 @@ export default function WeaponDetailPage({
                 <p className="text-muted-foreground capitalize text-lg">{weapon.type}</p>
                 <div className="flex flex-wrap gap-2 mt-3">
                   {weapon.vocation.map((v) => (
-                    <Badge key={v} className={cn("capitalize", vocationColors[v])}>
+                    <Badge key={v} className={cn("capitalize", vocationColors[v] || "")}>
                       {v}
                     </Badge>
                   ))}
